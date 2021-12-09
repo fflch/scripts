@@ -1,32 +1,7 @@
 rm(list = ls())
-setwd("~/repos/drupal-sites/drupal7/caph.fflch.usp.br/scripts/")
-
-urls <- function(x){
-  code = paste('find ./caph/ -name "*',x,'*" | grep .pdf',sep='')
-  outputs = system(code, intern = T)
-  outputs = paste("http://143.107.72.185/",outputs,sep="")
-  as.character(paste(outputs,collapse = ","))
-}
-
-
-#urls('1.2.1')
-#system('find ./caph/ -name "*1.2.1*" | grep .pdf', intern = T)
-#system('find ./caph/ -name "*1.1.8*" | grep .pdf', intern = T)
+setwd("~/repos/scripts/tratamento-de-dados/caph.fflch.usp.br/")
 
 dados <- read.csv("data/SBP.csv")
-dados = cbind(dados,arquivos=NA)
-
-#x = urls(dados[1,2])
-#x
-#dados[1,35] <-  x
-#dados[1,35]  
-  
-for (i in seq(nrow(dados))){
-  caminho = urls(dados[i,2])
-  if (caminho != "http://143.107.72.185/") {
-    dados[i,35] = caminho
-  }
-}
 
 ## investigando colunas
 dados$Fundo = '16616'
