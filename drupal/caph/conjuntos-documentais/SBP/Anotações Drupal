@@ -1,0 +1,6 @@
+cd prjetos
+cd drupal
+./vendor/bin/drupal serve -vvv
+//para subir o drupal na máquina local.
+
+
