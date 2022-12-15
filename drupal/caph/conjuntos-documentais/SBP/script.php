@@ -1,5 +1,13 @@
 <?php
-
+/*
+ * script por: Sabrina godoy.
+ * Esse script deve ser rodado como: 
+ * ./vendor/bin/drush php-script /home/sabrina/projetos/scripts/drupal/caph/conjuntos-documentais/SBP/script2.php
+ * 
+ * 
+ *  Fase de progresso: pesquisa de comandos para carregar os arquivos PDF's dentro do campo 'arquivo' no node criado.
+ * 
+ */
 use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
 // Lendo csv
