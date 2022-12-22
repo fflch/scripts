@@ -2,39 +2,33 @@
 
 use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
-// Lendo csv
-$arquivocsv = file_get_contents('/home/sabrina/projetos/scripts/drupal/caph/conjuntos-documentais/SBP/SBP1.csv');
-$arquivos = explode(PHP_EOL, $arquivocsv);
-$arquivos_array = array();
 
+$arquivocsv = file_get_contents('/home/acesarfs/projetos/scripts/drupal/caph/conjuntos-documentais/SBP/SBP.csv');
+$arquivos   = explode(PHP_EOL, $arquivocsv);
+$arquivos_array = array();
 foreach ($arquivos as $arquivo) {
     $arquivos_array[] = str_getcsv($arquivo);
 }
 array_pop($arquivos_array);
 
-
-
-// lendo pdfs
-$arquivospdf= scandir('/home/sabrina/arquivos_SBP/Acervo Samuel Barnsley Pessoa');
-
+$full_path = '/home/acesarfs/arquivos_sbp/';
+$arquivospdf = scandir($full_path);
 foreach($arquivos_array as $coluna) {
-    // lendo pdfs
     $notacao = $coluna[1];
     $arquivos_relacionados = [];
-    var_dump ($notacao);
     foreach($arquivospdf as $arquivopdf){
         if(str_contains($arquivopdf, $notacao)){
             $arquivos_relacionados[] = $arquivopdf;
         }
     }
-    var_dump ($arquivos_relacionados);
-    
+       
 	$node = Node::create([
-      	'type'          	    	        => 'caph_sbp',
-        'title'      		                => $coluna[0],
-        'field_notacao'		                => $coluna[1],
-        'field_documento'	                => $coluna[2],
-        'field_abordagem'	                => $coluna[3],
+      	'type'                              => 'caph_sbp',
+        'uid'                               => 1,
+        'title'                             => $coluna[0],
+        'field_notacao'                     => $coluna[1],
+        'field_documento'                   => $coluna[2],
+        'field_abordagem'                   => $coluna[3],
         'field_local_de_producao'           => $coluna[4],
         'field_data_de_producao'            => $coluna[5],
         'field_tecnica'                     => $coluna[6],
@@ -66,14 +60,18 @@ foreach($arquivos_array as $coluna) {
         'field_referencia'                  => $coluna[32],
         'field_observacoes'                 => $coluna[33],   
     ]);
+
+    $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado){
-            $arquivo_conteudo = file_get_contents($arquivo_relacionado);
-            $file = file_save_data($arquivo_conteudo, 'public://' . $arquivo_conteudo, FILE_EXISTS_REPLACE);
-            'field_arquivo' => [
-                'target_id' => $file->id(),
-                'alt'       => 'arquivo' . $file->id(),
-                'title'     => 'SBP pdf',
-            ],
-        } 
+        $arquivo_conteudo = file_get_contents($full_path.$arquivo_relacionado);
+        $file = file_save_data($arquivo_conteudo, 'public://'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
+        $Arquivos_PDF[] = [
+            'target_id' => $file->id(),
+            'alt'       => 'Arquivo' . $file->id(),
+            'title'     => 'SBP PDF',
+        ];
+    }
+
+    $node->set('field_arquivo', $Arquivos_PDF);
     echo $node->save();
 }
