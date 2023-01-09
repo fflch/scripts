@@ -1,22 +1,45 @@
 <?php
+/*
+ * script por: Aline Maire.
+ * Esse script deve ser rodado como: 
+ * ./vendor/bin/drush php-script /home/aline/Git/drupal/scripts/drupal/caph/conjuntos-documentais/JAP/script.php
+ * 
+ * 
+ *  Fase de progresso: pesquisa de comandos para carregar os arquivos PDF's dentro do campo 'arquivo' no node criado.
+ * 
+ */
+use \Drupal\node\Entity\Node;
+use \Drupal\file\Entity\File;
 
-//Autora: Aline
-
-$arquivocsv = file_get_contents('JAP.csv');
+//Lendo csv
+$arquivocsv = file_get_contents('/home/aline/Git/drupal/scripts/drupal/caph/conjuntos-documentais/JAP/JAP.csv');
 $arquivos = explode(PHP_EOL, $arquivocsv);
-
 $arquivos_array = array();
 
 foreach ($arquivos as $arquivo) {
     $arquivos_array[] = str_getcsv($arquivo);
 }
-
 array_pop($arquivos_array);
 
-use \Drupal\node\Entity\Node;
+// lendo pdfs
+$full_path= '/home/aline/JAP/';
+$arquivospdf= scandir($full_path);
+
 foreach($arquivos_array as $campo) {
+    // lendo pdfs
+    $notacao = $campo[1];
+    $arquivos_relacionados = [];
+    //var_dump ($notacao);
+        foreach($arquivospdf as $arquivopdf){
+            if(str_contains($arquivopdf, $notacao)){
+            $arquivos_relacionados[] = $arquivopdf;
+        }
+    }
+    //var_dump ($arquivos_relacionados);
+
     $node = Node::create([
         'type'                              => 'arquivos',
+        'uid'                               => 1,
         'title'                             => $campo[0],
         'field_notacao'                     => $campo[1],
         'field_documento'                   => $campo[2],
@@ -52,5 +75,19 @@ foreach($arquivos_array as $campo) {
         'field_referencia'                  => $campo[32],
         'field_observacoes'                 => $campo[33],
     ]);
+
+    $Arquivos_PDF = [];
+    foreach($arquivos_relacionados as $arquivo_relacionado){
+        $arquivo_conteudo = file_get_contents($full_path.$arquivo_relacionado);
+        $file = file_save_data($arquivo_conteudo, 'public://'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
+        $Arquivos_PDF[] = [
+            'target_id' => $file->id(),
+            'alt'       => 'Arquivo' . $file->id(),
+            'title'     => 'JAP PDF',
+        ];
+    }
+
+    $node->set('field_arquivo', $Arquivos_PDF);
+
     echo $node->save();
 }
