@@ -1,6 +1,67 @@
 <?php
 /*
  * script por: Sabrina godoy.
+ * 
+ * 
+ * 
+Suba o drupal na sua máquina local:
+No terminal, diretório projetos/drupal, digite o comando:
+./vendor/bin/drupal serve -vvv
+Acesse o link disponibilizado no terminal, e abrirá o seu drupal local no navegador
+No drupal, acesse a ferramenta "estrutura", e selecione "tipo de conteúdo"
+clique em "adicionar tipo de conteúdo"
+Coloque o título (o que de fato é o título que irá aparecer), depois o rótulo do título
+apague o campo "body" que será criado automaticamente
+Clique em "adicionar campo"
+Selecione o tipo de campo. No caso deste script, consulte a lista abaixo, onde consta o tipo de campo, nome do campo, e o nome de máquina de cada um deles. 
+**************** É imprescindível que o nome de máqina seja igual ao da lista!!!!********************************
+
+Tipo de campo     |  Nome de Máquina 
+
+ Texto Simples       'field_notacao'		             
+ Texto Simples       'field_documento'	                 
+ Texto Simples       'field_abordagem'	                 
+ Texto Simples       'field_local_de_producao'           
+ Texto Simples       'field_data_de_producao'            
+ Texto Listagem      'field_tecnica'                     
+ Texto Simples       'field_suporte'                     
+ Texto Listagem      'field_formato'                     
+ Texto Listagem      'field_cromia'                      
+ Texto Simples       'field_idioma'                      
+ Número Inteiro      'field_numero_de_itens'              
+ Número Inteiro      'field_numero_de_exemplares'         
+ Texto Simples       'field_extensao'                     
+ Texto Simples       'field_responsavel_1'               
+ Texto Simples       'field_tipo_de_responsabilidade_1'  
+ Texto Simples       'field_responsavel_2'               
+ Texto Simples       'field_tipo_de_responsabilidade_2'   
+ Texto Simples       'field_responsaveis_'                
+ Texto Simples       'field_tipo_de_responsabilidade_3'  
+ Texto Simples       'field_atividade_evento_1'          
+ Texto Simples       'field_especificacao_1'             
+ Texto Simples       'field_local_1'                     
+ Texto Simples       'field_data_ou_periodo_1'           
+ Texto Simples       'field_atividade_evento_2'           
+ Texto Simples       'field_especificacao_2'             
+ Texto Simples       'field_local_2'                     
+ Texto Simples       'field_data_ou_periodo_2'           
+ Texto Simples       'field_descritores_1_'              
+ Texto Simples       'field_descritores_2'               
+ Texto Simples       'field_descritores_3'                   
+ Texto Simples       'field_descritores_4'               
+ Texto Simples       'field_referencia'                  
+ Texto Simples       'field_observacoes'                
+
+
+ Depois de criar todos os tipos de contepudo no drupal, tenha este script baixado na sua máquina, e execute o seguinte comando, considerando o caminho para o seu arquivo de script
+Ex.:
+./vendor/bin/drush php-script /home/SEU USER/-caminho restante-/script.php
+
+
+
+
+ * 
+ * 
  * Esse script deve ser rodado como: 
  * ./vendor/bin/drush php-script /home/sabrina/projetos/scripts/drupal/caph/conjuntos-documentais/SBP/script2.php
  * 
@@ -11,7 +72,7 @@
 use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
 // Lendo csv
-$arquivocsv = file_get_contents('/home/sabrina/projetos/scripts/drupal/caph/conjuntos-documentais/SBP/SBP1.csv');
+$arquivocsv = file_get_contents('/home/sabrina/projetos/scripts/drupal/caph/conjuntos-documentais/SBP/SBP.csv');
 $arquivos = explode(PHP_EOL, $arquivocsv);
 $arquivos_array = array();
 
@@ -23,19 +84,20 @@ array_pop($arquivos_array);
 
 
 // lendo pdfs
-$arquivospdf= scandir('/home/sabrina/arquivos_SBP/Acervo Samuel Barnsley Pessoa');
+$full_path= '/home/sabrina/arquivos_SBP/Acervo Samuel Barnsley Pessoa/';
+$arquivospdf= scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
     // lendo pdfs
     $notacao = $coluna[1];
     $arquivos_relacionados = [];
-    var_dump ($notacao);
+    //var_dump ($notacao);
     foreach($arquivospdf as $arquivopdf){
         if(str_contains($arquivopdf, $notacao)){
             $arquivos_relacionados[] = $arquivopdf;
         }
     }
-    var_dump ($arquivos_relacionados);
+    //var_dump ($arquivos_relacionados);
     
 	$node = Node::create([
       	'type'          	    	        => 'caph_sbp',
@@ -74,14 +136,19 @@ foreach($arquivos_array as $coluna) {
         'field_referencia'                  => $coluna[32],
         'field_observacoes'                 => $coluna[33],   
     ]);
+
+    $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado){
-            $arquivo_conteudo = file_get_contents($arquivo_relacionado);
-            $file = file_save_data($arquivo_conteudo, 'public://' . $arquivo_conteudo, FILE_EXISTS_REPLACE);
-            'field_arquivo' => [
-                'target_id' => $file->id(),
-                'alt'       => 'arquivo' . $file->id(),
-                'title'     => 'SBP pdf',
-            ],
-        } 
+        $arquivo_conteudo = file_get_contents($full_path.$arquivo_relacionado);
+        $file = file_save_data($arquivo_conteudo, 'public://'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
+        $Arquivos_PDF[] = [
+            'target_id' => $file->id(),
+            'alt'       => 'Arquivo' . $file->id(),
+            'title'     => 'SBP PDF',
+        ];
+    }
+
+    $node->set('field_arquivo', $Arquivos_PDF);
+
     echo $node->save();
 }
