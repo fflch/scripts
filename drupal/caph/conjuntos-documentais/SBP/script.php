@@ -101,6 +101,7 @@ foreach($arquivos_array as $coluna) {
     
 	$node = Node::create([
       	'type'          	    	        => 'caph_sbp',
+        'uid'                               => 1,
         'title'      		                => $coluna[0],
         'field_notacao'		                => $coluna[1],
         'field_documento'	                => $coluna[2],
