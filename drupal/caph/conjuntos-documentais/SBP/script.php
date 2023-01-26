@@ -72,7 +72,7 @@ Ex.:
 use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
 // Lendo csv
-$arquivocsv = file_get_contents('/home/neli/projetos/scripts/drupal/caph/conjuntos-documentais/SBP/SBP.csv');
+$arquivocsv = file_get_contents('/home/acesarfs/projetos/scripts/drupal/caph/conjuntos-documentais/SBP/SBP.csv');
 $arquivos = explode(PHP_EOL, $arquivocsv);
 $arquivos_array = array();
 
@@ -84,7 +84,7 @@ array_pop($arquivos_array);
 
 
 // lendo pdfs
-$full_path= '/home/neli/Acervo Samuel Barnsley/';
+$full_path= '/home/acesarfs/arquivos_sbp/';
 $arquivospdf= scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
@@ -130,13 +130,28 @@ foreach($arquivos_array as $coluna) {
         'field_especificacao_2'             => $coluna[25],
         'field_local_2'                     => $coluna[26],
         'field_data_ou_periodo_2'           => $coluna[27],
-        'field_descritores_1_'              => $coluna[28],
+        'field_descritores_1'               => $coluna[28],
         'field_descritores_2'               => $coluna[29],
         'field_descritores_3'               => $coluna[30],    
         'field_descritores_4'               => $coluna[31],
         'field_referencia'                  => $coluna[32],
         'field_observacoes'                 => $coluna[33],   
     ]);
+    
+    $Descritores = [];
+    $Descritores[] = [
+        'value' => $coluna[28],
+    ];
+    $Descritores[] = [
+        'value' => $coluna[29],
+    ];
+    $Descritores[] = [
+        'value' => $coluna[30],
+    ];
+    $Descritores[] = [
+        'value' => $coluna[31],
+    ];
+    $node->set('field_descritores', $Descritores);
 
     $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado){
