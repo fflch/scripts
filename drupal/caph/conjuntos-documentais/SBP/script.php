@@ -117,6 +117,7 @@ foreach($arquivos_array as $coluna) {
 	$node = Node::create([
       	'type'          	    	        => 'caph_sbp',
         'uid'                               => 1,
+        'field _acervo'                     =>'SBP',
         'title'      		                => $coluna[0],
         'field_notacao'		                => $coluna[1],
         'field_documento'	                => $coluna[2],
@@ -131,28 +132,40 @@ foreach($arquivos_array as $coluna) {
         'field_numero_de_itens'             => $coluna[11],
         'field_numero_de_exemplares'        => $coluna[12],
         'field_extensao'                    => $coluna[13],
-        'field_responsavel_1'               => $coluna[14],
-        'field_tipo_de_responsabilidade_1'  => $coluna[15],
-        'field_responsavel_2'               => $coluna[16],
-        'field_tipo_de_responsabilidade_2'  => $coluna[17],
-        'field_responsaveis_'               => $coluna[18],
-        'field_tipo_de_responsabilidade_3'  => $coluna[19],
-        'field_atividade_evento_1'          => $coluna[20],
-        'field_especificacao_1'             => $coluna[21],
-        'field_local_1'                     => $coluna[22],
-        'field_data_ou_periodo_1'           => $coluna[23],
-        'field_atividade_evento_2'          => $coluna[24],
-        'field_especificacao_2'             => $coluna[25],
-        'field_local_2'                     => $coluna[26],
-        'field_data_ou_periodo_2'           => $coluna[27],
-        'field_descritores_1'               => $coluna[28],
-        'field_descritores_2'               => $coluna[29],
-        'field_descritores_3'               => $coluna[30],    
-        'field_descritores_4'               => $coluna[31],
+        //'field_responsavel_1'               => $coluna[14],
+        //'field_tipo_de_responsabilidade_1'  => $coluna[15],
+        //'field_responsavel_2'               => $coluna[16],
+       // 'field_tipo_de_responsabilidade_2'  => $coluna[17],
+       // 'field_responsaveis_'               => $coluna[18],
+       // 'field_tipo_de_responsabilidade_3'  => $coluna[19],
+       // 'field_atividade_evento_1'          => $coluna[20],
+       // 'field_especificacao_1'             => $coluna[21],
+       // 'field_local_1'                     => $coluna[22],
+       // 'field_data_ou_periodo_1'           => $coluna[23],
+        //'field_atividade_evento_2'          => $coluna[24],
+       // 'field_especificacao_2'             => $coluna[25],
+      // 'field_local_2'                     => $coluna[26],
+      // 'field_data_ou_periodo_2'           => $coluna[27],
+      // 'field_descritores_1'               => $coluna[28],
+      // 'field_descritores_2'               => $coluna[29],
+      // 'field_descritores_3'               => $coluna[30],    
+       // 'field_descritores_4'               => $coluna[31],
         'field_referencia'                  => $coluna[32],
         'field_observacoes'                 => $coluna[33],   
+       
+       
     ]);
     
+    $Especificacao = [];
+    $Especificacao[] = ['value' => $coluna[21]];
+    $Especificacao[] = ['value' => $coluna[25]];
+    $node->set('field_especificacao', $Especificacao);
+
+    $Atividade_Evento = [];
+    $Atividade_Evento[] = ['value' => $coluna[20]];
+    $Atividade_Evento[] = ['value' => $coluna[24]];
+    $node->set('field_atividade_evento', $Atividade_Evento); 
+
     $Descritores = [];
     $Descritores[] = [
         'value' => $coluna[28],
