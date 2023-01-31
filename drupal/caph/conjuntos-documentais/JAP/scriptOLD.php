@@ -53,8 +53,8 @@ foreach($arquivos_array as $campo) {
         'field_idioma'                      => $campo[10],
         'field_numero_de_itens'             => $campo[11],
         'field_numero_de_exemplares'        => $campo[12],
-        'field_extensao'                    => $campo[13],
-/*
+        'field_extensao_1_'                 => $campo[13],
+        'field_extensao_2_'                 => $campo[14],
         'field_responsavel_1_'              => $campo[15],
         'field_tipo_de_responsabilidade_1'  => $campo[16],
         'field_responsavel_2_'              => $campo[17],
@@ -63,31 +63,18 @@ foreach($arquivos_array as $campo) {
         'field_tipo_de_responsabilidade_3'  => $campo[20],
         'field_responsaveis_4_'             => $campo[21],
         'field_tipo_de_responsabilidade_4'  => $campo[22],
+        'field_atividade_evento'            => $campo[23],
         'field_especificacao_1_'            => $campo[24],
         'field_local_1_'                    => $campo[25],
         'field_data_ou_periodo_1_'          => $campo[26],
         'field_atividade_evento_2_'         => $campo[27],
         'field_especificacao_2_'            => $campo[28],
         'field_local_2_'                    => $campo[29],
-	'field_data_ou_periodo_2_'          => $campo[30],     
-*/
-        'field_atividade_evento'            => $campo[23],
+        'field_data_ou_periodo_2_'          => $campo[30],
         'field_descritores'                 => $campo[31],
         'field_referencia'                  => $campo[32],
         'field_observacoes'                 => $campo[33],
     ]);
-
-    $Responsaveis = [];
-    $Responsaveis[] = ['value' => $coluna[14],];
-    $Responsaveis[] = ['value' => $coluna[16],];
-    $Responsaveis[] = ['value' => $coluna[18],];
-    $node->set ('field_responsaveis', $Responsaveis);
-
-    $Tipo_Responsabilidade = [];
-    $Tipo_Responsabilidade[] = ['value' => $coluna[15],];
-    $Tipo_Responsabilidade[] = ['value' => $coluna[17],];
-    $Tipo_Responsabilidade[] = ['value' => $coluna[19],];
-    $node->set('field_tipo_de_responsabilidade', $Tipo_Responsabilidade);
 
     $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado){
