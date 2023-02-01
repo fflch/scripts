@@ -174,6 +174,18 @@ foreach($arquivos_array as $campo) {
     $Data_Periodo[] = ['value' => $campo[30],];
     $node->set('field_data_ou_periodo', $Data_Periodo);
 
+    $Responsaveis = [];
+    $Responsaveis[] = ['value' => $coluna[14],];
+    $Responsaveis[] = ['value' => $coluna[16],];
+    $Responsaveis[] = ['value' => $coluna[18],];
+    $node->set ('field_responsaveis', $Responsaveis);
+
+    $Tipo_Responsabilidade = [];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[15],];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[17],];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[19],];
+    $node->set('field_tipo_de_responsabilidade', $Tipo_Responsabilidade);
+
     $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado){
         $arquivo_conteudo = file_get_contents($full_path.$arquivo_relacionado);
