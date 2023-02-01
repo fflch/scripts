@@ -152,12 +152,25 @@ foreach($arquivos_array as $coluna) {
         //'field_descritores_4'               => $coluna[31],
         'field_referencia'                  => $coluna[32],
         'field_observacoes'                 => $coluna[33],   
+       
+       
     ]);
     
+
     $Local = [];
     $Local [] = ['value' => $coluna[22]];
     $Local [] = ['value' => $coluna[26]];
     $node->set('field_local', $Local);
+
+    $Especificacao = [];
+    $Especificacao[] = ['value' => $coluna[21]];
+    $Especificacao[] = ['value' => $coluna[25]];
+    $node->set('field_especificacao', $Especificacao);
+
+    $Atividade_Evento = [];
+    $Atividade_Evento[] = ['value' => $coluna[20]];
+    $Atividade_Evento[] = ['value' => $coluna[24]];
+    $node->set('field_atividade_evento', $Atividade_Evento); 
 
     $Descritores = [];
     $Descritores[] = ['value' => $coluna[28],];
