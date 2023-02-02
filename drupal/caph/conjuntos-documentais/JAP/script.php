@@ -162,7 +162,7 @@ foreach($arquivos_array as $campo) {
         'field_referencia'                  => $campo[32],
         'field_observacoes'                 => $campo[33],
     ]);
-    
+
 //  Realizei a inserção desse campo, pois na planilha do JAP existem dois campos para Extensão.
     $Extensao   = [];
     $Extensao[] = ['value' => $campo[13],];
@@ -186,6 +186,28 @@ foreach($arquivos_array as $campo) {
     $Tipo_Responsabilidade[] = ['value' => $coluna[19],];
     $node->set('field_tipo_de_responsabilidade', $Tipo_Responsabilidade);
 
+    $Local = [];
+    $Local [] = ['value' => $coluna[22]];
+    $Local [] = ['value' => $coluna[26]];
+    $node->set('field_local', $Local);
+
+    $Especificacao = [];
+    $Especificacao[] = ['value' => $coluna[21]];
+    $Especificacao[] = ['value' => $coluna[25]];
+    $node->set('field_especificacao', $Especificacao);
+
+    $Atividade_Evento = [];
+    $Atividade_Evento[] = ['value' => $coluna[20]];
+    $Atividade_Evento[] = ['value' => $coluna[24]];
+    $node->set('field_atividade_evento', $Atividade_Evento);
+
+    $Descritores = [];
+    $Descritores[] = ['value' => $coluna[28]];
+    $Descritores[] = ['value' => $coluna[29]];
+    $Descritores[] = ['value' => $coluna[30]];
+    $Descritores[] = ['value' => $coluna[31]];
+    $node->set('field_descritores', $Descritores);
+
     $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado){
         $arquivo_conteudo = file_get_contents($full_path.$arquivo_relacionado);
@@ -196,8 +218,6 @@ foreach($arquivos_array as $campo) {
             'title'     => 'JAP PDF',
         ];
     }
-
     $node->set('field_arquivo', $Arquivos_PDF);
-
     echo $node->save();
 }

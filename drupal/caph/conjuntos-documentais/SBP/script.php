@@ -156,7 +156,6 @@ foreach($arquivos_array as $coluna) {
        
     ]);
     
-
     $Local = [];
     $Local [] = ['value' => $coluna[22]];
     $Local [] = ['value' => $coluna[26]];
@@ -178,7 +177,7 @@ foreach($arquivos_array as $coluna) {
     $Descritores[] = ['value' => $coluna[30],];
     $Descritores[] = ['value' => $coluna[31],];
     $node->set('field_descritores', $Descritores);
-
+    
     $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado) {
         $arquivo_conteudo = file_get_contents($full_path.$arquivo_relacionado);
