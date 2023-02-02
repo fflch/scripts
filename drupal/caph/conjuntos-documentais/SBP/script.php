@@ -156,6 +156,27 @@ foreach($arquivos_array as $coluna) {
        
     ]);
     
+    $Extensao   = [];
+    $Extensao[] = ['value' => $campo[13],];
+    $Extensao[] = ['value' => $campo[14],];
+    $node->set('field_extensao', $Extensao);
+
+    $Data_Periodo   = [];
+    $Data_Periodo[] = ['value' => $campo[26],];
+    $Data_Periodo[] = ['value' => $campo[30],];
+    $node->set('field_data_ou_periodo', $Data_Periodo);
+
+    $Responsaveis = [];
+    $Responsaveis[] = ['value' => $coluna[14],];
+    $Responsaveis[] = ['value' => $coluna[16],];
+    $Responsaveis[] = ['value' => $coluna[18],];
+    $node->set ('field_responsaveis', $Responsaveis);
+
+    $Tipo_Responsabilidade = [];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[15],];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[17],];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[19],];
+    $node->set('field_tipo_de_responsabilidade', $Tipo_Responsabilidade);
 
     $Local = [];
     $Local [] = ['value' => $coluna[22]];
