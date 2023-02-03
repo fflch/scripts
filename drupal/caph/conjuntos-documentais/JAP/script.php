@@ -102,7 +102,7 @@ use \Drupal\file\Entity\File;
 
 $home_dir = "/home/acesarfs/";
 //Lendo csv
-$arquivocsv = file_get_contents($home_dir . 'Git/drupal/scripts/drupal/caph/conjuntos-documentais/JAP/JAP.csv');
+$arquivocsv = file_get_contents($home_dir . 'projetos/scripts/drupal/caph/conjuntos-documentais/JAP/JAP.csv');
 $arquivos = explode(PHP_EOL, $arquivocsv);
 $arquivos_array = array();
 
@@ -112,7 +112,7 @@ foreach ($arquivos as $arquivo) {
 array_pop($arquivos_array);
 
 // Caminho para leitura dos PDF's
-$full_path= $home_dir . 'JAP/';
+$full_path= $home_dir . 'arquivos_JAP/';
 $arquivospdf= scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
@@ -142,30 +142,10 @@ foreach($arquivos_array as $coluna) {
         'field_idioma'                      => $coluna[10],
         'field_numero_de_itens'             => $coluna[11],
         'field_numero_de_exemplares'        => $coluna[12],
-//      'field_extensao_1'                  => $coluna[13],
-//      'field_extensao_2'                  => $coluna[14],
-//        'field_responsavel_1'               => $coluna[15],
-//        'field_tipo_de_responsabilidade_1'  => $coluna[16],
-//        'field_responsavel_2'               => $coluna[17],
- //       'field_tipo_de_responsabilidade_2'  => $coluna[18],
-//        'field_responsaveis_1'              => $coluna[19],
-//        'field_tipo_de_responsabilidade_3'  => $coluna[20],
-//        'field_responsaveis_2'              => $coluna[21],
- //       'field_tipo_de_responsabilidade_4'  => $coluna[22],
-//        'field_atividade_evento'            => $coluna[23],
- //       'field_especificacao_1'             => $coluna[24],
- //       'field_local_1'                     => $coluna[25],
-//      'field_data_ou_periodo_1'           => $coluna[26],
- //       'field_atividade_evento_2'          => $coluna[27],
-//        'field_especificacao_2'             => $coluna[28],
- //       'field_local_2'                     => $coluna[29],
-//      'field_data_ou_periodo_2'           => $coluna[30],
- //       'field_descritores'                 => $coluna[31],
         'field_referencia'                  => $coluna[32],
         'field_observacoes'                 => $coluna[33],
     ]);
     
-//  Realizei a inserção desse coluna$coluna, pois na planilha do JAP existem dois coluna$colunas para Extensão.
     $Extensao   = [];
     $Extensao[] = ['value' => $coluna[13],];
     $Extensao[] = ['value' => $coluna[14],];
