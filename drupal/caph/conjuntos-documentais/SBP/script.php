@@ -90,8 +90,11 @@ Ex.:
  */
 use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
+
+$home_dir = "/home/acesarfs/";
+
 // Lendo csv
-$arquivocsv = file_get_contents('/home/sabrina/projetos/scripts/drupal/caph/conjuntos-documentais/SBP/SBP.csv');
+$arquivocsv = file_get_contents($home_dir . 'projetos/scripts/drupal/caph/conjuntos-documentais/SBP/SBP.csv');
 $arquivos = explode(PHP_EOL, $arquivocsv);
 $arquivos_array = array();
 
@@ -101,7 +104,7 @@ foreach ($arquivos as $arquivo) {
 array_pop($arquivos_array);
 
 // lendo pdfs
-$full_path= '/home/sabrina/arquivos_SBP/SBP/';
+$full_path= $home_dir . 'arquivos_SBP/SBP/';
 $arquivospdf= scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
@@ -115,7 +118,7 @@ foreach($arquivos_array as $coluna) {
     }
     
 	$node = Node::create([
-      	'type'          	    	        => 'caph_sbp',
+        'type'                              => 'acervo_caph',
         'uid'                               => 1,
         'field_acervo'                      => 'SBP',
         'title'      		                => $coluna[0],
@@ -131,7 +134,7 @@ foreach($arquivos_array as $coluna) {
         'field_idioma'                      => $coluna[10],
         'field_numero_de_itens'             => $coluna[11],
         'field_numero_de_exemplares'        => $coluna[12],
-        'field_extensao'                    => $coluna[13],
+        //'field_extensao'                    => $coluna[13],
         //'field_responsavel_1'               => $coluna[14],
         //'field_tipo_de_responsabilidade_1'  => $coluna[15],
         //'field_responsavel_2'               => $coluna[16],
@@ -152,8 +155,6 @@ foreach($arquivos_array as $coluna) {
         //'field_descritores_4'               => $coluna[31],
         'field_referencia'                  => $coluna[32],
         'field_observacoes'                 => $coluna[33],   
-       
-       
     ]);
     
     $Extensao   = [];

@@ -11,11 +11,11 @@
  * 
  * Insira o título que será exibido, e que irá devivamente aparecer no sistema, e salve.
  * 
- * Apague o campo "body" que é criado automaticamente e clique em "Adicionar Campo", selecionando o tipo de campo de acordo com a lista abaixo, onde consta o tipo de campo, nome do campo, e o nome de máquina de cada um deles.
+ * Apague o coluna$coluna "body" que é criado automaticamente e clique em "Adicionar coluna$coluna", selecionando o tipo de coluna$coluna de acordo com a lista abaixo, onde consta o tipo de coluna$coluna, nome do coluna$coluna, e o nome de máquina de cada um deles.
  * 
  * **************** É imprescindível que o nome de máqina seja igual ao da lista!!!!********************************
  * 
- Tipo de campo        |     Nome de Máquina 
+ Tipo de coluna$coluna        |     Nome de Máquina 
 
  Texto Simples              'field_notacao'		             
  Texto Simples              'field_documento'	                 
@@ -94,14 +94,15 @@
  * ** Para apagar todos os nodes: ./vendor/bin/drupal entity:delete node --all
  * ** Para apagar todos os arquivos carregados: ./vendor/bin/drupal entity:delete file --all
  * 
- *  Fase de progresso: pesquisa de código multivalue para o campo descritores.
+ *  Fase de progresso: pesquisa de código multivalue para o coluna$coluna descritores.
  * 
  */
 use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
 
+$home_dir = "/home/acesarfs/";
 //Lendo csv
-$arquivocsv = file_get_contents('/home/aline/Git/drupal/scripts/drupal/caph/conjuntos-documentais/JAP/JAP.csv');
+$arquivocsv = file_get_contents($home_dir . 'Git/drupal/scripts/drupal/caph/conjuntos-documentais/JAP/JAP.csv');
 $arquivos = explode(PHP_EOL, $arquivocsv);
 $arquivos_array = array();
 
@@ -111,12 +112,12 @@ foreach ($arquivos as $arquivo) {
 array_pop($arquivos_array);
 
 // Caminho para leitura dos PDF's
-$full_path= '/home/aline/JAP/';
+$full_path= $home_dir . 'JAP/';
 $arquivospdf= scandir($full_path);
 
-foreach($arquivos_array as $campo) {
+foreach($arquivos_array as $coluna) {
     // Lendo PDF's
-    $notacao = $campo[1];
+    $notacao = $coluna[1];
     $arquivos_relacionados = [];
         foreach($arquivospdf as $arquivopdf){
             if(str_contains($arquivopdf, $notacao)){
@@ -127,51 +128,52 @@ foreach($arquivos_array as $campo) {
     $node = Node::create([
         'type'                              => 'acervo_caph',
         'uid'                               => 1,
-        'title'                             => $campo[0],
-        'field_notacao'                     => $campo[1],
-        'field_documento'                   => $campo[2],
-        'field_abordagem'                   => $campo[3],
-        'field_local_de_producao'           => $campo[4],
-        'field_data_de_producao'            => $campo[5],
-        'field_tecnica'                     => $campo[6],
-        'field_suporte'                     => $campo[7],
-        'field_formato'                     => $campo[8],
-        'field_cromia'                      => $campo[9],
-        'field_idioma'                      => $campo[10],
-        'field_numero_de_itens'             => $campo[11],
-        'field_numero_de_exemplares'        => $campo[12],
-//      'field_extensao_1'                  => $campo[13],
-//      'field_extensao_2'                  => $campo[14],
-        'field_responsavel_1'               => $campo[15],
-        'field_tipo_de_responsabilidade_1'  => $campo[16],
-        'field_responsavel_2'               => $campo[17],
-        'field_tipo_de_responsabilidade_2'  => $campo[18],
-        'field_responsaveis_1'              => $campo[19],
-        'field_tipo_de_responsabilidade_3'  => $campo[20],
-        'field_responsaveis_2'              => $campo[21],
-        'field_tipo_de_responsabilidade_4'  => $campo[22],
-        'field_atividade_evento'            => $campo[23],
-        'field_especificacao_1'             => $campo[24],
-        'field_local_1'                     => $campo[25],
-//      'field_data_ou_periodo_1'           => $campo[26],
-        'field_atividade_evento_2'          => $campo[27],
-        'field_especificacao_2'             => $campo[28],
-        'field_local_2'                     => $campo[29],
-//      'field_data_ou_periodo_2'           => $campo[30],
-        'field_descritores'                 => $campo[31],
-        'field_referencia'                  => $campo[32],
-        'field_observacoes'                 => $campo[33],
+        'field_acervo'                      => 'JAP',
+        'title'                             => $coluna[0],
+        'field_notacao'                     => $coluna[1],
+        'field_documento'                   => $coluna[2],
+        'field_abordagem'                   => $coluna[3],
+        'field_local_de_producao'           => $coluna[4],
+        'field_data_de_producao'            => $coluna[5],
+        'field_tecnica'                     => $coluna[6],
+        'field_suporte'                     => $coluna[7],
+        'field_formato'                     => $coluna[8],
+        'field_cromia'                      => $coluna[9],
+        'field_idioma'                      => $coluna[10],
+        'field_numero_de_itens'             => $coluna[11],
+        'field_numero_de_exemplares'        => $coluna[12],
+//      'field_extensao_1'                  => $coluna[13],
+//      'field_extensao_2'                  => $coluna[14],
+//        'field_responsavel_1'               => $coluna[15],
+//        'field_tipo_de_responsabilidade_1'  => $coluna[16],
+//        'field_responsavel_2'               => $coluna[17],
+ //       'field_tipo_de_responsabilidade_2'  => $coluna[18],
+//        'field_responsaveis_1'              => $coluna[19],
+//        'field_tipo_de_responsabilidade_3'  => $coluna[20],
+//        'field_responsaveis_2'              => $coluna[21],
+ //       'field_tipo_de_responsabilidade_4'  => $coluna[22],
+//        'field_atividade_evento'            => $coluna[23],
+ //       'field_especificacao_1'             => $coluna[24],
+ //       'field_local_1'                     => $coluna[25],
+//      'field_data_ou_periodo_1'           => $coluna[26],
+ //       'field_atividade_evento_2'          => $coluna[27],
+//        'field_especificacao_2'             => $coluna[28],
+ //       'field_local_2'                     => $coluna[29],
+//      'field_data_ou_periodo_2'           => $coluna[30],
+ //       'field_descritores'                 => $coluna[31],
+        'field_referencia'                  => $coluna[32],
+        'field_observacoes'                 => $coluna[33],
     ]);
     
-//  Realizei a inserção desse campo, pois na planilha do JAP existem dois campos para Extensão.
+//  Realizei a inserção desse coluna$coluna, pois na planilha do JAP existem dois coluna$colunas para Extensão.
     $Extensao   = [];
-    $Extensao[] = ['value' => $campo[13],];
-    $Extensao[] = ['value' => $campo[14],];
+    $Extensao[] = ['value' => $coluna[13],];
+    $Extensao[] = ['value' => $coluna[14],];
     $node->set('field_extensao', $Extensao);
 
     $Data_Periodo   = [];
-    $Data_Periodo[] = ['value' => $campo[26],];
-    $Data_Periodo[] = ['value' => $campo[30],];
+    $Data_Periodo[] = ['value' => $coluna[26],];
+    $Data_Periodo[] = ['value' => $coluna[30],];
     $node->set('field_data_ou_periodo', $Data_Periodo);
 
     $Responsaveis = [];
