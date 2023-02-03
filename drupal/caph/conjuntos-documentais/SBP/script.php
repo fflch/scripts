@@ -9,12 +9,12 @@ Acesse o link disponibilizado no terminal, e abrirá o seu drupal local no naveg
 No drupal, acesse a ferramenta "estrutura", e selecione "tipo de conteúdo"
 clique em "adicionar tipo de conteúdo"
 Coloque o título (o que de fato é o título que irá aparecer), depois o rótulo do título
-apague o campo "body" que será criado automaticamente
-Clique em "adicionar campo"
-Selecione o tipo de campo. No caso deste script, consulte a lista abaixo, onde consta o tipo de campo, nome do campo, e o nome de máquina de cada um deles. 
+apague o coluna$coluna "body" que será criado automaticamente
+Clique em "adicionar coluna$coluna"
+Selecione o tipo de coluna$coluna. No caso deste script, consulte a lista abaixo, onde consta o tipo de coluna$coluna, nome do coluna$coluna, e o nome de máquina de cada um deles. 
 **************** É imprescindível que o nome de máquina seja igual ao da lista!!!!********************************
 
-Tipo de campo     |  Nome de Máquina 
+Tipo de coluna$coluna     |  Nome de Máquina 
 
  Texto Simples       'field_notacao'		             
  Texto Simples       'field_documento'	                 
@@ -22,7 +22,7 @@ Tipo de campo     |  Nome de Máquina
  Texto Simples       'field_local_de_producao'           
  Texto Simples       'field_data_de_producao'            
  Texto Listagem      'field_tecnica'  
-    adicionar os seguintes itens de listagem desta forma, em configuração do campo:
+    adicionar os seguintes itens de listagem desta forma, em configuração do coluna$coluna:
     Datilografia|Datilografia
     Datilografia, Impressão|Datilografia, Impressão
     Datilografia, Impressão, Manuscrita|Datilografia, Impressão, Manuscrita
@@ -37,7 +37,7 @@ Tipo de campo     |  Nome de Máquina
 
  Texto Simples       'field_suporte'                     
  Texto Listagem      'field_formato' 
-    adicionar os seguintes itens de listagem desta forma, em configuração do campo:
+    adicionar os seguintes itens de listagem desta forma, em configuração do coluna$coluna:
     Encadernação|Encadernação
     Folha|Folha
     Fotograma|Fotograma
@@ -45,7 +45,7 @@ Tipo de campo     |  Nome de Máquina
     Tira|Tira
     
  Texto Listagem      'field_cromia'         
-    adicionar os seguintes itens de listagem desta forma, em configuração do campo:
+    adicionar os seguintes itens de listagem desta forma, em configuração do coluna$coluna:
     Cores|Cores
     Preto e Branco|Preto e Branco
      
@@ -85,7 +85,7 @@ Ex.:
  * ** para apagar todos os nodes: ./vendor/bin/drupal entity:delete node --all
  * ** para apagar todos os arquivos carregados: ./vendor/bin/drupal entity:delete file --all
  * 
- *  Fase de progresso: pesquisa de código multivalue para o campo descritores.
+ *  Fase de progresso: pesquisa de código multivalue para o coluna$coluna descritores.
  * 
  */
 use \Drupal\node\Entity\Node;
@@ -104,7 +104,7 @@ foreach ($arquivos as $arquivo) {
 array_pop($arquivos_array);
 
 // lendo pdfs
-$full_path= $home_dir . 'arquivos_SBP/SBP/';
+$full_path= $home_dir . 'arquivos_SBP/';
 $arquivospdf= scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
@@ -134,37 +134,18 @@ foreach($arquivos_array as $coluna) {
         'field_idioma'                      => $coluna[10],
         'field_numero_de_itens'             => $coluna[11],
         'field_numero_de_exemplares'        => $coluna[12],
-        //'field_extensao'                    => $coluna[13],
-        //'field_responsavel_1'               => $coluna[14],
-        //'field_tipo_de_responsabilidade_1'  => $coluna[15],
-        //'field_responsavel_2'               => $coluna[16],
-        //'field_tipo_de_responsabilidade_2'  => $coluna[17],
-        //'field_responsaveis_'               => $coluna[18],
-        //'field_tipo_de_responsabilidade_3'  => $coluna[19],
-        //'field_atividade_evento_1'          => $coluna[20],
-        //'field_especificacao_1'             => $coluna[21],
-        //'field_local_1'                     => $coluna[22],
-        //'field_data_ou_periodo_1'           => $coluna[23],
-        //'field_atividade_evento_2'          => $coluna[24],
-        //'field_especificacao_2'             => $coluna[25],
-        //'field_local_2'                     => $coluna[26],
-        //'field_data_ou_periodo_2'           => $coluna[27],
-        //'field_descritores_1'               => $coluna[28],
-        //'field_descritores_2'               => $coluna[29],
-        //'field_descritores_3'               => $coluna[30],    
-        //'field_descritores_4'               => $coluna[31],
         'field_referencia'                  => $coluna[32],
         'field_observacoes'                 => $coluna[33],   
     ]);
     
     $Extensao   = [];
-    $Extensao[] = ['value' => $campo[13],];
-    $Extensao[] = ['value' => $campo[14],];
+    $Extensao[] = ['value' => $coluna[13],];
+    $Extensao[] = ['value' => $coluna[14],];
     $node->set('field_extensao', $Extensao);
 
     $Data_Periodo   = [];
-    $Data_Periodo[] = ['value' => $campo[26],];
-    $Data_Periodo[] = ['value' => $campo[30],];
+    $Data_Periodo[] = ['value' => $coluna[26],];
+    $Data_Periodo[] = ['value' => $coluna[30],];
     $node->set('field_data_ou_periodo', $Data_Periodo);
 
     $Responsaveis = [];
