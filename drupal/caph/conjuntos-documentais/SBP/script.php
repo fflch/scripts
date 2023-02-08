@@ -34,7 +34,6 @@ Tipo de coluna$coluna     |  Nome de Máquina
     Manuscrita, Mimeografia|Manuscrita, Mimeografia
     Mimeografia|Mimeografia
     Mimeografia, Impressão|Mimeografia, Impressão 
-
  Texto Simples       'field_suporte'                     
  Texto Listagem      'field_formato' 
     adicionar os seguintes itens de listagem desta forma, em configuração do coluna$coluna:
@@ -43,12 +42,10 @@ Tipo de coluna$coluna     |  Nome de Máquina
     Fotograma|Fotograma
     Placa|Placa
     Tira|Tira
-    
  Texto Listagem      'field_cromia'         
     adicionar os seguintes itens de listagem desta forma, em configuração do coluna$coluna:
     Cores|Cores
     Preto e Branco|Preto e Branco
-     
  Texto Simples       'field_idioma'                      
  Número Inteiro      'field_numero_de_itens'              
  Número Inteiro      'field_numero_de_exemplares'         
@@ -93,7 +90,6 @@ use \Drupal\file\Entity\File;
 
 $home_dir = "/home/acesarfs/";
 
-// Lendo csv
 $arquivocsv = file_get_contents($home_dir . 'projetos/scripts/drupal/caph/conjuntos-documentais/SBP/SBP.csv');
 $arquivos = explode(PHP_EOL, $arquivocsv);
 $arquivos_array = array();
@@ -103,12 +99,10 @@ foreach ($arquivos as $arquivo) {
 }
 array_pop($arquivos_array);
 
-// lendo pdfs
-$full_path= $home_dir . 'arquivos_SBP/';
+$full_path = $home_dir . 'arquivos_SBP/';
 $arquivospdf= scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
-    // lendo pdfs
     $notacao = $coluna[1];
     $arquivos_relacionados = [];
     foreach($arquivospdf as $arquivopdf){

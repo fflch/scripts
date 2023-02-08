@@ -38,7 +38,6 @@
     Manuscrita, Mimeografia|Manuscrita, Mimeografia
     Mimeografia|Mimeografia
     Mimeografia, Impressão|Mimeografia, Impressão
-
  Texto Simples              'field_suporte'                     
  Listagem (texto)           'field_formato'
     Adicione os seguintes itens em ordem alfabética a listagem:
@@ -49,13 +48,11 @@
     Placa|Placa
     Quadro|Quadro
     Tira|Tira
-
  Listagem (texto)           'field_cromia'
      Adicione os seguintes itens em ordem alfabética a listagem:
     Preto e branco|Preto e branco
     Cores|Cores
     Colorido|Colorido          
-
  Texto Simples              'field_idioma'                      
  Número Inteiro             'field_numero_de_itens'              
  Número Inteiro             'field_numero_de_exemplares'         
@@ -101,7 +98,6 @@ use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
 
 $home_dir = "/home/acesarfs/";
-//Lendo csv
 $arquivocsv = file_get_contents($home_dir . 'projetos/scripts/drupal/caph/conjuntos-documentais/JAP/JAP.csv');
 $arquivos = explode(PHP_EOL, $arquivocsv);
 $arquivos_array = array();
@@ -111,12 +107,10 @@ foreach ($arquivos as $arquivo) {
 }
 array_pop($arquivos_array);
 
-// Caminho para leitura dos PDF's
 $full_path= $home_dir . 'arquivos_JAP/';
 $arquivospdf= scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
-    // Lendo PDF's
     $notacao = $coluna[1];
     $arquivos_relacionados = [];
         foreach($arquivospdf as $arquivopdf){
