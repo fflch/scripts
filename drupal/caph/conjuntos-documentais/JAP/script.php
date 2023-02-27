@@ -59,24 +59,13 @@
  Texto Simples              'field_idioma'                      
  Número Inteiro             'field_numero_de_itens'              
  Número Inteiro             'field_numero_de_exemplares'         
- Texto Simples              'field_extensao_1'
- Texto Simples              'field_extensao_2'                    
- Texto Simples              'field_responsavel_1'               
- Texto Simples              'field_tipo_de_responsabilidade_1'  
- Texto Simples              'field_responsavel_2'               
- Texto Simples              'field_tipo_de_responsabilidade_2'   
- Texto Simples              'field_responsaveis_1'                
- Texto Simples              'field_tipo_de_responsabilidade_3'
- Texto Simples              'field_responsaveis_2'
- Texto Simples              'field_tipo_de_responsabilidade_4' 
- Texto Simples              'field_atividade_evento_1'          
- Texto Simples              'field_especificacao_1'             
- Texto Simples              'field_local_1'                     
- Texto Simples              'field_data_ou_periodo_1'           
- Texto Simples              'field_atividade_evento_2'           
- Texto Simples              'field_especificacao_2'             
- Texto Simples              'field_local_2'                     
- Texto Simples              'field_data_ou_periodo_2'           
+ Texto Simples              'field_extensao'                    
+ Texto Simples              'field_responsavel'               
+ Texto Simples              'field_tipo_de_responsabilidade'  
+ Texto Simples              'field_atividade_evento'          
+ Texto Simples              'field_especificacao'             
+ Texto Simples              'field_local'                     
+ Texto Simples              'field_data_ou_periodo'                    
  Texto Simples              'field_descritores'               
  Texto Simples              'field_referencia'                  
  Texto (simples,longo)      'field_observacoes'
@@ -89,7 +78,7 @@
 *
 --------------------------------------------------------------------------------------------
  * Esse script deve ser rodado como: 
- * ./vendor/bin/drush php-script /home/aline/Git/drupal/scripts/drupal/caph/conjuntos-documentais/JAP/script.php
+ * ./vendor/bin/drush php-script /home/aline/projetos/scripts/drupal/caph/conjuntos-documentais/JAP/script.php
  * 
  * ** Para apagar todos os nodes: ./vendor/bin/drupal entity:delete node --all
  * ** Para apagar todos os arquivos carregados: ./vendor/bin/drupal entity:delete file --all
@@ -100,7 +89,7 @@
 use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
 
-$home_dir = "/home/acesarfs/";
+$home_dir = "/home/aline/";
 //Lendo csv
 $arquivocsv = file_get_contents($home_dir . 'projetos/scripts/drupal/caph/conjuntos-documentais/JAP/JAP.csv');
 $arquivos = explode(PHP_EOL, $arquivocsv);
@@ -112,7 +101,7 @@ foreach ($arquivos as $arquivo) {
 array_pop($arquivos_array);
 
 // Caminho para leitura dos PDF's
-$full_path= $home_dir . 'arquivos_JAP/';
+$full_path= $home_dir . 'JAP/';
 $arquivospdf= scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
