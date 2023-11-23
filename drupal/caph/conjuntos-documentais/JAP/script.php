@@ -1,46 +1,43 @@
 <?php
 /*
  * script por: Aline Maire.
- * 
- * Para subir o drupal em sua máquina local, vá ao terminal, entre no diretório projetos/drupal e insira o seguinte comando:
- ./vendor/bin/drupal serve -vvv
- * 
- * Acesse o link disponibilizado no terminal, para ser encaminhado a interface gráfica do seu drupal local.
- * 
- * Já no drupal, vá em "Estrutura", "Tipo de Conteúdo" e por fim "Adicionar Tipo de Conteúdo."
- * 
- * Insira o título que será exibido, e que irá devivamente aparecer no sistema, e salve.
- * 
- * Apague o coluna$coluna "body" que é criado automaticamente e clique em "Adicionar coluna$coluna", selecionando o tipo de coluna$coluna de acordo com a lista abaixo, onde consta o tipo de coluna$coluna, nome do coluna$coluna, e o nome de máquina de cada um deles.
- * 
- * **************** É imprescindível que o nome de máqina seja igual ao da lista!!!!********************************
- * 
- Tipo de coluna$coluna        |     Nome de Máquina 
+ *
+ No terminal, diretório do projeto do Drupal, digite: ./vendor/bin/drupal serve -vvv
+Acesse o link do site, geralmente http://127.0.0.1:8088/, no navegador
+No site, acesse Estrutura > Tipos de conteúdo
+Clique em Adicionar tipo de conteúdo e preencha os dados obrigatórios
+Em Gerenciar campos, apague o campo Body
+Clique em + Adicionar campo para cada um dos campos abaixo de acordo com o tipo e o nome de máquina
 
- Texto Simples              'field_notacao'		             
- Texto Simples              'field_documento'	                 
- Texto Simples              'field_abordagem'	                 
- Texto Simples              'field_local_de_producao'           
- Texto Simples              'field_data_de_producao'            
- Listagem (texto)           'field_tecnica' 
-    Adicione os seguintes itens em ordem alfabética a listagem:
-    Cunhagem|Cunhagem
-    Datilografia|Datilografia
-    Datilografia, Impressão|Datilografia, Impressão
-    Datilografia, Impressão, Manuscrita|Datilografia, Impressão, Manuscrita
-    Datilografia, Manuscrita|Datilografia, Manuscrita
-    Fotografia|Fotografia
-    Fotografia analógica|Fotografia analógica
-    impressão|impressão
-    Impressão, Manuscrita|Impressão, Manuscrita
-    Manuscrita|Manuscrita
-    Manuscrito|Manuscrito
-    Manuscrita, Mimeografia|Manuscrita, Mimeografia
-    Mimeografia|Mimeografia
-    Mimeografia, Impressão|Mimeografia, Impressão
- Texto Simples              'field_suporte'                     
- Listagem (texto)           'field_formato'
-    Adicione os seguintes itens em ordem alfabética a listagem:
+Tipo de coluna$coluna        |     Nome de Máquina
+
+Texto Simples      'field_notacao'
+Texto Simples      'field_documento'
+Texto Simples      'field_abordagem'
+Texto Simples      'field_local_de_producao'
+Texto Simples      'field_data_de_producao'
+
+Texto Listagem     'field_tecnica'
+Adicione os seguintes itens em ordem alfabética:
+Cunhagem|Cunhagem
+Datilografia|Datilografia
+Datilografia, Impressão|Datilografia, Impressão
+Datilografia, Impressão, Manuscrita|Datilografia, Impressão, Manuscrita
+Datilografia, Manuscrita|Datilografia, Manuscrita
+Fotografia|Fotografia
+Fotografia analógica|Fotografia analógica
+impressão|impressão
+Impressão, Manuscrita|Impressão, Manuscrita
+Manuscrita|Manuscrita
+Manuscrito|Manuscrito
+Manuscrita, Mimeografia|Manuscrita, Mimeografia
+Mimeografia|Mimeografia
+Mimeografia, Impressão|Mimeografia, Impressão
+
+Texto Simples      'field_suporte'
+
+Texto Listagem     'field_formato'
+Adicione os seguintes itens em ordem alfabética:
     Encadernação|Encadernação
     Folha|Folha
     Fotograma|Fotograma
@@ -48,51 +45,53 @@
     Placa|Placa
     Quadro|Quadro
     Tira|Tira
- Listagem (texto)           'field_cromia'
-     Adicione os seguintes itens em ordem alfabética a listagem:
+
+Texto Listagem       'field_cromia'
+Adicione os seguintes itens em ordem alfabética:
     Preto e branco|Preto e branco
     Cores|Cores
-    Colorido|Colorido          
- Texto Simples              'field_idioma'                      
- Número Inteiro             'field_numero_de_itens'              
- Número Inteiro             'field_numero_de_exemplares'         
- Texto Simples              'field_extensao_1'
- Texto Simples              'field_extensao_2'                    
- Texto Simples              'field_responsavel_1'               
- Texto Simples              'field_tipo_de_responsabilidade_1'  
- Texto Simples              'field_responsavel_2'               
- Texto Simples              'field_tipo_de_responsabilidade_2'   
- Texto Simples              'field_responsaveis_1'                
- Texto Simples              'field_tipo_de_responsabilidade_3'
- Texto Simples              'field_responsaveis_2'
- Texto Simples              'field_tipo_de_responsabilidade_4' 
- Texto Simples              'field_atividade_evento_1'          
- Texto Simples              'field_especificacao_1'             
- Texto Simples              'field_local_1'                     
- Texto Simples              'field_data_ou_periodo_1'           
- Texto Simples              'field_atividade_evento_2'           
- Texto Simples              'field_especificacao_2'             
- Texto Simples              'field_local_2'                     
- Texto Simples              'field_data_ou_periodo_2'           
- Texto Simples              'field_descritores'               
- Texto Simples              'field_referencia'                  
- Texto (simples,longo)      'field_observacoes'
- Arquivo                    'field_arquivo' 
+    Colorido|Colorido
+
+Texto Simples       'field_idioma'
+Número Inteiro      'field_numero_de_itens'
+Número Inteiro      'field_numero_de_exemplares'
+Texto Simples       'field_extensao_1'
+Texto Simples       'field_extensao_2'
+Texto Simples       'field_responsavel_1'
+Texto Simples       'field_tipo_de_responsabilidade_1'
+Texto Simples       'field_responsavel_2'
+Texto Simples       'field_tipo_de_responsabilidade_2'
+Texto Simples       'field_responsaveis_1'
+Texto Simples       'field_tipo_de_responsabilidade_3'
+Texto Simples       'field_responsaveis_2'
+Texto Simples       'field_tipo_de_responsabilidade_4'
+
+Texto Simples       'field_atividade_evento_1'
+Texto Simples       'field_especificacao_1'
+Texto Simples       'field_local_1'
+Texto Simples       'field_data_ou_periodo_1'
+
+Texto Simples       'field_atividade_evento_2'
+Texto Simples       'field_especificacao_2'
+Texto Simples       'field_local_2'
+Texto Simples       'field_data_ou_periodo_2'
+
+Texto Simples       'field_descritores'
+
+
+
+Texto Simples       'field_referencia'
+Texto (simples,longo)       'field_observacoes'
+Arquivo             'field_arquivo'
+ 
+Execute o seguinte comando, considerando o caminho para o seu arquivo de script: ./vendor/bin/drush php-script /home/SEU USER/-caminho restante-/script.php
+Ex.: ./vendor/bin/drush php-script /home/acesarfs/projetos/scripts/drupal/caph/conjuntos-documentais/JAP/script.php
  *
- * Após a criação de todos os tipos de conteúdo no drupal, tenha este script baixado na sua máquina, e execute o seguinte comando, considerando o caminho para o seu arquivo de script.
- * 
- * Ex.:
-./vendor/bin/drush php-script /home/SEU USER/-caminho restante-/script.php
-*
---------------------------------------------------------------------------------------------
- * Esse script deve ser rodado como: 
- * ./vendor/bin/drush php-script /home/aline/Git/drupal/scripts/drupal/caph/conjuntos-documentais/JAP/script.php
- * 
- * ** Para apagar todos os nodes: ./vendor/bin/drupal entity:delete node --all
- * ** Para apagar todos os arquivos carregados: ./vendor/bin/drupal entity:delete file --all
- * 
+ * ** Para apagar todos os nodes:    ./vendor/bin/drupal entity:delete node --all
+ * ** Para apagar todos os arquivos: ./vendor/bin/drupal entity:delete file --all
+ *
  *  Fase de progresso: pesquisa de código multivalue para o coluna$coluna descritores.
- * 
+ *
  */
 use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
@@ -107,14 +106,14 @@ foreach ($arquivos as $arquivo) {
 }
 array_pop($arquivos_array);
 
-$full_path= $home_dir . 'arquivos_JAP/';
-$arquivospdf= scandir($full_path);
+$full_path = $home_dir . 'arquivos_JAP/';
+$arquivospdf = scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
     $notacao = $coluna[1];
     $arquivos_relacionados = [];
-        foreach($arquivospdf as $arquivopdf){
-            if(str_contains($arquivopdf, $notacao)){
+    foreach($arquivospdf as $arquivopdf){
+        if(str_contains($arquivopdf, $notacao)){
             $arquivos_relacionados[] = $arquivopdf;
         }
     }
@@ -136,52 +135,54 @@ foreach($arquivos_array as $coluna) {
         'field_idioma'                      => $coluna[10],
         'field_numero_de_itens'             => $coluna[11],
         'field_numero_de_exemplares'        => $coluna[12],
-        'field_referencia'                  => $coluna[32],
-        'field_observacoes'                 => $coluna[33],
+        'field_referencia'                  => $coluna[36],
+        'field_observacoes'                 => $coluna[37],
     ]);
-    
+
     $Extensao   = [];
     $Extensao[] = ['value' => $coluna[13],];
     $Extensao[] = ['value' => $coluna[14],];
     $node->set('field_extensao', $Extensao);
+
+    $Responsaveis = [];
+    $Responsaveis[] = ['value' => $coluna[15],];
+    $Responsaveis[] = ['value' => $coluna[17],];
+    $Responsaveis[] = ['value' => $coluna[19],];
+    $Responsaveis[] = ['value' => $coluna[21],];
+    $node->set ('field_responsaveis', $Responsaveis);
+
+    $Tipo_Responsabilidade = [];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[16],];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[18],];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[20],];
+    $Tipo_Responsabilidade[] = ['value' => $coluna[22],];
+    $node->set('field_tipo_de_responsabilidade', $Tipo_Responsabilidade);
+
+    $Atividade_Evento = [];
+    $Atividade_Evento[] = ['value' => $coluna[23]];
+    $Atividade_Evento[] = ['value' => $coluna[27]];
+    $node->set('field_atividade_evento', $Atividade_Evento);
+
+    $Especificacao = [];
+    $Especificacao[] = ['value' => $coluna[24]];
+    $Especificacao[] = ['value' => $coluna[28]];
+    $node->set('field_especificacao', $Especificacao);
+
+    $Local = [];
+    $Local [] = ['value' => $coluna[25]];
+    $Local [] = ['value' => $coluna[29]];
+    $node->set('field_local', $Local);
 
     $Data_Periodo   = [];
     $Data_Periodo[] = ['value' => $coluna[26],];
     $Data_Periodo[] = ['value' => $coluna[30],];
     $node->set('field_data_ou_periodo', $Data_Periodo);
 
-    $Responsaveis = [];
-    $Responsaveis[] = ['value' => $coluna[14],];
-    $Responsaveis[] = ['value' => $coluna[16],];
-    $Responsaveis[] = ['value' => $coluna[18],];
-    $node->set ('field_responsaveis', $Responsaveis);
-
-    $Tipo_Responsabilidade = [];
-    $Tipo_Responsabilidade[] = ['value' => $coluna[15],];
-    $Tipo_Responsabilidade[] = ['value' => $coluna[17],];
-    $Tipo_Responsabilidade[] = ['value' => $coluna[19],];
-    $node->set('field_tipo_de_responsabilidade', $Tipo_Responsabilidade);
-
-    $Local = [];
-    $Local [] = ['value' => $coluna[22]];
-    $Local [] = ['value' => $coluna[26]];
-    $node->set('field_local', $Local);
-
-    $Especificacao = [];
-    $Especificacao[] = ['value' => $coluna[21]];
-    $Especificacao[] = ['value' => $coluna[25]];
-    $node->set('field_especificacao', $Especificacao);
-
-    $Atividade_Evento = [];
-    $Atividade_Evento[] = ['value' => $coluna[20]];
-    $Atividade_Evento[] = ['value' => $coluna[24]];
-    $node->set('field_atividade_evento', $Atividade_Evento);
-
     $Descritores = [];
-    $Descritores[] = ['value' => $coluna[28]];
-    $Descritores[] = ['value' => $coluna[29]];
-    $Descritores[] = ['value' => $coluna[30]];
     $Descritores[] = ['value' => $coluna[31]];
+    $Descritores[] = ['value' => $coluna[32]];
+    $Descritores[] = ['value' => $coluna[33]];
+    $Descritores[] = ['value' => $coluna[34]];
     $node->set('field_descritores', $Descritores);
 
     $Arquivos_PDF = [];
