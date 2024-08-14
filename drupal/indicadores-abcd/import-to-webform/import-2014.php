@@ -11,6 +11,7 @@ use Drupal\webform\Entity\WebformSubmission;
 // 1. Criar um webform com o nome de máquina: indicadores_abcd
 // 2. Na aba build do webform criado, copiar o conteúdo do arquivo: drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
 
+
 $csvArchive = fopen('../../scripts/drupal/indicadores-abcd/data/2014.csv', "r");
 
 if ($csvArchive !== FALSE) {
