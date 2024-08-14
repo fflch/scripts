@@ -1514,16 +1514,16 @@ $field_mapping_10 = [
 ];
 
 $files_and_mappings = [
-'/home/maria_clara/bibliotecas/csv/2014.csv' => $field_mapping_1,
-'/home/maria_clara/bibliotecas/csv/2015.csv' => $field_mapping_2,
-'/home/maria_clara/bibliotecas/csv/2016.csv' => $field_mapping_3,
-'/home/maria_clara/bibliotecas/csv/2017.csv' => $field_mapping_4,
-'/home/maria_clara/bibliotecas/csv/2018.csv' => $field_mapping_5,
-'/home/maria_clara/bibliotecas/csv/2019.csv' => $field_mapping_6,
-'/home/maria_clara/bibliotecas/csv/2020.csv' => $field_mapping_7,
-'/home/maria_clara/bibliotecas/csv/2021.csv' => $field_mapping_8,
-'/home/maria_clara/bibliotecas/csv/2022.csv' => $field_mapping_9,
-'/home/maria_clara/bibliotecas/csv/2023.csv' => $field_mapping_10,
+'../data/2014.csv' => $field_mapping_1,
+'../data/2015.csv' => $field_mapping_2,
+'../data/2016.csv' => $field_mapping_3,
+'../data/2017.csv' => $field_mapping_4,
+'../data/2018.csv' => $field_mapping_5,
+'../data/2019.csv' => $field_mapping_6,
+'../data/2020.csv' => $field_mapping_7,
+'../data/2021.csv' => $field_mapping_8,
+'../data/2022.csv' => $field_mapping_9,
+'../data/2023.csv' => $field_mapping_10,
 ];
 
 function import_csv_to_nodes($file_path, $field_mapping) {
