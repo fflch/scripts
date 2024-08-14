@@ -7,8 +7,8 @@ use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
 $csvArchives = [
-  fopen('/home/anna_valim/csv_ABCD/2021.csv', "r"),
-  fopen('/home/anna_valim/csv_ABCD/2022.csv', "r"),
+  fopen('../data/2021.csv', "r"),
+  fopen('../data/2022.csv', "r"),
 ];
 
 foreach($csvArchives as $archive){
