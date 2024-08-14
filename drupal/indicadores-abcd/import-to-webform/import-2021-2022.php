@@ -4,7 +4,7 @@ use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
 // Criado por Anna Valim - 2024
-// Para rodar:
+// Para rodar, insira o código abaixo, atentando para o seu pwd atual:
 // ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2021-2022.php
 
 // Passo-a-passo:
