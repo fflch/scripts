@@ -1,0 +1,353 @@
+"2014","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"Submission Details","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"Serial","SID","Hora do Envio","Completed Time","Modified Time","Draft","Endereço IP","UID","Usuário","Unidade","Número de assentos para usuários","Área Física (em m²) - Total ano anterior","Área Física (em m²) - Ampliação no período","Área Física (em m²) - Redução no período","Recursos Humanos - Superior","Recursos Humanos - Superior com Especialização","Recursos Humanos - Superior com Mestrado","Recursos Humanos - Superior com Doutorado","Recursos Humanos - Grupo Técnico","Recursos Humanos - Grupo Básico","Recursos Humanos - Grupo Superior - Vagas não preenchidas","Recursos Humanos - Grupo Técnico - Vagas não preenchidas","Recursos Humanos - Grupo Básico - Vagas não preenchidas","Eventos - Superior","Eventos - Técnico","Eventos - Básico","Pós-Graduação - Especialização - Superior","Pós-Graduação - Especialização - Técnico","Pós-Graduação - Especialização - Básico","Pós-Graduação - Mestrado - Superior","Pós-Graduação - Mestrado - Técnico","Pós-Graduação - Mestrado - Básico","Pós-Graduação - Doutorado - Superior","Pós-Graduação - Doutorado - Técnico","Pós-Graduação - Doutorado - Básico","Cursos - Gerencial - Superior","Cursos - Gerencial - Técnico","Cursos - Gerencial - Básico","Cursos - Capacitação para Serviços - Superior","Cursos - Capacitação para Serviços - Técnico","Cursos - Capacitação para Serviços - Básico","Cursos - Tecnologia de Informação e Comunicação (TIC) - Superior","Cursos - Tecnologia de Informação e Comunicação (TIC) - Técnico","Cursos - Tecnologia de Informação e Comunicação (TIC) - Básico","Livros - Nacional - Compra","Livros - Internacional - Compra","Livros - Nacional - Permuta","Livros - Internacional - Permuta","Livros - Nacional - Doação","Livros - Internacional - Doação","Teses - Nacional - Compra","Teses - Internacional - Compra","Teses - Nacional - Permuta","Teses - Internacional - Permuta","Teses - Nacional - Doação","Teses - Internacional - Doação","Periódicos - Títulos Correntes - Nacional - Compra","Periódicos - Títulos Correntes - Internacional - Compra","Periódicos - Títulos Correntes - Nacional - Permuta","Periódicos - Títulos Correntes - Internacional - Permuta","Periódicos - Títulos Correntes - Nacional - Doação","Periódicos - Títulos Correntes - Internacional - Doação","Multimeios - Nacional - Compra","Multimeios - Internacional - Compra","Multimeios - Nacional - Permuta","Multimeios - Internacional - Permuta","Multimeios - Nacional - Doação","Multimeios - Internacional - Doação","Outros Tipos - Nacional - Compra","Outros Tipos - Internacional - Compra","Outros Tipos - Nacional - Permuta","Outros Tipos - Internacional - Permuta","Outros Tipos - Nacional - Doação","Outros Tipos - Internacional - Doação","Livros - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Livros - Materiais não Cadastrados no DEDALUS","Teses - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Teses - Materiais não Cadastrados no DEDALUS","Periódicos (Fascículos) - Materiais cadastrados no DEDALUS até a presente data","Periódicos (Fascículos) - Materiais cadastrados no DEDALUS no ANO","Periódicos (Fascículos) - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Periódicos (Fascículos) - Materiais não Cadastrados no DEDALUS","Multimeios - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Multimeios - Materiais não Cadastrados no DEDALUS","Outros Tipos - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Outros Tipos - Materiais não Cadastrados no DEDALUS","Frequência de Usuários - USP","Frequência de Usuários - Locais das Bibliotecas","Circulação - Consulta","Circulação - Empréstimo entre Bibliotecas - Como Biblioteca Solicitante","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - SIBiUSP","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - SIBiUSP","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Cópias - SIBiUSP","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - COMUT","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - COMUT","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Cópias - COMUT","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - BIREME","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - BIREME","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Cópias - BIREME","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - OUTROS","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - OUTROS","Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Cópias - OUTROS","Comutação Bibliográfica - Internacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos","Comutação Bibliográfica - Internacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos","Comutação Bibliográfica - Internacional Como Biblioteca Fornecedora - Número de Cópias","Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - SIBiUSP","Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - SIBiUSP","Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - COMUT","Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - COMUT","Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - BIREME","Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - BIREME","Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - OUTROS","Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - OUTROS","Comutação Bibliográfica - Internacional Como Biblioteca Solicitante - Número de Pedidos Atendidos","Comutação Bibliográfica - Internacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos","Assistência ao Usuário - Número de Assistências Efetuadas","Normalização Técnica - Documento como um Todo","Normalização Técnica - Referências Bibliográficas","Equipamentos de Informática - Microcomputador - Número de Equipamentos Usuários","Equipamentos de Informática - Microcomputador - Número de Equipamentos Funcionários","Equipamentos de Informática - Impressora - Número de Equipamentos Usuários","Equipamentos de Informática - Impressora - Número de Equipamentos Funcionários","Equipamentos de Informática - Scanner - Número de Equipamentos Usuários","Equipamentos de Informática - Scanner - Número de Equipamentos Funcionários","Equipamentos de Informática - Outros - Número de Equipamentos Usuários","Equipamentos de Informática - Outros - Número de Equipamentos Funcionários","Bases de dados locais","Publicações da Biblioteca","Publicações Oficiais da Unidade com Participação da Biblioteca","Projetos","Eventos","Atividades ligadas à Graduação","Atividades ligadas à Cultura e Extensão","Oferece serviços pela internet?","Possui rede sem fio?","Participa de redes sociais?","Facebook","Twitter","Blog","Flickr","Pinterest","Youtube","Outro","Oferece condições de acessibilidade?","Atendente ou membro da equipe de atendimento treinado na língua brasileira de sinais Libras?","Acessibilidade Arquitetônica ou Física - Possui banheiros adaptados?","Acessibilidade Arquitetônica ou Física - Possui bebedouros e lavabos adaptados?","Acessibilidade Arquitetônica ou Física - Possui Entrada/Saída com dimensionamento?","Acessibilidade Arquitetônica ou Física - Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?","Acessibilidade Arquitetônica ou Física - Possui espaço para atendimento adaptado?","Acessibilidade Arquitetônica ou Física - Possui mobiliário adaptado?","Acessibilidade Arquitetônica ou Física - Possui rampa de acesso com corrimão?","Acessibilidade Arquitetônica ou Física - Possui sinalização tátil?","Acessibilidade Arquitetônica ou Física - Possui sinalização visual?","Acessibilidade Arquitetônica ou Física - Possui sinalização sonora?","Acessibilidade Arquitetônica ou Física - Possui ambiente desobstruídos que facilitem a movimentação de cadeirantes e pessoas com deficiência visual?","Acessibilidade de conteúdo - Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato especial?","Acessibilidade de conteúdo - Possui acervo em formato especial (Braille/Sonoro)?","Acessibilidade de conteúdo - Possui websites e aplicações desenvolvidas para que pessoas percebam, compreendam, naveguem e utilizem os serviços oferecidos?","Acessibilidade Tecnológica - Disponibiliza impressoras em Braille?","Acessibilidade Tecnológica - Disponibiliza software de leitura para pessoas com baixa visão?","Acessibilidade Tecnológica - Disponibiliza teclado virtual?"
+"1","1","17/03/2015 - 15:28","17/03/2015 - 15:28","17/03/2015 - 15:28","0","200.144.210.248","1","admin","Escola de Comunicações e Artes","120","1648","0","0","7","3","3","0","10","5","1","0","0","2","0","0","3","0","0","0","0","0","0","0","0","1","0","0","1","0","0","0","0","0","0","0","0","0","980","341","228","0","0","0","0","0","17","117","17","8","45","5","0","0","0","0","0","0","336","0","0","0","50","0","43","8737","3","166","71126","0","1","18150","3","3212","0","13540","58683","898","18519","114","14","6","22","28","12","1558","0","0","0","0","0","128","0","0","0","3","0","2","0","0","0","0","0","0","0","484","15","5","20","37","0","10","0","6","2","1","Bases de dados locais
+Acorde – Partituras =171
+Cena - Imagens em Movimento = 272
+Ecaliv – Monografias = 00
+Foto – fotografias  = 02
+Renova – Periódicos = 00
+Sonora – Gravações  =182","Site: http://www3.eca.usp.br/biblioteca","","","","Recepção aos calouros e treinamento de alunos para uso dos recursos informacionais da biblioteca","Participação no evento: Usp e as profissões","Sim","Sim","Sim","http://www.facebook.com/bibliotecadaeca","http://twitter.com/bibliotecadaeca/","http://bibliotecadaeca.wordpress.com/","http://www.flickr.com/photos/bibliotecadaeca/","http://www.pinterest.com/bibliotecadaeca/","","Pearltres:http://www.pearltrees.com/bibliotecadaeca","Sim","","Sim","Sim","Sim","Não","Sim","Sim","Não","Sim","Não","Não","Sim","Não","Sim","Não","Não","Sim","Não"
+"2","2","18/03/2015 - 12:58","18/03/2015 - 12:58","18/03/2015 - 12:58","0","200.144.210.248","1","admin","Escola de Artes, Ciências e Humanidades","384","3000","0","0","6","2","0","0","5","7","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1","0","2","3","0","0","0","0","0","0","0","0","431","54","0","0","0","0","61","0","2","33","62","5","122","6","0","0","0","0","0","0","0","0","0","0","42","0","0","18684","0","17","20157","477","0","0","0","256","0","4700","57924","1183","6104","72","1","0","15","4","0","88","0","0","0","8","0","244","0","0","0","21","2","14","0","0","0","2","0","0","0","1048","0","0","11","25","0","7","0","1","0","0","TEXTIL - Base Local - 0 cadastramentos no período","","Solicitação de ISBN (6):
+
+978-85-64842-18-1 Pesquisas em design, gestão e tecnologia de têxtil e moda: 1º semestre de 2014 - PAPEL
+
+978-85-64842-17-5 Pesquisas em design, gestão e tecnologia de têxtil e moda: 1º semestre de 2014 - PUBLICAÇÃO DIGITALIZADA
+
+978-85-64842-16-8 Caderno de resumos=Cuaderno de resúmenes=Abstract book - PAPEL
+
+978-85-64842-15-1 Concept mapping to learn and innovate : proceedings of the Sixth International Conference on Concept Mapping - E-BOOK
+
+978-85-64842-14-4 Pesquisas em design, gestão e tecnologia de têxtil e moda: 2013 - PUBLICAÇÃO DIGITALIZADA
+
+978-85-64842-13-7 Pesquisas em design, gestão e tecnologia de têxtil e moda: 2013 - PAPEL","","XVII Semana do livro e da biblioteca da USP, 20 a 24 de outubro, Outros, Evento totalmente realizado pela Biblioteca
+
+Atividades:
+Estrutura do trabalho acadêmico: Página de rosto e afins, 20 a 24 de outubro, Exposição, Evento totalmente realizado pela Biblioteca
+Proquest, Maria Fátima Santos, 21 de outubro,  palestra, Evento totalmente realizado pela Biblioteca
+Normalização de trabalhos acadêmicos, Maria Fátima Santos, 21 de outubro, palestra, Evento totalmente realizado pela Biblioteca
+Gerenciadores de referência End Note e Mendeley, Solande Alves Santana, 22 de outubro, palestra,Evento totalmente realizado pela Biblioteca
+Proquest, Maria Fátima Santos, 22 de outubro, palestra, Evento totalmente realizado pela Biblioteca
+Normalização de trabalhos acadêmicos, Maria Fátima Santos, 22 de outubro, palestra, Evento totalmente realizado pela Biblioteca
+Gerenciador de referência End Note, Analúcia Recine, 24 de outubro, palestra, Evento totalmente realizado pela Biblioteca
+
+Outros:
+
+Exposição dos Trabalhos de Formatura dos Alunos de Têxtil e Moda, 28 de novembro a 5 de dezembro, exposição, Participação na comissão organizadora
+Design de superfície Texturas - Frottage, Profa. Dra. Maria Silvia Barros de Held, 16 a 18 de dezembro, exposição, Participação na comissão organizadora
+Experimentos em modelagem: Saias Profa. Dra. Isabel C. Italiano, 16 de dezembro de 2014 a 13 de fevereiro de 2015, exposição, Participação na comissão organizadora","Treinamentos:
+Palestra sobre a Biblioteca e seus serviços para ingressantes. Temas abordados: Missão do SIBi, comportamento na Biblioteca, Número de chamada, Dedalus, Portal de Busca Integrada e Portal CAPES.
+Essa palestra foi apresentada em 7 salas de aula, com o total de 317 calouros.
+
+Palestra sobre Pesquisa em Bases de dados para alunos de metodologia da pesquisa em turismo. Temas abordados: Recursos de bases de dados e portal CAPES
+Essa palestra foi apresentada em 2 salas de aula, com o total de 120 estudantes.
+
+
+Acompanhamento dos trabalhos desenvolvidos na Tecidoteca da EACH pelos bolsistas de Têxtil e Moda:
+
+Monyque Artese:        Tecidoteca na EACH/USP – Imagem digital de tecidos, Programa Ensinar com pesquisa
+Tiago Fogaça Marangoni:        Tecidoteca na EACH/USP - Preparo de artigo científico, Ensinar com Pesquisa
+Luana Nishikava: Tecidoteca na EACH/USP – Tramas de tecidos, Aprendendo com Cultura e Extensão
+
+Catalogação na fonte TCC's: 18","Feira de profissões da EACH: Mostra da Bibliografia Básica dos Cursos de Graduação e Pós-graduação, 24 e 25 de outubro de 2014.","Sim","Sim","Sim","https://www.facebook.com/pages/Biblioteca-EACH-USP-Leste/308809459193048","","","","","","","Não","Não","Sim","Sim","Não","Não","Sim","Sim","Não","Não","Não","Não","Sim","Sim","Não","Não","Não","Não","Não"
+"3","3","18/03/2015 - 13:52","18/03/2015 - 13:52","18/03/2015 - 13:52","0","200.144.210.248","1","admin","Faculdade de Direito","144","1585","0","0","16","5","0","0","13","12","1","0","0","261","42","84","0","1","0","0","0","0","0","0","0","0","0","0","29","13","9","3","3","0","0","7","0","0","136","0","0","0","0","0","322","0","32","50","43","54","60","6","0","0","0","0","0","0","0","0","0","0","32","2","0","0","0","246","155395","1191","0","0","0","194","0","13","23733","8647","66519","377","93","12","1324","31","18","484","0","0","0","201","12","5844","1","1","112","20","2","0","2","0","0","2","0","2","0","3580","0","0","10","38","0","14","1","3","1","34","Nome        Tipo                     Quantidade
+
+Base de Dados da Revista da Faculdade de Direito da USP        Base Local da Biblioteca                 0
+
+IusData: Artigos de Periódicos do SBD        Base Local da Biblioteca                 4.757
+
+IusLibri: Base de Livros, Teses (não defendidas na USP), 
+Analíticas e Multimeios        Base Local da Biblioteca                1.238 
+
+Jornal: Base de Jornais Antigos e Acadêmicos        Base Local da Biblioteca                0 
+
+Prodo: Base de Produção Docente da FD        Base Local da Biblioteca                484 
+
+RARUS: Base de Obras Raras (Séc. XVI - XVIII)        Base Local da Biblioteca                0 
+
+Teses: Base de Teses do SBD        Base Local da Biblioteca                245 ","Boletim informativo mensal O Arauto – 10 edições em 2014","","Projeto: “Higienização do acervo da biblioteca central e sala de consulta do serviço de biblioteca e documentação da faculdade de direito da usp: conservação preventiva”
+Descrição: Higienização do Acervo existente na Biblioteca Central e Sala de Consulta para prover à biblioteca de condições próximas às ideais ao estudo e pesquisa, preservar o acervo para as gerações futuras e estabilizar a coleção 
+Proponente: Mércia Maria Costa da Fonseca
+Coordenadores: Maíra Cunha de Souza Maria, Maria Lucia Beffa, Sérgio Carlos Novaes e Silvia Mara de Andrade Jastwebski
+Período: 26/09/2013 à 25/03/2015
+Recursos recebidos dos patrocinadores: R$ 285.000,00
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: À Pró-Reitoria de Cultura e Extensão Universitária da Universidade de São Paulo.
+
+Projeto: “Higienização das obras raras e especiais da biblioteca da FDUSP: do século XVI ao XIX
+Descrição: Higienização para preservação da memória histórica constante do acervo da FDUSP 
+Proponente: Sérgio Carlos Novaes
+Coordenadores: Maíra Cunha de Souza Maria, Maria Lucia Beffa, e Silvia Mara de Andrade Jastwebski
+Período: 26/09/2013 à 25/03/2015
+Recursos recebidos dos patrocinadores:  R$ 285.000,00
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: À Pró-Reitoria de Cultura e Extensão Universitária da Universidade de São Paulo
+
+Projeto: “Preservação da memória histórica e jurídica:higienização e acondicionamento da coleção de jornais acadêmicos antigos e jornais do século XIX e XX do acervo do serviço de biblioteca e documentação da FDUSP
+Descrição: Estabilização do material para garantir a longevidade dos mesmos. 
+Proponente: Silvia Mara de Andrade Jastwebski
+Coordenadores: Maíra Cunha de Souza Maria, Márcia Gomes dos Santos,Maria Lucia Beffa, Sérgio Carlos Novaes
+Período: 26/09/2013 à 25/03/2015
+Recursos recebidos dos patrocinadores: R$ 240.000,00
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: À Pró-Reitoria de Cultura e Extensão Universitária da Universidade de São Paulo
+
+Projeto Reserva Técnica Institucional
+Descrição: Aquisição de livros estrangeiros sob coordenação do Prof. Antonio Magalhães Gomes Filho 
+Período: 01/03/2013 à 28/02/2014
+Recursos recebidos dos patrocinadores: R$ 11.925,64
+Patrocinadores: FAPESP 
+Pessoal da Biblioteca envolvido: Maria Lucia Beffa, Celia C. da Cruz, Ester T. A. Miyazaki, Helena M. Oliveira, Helio P. Farias ","Colóquio: “Workshop do ABCD na FDUSP”
+Palestrante: Alisson de Castro
+Período: 18 de dezembro de 2014
+Duração: 7 h
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Apoio: Modal Networks
+
+Abertura da Exposição: “Das livrarias religiosas à primeira biblioteca pública de São Paulo: Acervo do primeiro inventário” - Semana da Biblioteca
+Curadoria: Prof. Samuel Rodrigues Barbosa (FDUSP)
+Montagem da exposição: Maíra Cunha de Souza Maria, Márcia Gomes dos Santos, Maria Lucia Beffa, Raquel Lima de Matos, Silvia Mara de Andrade Jastwebski
+Período: 03 de novembro a 18 de dezembro de 2014
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Encontro: “1º Encontro Paulista de Documentação e Informação Jurídicas, realizado na Faculdade de Direito da USP, na cidade de São Paulo”
+Comissão Organizadora: Maria Lucia Beffa, Maíra Cunha de Souza Maria e Silvia Mara de Andrade Jastwebski
+Período: 27 a 29 de março de 2014
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Conselho Regional de Biblioteconomia do Estado de São Paulo – 8ª Região e o Grupo de Informação e Documentação Jurídica de São Paulo
+
+Evento: “Semana da Biblioteca da Faculdade de Direito da Universidade de São Paulo”
+Organização: Eleonora Aparecida Sampaio, Erinalva da Conceição Batista, Lívia Franco Martin, Maíra Cunha de Souza Maria, Márcia Gomes dos Santos, Mércia Maria Costa da Fonseca, Raquel Lima de Matos, Silvia Mara de Andrade Jastwebski, Tânia Amir de Jesus Dias
+Período: 03 a 07 de novembro de 2014
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Exposição: “A Faculdade de Direito nos 80 Anos da USP”
+Tema: 187 Anos da Criação dos Cursos Jurídicos no Brasil e 80 anos da Criação da Universidade de São Paulo
+Comissão de apoio : Maria Lucia Beffa, Maíra Cunha de Souza Maria, Márcia Gomes dos Santos, Rosangela Aparecida Ventura Pupo e Silvia Mara de Andrade Jastwebski
+Período: Agosto de 2014-2015
+Duração: 1 ano
+Local: Faculdade de Direito da USP, Museu da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Museu da Faculdade de Direito da Universidade de São Paulo
+
+Lançamento da sacola: “O jeito franciscano de preservar nossos livros”
+Período: 04 de novembro 2014
+Desenho: Eleonora Aparecida Sampaio, Erinalva da Conceição Batista, Lívia Franco Martin, Maíra Cunha de Souza Maria, Márcia Gomes dos Santos, Raquel Lima de Matos, Silvia Mara de Andrade Jastwebski e Tânia Amir de Jesus Dias
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Oficina de Preservação
+Palestrantes: Carlos Roberto Alves, Isabel Cristina Calherani e Mércia Maria Costa da Fonseca
+Período: 6 de novembro de 2014 - (2 turmas)
+Duração: 6 h
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: ""Como nascem as bibliotecas? Um estudo sobre a formação da primeira Biblioteca Pública de São Paulo (1825-1887)""
+Palestrante: Marisa Midori Deacto Profª. Drª. do Depto. de Jornalismo e Editoração da ECAUSP
+Período: 29 de março de 2014
+Duração: 1 hora 
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: ""Mercado de trabalho do profissional jurídico na Espanha""
+Palestrante: José Fernando Modesto da Silva Prof. Dr. do Depto. de Biblioteconomia e Documentação
+Período: 27 de março de 2014
+Duração: 30 minutos 
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: ""O livro didático no ensino da história-contributo do ensino jurídico""
+Palestrante: Eduardo Tomasevicius Prof. Dr. Depto. Direito Civil da FDUSP
+Período: 28 de março de 2014
+Duração: 1 hora 
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: “Apresentação da Biblioteca Digital da Produção Intelectual da Universidade de São Paulo (BDPI)”
+Palestrantes: Erinalva da Conceição Batista
+Período: 02 e 07 de julho de 2014
+Duração: 2h e 30min
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: “Bibliotecas e Bibliotecários da Antiguidade às primeiras universidades”
+Palestrante: Prof. Dr. Hélcio Maciel França Madeira
+Período: 04 de novembro de 2014
+Duração: 3 h
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: “Coleções especiais e acervos de memória: conceitos e reflexões”
+Palestrante: Fabiano Cataldo de Azevedo 
+Período: 4 de junho de 2014
+Duração: 3 h
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: “Notas Sobre Raridade Bibliográfica”
+Palestrante: André Vieira de Freitas Araújo
+Período: 07 de novembro de 2014
+Duração: 3 h
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: “Preservar para não restaurar”
+Palestrantes: Célia Campos da Cruz e Isabel Cristina Calherani
+Período: 14 e 23 de maio de 2014 (duas turmas)
+Duração: 1 hora e 45 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: “Preservar para Não Restaurar”
+Palestrantes: Maíra Cunha de Souza Maria e Sílvia Mara de Andrade Jastwebski
+Período: 05 de novembro de 2014
+Duração: 3 h
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Palestra: “Prevenção contra emergências com água, fogo e perdas patrimoniais”
+Palestrante: Bibliotecária Solange A. Otto Franco
+Período: 24 de setembro de 2014
+Duração: 2 h
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Relato de experiência: ""Ambiente interno e externo""
+Palestrante: Marcos Rogério Gonçalves
+Período: 29 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Relato de experiência: ""O tratamento de offerings no escritório jurídico:""
+Palestrante: Regina Celi de Sousa, Aparecida Zanelato
+Período: 29 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Relato de experiência: “Estabilização e preservação da coleção de jornais antigos da FDUSP-Séculos XIX e XX - da imprensa paulista e da imprensa acadêmica"" 
+Palestrantes: Maíra Cunha de Souza Maria, Maria Lucia Beffa, Glória Cristina Motta, Sueli Mitiko Yano Suga  
+Período: 28 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: ""Gestão de informações e gerenciamento eletrônico de documentos""
+Palestrantes: Catia Martins Jorge e Leonardo Brandileone
+Período: 28 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: ""Livros raros na licitação pública e o Projeto de Lei 4.672/12""
+Palestrantes: Luciana Maria Napoleone, Maíra Cunha de Souza Maria, Maria Lucia Beffa, Silvia Mara de Andrade Jastwebski
+Período: 28 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: ""Marketing digital em bibliotecas digitais: um estudo sobre a aplicabilidade de ferramentas da web 2.0""
+Palestrante: Ednéia Silva Santos Rocha, Rafael Mielli Rodrigues, Vanessa Rodrigues
+Período: 27 de março de 2014
+Duração: 30 minutos 
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: ""Metodologia de trabalho para atualização do Vocabulário Controlado da Universidade de São Paulo (USP) da área jurídica""
+Palestrante: Cristina Miyuki Narukawa, Fabianan Gulin Longhi Palácio, Marli I. de Moraes, Francisco Mariano da Silva, Maria dos Remédios da Silva, Eleonora Aparecida Sampaio, Raquel Lima de Matos
+Período: 27 de março de 2014
+Duração: 30 minutos 
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: ""Organização do conhecimento jurídico brasileiro: um caso de historiografia biblioteconômica""
+Palestrantes: Luciana Maria Napoleone, Maria Lucia Beffa
+Período: 28 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: ""Processo de elaboração da tabela de classificação jurídica da Biblioteca da Faculdade de Direito de Ribeirão Preto da Universidade de São Paulo: agilidade no processo de descrição
+temática e facilidade de acesso pelos usuários""
+Palestrante: Ednéia Silva Santos Rocha, Milena Celere
+Período: 28 de março de 2014
+Duração: 30 minutos 
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: ""Repositório digital: DSpace como uma ferramenta de gestão da informação em escritórios de advocacia""
+Palestrantes: Daniele Cristina Gonçalves Brene Pires e José Fernando Modesto da Silva Prof. Dr. do Depto. de Biblioteconomia e Documentação da ECAUSP
+Período: 28 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: “Arquivos jurídicos como unidade de informação: uma questão de marketing?""
+Palestrantes: Roseli Miranda
+Período: 28 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: “Boas práticas jurídicas: implantação de metodologia em escritório de advocacia""
+Palestrantes: Solange Aparecida Simões Ferreira do Ó
+Período: 28 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: “Livros raros na licitação pública e o Projeto de Lei 4.672/12”
+Palestrantes: Maíra Cunha de Souza Maria e Silvia Mara de Andrade Jastwebski
+Período: 28 de março de 2014
+Duração: 1 hora e 45 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Conselho Regional de Biblioteconomia do Estado de São Paulo – 8ª Região e o Grupo de Informação e Documentação Jurídica de São Paulo
+
+Trabalho: “Metodologia de Trabalho para Atualização do Vocabulário Controlado da Universidade de São Paulo (USP) da Área Jurídica”
+Palestrantes: Maria dos Remédios da Silva
+Período: 27 de março de 2014
+Duração: 1 hora e 45 minutos?
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: “O livro no debate político do século 19""
+Palestrantes: Luciana Maria Napoleone, Maria Lucia Beffa
+Período: 28 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Trabalho: “Reflexões sobre a formação do acervo da Academia de Direito do Largo de São Francisco: do século XIX aos nossos dias”
+Palestrantes: Maíra Cunha de Souza Maria, Sérgio Carlos Novaes e Silvia Mara de Andrade Jastwebski 
+Período: 28 de março de 2014
+Duração: 30 minutos
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo.
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Treinamento: “Curso de Capacitação em ferramentas de pesquisa e bases de dados”
+Palestrante: Rosangela Aparecida Ventura Pupo
+Período: 07 de julho de 2014
+Duração: 1h 30m
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Treinamento: “Curso de Capacitação em ferramentas de pesquisa e bases de dados”
+Palestrante: Rosangela Aparecida Ventura Pupo
+Período: 16 de junho de 2014
+Duração: 1h 30m
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+
+Treinamento: “Curso de Capacitação em ferramentas de pesquisa e bases de dados”
+Palestrante: Rosangela Aparecida Ventura Pupo
+Período: 29 de junho de 2014
+Duração: 3 h
+Local: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo
+Instituição promotora: Faculdade de Direito da USP, Biblioteca da Faculdade de Direito da Universidade de São Paulo","A Biblioteca da Faculdade de Direito da USP ofereceu treinamentos de capacitação em metodologias de pesquisa em bases de dados e plataformas eletrônicas assinadas e disponibilizadas pelo SIBi/USP, aos alunos de graduação, pós-graduação, professores e demais interessados nos recursos informacionais disponíveis na universidade. Entre eles, destacamos: Portal de Busca Integrada, HeinOnline, LexisNexis, JSTOR, Dissertations & Theses, SSRN (LSN), Dedalus, IusData, entre outras. No período de maio a dezembro de 2014, foram realizados 16 treinamentos, atingindo um público de 235 participantes nesse segmento.
+Além disso, a Biblioteca ofereceu, ainda, aos alunos de graduação, pós-graduação e demais interessados, no período de novembro a dezembro de 2014, treinamentos de capacitação em orientação bibliográfica: Referências Bibliográficas - Elaboração (NBR 6023), Citações em Documentos - Apresentação (NBR 10520), Trabalhos Acadêmicos - Apresentação (NBR 14724). Foram realizados 3 treinamentos nesse segmento, que atingiram um público de 14 participantes.
+Com estes treinamentos, reforçamos o papel educacional da Biblioteca na formação dos estudantes, garantindo maior qualidade aos seus trabalhos acadêmicos e um melhor aproveitamento dos recursos públicos investidos na universidade.
+Este Programa de Capacitação terá continuidade no ano de 2015.","Visita monitorada à Faculdade de Direito da Universidade de São Paulo realizada na última sexta-feira de cada mês. Atividade da Faculdade sob a direção da Biblioteca","Sim","Sim","Sim","https://pt-br.facebook.com/pages/Biblioteca-da-FDUSP/553522528001156 ","http://twitter.com/BibliotecaFDUSP","","","","https://www.youtube.com/channel/UCt_kovhtpVW5SvM656xX8zA","","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","","Não","Não","Não","Não","Não","Não"

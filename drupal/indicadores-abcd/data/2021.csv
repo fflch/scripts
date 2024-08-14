@@ -1,0 +1,1551 @@
+"2021","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"Submission Details","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Formulário para Coleta de Dados das Atividades de Capacitação de Usuários ","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"Serial","SID","Hora do Envio","Completed Time","Modified Time","Draft","Endereço IP","UID","Usuário","Unidade","Número de assentos para usuários","Área Física (em m²) - Total ano anterior","Área Física (em m²) - Ampliação no período","Área Física (em m²) - Redução no período","Funcionários de nível Superior","Funcionários de nível Superior com Especialização","Funcionários de nível Superior com Mestrado","Funcionários de nível Superior com Doutorado","Funcionários de nível Técnico","Funcionários de nível Básico","Funcionários de nível Superior - Vagas não preenchidas","Funcionários de nível Técnico - Vagas não preenchidas","Funcionários de nível Básico - Vagas não preenchidas","Eventos - Superior","Eventos - Técnico","Eventos - Básico","Pós-Graduação - Especialização - Superior","Pós-Graduação - Especialização - Técnico","Pós-Graduação - Especialização - Básico","Pós-Graduação - Mestrado - Superior","Pós-Graduação - Mestrado - Técnico","Pós-Graduação - Mestrado - Básico","Pós-Graduação - Doutorado - Superior","Pós-Graduação - Doutorado - Técnico","Pós-Graduação - Doutorado - Básico","Cursos - Gerencial - Superior","Cursos - Gerencial - Técnico","Cursos - Gerencial - Básico","Cursos - Capacitação para Serviços - Superior","Cursos - Capacitação para Serviços - Técnico","Cursos - Capacitação para Serviços - Básico","Cursos - Tecnologia de Informação e Comunicação (TIC) - Superior","Cursos - Tecnologia de Informação e Comunicação (TIC) - Técnico","Cursos - Tecnologia de Informação e Comunicação (TIC) - Básico","Nome","Filesize (KB)","Livros - Nacional - Compra","Livros - Internacional - Compra","Livros - Nacional - Permuta","Livros - Internacional - Permuta","Livros - Nacional - Doação","Livros - Internacional - Doação","Teses - Nacional - Compra","Teses - Internacional - Compra","Teses - Nacional - Permuta","Teses - Internacional - Permuta","Teses - Nacional - Doação","Teses - Internacional - Doação","Periódicos - Títulos Correntes - Nacional - Compra","Periódicos - Títulos Correntes - Internacional - Compra","Periódicos - Títulos Correntes - Nacional - Permuta","Periódicos - Títulos Correntes - Internacional - Permuta","Periódicos - Títulos Correntes - Nacional - Doação","Periódicos - Títulos Correntes - Internacional - Doação","Multimeios - Nacional - Compra","Multimeios - Internacional - Compra","Multimeios - Nacional - Permuta","Multimeios - Internacional - Permuta","Multimeios - Nacional - Doação","Multimeios - Internacional - Doação","Outros Tipos - Nacional - Compra","Outros Tipos - Internacional - Compra","Outros Tipos - Nacional - Permuta","Outros Tipos - Internacional - Permuta","Outros Tipos - Nacional - Doação","Outros Tipos - Internacional - Doação","Livros - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Livros - Materiais não Cadastrados no DEDALUS","Teses - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Teses - Materiais não Cadastrados no DEDALUS","Periódicos (Fascículos) - Materiais cadastrados no DEDALUS até a presente data","Periódicos (Fascículos) - Materiais cadastrados no DEDALUS no ANO (01/01 a 31/12/2021)","Periódicos (Fascículos) - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Periódicos (Fascículos) - Materiais não Cadastrados no DEDALUS","Multimeios - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Multimeios - Materiais não Cadastrados no DEDALUS","Outros Tipos - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Outros Tipos - Materiais não Cadastrados no DEDALUS","Frequência de Usuários - USP","Frequência de Usuários - Locais das Bibliotecas","Consultas ao Acervo","Empréstimo entre Bibliotecas - Como Biblioteca Solicitante","Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - Bibliotecas USP","Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - Bibliotecas USP","Nacional Como Biblioteca Fornecedora - Número de Cópias - Bibliotecas USP","Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - COMUT","Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - COMUT","Nacional Como Biblioteca Fornecedora - Número de Cópias - COMUT","Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - BIREME","Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - BIREME","Nacional Como Biblioteca Fornecedora - Número de Cópias - BIREME","Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - OUTROS","Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - OUTROS","Nacional Como Biblioteca Fornecedora - Número de Cópias - OUTROS","Internacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos","Internacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos","Internacional Como Biblioteca Fornecedora - Número de Cópias","Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - Bibliotecas USP","Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - Bibliotecas USP","Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - COMUT","Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - COMUT","Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - BIREME","Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - BIREME","Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - OUTROS","Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - OUTROS","Internacional Como Biblioteca Solicitante - Número de Pedidos Atendidos","Internacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos","Número de Assistências Efetuadas","Documento como um Todo","Referências Bibliográficas","Microcomputador - Número de Equipamentos para Usuários","Microcomputador - Número de Equipamentos para Funcionários","Impressora - Número de Equipamentos para Usuários","Impressora - Número de Equipamentos para Funcionários","Scanner - Número de Equipamentos para Usuários","Scanner - Número de Equipamentos para Funcionários","Outros - Número de Equipamentos para Usuários","Outros - Número de Equipamentos para Funcionários","Bases de dados","Publicações da Biblioteca","Publicações Oficiais da Unidade com Participação da Biblioteca","Eventos","Projetos","Atividades ligadas à Graduação","Atividades ligadas à Cultura e Extensão","Oferece serviços pela internet?","Possui rede sem fio?","Participa de redes sociais?","Facebook","Twitter","Blog","Flickr","Pinterest","Youtube","Outro","Oferece condições de acessibilidade?","Atendente treinado na Língua Brasileira de Sinais (Libras)?","Possui banheiros e lavabos acessíveis?","Possui bebedouros acessíveis?","Possui entrada/saída com vão livre acessível para a circulação de pessoas com deficiência e mobilidade reduzida?","Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?","Possui espaço para atendimento acessível?","Possui mobiliário acessível?","Possui rampa de acesso com corrimão?","Possui sinalização tátil?","Possui sinalização visual?","Possui sinalização sonora?","Possui ambientes acessíveis para a movimentação/deslocamento/circulação de pessoas com deficiência e mobilidade reduzida?","Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato acessível?","Possui acervo em formato acessível para pessoas com deficiência visual (cegueira e baixa visão)?","Possui sítios, plataformas e programas acessíveis para que pessoas com deficiência naveguem e utilizem os serviços oferecidos com autonomia?","Disponibiliza serviços de impressão em Braille?","Disponibiliza leitores de tela para pessoas com deficiência visual (cegueira e baixa visão)?","Disponibiliza teclado virtual?"
+"2","328","10/12/2021 - 09:37","17/01/2022 - 17:20","17/01/2022 - 17:20","0","200.144.214.37","150","fdrp","Faculdade de Direito de Ribeirão Preto","104","880","0","0","3","1","3","1","3","1","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","373","2","0","0","0","0","40","0","0","0","0","0","30","0","0","0","0","0","0","0","0","0","0","0","0","0","0","300","0","0","5396","30","0","5","0","0","0","0","691","0","145","9","1","0","0","2","1","38","0","0","0","0","0","0","0","0","0","2","0","0","0","0","0","0","0","0","0","180","3","15","10","9","0","2","1","2","0","0","","","","","","","","Sim","Sim","Sim","","","","","","","Instagram @bibliotecafdrp - WhatsApp: 1633154960","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"4","330","10/12/2021 - 14:10","10/12/2021 - 14:10","27/01/2022 - 11:34","0","143.107.126.163","134","bbm","Biblioteca Brasiliana Guita e José Mindlin","114","7000","0","0","2","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","28","3","0","0","0","0","0","0","0","0","0","0","6","0","0","0","0","0","0","0","0","0","0","0","0","0","0","25.690","0","0","7735","23","0","1608","0","0","0","0","2","2","53","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","300","0","0","4","13","0","2","0","0","2","2","https://digital.bbm.usp.br/
+Tipo: Bibliográfica
+base local
+3687 registros
+
+https://www.bbm.usp.br/pt-br/dicionarios/
+Tipo: Bibliográfica
+
+https://arquivo.bbm.usp.br
+Tipo: Conj. Documentais
+7171 itens documentais
+
+https://viajantes.bbm.usp.br
+Tipo: Mapa interativo
+980 registros analíticos","https://www.bbm.usp.br/pt-br/publica%C3%A7%C3%B5es-bbm/","https://www.bbm.usp.br/pt-br/publica%C3%A7%C3%B5es-bbm/","https://www.bbm.usp.br/pt-br/outros-eventos/","Os mesmos de 2020","https://www.bbm.usp.br/pt-br/outros-eventos/","https://www.bbm.usp.br/pt-br/outros-eventos/","Sim","Sim","Sim","https://www.facebook.com/bibliotecabrasilianamindlinusp/","https://twitter.com/bbmusp","https://blog.bbm.usp.br","https://www.flickr.com/photos/bbmusp/"," https://br.pinterest.com/BBMUSP/"," https://www.youtube.com/channel/UC4wTnSCEZxg9Q63uOjYGw6g","https://www.instagram.com/bbmusp/","Sim","Não","Sim","Não","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"5","331","10/12/2021 - 15:55","21/01/2022 - 18:56","31/01/2022 - 15:29","0","143.107.24.3","157","fob","Faculdade de Odontologia de Bauru","446","3172","0","0","0","5","2","1","2","5","0","0","0","2","2","0","0","0","0","0","0","0","0","0","0","1","0","0","16","5","1","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/capacitacao_de_usuarios_2021_fob.xlsx","76","20","0","0","0","507","40","0","0","0","0","283","0","0","0","0","0","60","30","0","0","0","0","5","1","0","0","0","0","0","0","0","0","0","0","139173","456","0","0","0","0","0","0","1816","0","171","15","40","12","418","53","27","346","0","0","0","107","73","1055","1","1","25","15","3","0","3","0","0","33","19","10","16","3632","1247","9260","63","23","0","7","0","4","0","6","SeCS - Seriados em Ciências da Saúde =19","Acesso à Internet na USP: Rede sem Fio e VPN (FOB) – irregular – impressa e online – doação
+Citação de Autores - Norma ABNT NBR 10520:2002 – irregular – online – doação
+Conheça a Biblioteca [guia de serviços da Biblioteca FOB/USP] – irregular – impresso – doação
+Como agrupar o Author ID na Scopus? – irregular – online – doação
+Dedalus: Banco de Dados Bibliográficos da USP – irregular – online – doação
+Dedalus: como pesquisar livros – irregular – online – doação
+Diretrizes Básicas para Elaboração de Dissertações e Teses (FOB-USP) – irregular – online - doação
+Diretrizes Básicas para Elaboração de Monografias(FOB-USP) – irregular – online – doação
+Elaborando referências: ABNT 6023:2002 – irregular – online – doação
+Formas de comunicação científica: periódicos – irregular – online – doação
+Normas de Vancouver: referências – irregular – online – doação
+PubMed (Medline) – irregular – online – doação
+Revistas científicas: acesso eletrônico – irregular – online – doação
+Teses, dissertações e livros: acesso eletrônico – irregular – online – doação
+Wiley - Livros Eletrônicos – irregular – online – doação
+","Journal of Applied Oral Science (1678-7765) – publicação contínua (volumes anuais, sem fascículos) a partir de 2018 somente versão online – online – doação – comissão responsável pela publicação, normalização técnica, infraestrutura administrativa, distribuição e divulgação.
+PET Informa (ISSN 1806-6151) –  semestral – online – normalização técnica
+Catálogo de Graduação – anual – online – doação – comissão responsável pela publicação e normalização técnica 
+","Não se aplica.","Não se aplica.","- Participação na Semana de Recepção aos Calouros, com apresentação sobre a Biblioteca para os alunos ingressantes dos cursos de Odontologia, Fonoaudiologia e Medicina; 
+- Participação em disciplina do curso de Fonoaudiologia, a convite dos docentes, com desenvolvimento de conteúdo online, em plataforma da disciplina.
+","- Participação em disciplina de Metodologia para os cursos do HRAC-USP de Residência Multiprofissional em Saúde Auditiva, Residência Multiprofissional em Síndromes e Anomalias Craniofaciais e especialização nas áreas de Dentística, Endodontia, Odontopediatria, Ortodontia, Periodontia, Prótese Dentária, Radiologia Odontológica e Imaginologia. ","Sim","Sim","Sim","https://www.facebook.com/BibliotecaFOBUSP","https://twitter.com/bibfobusp","https://sddinforma.fob.usp.br/","https://flickr.com/people/56370315@N03/","https://br.pinterest.com/bibfobusp/","https://www.youtube.com/user/bibfobusp/","https://www.instagram.com/bibliotecafobusp/","Não","Sim","Sim","Não","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"6","332","16/12/2021 - 15:43","21/01/2022 - 09:08","21/01/2022 - 09:08","0","143.107.190.116","159","fzea","Faculdade de Zootecnia e Engenharia de Alimentos","194","1453.93","0","0","0","3","1","0","1","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","10","1","37","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/159_5.xlsx","16","4","0","0","0","44","2","0","0","0","0","38","0","1","0","0","0","10","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","49860","68","88","0","0","0","0","0","646","2.817","198","328","3","0","50","0","0","0","0","0","0","0","0","0","0","0","0","7","0","0","0","0","0","0","0","0","0","1662","92","4.551","17","9","0","1","1","1","0","1","Nenhum","DOZENA, M. R.; RODRIGUES, V.; OLIVIERA, E. B. P. M.; LIMA, G. A. Diretrizes para elaboração de teses e dissertações na FZEA/USP. 3. ed. Revisada, ampliada e modificada. Pirassununga: FZEA/USP, 2021. (formato online)
+
+Fôlder apresentação da Biblioteca (periodicidade anual, formato impresso e online, distribuição por doação)
+
+Guia de renovações (periodicidade anual, formato impresso e online, distribuição por doação)","Nenhum","Dados completos disponíveis em (2021_Capacitação_de_Usuarios_xlsx)","Nenhum","Recepção de Calouros online
+Dados completos disponíveis em (2021_Capacitação_de_Usuarios_xlsx)","Bibliotecário Girlei Aparecido de Lima foi Revisor na publicação: ""USP na escolinha e a engenharia de biossistemas"", de autoria de Delaine Goulart da Rocha.","Sim","Sim","Sim","https://facebook.com/bibliotecafzea","","http://bibliotecafzea.blogspot.com.br/","https://flickr.com/photos/bibliotecafzea","","","https://slideshare.net/bibfzea; http://www.fzea.usp.br/biblioteca; http://www.fzea.usp.br/?page_id=1707","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"7","333","17/12/2021 - 09:29","21/01/2022 - 16:09","21/01/2022 - 16:09","0","143.107.243.191","156","fo","Faculdade de Odontologia","154","1505.05","0","0","4","1","0","2","7","6","5","3","0","8","0","0","3","0","0","0","0","0","0","0","0","10","0","0","40","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/156_5.xlsx","11","33","0","0","0","98","5","0","0","0","0","163","0","0","4","0","0","15","0","0","0","0","0","21","0","0","0","0","0","0","0","106","0","0","0","64839","55","0","0","0","0","0","0","1356","273","330","5","0","0","0","123","30","871","0","0","0","546","15","7938","0","0","0","0","0","1","0","0","0","0","0","0","0","0","107","8169","22","23","0","4","6","4","3","1","LILACS
+BBO
+SECS","SDO em rede
+Folha de Estilo","FOUSP News","Devido a pandemia não aconteceu nenhum evento presencial no SDO em 2021.","CRAI
+Projeto "" cultura e Extensão - Aprender com Cultura e Extensão","Participação e colaboração ativa da Biblioteca OSD0702 _ Metodologia Científica","Estagiários - Bolsa PUB
+Projetos: Organização, Tratamentos e Processamento Técnico da Informação
+CRAI - Centro de Recursos para Aprendizagem e Investigação
+Produção Científica FOUSP","Sim","Sim","Sim","www.facebook.com/sdousp","Não","Não","Não","Não","Não","","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"8","334","20/12/2021 - 16:07","19/01/2022 - 10:07","24/01/2022 - 09:11","0","143.107.227.95","145","eesc","Escola de Engenharia de São Carlos","400","4020","438.35","357.55","3","2","2","1","11","1","1","1","1","76","39","8","2","1","0","2","0","0","1","0","0","0","0","0","11","18","1","3","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/capacitacao_de_usuarios_2021_versaofinal.xlsx","12","0","0","0","0","121","0","0","0","0","0","246","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","97","0","0","0","305459","264","0","0","0","0","577","0","507","0","1229","1","1","1","8","2","1","15","0","0","0","45","5","1519","0","0","0","0","0","0","0","0","0","0","1","0","0","1672","50","5373","23","24","1","4","2","2","41","8","Nome: Portal de Eventos Científicos da Escola de Engenharia de São Carlos da USP  - Base Nacional: base mantida pela própria Biblioteca com a participação de outras  instituições nacionais -  
+Registros Cadastrados no Período: 634 trabalhos 
+*************************************************************
+Nome: Biblioteca Digital de Trabalhos Acadêmicos Tipo: Trabalhos acadêmicos -  Base Local  
+Acesso: http://www.tcc.sc.usp.br/  
+Registros cadastrados no período: 374  
+
+*****************************************
+Nome: Repositório Institucional da EESC  
+Tipo: Memória Institucional da Unidade -  
+Base Local  
+Acesso: http://repositorio.eesc.usp.br/  
+Registros cadastrados no período: 
+Coleção: EESC na Mídia: 61
+Coleção: Recursos Educacionais : 645
+Coleção: Memória: 52 
+","1) Título: Livro de resumos expandidos do 34. Congresso de Iniciação Científica e Tecnológica em Engenharia & 28. Simpósio Internacional de Iniciação Científica e Tecnológica da USP  & Book of extended abstracts of the 34. Congress of Scientific and Technological Initiation in Engineering & 28. USP International Symposium of Undergraduate Research
+Acesso: http://soac.eesc.usp.br/index.php/siicusp/28siicusp
+Formato: Online
+Nível de participação da Biblioteca: Criação homepage e de formulários para envio dos vídeos e de avaliação das apresentações, Elaboração da agenda, Criação e gerenciamento das salas virtuais, Cadastramento, Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: 230
+ISBN: 978-65-86954-07-4 (português); 978-65-86954-08-1 (inglês)
+ 
+2) Título: Anais do 17º Encontro Brasileiro em Madeiras e em Estruturas de Madeira
+Acesso: http://soac.eesc.usp.br/index.php/ebramem/xviiebramem
+Formato: Online
+Nível de participação da Biblioteca: Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: 147
+ISBN: 978-65-86954-04-3
+ 
+3) Título: Proceedings of the 5 th Brazilian Conference on Composite Materials
+Acesso: http://soac.eesc.usp.br/index.php/bccm/5bccm
+Formato: Online
+Nível de participação da Biblioteca: Cadastramento, Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: 155
+ISBN: 978-65-86954-05-0
+ 
+4) Título: Resumos expandidos da 11ª Semana da Engenharia de Materiais
+Acesso: http://soac.eesc.usp.br/index.php/sema/xisema
+Formato: Online
+Nível de participação da Biblioteca: Cadastramento, Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: 8
+ISBN: 978-65-86954-10-4
+ 
+5) Título: Anais do 13. Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto
+Acesso: http://soac.eesc.usp.br/index.php/cbgdp/13cbgdp
+Formato: Online
+Nível de participação da Biblioteca: Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: 72
+ISSN: 2357-7592
+ 
+6) Título: Anais do 5º Simpósio do Programa de Pós-Graduação em Engenharia Mecânica da EESC-USP
+Acesso: http://soac.eesc.usp.br/index.php/SiPGEM/vsipgem
+Formato: Online
+Nível de participação da Biblioteca: Criação de formulários para envio dos vídeos, Elaboração da agenda, Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: 19
+ISSN: 2674-8452
+ 
+7) Título: Resumos do 9º Simpósio de Iniciação Científica da Engenharia Elétrica
+Acesso: http://soac.eesc.usp.br/index.php/SICEEL/ixsiceel
+Formato: Online
+Nível de participação da Biblioteca: Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: 8
+ISBN: 978-65-86954-11-1
+ 
+8) Título: Resumos expandidos da 17ª Semana da Engenharia Ambiental
+Acesso: http://soac.eesc.usp.br/index.php/SEAMB/xviiseamb
+Formato: Online
+Nível de participação da Biblioteca: Cadastramento, Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: 17
+ISBN: 978-65-86954-12-8
+ 
+9) Título: Livro de resumos expandidos do 35. Congresso de Iniciação Científica e Tecnológica em Engenharia & 29. Simpósio Internacional de Iniciação Científica e Tecnológica da USP  & Book of extended abstracts of the 35. Congress of Scientific and Technological Initiation in Engineering & 29. USP International Symposium of Undergraduate Research
+Acesso: http://soac.eesc.usp.br/index.php/siicusp/29siicusp
+Formato: Online
+Nível de participação da Biblioteca: Criação homepage e de formulários para envio dos vídeos e de avaliação das apresentações, Elaboração da agenda, Criação e gerenciamento das salas virtuais, Cadastramento, Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: 208
+ISBN: 978-65-86954-13-5 (português); 978-65-86954-14-2 (inglês)
+ 
+10) Título: XXIII Simpósio em Ciência e Engenharia de Materiais
+Acesso: http://soac.eesc.usp.br/index.php/SICEM/sicem2021
+Formato: Online
+Nível de participação da Biblioteca: Cadastramento, Normalização Técnica, Editoração, Distribuição e Divulgação
+Número de trabalhos: EM ANDAMENTO
+ISBN: EM ANDAMENTO","Não houve no período.","Nome do evento: XVIII Semana da Pós-Graduação na EESC e II Semana da Pós-Graduação do ICMC Período: 5 a 9 de abril de 2021
+Patrocinadores: LAC - Artigos para Laboratórios, Movile, Editora Cubo, Ca And Ma
+Tipo de evento: Mesa Redonda, Palestra e Workshop 
+Nível de participação da Biblioteca: Participação na Comissão Organizadora e Divulgação Número de Participações: 1179
+
+****************************************************************** 
+
+Nome do evento: I Semana de Preparação Pedagógica da EESC. 
+Período: 26 e 27 de agosto de 2021
+Patrocinadores: CG e CPG da EESC 
+Apoio: CETEPE, Biblioteca e STI da EESC 
+Carga horária: 10h 
+Tipo de evento: Mesa Redonda, Palestra e Workshop 
+Nível de participação da Biblioteca: Participação na Comissão Organizadora e Divulgação Evento online: transmitido pelo canal Youtube da Biblioteca EESC 
+Número de participações: 454
+programação: https://sites.google.com/sc.usp.br/iispp/programa%C3%A7%C3%A3o
+
+*************************************************************** 
+
+Nome do evento: 35. Congresso de Iniciação Científica e Tecnológica em Engenharia & 29. Simpósio Internacional de Iniciação Científica e Tecnológica da USP 
+Acesso: http://soac.eesc.usp.br/index.php/siicusp/29siicusp
+Formato: Online
+Nível de participação da Biblioteca: Criação homepage e de formulários para envio dos vídeos e de avaliação das apresentações, Elaboração da agenda, Criação e gerenciamento das salas virtuais, Cadastramento, Normalização Técnica, Editoração, Distribuição e Divulgação
+Período: 01 de outubro de 2021 
+Tipo de evento: Simpósio 
+Publicação online: disponível no Portal de Eventos Científicos da EESC http://soac.eesc.usp.br/index.php/siicusp/29siicusp).
+Número de participações: 166 pessoas","Projeto 1: Ação para vinculação e sincronização dos identificadores digitais de pesquisador na EESC
+Descrição: De acordo com a recomendações da USP é necessário que os pesquisadores realizem a criação e vinculação dos identificadores digitais (CV Lattes, ORCID, ResearcherID, ScopusID, Google Acadêmico e WeR_USP) para solucionar as inconsistências (problemas de ambiguidade e semelhança de nomes de autores, substituindo as variações de nome por um único código numérico) nos repositórios de dados da produção científica. Na EESC, nota-se um número significativo de docentes que ainda não realizaram a vinculação dos seus IDs e isso vem prejudicando o resultado do desempenho da Escola junto aos sistemas de avaliação institucional que consideram a produção científica, bem como nos parâmetros utilizados nos rankings nacionais e internacionais. Nesse sentido, em 2019 a Biblioteca iniciou a primeira fase do projeto com a campanha de divulgação e unificação dos Identificadores Digitais para os pesquisadores da EESC (título alterado para: Ação para vinculação e sincronização dos identificadores digitais de pesquisador na EESC), verificando sistematicamente a situação de cada um deles na Base de dados Scopus, realizando o levantamento dos Ids para o total de 202 pesquisadores (171 ativos e 31 seniores com atividades de pesquisa na EESC) e a notificação personalizada informando sobre a necessidade de unificação de perfis, confirmação de autoria e variação de nomes na referida base. Em 2020, a segunda fase do projeto foi realizada com o levantamento dos identificadores (ResearcherID-WoS, Publons, ORCID e WeR_USP) com objetivo de verificar a situação da vinculação dos Ids citados na primeira e segunda fases do projeto juntos às ferramentas ORCID e WeR_USP. Adicionalmente, foram criados 9 tutoriais para ajudar os docentes com na criação, vinculação e/ou unificação dos seus identificadores. Foram enviados e-mails personalizados a 202 docentes, com seus respectivos tutoriais respeitando a necessidade de cada caso. Dos resultados obtidos, foram regularizados Ids de 63 docentes, 14 docentes estavam regularizando seus identificadores e 2 docentes responderam que não pretendiam realizar a vinculação. Em função da ação ocorrida na segunda fase do projeto, foi possível identificar que 60 docentes criaram/associaram seu ORCID à USP. Na terceira fase, no período de janeiro a maio de 2021, foi realizado o envio de e-mails aos docentes solicitando a regularização das inconsistências obtendo os seguintes resultados: 107 perfis de docentes foram regularizados, 11 retornaram mais não realizaram, 72 não retornaram e 12 ficaram aguardando o processamento nas bases. No segundo semestre de 2021, foi encaminhado à Diretoria e Comissão de Pesquisa da EESC (CPq), a lista dos 72 docentes que não retornaram, mais os 11 que retornaram mas não realizaram o processo. A Diretoria e a CPq solicitaram aos Chefes de Departamento a regularização dos perfis dos docentes. Até dezembro de 2021, tivemos 129 perfis regularizados, 54 docentes sem dar retorno, 10 que deram retorno, mas não realizaram a regularização e 9 aguardando processamento nas bases.
+Com o mapeamento do grupo de pesquisadores EESC na ferramenta Scival, foi possível elaborar relatórios para avaliação de carreira solicitados pela Diretoria da Escola que envolviam os indicadores (h, h5, g e fwci) e relatório dos docentes da área de engenharia civil para avaliação no CNPq, solicitado pelo Professor do Departamento de Engenharia de Estruturas. Além disso, geramos também relatórios no Ranking AD Scientific Index dos docentes EESC. 
+Através dos alertas criados na Base Scopus, recebemos em 2021 um total de 308 publicações que foram encaminhadas para cadastramento da produção científica. Na terceira fase, não foi possível mapear o “researcher id” dos docentes para utilização na ferramenta InCites. Pretende-se nesta quarta fase mapear o researher id para análises bibliométricas, além de criar alertas da produção científica na WoS. Realizar como rotina anual conferências dos perfis dos docentes EESC nas bases de dados de dados Scopus e Wos com o objetivo de identificar a criação de novo perfis que necessitam de unificação, em função das possíveis variações de nome e afiliação no momento da submissão dos artigos.
+Pretende-se ainda estudar a vinculação do Google Acadêmico e a viabilidade de criar alertas do grupo de pesquisadores nas bases de dados ASME, IEEE e outras relacionadas às áreas de engenharia. 
+Foi possível compartilhar os resultados obtidos deste projeto no XXI Seminário Nacional de Bibliotecas Universitária (SNBU), através do relato de experiência intitulado por “Campanha de divulgação, vinculação e unificação dos identificadores digitais de docentes da EESC: resultados durante a pandemia”
+Data de início: 01/01/2021 
+Data de finalização 4. fase: em andamento - prorrogação do prazo devido a inúmeras ações que pretende-se fazer com os identificadores dos docentes, bem como o fornecimento de relatórios no SciVal e levantamentos em Rankings solicitados pela Diretoria e docentes da EESC
+Patrocinador: Diretoria da EESC e Comissão de Pós-graduação da EESC 
+Recursos recebidos do patrocinador: 0 
+Pessoal da Biblioteca envolvido no período: 2 
+Pessoal da Biblioteca envolvido no total: 2 
+Resultados obtidos: 
+Número de departamentos EESC: 9 Número total de Docentes: 202 
+Número de Docentes regularizados: 129 
+Número de Docentes em processo de regularização: 9 
+Número de Docentes que não pretendem regularizar IDs: 2 
+Número de ORCID USP criados/associados no período: 35 
+Número de Alertas da produção científica EESC – Base Scopus: 308
+
+****************************************************************************************** 
+Projeto 2: Registro da produção científica dos pesquisadores da EESC no Dedalus e no Repositório Institucional  
+Descrição: Esse projeto objetiva localizar a produção científica dos pesquisadores da EESC indexadas em bases de dados nacionais e internacionais e efetuar o cadastro no Banco de Dados Bibliográfico da USP - Dedalus e no Repositório Institucional, garantindo assim, a visibilidade do conhecimento publicado e a memória da produção técnico-científica e intelectual do corpo de pesquisadores da Unidade, além de estar de acordo com a política para acesso aberto às publicações resultantes de auxílios das agências de fomento.  
+A primeira fase do projeto iniciou-se em 2019 e a metodologia adotada envolve: 1) a elaboração e manutenção de estratégias de buscas em sistemas de alertas das bases de dados acima citadas para o conjunto de IDs dos docentes e pesquisadores da EESC; 2) levantamento e comparação das publicações descritas no currículo dos pesquisadores da EESC na plataforma Lattes (CNPq) e dos registros do Banco de Dados Bibliográfico da USP- Dedalus; 3) localização do texto completo das publicações com a verificação da versão da publicação que se pretende cadastrar (pre-print, pos-print ou versão final) para inserção no Dedalus e no Repositório Institucional.  
+A segunda fase iniciada em 2020 envolve: 1) intensificar a campanha entre os pesquisadores e docentes da EESC para que encaminhem as publicações técnicas-científicas a partir do formulário disponível no Portal da Biblioteca no link ""Apoio ao Pesquisador”; 2) estabelecer a parceria entre a equipe da Biblioteca e dos departamentos para que compartilhem os dados de sistemas de controle de produção acadêmica que são gerenciados pelos Departamentos como o (Sucupira ou similares). Pretende-se, dessa forma, atualizar com maior agilidade os registros no Dedalus e no Repositório Institucional e aprimorar a visibilidade da produção científica da Unidade, no entanto, destaca-se que o sucesso do projeto depende diretamente da adesão dos pesquisadores em executar a padronização de IDs nas bases de dados e enviar as publicações para o cadastro na Biblioteca.  
+Data de início: 01/03/2020  
+Data de finalização: dezembro de 2021 
+Patrocinador: Diretoria da EESC e Comissão de Pós-graduação da EESC  
+Recursos recebidos do patrocinador: 0  
+Pessoal da Biblioteca envolvido no período: 6 
+Pessoal da Biblioteca envolvido no total: 6 
+Resultados obtidos:  
+Itens selecionados no lattes: 11064
+Itens localizados na Internet: 1796
+Itens fornecidos pelos docentes: 590
+
+****************************************************************************************** 
+Projeto 3: Caixa de devolução 24h para material bibliográfico  
+
+Descrição: Apresenta-se um projeto de uma caixa coletora automatizada de material bibliográfico para a Biblioteca Prof. Dr. Sérgio Rodrigues Fontes da Escola de Engenharia de São Carlos. Com a situação da pandemia durante o ano de 2020, retomamos o projeto de caixa coletora automatizada visto os cuidados 
+com o manuseio do material bibliográfico que retornam à Biblioteca. Algumas das caixas disponíveis no mercado são robotizadas e informatizadas, outras, imensas e em geral de valores exorbitantes. Por outro lado, a Escola de Engenharia de São Carlos concentra habilitações de Engenharia Mecânica, Engenharia Mecatrônica, Engenharia Elétrica e outras que têm plena capacidade de desenvolver projetos dedicados à necessidade local e ainda desenvolver em seus alunos habilidades integradas. Em 2017, o tema foi apresentado na disciplina Projeto Mecânico (SEM 0347), na qual 14 alunos estudaram a problemática e cada um propôs um projeto. Em continuidade, a presente bolsista deste projeto utilizou-se destes trabalhos como brainstorm para, em conjunto com a Biblioteca, desenvolver um projeto definitivo e planilha de custo com orçamento de peças e mão de obra para fabricação. Foi esperado que no presente trabalho se consolidasse a fabricação de uma parte mecânica da caixa e já resolveria a necessidade mais proeminente da Biblioteca, que é a coleta de livros de forma a minimizar os danos físicos e o contato com material possivelmente contaminado.  Data de início: 01/03/2020  
+Data de finalização: dezembro de 2021  
+Patrocinador: Diretoria da EESC 
+Recursos recebidos do patrocinador: 0  
+Pessoal da Biblioteca envolvido no período: 3  
+Pessoal da Biblioteca envolvido no total: 3  
+Resultados obtidos: Em 2021 iniciou-se o processo de produção da caixa coletora de livros que ficará instalada na porta principal da biblioteca e funcionará 24 horas por dia, 7 dias por semana. A Diretoria da EESC providenciou recursos para custear a produção do item e de forma voluntária o engenheiro responsável pelo projeto realizará a montagem do equipamento.
+
+*******************************************************************************************
+
+Projeto 4: Guia de informações sobre estrutura e compartilhamento de infraestrutura de pesquisa e acadêmica da EESC-USP- Bolsa PUB
+Professor Proponente: Ben-Hur Borges Viana (SEL) 
+Resumo: As Universidades e Instituições de Ensino Superior estão empenhadas em fortalecer o desenvolvimento da pesquisa científica por meio do compartilhamento de equipamentos e insumos. A Universidade de São Paulo dispõe do Portal USPMulti - Central USP de Equipamentos Multiusuários, que reúne informações sobre os laboratórios, equipamentos complementares e/ou compartilháveis, disponibilizados a diferentes usuários tanto da Universidade como de instituições externas. A Escola de Engenharia de São Carlos, com vistas a contribuir com essa tendência, realizou em 2019 o seu 1º Workshop de Pesquisa Colaborativa, cujo objetivo foi reunir os grupos de pesquisa da Unidade e identificar as colaborações inter-departamentais e inter-grupos, além de incentivar futuras colaborações. Para dar continuidade a esse trabalho, o Serviço de Biblioteca propõe a elaboração de um guia de informações acadêmicas sobre estrutura e compartilhamento de recursos para estudantes do ensino médio, pré vestibular e empresas de base tecnológica. O projeto também pretende promover visitas técnicas aos laboratórios da Escola, tanto como forma de divulgação científica para os estudantes, como para incentivar possíveis parcerias com as empresas e ampliar a visibilidade das pesquisas e infraestrutura da Instituição. Data de início: setembro 2021 
+Data de finalização: em andamento  
+Patrocinador: Programa Unificado de bolsas de estudo para apoio e formação de estudantes de graduação- (Edital PUB/USP – 2021-2022)
+Recursos recebidos do patrocinador: 0  
+Pessoal da Biblioteca envolvido no período: 4  
+Pessoal da Biblioteca envolvido no total: 4
+Resultados obtidos: O EESCin está realizando o levantamento da estrutura, compartilhamento de recursos e especialidades dos pesquisadores junto à AUSPIN para posterior confecção do guia. A Biblioteca realizou o levantamento online de 93 laboratórios da EESC para verificação daqueles que possuem recursos compartilhados. Os docentes responsáveis pelos laboratórios estão sendo consultados via e-mail para identificar se possuem ou não recursos compartilhados. Foram identificadas 168 escolas de São Carlos e está em andamento a identificação das empresas onde o guia será divulgado. Já foi apresentado a Diretoria da EESC um protótipo do guia elaborado em 29/11/2021.
+
+*******************************************************************************************
+
+Projeto 5: Sistema para Gestão de Eventos Acadêmicos da EESC: científicos e de extensão- Bolsa PUB
+Professor Proponente: Daniel C Amaral (SEP)
+parceira: CETEPE,Biblioteca e Grupo Informática
+Resumo: A proposta contribui para o desenvolvimento de sistema de apoio para gestão de eventos científicos e acadêmicos da Escola de Engenharia de São Carlos (EESC-USP), implementado à partir de experiências acumuladas no uso da plataforma do Portal de Eventos Científicos da EESC/USP (SOAC) e site desenvolvido recentemente para o 5th. Brazilian Conference in Composite Materials (http://www.bccm.com.br/). O objetivo é desenvolver um novo sistema, a ser disponibilizado para docentes e funcionários da USP,apoiando: colóquios, ciclos de palestras, congressos, cursos de extensão diversos, semana de recepção de calouros, semana da pós-graduação, semanas de engenharia, atividades acadêmicas complementares e de pós-graduação, cursos e similares. O sistema deve reduzir tempo e esforço no oferecimento e controle, e ampliar a percepção de qualidade e profissionalismo dos eventos da USP no meio digital. Deve também contribuir para facilitar a publicação eletrônica de anais, contribuindo para o repositório institucional. Justifica-se a proposta pela necessidade de ampliação das ações de extensão, maior racionalidade no uso dos recursos materiais e de pessoal nos serviços de apoio a eventos da unidade
+(Biblioteca, Comunicação, etc.) e diminuição de custos para a universidade, ao eliminar a necessidade de contratação de serviços similares, como é feito atualmente em vários eventos. O bolsista PUB irá integrar a equipe de desenvolvimento descrita no projeto, com vários funcionários da USP, os quais cuidarão dos dados, hospedagem e toda a infraestrutura técnica e de integração. O bolsista contribuirá para a geração de códigos para a equipe, sob devida orientação técnica e do docente. O sistema será desenvolvido em linguagem PHP, HTML5 com framework front-end BootStrap e banco de dados MySQL por meio de uma equipe. O site final será operado de forma web, sem a necessidade de conhecimento técnico, para que possa ser utilizado pelos servidores que atuam no apoio aos eventos. O sistema estará disponível para toda a comunidade e será parte do apoio técnico a eventos realizados pela biblioteca.
+Data de início: setembro 2021 
+Data de finalização: em andamento  
+Patrocinador: Programa Unificado de bolsas de estudo para apoio e formação de estudantes de graduação- (Edital PUB/USP – 2021-2022)
+Recursos recebidos do patrocinador: 01 bolsista PUB 
+Pessoal da Biblioteca envolvido no período: 3  
+Pessoal da Biblioteca envolvido no total: 3  
+Resultados obtidos: A equipe está  dividida em dois grupos, o grupo 1 que envolve o pessoal da Biblioteca e um técnico de informática estão analisando os templates no Word Press para a interface gráfica de busca do usuário. O Grupo 2, que envolve o bolsista e os técnicos de informática estão trabalhando no desenvolvimento do sistema.
+
+*********************************************************************************************************
+
+Projeto 6: Clipping da EESC: a difusão do conhecimento científico para a sociedade"" - Bolsa PUB
+Professor proponente: Edson C Wendland
+Resumo: A Escola de Engenharia de São Carlos com quase 70 anos de existência tem contribuído fortemente para a difusão do conhecimento científico e tecnológico produzido por seus pesquisadores, docentes em seus laboratórios, departamentos e centros de pesquisas. Durante todos estes anos foram produzidas inúmeras reportagens e materiais de divulgação científica que descrevem de forma clara e direta os aspectos mais relevantes das pesquisas desenvolvidas na EESC e veiculadas nos meios de comunicação como redes sociais, blogs, web, jornais, rádio e televisão. O projeto visa organizar o material jornalístico disponível na Diretoria da EESC no formato digital e impresso para inserção no Repositório Institucional da EESC na coleção digital intitulada “Clipping”. As reportagens produzidas pela equipe da Diretoria, Departamentos, Centros, Secretarias, Seções e Serviços da Unidade receberão o tratamento técnico que envolve a descrição de metadados, descrição temática e transformação do material, quando necessário, para o formato PDF e posterior submissão no Repositório Institucional da EESC. O projeto visa fornecer ao aluno bolsista uma oportunidade de identificar as pesquisas realizadas na Escola, a evolução histórica destas linhas de pesquisa e, principalmente, a experiência de divulgar o conhecimento acadêmico para a sociedade no geral. Os resultados esperados envolvem a constituição de uma coleção oficial de reportagens da EESC, a integração de um aluno da graduação no processo de  difusão do conhecimento científico e o impacto para a o público externo à USP sobre o conhecimento produzido que pode ser compartilhado e aplicado em projetos de inovação tecnológico, nas diferentes áreas das engenharias.  
+Data de início: setembro 2021
+Data de finalização: em andamento  
+Patrocinador: Programa Unificado de bolsas de estudo para apoio e formação de estudantes de graduação- (Edital PUB/USP – 2021-2022)
+Recursos recebidos do patrocinador: 01 bolsista PUB 
+Pessoal da Biblioteca envolvido no período: 2  
+Pessoal da Biblioteca envolvido no total: 2  
+Resultados obtidos: Treinamento da bolsista no software DSpace para inclusão das reportagens no Repositório Institucional; definição de estratégias de busca das reportagens na mídia local e arquivos da web disponibilizados pelos funcionários da Diretoria da EESC responsáveis pelo serviço de comunicação; cadastro de  63 reportagens na coleção “EESC na mídia” no  Repositório Institucional da EESC (http://repositorio.eesc.usp.br/)
+
+*********************************************************************************************************
+
+Projeto 7- Estratégia didático-pedagógica para o ensino de projetos de instalações prediais: uma realidade na EESC - Bolsa PUB
+Professor proponente: Edson C Wendland
+parceria: SVMANOB e Biblioteca
+Resumo: O Serviço de Manutenção e Obras da Escola de Engenharia de São Carlos - SVMANOB-EESC/USP abriga centenas de documentos digitais, entre mapas, plantas, croquis e esboços produzidos pelas equipes de engenheiros e arquitetos da EESC desde sua fundação em 1953. Esses documentos apresentam uma diversidade de formato, tamanho, apresentação e estado de conservação e podem ser utilizados como objetos de aprendizagem para alunos da EESC para estudo dos prédios da Escola. O projeto visa fornecer ao aluno o conhecimento prático sobre o uso do software AutoCad e o domínio técnico sobre os materiais utilizados na construção civil, oferecendo assim, um exercício fundamental para sua formação acadêmica. A metodologia consiste na atualização das plantas arquitetônicas referente aos prédios da EESC utilizando o software AutoCad (versão), descrição dos metadados e inclusão dos PDFs das plantas no Repositório Institucional da EESC. O projeto resultado da parceria entre SVMANOB e Biblioteca da EESC, contribuirá ainda para o estabelecimento de regras de uso da coleção das plantas da EESC e ao registrar a evolução histórica dos prédios e das instalações prediais da Escola servirá como memória da EESC além de estar disponível aos alunos como fonte de estudo e referencial para os trabalhos acadêmicos realizados sob supervisão de todos os docentes da EESC.
+Data de início: setembro 2021 
+Data de finalização: em andamento  
+Patrocinador: Programa Unificado de bolsas de estudo para apoio e formação de estudantes de graduação- (Edital PUB/USP – 2021-2022)
+Recursos recebidos do patrocinador: 01 bolsista PUB 
+Pessoal da Biblioteca envolvido no período: 3  
+Pessoal da Biblioteca envolvido no total: 3  
+Resultados obtidos: atualização de 2  plantas arquitetônicas no software AutoCad
+
+*****************************************************************
+
+Projeto 8 - Gestão de Dados de Pesquisa- Bolsa PUB
+Prof. proponente: Luiz Cesar Ribeiro Carpinetti Carpinetti (SEP)
+Resumo: O Projeto visa identificar o perfil do pesquisador ou grupo de pesquisa sobre o uso dos dados de pesquisa com o intuito de cumprir os requisitos acadêmicos legais e éticos e promover a gestão desses dados no âmbito do departamento da Engenharia de Produção. O método utilizado no projeto envolve o estudo do ciclo de vida dos dados de pesquisa, a constituição de um plano de gestão e a classificação dos dados para formalização de protocolo de uso. Os resultados esperados ao final do projeto envolvem o uso efetivo da plataforma DMPTool e o compartilhamento dos dados no repositório institucional da USP dando visibilidade aos trabalhos científicos e promovendo o compartilhamento, preservação e reutilização de dados provenientes de pesquisas acadêmicas.
+Data de início: setembro 2021 
+Data de finalização: em andamento  
+Patrocinador: Programa Unificado de bolsas de estudo para apoio e formação de estudantes de graduação- (Edital PUB/USP – 2021-2022)
+Recursos recebidos do patrocinador: 01 bolsista PUB 
+Pessoal da Biblioteca envolvido no período: 3  
+Pessoal da Biblioteca envolvido no total: 3  
+Resultados obtidos: Elaboração de material de divulgação do projeto e  Envio de email com convite para participação para todos os professores e alunos de pós-graduação do Departamento de Engenharia de Produção e reuniões virtuais com o grupo de alunos do Professor responsável pelo projeto para apresentação da plataforma DMPTool e do Repositório Institucional da USP; Atendimento individualizado para aluna orientanda da Prof. Janaina (SEP) para treinamento na plataforma;
+
+*****************************************************************
+
+Projeto 9 - Bibliotecas Acessíveis: uma realidade da EESC e do IQSC (Edital PRCEU)
+Coordenador: Fernando Martini Catalano e Vice-Coordenadora: Maria Olimpia de Oliveira Rezende
+Equipe: Clelia Junko Kinzu Dimario e Sonia Alves  (IQSC); Eduardo Graziosi Silva, Andressa de Carvalho e Elenise Maria de Araujo (EESC)
+Resumo: Realizar o projeto de sinalização acessível nas Bibliotecas da EESC e IQSC para atender de maneira inclusiva o público com alguma deficiência, quer seja visual, auditiva e /ou de locomoção promovendo a igualdade de direitos e fomentando a inclusão social. O projeto está inserido no campo temático "" 1.1.10. Redução das Desigualdades"" e visa atender as demandas que a pandemia do COVID-19 evidenciou com inúmeras situações de desigualdade, que abrangem tanto os aspectos socioeconômicos dos cidadãos quanto a acessibilidade às informações e ao conhecimento. Dentre os objetivos específicos, o projeto também atenderá os ODS 4, ODS 9 e ODS 11. As Bibliotecas enquanto espaços democráticos devem promover a interação e disseminação  de informações e propiciar a todos o acesso aos serviços, produtos informacionais e dependências da biblioteca . Assim propõem-se a adequação das Bibliotecas da EESC e do IQSC da USP nas dimensões de acessibilidade que envolvem aspectos comunicacionais, arquitetônicos e atitudinais que visam diminuir as barreiras para que os deficientes visuais, auditivos e/ou com deficiência motora possam desenvolver suas atividades acadêmicas, profissionais, de recreação e de lazer. Os procedimentos metodológicos para elaboração deste projeto são: realização de um benchmarking das Bibliotecas acessíveis em âmbito nacional e internacional; mapeamento da situação arquitetônica comunicacional e atitudinal das Bibliotecas EESC e IQSC, utilizando o check-list da FEBAB; consulta aos especialistas das associações de deficientes da cidade (surdos, cegos e com mobilidade reduzida) ;oferecimento de um curso básico de libras, produção de um vídeo institucional das Bibliotecas da EESC e do IQSC com tradução em libras e elaboração e execução do projeto. Espera-se que os resultados obtidos sensibilizem a comunidade acadêmica para as questões da acessibilidade.
+Data de início: setembro 2021 
+Data de finalização: em andamento  
+Patrocinador: Pró-Reitoria de Cultura e Extensão Universitária- (Edital ODS/ONU – 2021)
+Recursos recebidos do patrocinador: R$ 99.999,86
+Pessoal da Biblioteca EESC envolvido no período: 3  
+Pessoal da Biblioteca IQSC envolvido no período: 2
+Pessoal das Bibliotecas envolvidos no total: 5 
+Resultados obtidos: Realização de um benchmarking das Bibliotecas acessíveis em âmbito nacional e internacional; diagnóstico da situação arquitetônica comunicacional e atitudinal das Bibliotecas EESC e IQSC, utilizando o checklist da FEBAB; contratação de empresa especializada para realização do projeto de sinalização, rotas e mapas táteis acessíveis nas Bibliotecas da EESC e do IQSC; compra de equipamentos acessíveis ( 2 (dois) scanner de voz, 2 (dois) notebook e 2 (dois) laptop)
+
+","1) Participação na Semana de Recepção aos Calouros, com divulgação de vídeos institucionais da Biblioteca (Visita virtual à Biblioteca EESC-USP e Biblioteca EESC-USP em quadrinhos).
+2) Capacitação de usuários nos temas bases de dados, normalização, elaboração de resumos, gerenciadores de referência, boas práticas científicas e template de projeto de pesquisa (modelo FAPESP) para o curso de Engenharia Aeronáutica (SAA0338).","Não houve no período.","Sim","Sim","Sim","https://www.facebook.com/bibliotecaeescusp/","https://twitter.com/bibliotecaEESC","","","","https://www.youtube.com/c/bibliotecaeescusp","https://www.instagram.com/bibliotecaeesc/ ","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Não","Não","Sim","Sim","Não","Não","Não","Sim","Não"
+"9","335","22/12/2021 - 12:33","19/01/2022 - 17:31","19/01/2022 - 17:31","0","143.107.14.8","165","icmc","Instituto de Ciências Matemáticas e de Computação","422","3.035","0","0","0","2","2","0","4","4","1","0","0","58","28","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/165_5.xlsx","12","0","0","0","0","175","32","0","0","0","0","123","0","0","0","2","11","5","3","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","98.693","74","0","0","0","0","0","0","546","26","528","10","1","1","4","2","0","37","0","0","0","47","0","2.529","1","0","14","13","0","1","0","0","0","1","0","8","0","2.926","43","669","17","19","0","4","0","2","0","4","Repositório Institucional do ICMC.","Título: Boletim de Novas Aquisições. Periodicidade: Irregular. Formato online. Distribuição: doação.
+Título: Manual do Usuário. Periodicidade: anual. Formato: impresso. Distribuição: doação.
+Título: Homepage da Biblioteca Prof. Achille Bassi. Periodicidade: irregular. Formato online. Distribuição: doação.
+
+","Título: Notas Didáticas do ICMC/USP. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: produção gráfica, distribuição e divulgação.
+Título: Notas do ICMC/USP - Série Computação. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: produção gráfica, distribuição e divulgação.
+Título: Notas do ICMC/USP - Série Estatística. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: produção gráfica, distribuição e divulgação.
+Título: Notas do ICMC/USP - Série Matemática. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: produção gráfica, distribuição e divulgação.
+Título: Relatórios Técnicos do ICMC/USP - Série Computação. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: produção gráfica, distribuição e divulgação.","XVII Semana da Pós-Graduação na EESC e II Semana da Pós-Graduação do ICMC. Dias: 05 a 09/04/2021.
+5ª Escola de Pesquisadores do Campus USP de São Carlos. Dias: 30/11, 01 e 02/12/2021.
+
+
+","Projeto: Pacote USPSC  - Modelos de trabalhos acadêmicos em LaTeX, incluindo os trabalhos de conclusão de curso (TCC): versão 3.1.
+","Participação no Balcão Virtual de Setores do ICMC, como parte da Semana de Recepção dos Calouros. Dias: 14, 15 e 28/04/2021.
+Participação da chefia técnica na disciplina 5500002 - Seminários em Gestão Organizacional, com apresentação sobre ""Gestão da Informação na Biblioteca do ICMC"". Dia: 18/11/2021. Das 19h às 20h30.","Tipo de Capacitação: Treinamento: uso dos serviços e produtos da biblioteca.
+ Disciplina: SME0280 – Acompanhamento Profissional I.
+ Dia: 27/04/2021
+ Nº alunos: 28
+ Período: tarde
+Tipo de Capacitação: Treinamento: uso dos serviços e produtos da biblioteca.
+Disciplina: SSC0530 - Introdução à Sistemas de Informação I.
+Dia: 03/05/2021
+Nº alunos: 58
+Período: noite
+Tipo de Capacitação: Treinamento: uso dos serviços e produtos da biblioteca.
+Disciplina: SMA 0377 – Direcionamento Acadêmico.
+Dia: 05/05/2021
+Nº alunos: 29
+Período: tarde	
+","Sim","Sim","Sim","https://www.facebook.com/BibliotecaICMC","https://twitter.com/BibliotecaICMC","","","","","","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"10","336","23/12/2021 - 07:43","23/12/2021 - 07:58","23/12/2021 - 07:58","0","143.107.42.18","172","imt","Instituto de Medicina Tropical de São Paulo","15","90","0","0","1","1","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","5","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","16858","43","0","0","0","0","0","0","352","151","35","4","0","0","0","17","0","139","0","0","0","4","0","27","0","0","0","0","0","0","0","0","0","0","0","0","0","35","0","2462","6","2","0","3","0","1","2","0","Não tivemos em 2021","Não tivemos em 2021","Não tivemos em 2021","Não tivemos em 2021","Não tivemos em 2021","Não tivemos em 2021","Não tivemos em 2021","Sim","Sim","Não","","","","","","","","Sim","Não","Sim","Sim","Sim","Não","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"11","337","23/12/2021 - 18:41","21/01/2022 - 16:17","21/01/2022 - 16:17","0","143.107.2.204","149","fd","Faculdade de Direito","150","1585","0","0","5","1","2","0","8","10","1","0","0","3","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/149_4.xlsx","15","576","0","0","0","545","12","0","0","0","0","0","0","7","1","10","25","22","2","0","0","0","0","0","0","0","0","0","0","0","0","0","17.023","0","0","164.489","326","0","0","0","0","0","0","84","38","869","0","1","0","2","0","0","0","0","0","0","1","0","49","0","0","0","0","0","0","0","0","0","1","0","0","0","2.046","0","0","8","27","0","8","3","4","11","88","IusData: base local, com 0 registros cadastrados no período
+Iuslibri: base local, com 0 registros cadastrados no período
+Teses: base local, com 0 registros cadastrados no período
+Rarus: base local, com 0 registros cadastrados no período
+Jornal: base local, com 0 registros cadastrados no período","","","","","Foi criado um hotsite contendo acesso a diversas bases de dados digitais em acesso aberto e restrito para subsidiar as pesquisas da comunidade acadêmica durante a pandemia de Covid-19, que fez com que os acervos físicos das bibliotecas permanecessem fechados. O conteúdo do hotsite pode ser conferido no seguinte endereço: https://sites.google.com/usp.br/saubibfd/início
+
+Foram oferecidas aos docentes e discentes de graduação e pós-graduação capacitações em diversas bases de dados digitais para auxiliar em suas pesquisas nesse momento de restrições, bem como orientações bibliográficas, conforme relacionado na planilha ""Capacitação de usuários 2021"".
+
+Foi realizada pelo YouTube uma Live de Apresentação da Biblioteca, em parceria com o Centro Acadêmico XI de Agosto e com as Representações Discentes de Graduação e Pós-Graduação, que alcançou 344 visualizações.
+
+Também foram oferecidos à graduação e à pós-graduação plantões de dúvidas sobre orientação bibliográfica para uma melhor elaboração de seus respectivos trabalhos acadêmicos, que resultaram em 18 atendimentos online.
+
+No período, foram realizados 204 credenciamentos na Estação de Autochecagem Turnitin, sob orientação da Biblioteca.","Alguns treinamentos em bases de dados e orientação bibliográfica também contaram com a participação do público externo.","Sim","Sim","Sim","https://www.facebook.com/bibliotecaFDUSP/","http://twitter.com/BibliotecaFDUSP","","www.flickr.com/photos/bibliotecafdusp/","","https://www.youtube.com/BibliotecaFDUSP","https://sites.google.com/usp.br/saubibfd/início","Não","Sim","Sim","Sim","Sim","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"12","338","28/12/2021 - 13:01","28/01/2022 - 18:00","28/01/2022 - 18:00","0","179.208.183.249","174","ip","Instituto de Psicologia","120","2170","0","0","8","2","2","0","4","2","0","0","0","81","5","0","0","0","0","0","0","0","0","0","0","0","0","0","1","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/174_2.xlsx","12","0","0","0","0","13","0","0","0","0","0","143","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","57.661","49","0","80","0","0","0","0","0","0","0","0","0","0","0","4","0","123","0","0","0","143","0","9167","0","0","0","0","0","0","0","0","0","0","0","1","0","1.100","2","35","15","27","0","1","1","4","7","0","Portal de Periódicos Eletrônicos em Psicologia (PePSIC):
+- 53 revistas enviaram algum fascículo para publicação
+- 193 fascículos publicados
+
+Cadastro de periódicos (Kardex Dedalus) 46
+Cadastro de artigos na Lilacs 110
+
+BDTD = 143 teses cadastradas
+
+Cadastramento de produções: 418 registros","• Atualização do “Protocolo de Atendimento aos Usuários em Situação de Pandemia”.
+
+Mantivemos o “Protocolo de Atendimento ao Usuário em Situação de Pandemia” atualizado de acordo com as novas diretrizes e orientações de órgãos como a OMS, IFLA, CBBU entre outros, com o objetivo de garantir a segurança de nossos funcionários e usuários nas diversas situações pelas quais podemos passar, de acordo com a nossa realidade, a utilização de nossos espaços e equipamentos, e a adequação de ambientes.
+
+• Finalização do Regulamento da Biblioteca, que foi aprovado em CTA em 12 de abril de 2021. Disponível em: https://www.ip.usp.br/site/wp-content/uploads/2021/04/Regulamento_Biblioteca_Dante_Moreira_Leite_IPUSP_CTA_12abr2021.pdf.
+
+• Participação na organização de um livro sobre artigos de revisão e internacionalização da produção científica. Lançamento: segundo semestre de 2022. Será editado pelo IPUSP e submetido para publicação no Portal de Livros Abertos da USP.
+
+COMUNICAÇÃO E DIVULGAÇÃO
+
+SITE DA BIBLIOTECA
+
+• Atualizações diversas no site da Biblioteca: avisos, links quebrados, inclusão de novos
+conteúdos. Exemplo: inclusão de novos links na página ""E-books"" (Disponível em:
+http://www.ip.usp.br/site/biblioteca/e-books/).
+
+• Revisão de conteúdo nas páginas elaboradas em 2020: ""Psicologia na Quarentena""
+(Disponível em: http://www.ip.usp.br/site/biblioteca/psicologia-na-quarentena/) e
+""Pesquisar e Publicar em Psicologia"" (Disponível em:
+http://www.ip.usp.br/site/biblioteca/pesquisar-e-publicar-em-psicologia/).
+
+• Inclusão de conteúdos na página ""Memória da Biblioteca"". Página em elaboração,
+ainda não foi divulgada. Reúne diversos materiais e conteúdos relacionados à história
+e memória da Biblioteca Dante Moreira Leite do IPUSP.
+
+• Elaboração de dois tutoriais: 1) DEDALUS. Maio de 2021. Disponível em: https://www.ip.usp.br/site/wp-content/uploads/2011/12/Tutorial_Dedalus_Maio20. 2) Dicas de pesquisa. Junho 2021. Disponível em: https://www.ip.usp.br/site/wp-content/uploads/2011/12/Dicas_Pesquisa_Jun2021.p
+df
+
+FACEBOOK
+
+A Biblioteca continuou utilizando o Facebook como rede social para divulgar informações à comunidade interna e externa à USP durante todo o ano de 2021. A partir de setembro, iniciou-se a utilização de arquivo com planejamento das publicações feitas. Na planilha constam as seguintes informações: data, título resumido do post, objetivo, hashtags e status. É importante ressaltar que além de posts compartilhados, foram elaborados vários materiais para a divulgação de informações da Biblioteca e comemorações de datas especiais.
+
+• Principais dados do Facebook (dados de janeiro a dezembro de 2021):
+• Total de curtidas na página até 20/12: 1.388
+• • Total de seguidores na página até 20/12: 1.433
+• Número de publicações de 04/01 a 20/12: 138
+• Engajamentos nas publicações de 04/01 a 20/12 (curtidas, comentários, cliques etc.): 972
+
+CARVALHO, TATIANA. Nuvem carregada sobre a terra. São Paulo: Editora Libertinagem, 2021.
+
+
+","PUBLICAÇÕES OFICIAIS DA UNIDADE COM PARTICIPAÇÃO DA BIBLIOTECA
+
+• Elaboração do documento: “Protocolo Sanitário Institucional do Instituto de Psicologia da USP”, em conjunto com a Comissão Assessora da Direção para Planejamento do Retorno das Atividades Presenciais. 
+
+• Participação na produção de um vídeo do Projeto “Minuto Institucional IPUSP” (Abertura do vídeo e relato sobre a posse da nova direção do IPUSP 2021).
+
+• Produção do vídeo “A Biblioteca Dante Moreira Leite do IPUSP”, para evento “Feira USP e as Profissões 2021”.
+","EVENTOS ON-LINE REALIZADOS
+
+Semana da Psicóloga e do Psicólogo 2021
+
+• Apresentação de publicações temáticas com os livros da comunidade IPUSP disponíveis no Portal de Livros Abertos da USP em comemoração ao Dia do Psicólogo no Facebook da Biblioteca. Foi publicado um post por dia com a divulgação de dois livros, durante toda a semana do dia 27 de agosto de 2021.
+
+X Coletiva de Autores do IPUSP 2021
+
+• Lançamento: 16 de dezembro de 2021.
+• Divulgação de 46 livros de autoria ou organizados por docentes, funcionários e alunos do Instituto, lançados entre 2020 e 2021.
+https://www.youtube.com/watch?v=ExglWlYv_wI
+
+Palestra “Serviços e Produtos da Biblioteca Dante Moreira Leite do IPUSP”
+
+• Palestra ministrada durante o evento “XV Encontro de Alunos Ingressantes nos Programas de Pós-Graduação em Psicologia 2021”, 22 de março de 2021.
+
+
+
+","1) Projeto: Portal de Periódicos Eletrônicos em Psicologia (PePSIC)
+
+Descrição: coordenado pela Biblioteca Dante Moreira Leite do Instituto de Psicologia da Universidade de São Paulo (IPUSP), desde 2005, o PePSIC publica revistas científicas em formato eletrônico (Metodologia SciELO). Há 16 anos, assegura o acesso aberto ao texto completo de artigos. 
+Data de início: 2005-
+Pessoal da Biblioteca envolvido: 3.
+Resultados obtidos: O número de acessos ao Portal cresceu significativamente nos últimos quatro anos (analytics.scielo.org); ocupa a 44ª posição no RANKING WEB OF REPOSITORIES - TRANSPARENT RANKING: Portals of Journals by Google Scholar (2020). 
+URL do projeto: http://pepsic.bvsalud.org/
+
+2) Projeto: Reformulação do Organograma da Biblioteca Dante Moreira Leite do Instituto de Psicologia da Universidade de São Paulo
+
+• Elaboração de proposta de um novo Organograma para a Biblioteca Dante Moreira Leite. A atividade faz parte do “Projeto de Reformulação do Organograma do Instituto de Psicologia da Universidade de São Paulo”.
+
+3) Projetos: Políticas de Acervos da Biblioteca Dante Moreira Leite do IPUSP
+
+• Política de Desenvolvimento de Coleções.
+• Política de Recebimento de Doações Especiais.
+• Política de Aquisição.
+• Política de Indexação.
+
+4) Projetos: Políticas para a Produção Intelectual do IPUSP
+
+• Política de Indexação e de Catalogação da Produção Intelectual do IPUSP.
+
+5) Projeto: Digitalização de Dissertações e Teses do Acervo da Biblioteca Dante Moreira Leite do Instituto de Psicologia da USP.
+
+6) Projeto: Organização da Sala e do Acervo Particular do Prof. César Ades.
+
+7) Projeto: Organização dos Espaços Físicos da Biblioteca Dante Moreira Leite do Instituto de Psicologia da USP 
+
+• Em 2022, acontecerá uma grande reforma na Biblioteca do IPUSP (troca do piso, pintura interna, reformulação de algumas salas). Assim, em 2021 iniciamos o projeto de organização dos espaços físicos, visando um melhor aproveitamento dos ambientes.
+
+8) Projeto: Nova Política para o Trabalho da Memória no IPUSP
+
+• Participação no Projeto “Nova Política para o Trabalho da Memória no Instituto de Psicologia da USP”, sob a responsabilidade do Grupo de Trabalho de Transição - Memória IPUSP.
+
+","","","Sim","Sim","Sim","https://www.facebook.com/bibliotecaipusp/","","","","","","","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Não","Não"
+"13","339","03/01/2022 - 10:30","21/01/2022 - 14:49","21/01/2022 - 14:49","0","143.107.255.30","155","fmvz","Faculdade de Medicina Veterinária e Zootecnia","110","1085.40","0","0","0","3","1","0","8","1","0","0","0","5","0","0","0","0","0","0","0","0","0","0","0","0","0","0","6","12","1","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/155_5.xlsx","16","0","0","0","0","56","26","0","0","0","0","145","0","0","0","0","0","12","8","0","0","0","0","0","0","0","0","0","0","0","0","7","0","0","0","68649","51","0","0","1","0","0","0","28","0","92","0","0","0","16","12","2","74","0","0","0","90","8","1762","4","1","15","9","0","1","0","0","0","0","0","0","0","107","67","2014","22","22","0","1","0","4","0","12","Base Nacional: VetIndex (4644) / Direve (210)
+
+Base Internacional: Lilacs (677)
+","Home page da Biblioteca: http://biblioteca.fmvz.usp.br/
+
+Hotsite Estudando na Quarentena: https://sites.google.com/usp.br/estudandonaquarentena/home (até 10/10/2021)
+
+
+
+","Brazilian Journal of Veterinary Research and Animal Science (Revista da FMVZ/USP)
+Periodicidade: Trimestral
+Formato: online
+Participação da Biblioteca: Gestão de contrato / Revisão da normalização / Assistência editorial na tramitação dos artigos
+","Não se aplica","Memória (Digitalização da produção científica docentes da FMVZ/USP)
+
+Atualização das Diretrizes para Apresentação de Dissertações de Teses da USP
+","Treinamentos direcionados aos alunos de graduação:
+- Como fazer um pôster
+- Mendeley - gerenciador de referências 
+- Normalização de trabalhos acacêmicos
+- ORCID - Identificador do Pesquisador
+- Pesquisa em bases de dados
+- Preparando apresentações
+- Preparando relatórios
+- Turnitin - identificador de similaridades
+- Word para trabalhos acadêmicos
+","-Estande fixo de troca de livros para a comunidade acadêmica
+
+","Sim","Sim","Sim","https://pt-br.facebook.com/bibliotecafmvzusp/","","","","","","Instagram - Biblioteca FMVZ USP","Não","Não","Não","Não","Sim","Não","Sim","Sim","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"14","340","03/01/2022 - 11:20","24/01/2022 - 07:41","28/01/2022 - 08:37","0","143.107.76.5","170","igc","Instituto de Geociências","172","1276","0","0","3","1","2","0","5","2","0","1","0","15","29","0","0","0","0","0","0","0","1","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","1","14","3","0","0","0","0","5","0","3","0","0","23","39","10","0","0","0","0","0","1","0","0","0","0","0","1","0","0","0","0","63992","67","0","0","0","0","0","0","0","0","54","1","0","0","0","4","0","100","0","0","0","0","0","0","0","0","0","1","0","0","0","0","0","0","0","0","0","216","2","351","24","17","0","3","1","2","0","5","PPEGEO - Base Nacional - 38 artigos
+Catálogo de Autoridades - Base Local - 17.242 entradas
+Rubrica de Assunto - Base Local - 5.761 entradas","- Novas Aquisições: mensal, online;
+- Homepage da Biblioteca: atualizações.","- Relatório Anual da Diretoria;
+- Guia de Apresentação de Teses e Dissertações do Instituto de Geociências da Universidade de
+São Paulo (IGc/USP);
+- Redes Sociais do IGc/USP (Facebook e Twiiter);
+- Portal do IGc/USP: atualizações e criação de conteúdo.
+- Participação nas edições de livros digitais:
+1) 2º Simpósio de Pós-Graduação do Instituto de  Geociências da Universidade de São Paulo, 19 e 20 de agosto de 2021. URL: https://igc.usp.br/simposiopgigc/wp-content/uploads/sites/25/2021/08/Boletim-de-Resumos-2o-Simposio-PG-IGc-USP.pdf                                                                                                                                                                                                                                                         2) Eliane Aparecida Del Lama (Organizador). Patrimônio em pedra. URL: http://www.livrosabertos.sibi.usp.br/portaldelivrosUSP/catalog/view/631/562/2126","N/D","- Digitalização retrospectiva da Produção Intelectual dos Docentes do IGc/USP;
+- Digitalização de mapas;
+- Gestão da Comunicação do IGc/USP.","Nome: Semana de Recepção aos Calouros 2021
+Tipo: Palestra - Apresentação da Biblioteca
+Servidor: Anderson de Santana
+Nível de participação da Biblioteca: Apresentação e divulgação
+Data: 14/04/2021
+Horário: 9h às 10h
+Organizador: IGc/USP
+
+Nome: Disciplina: 0440102 – Metodologia Científica em Geociências – 24/05/2021 (19h)
+Tipo: Palestra
+Servidor: Anderson de Santana
+Nível de participação da Biblioteca: Palestrante (Palestra: A comunicação e a busca de informação no processo científico)
+Data: 24/05/2021
+Horário: 19h às 21h
+Organizador: Curso de Licenciatura em Geociências e Educação Ambiental - IGc/USP","Nome: Grupo de Trabalho Curriculum Editorial Board da Associação Library Publishing Coalition
+Tipo: Grupo de trabalho formado por membros internacionais
+Servidor: Celia Regina de Oliveira Rosa
+Nível de participação da Biblioteca: Membro
+Data: 2021
+Organizador: Library Publishing Coalition
+
+Nome: Bibliometria Aplicada: Como e para quê a Academia utiliza as métricas
+Tipo: Palestra
+Servidor: Anderson de Santana
+Nível de participação da Biblioteca: Palestrante
+Data: 21/06/2021
+Horário: 20h30min - 22h30min
+Organizador: UNOCHAPECÓ
+
+Nome: Ciência Aberta nas Humanidades
+Tipo: Palestra
+Servidor: Anderson de Santana
+Nível de participação da Biblioteca: Palestrante
+Data: 23/08/2021
+Horário: 10h - 12h
+Organizador: Biblioteca Florestan Fernandes - FFLCH/USP
+
+Nome: Clase Magistral: Los retos de la Bibliometría y Ciencia Abierta en Lantinoamérica
+Tipo: Palestra
+Servidor: Anderson de Santana
+Nível de participação da Biblioteca: Palestrante
+Data: 23/09/2021
+Horário: 18h - 20h
+Organizador: Instituto Superior de Formación Docente y Técnica No. 114 ""José Gabriel Tupa Amaru II"" - Argentina
+
+Evento em homenagem ao lançamento do livro ""Geocronologia e evolução tectônica do Continente Sul-Americano: a contribuição de Umberto Giuseppe Cordani""
+Data: 02/12/2021
+Horário: 14h às 17h
+Organizador: Comissão de Cultura e Extensão Universitária e Serviço de Biblioteca do IGc/USP","Sim","Sim","Sim","https://www.facebook.com/BibliotecaInstitutoDeGeocienciasUsp","http://twitter.com/bibigcusp","","https://www.flickr.com/photos/igcusp","","https://www.youtube.com/user/BibliotecaIGcUSP","","Sim","Não","Não","Não","Sim","Sim","Sim","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"15","341","03/01/2022 - 11:40","21/01/2022 - 16:04","21/01/2022 - 16:04","0","143.107.8.113","153","fflch","Faculdade de Filosofia, Letras e Ciências Humanas","382","6.200","0","0","2","3","2","0","14","9","7","7","2","271","21","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/153_5.xlsx","13","0","0","0","0","221","79","0","0","0","0","0","0","0","160","0","0","121","86","0","0","0","0","0","0","0","0","0","0","0","0","2","1","1","0","185.342","128","0","0","0","0","0","0","0","0","0","0","19","0","0","0","0","3.941","0","0","0","0","0","0","1","0","19","0","0","0","0","0","0","0","0","4","1","427","62","0","17","72","0","4","0","4","0","13","GEMBIB","Guia de informações, Serviços e Produtos (online):
+http://biblioteca.fflch.usp.br/sites/biblioteca.fflch.usp.br/files/Guia_Biblioteca_8.pdf
+Folder (Impresso)
+Homepage - Biblioteca (online): http://biblioteca.fflch.usp.br/
+Homepage - Trabalhos Acadêmicos (online): http://trabalhoacademico.fflch.usp.br
+https://www.facebook.com/bibliotecaflorestanfernandes
+Instagram: www.instagram.com/biblioteca.fflch.usp","Elaboração de 62 fichas catalográficas para os livros editoras pela FFLCH.","Nome do evento: Encontro de Integração da Pós-Graduação
+Período: 10 a 12 de maio de 2021.
+Patrocinador(es): Não aplicável.
+Tipo de evento: Outros.
+Nível de participação da Biblioteca: Participação na Comissão Organizadora.
+
+Nome do evento: Sempre às Segundas com Igor Araújo (Cengage)
+Período: 21/06/2021 (duas horas).
+Patrocinador(es): Não aplicável.
+Tipo de evento: Outros.
+Nível de participação da Biblioteca: Evento totalmente realizado pela Biblioteca.
+Evento online com emissão de certificado e 461 visualizações em 31/12/2021
+
+Nome do evento: Sempre às Segundas com Déborah Dias (Clarivate)
+Período: 05/07/2021 (duas horas).
+Patrocinador(es): Não aplicável.
+Tipo de evento: Outros.
+Nível de participação da Biblioteca: Evento totalmente realizado pela Biblioteca.
+Evento online com emissão de certificado e 408 visualizações em 31/12/2021
+
+Nome do evento: Sempre às Segundas com Sueli Mara Soares Pinto Ferreira (FFCLRP/USP)
+Período: 19/07/2021 (duas horas).
+Patrocinador(es): Não aplicável.
+Tipo de evento: Outros.
+Nível de participação da Biblioteca: Evento totalmente realizado pela Biblioteca.
+Evento online com emissão de certificado e 478 visualizações em 31/12/2021
+
+Nome do evento: Sempre às Segundas com Maria Imaculada Cardoso Sampaio
+Período: 09/08/2021 (duas horas).
+Patrocinador(es): Não aplicável.
+Tipo de evento: Outros.
+Nível de participação da Biblioteca: Evento totalmente realizado pela Biblioteca.
+Evento online com emissão de certificado e 461 visualizações em 31/12/2021
+
+Nome do evento: Sempre às Segundas com Anderson de Santana (IGc/USP)
+Período: 23/08/2021 (duas horas).
+Patrocinador(es): Não aplicável.
+Tipo de evento: Outros.
+Nível de participação da Biblioteca: Evento totalmente realizado pela Biblioteca.
+Evento online com emissão de certificado e 404 visualizações em 31/12/2021
+
+Nome do evento: Sempre às Segundas com Elisabeth Adriana Dudziak (AGUIA/USP)
+Período: 04/10/2021 (duas horas).
+Patrocinador(es): Não aplicável.
+Tipo de evento: Outros.
+Nível de participação da Biblioteca: Evento totalmente realizado pela Biblioteca.
+Evento online com emissão de certificado e 217 visualizações em 31/12/2021
+
+Nome do evento: Sempre às Segundas com o lançamento do Podcast Vem Junto 2030
+Período: 18/10/2021 (duas horas).
+Patrocinador(es): Não aplicável.
+Tipo de evento: Outros.
+Nível de participação da Biblioteca: Evento totalmente realizado pela Biblioteca.
+Evento online com emissão de certificado e 263 visualizações em 31/12/2021
+","Nome do Projeto: Terceira etapa do inventário da coleção de livros
+Descrição: Coleta dos códigos de barras dos livros e pesquisa dos que não possuem para contagem
+de itens do acervo.
+Data de início: janeiro de 2019
+Data de finalização: em andamento
+Patrocinador(es): Não aplicável
+Recursos recebidos do(s) patrocinador(es): Não aplicável
+Pessoal da Biblioteca envolvido: 38
+Resultados obtidos: coleta de código de barras de 378.000 itens (total das 3 etapas).
+
+Nome do Projeto: Digitalização da coleção científica do corpo docente da FFLCH
+Descrição: Digitalização da hemeroteca constituída de artigos de jornais, revistas, trabalhos apresentados
+em congresso coletados ao longo de mais de 20 anos.
+Data de início: novembro/2018
+Data de finalização: em andamento
+Número de pessoas envolvidas no total: 3 pessoas.
+
+Nome do Projeto: Digitalização da coleção de teses e dissertações retrospectivas da FFLCH
+Descrição: Digitalização da coleção científica do corpo docente da FFLCH.
+Data de início: julho/2019
+Data de finalização: em andamento
+Número de pessoas envolvidas no total: 2 pessoas.
+
+Nome do projeto: Intensificação dos canais de comunicação “Balcão de Atendimento Online” e “Fale
+com o(a) Bibliotecário(a)”
+Descrição: Atendimento de usuários via Google Meet, de segunda a sexta-feira.
+Data de início: 03/10/2020
+Data de finalização: Em andamento
+Patrocinador(es): Não aplicável
+Recursos recebidos do(s) patrocinador(es):
+Pessoal da Biblioteca envolvido: 12 (10 técnicos e 2 bibliotecários)
+Resultados obtidos: Não aplicável
+URL do projeto: Não aplicável
+
+Nome do Projeto: GEMBIB: Sistema de Gestão de Material Bibliográfico
+Descrição: Desenvolvimento de sistema automatizado para patrimoniar, preparar fisicamente e controlar o armazenamento dos livros e outros materiais bibliográficos.
+Data de início: 31/10/2019
+Data de finalização: em andamento.
+Patrocinador(es): Não aplicável.
+Recursos recebidos do(s) patrocinador(es): Não aplicável.
+Pessoal da Biblioteca envolvido: STL/SAI e Seção Técnica de Informática da FFLCH/USP
+Resultados: primeira versão do Sistema operante
+URL do projeto: gembib.fflch.usp.br.
+
+Nome do Projeto: Mundo Melhor: podcast da Agenda 2030
+Descrição: Produção de conteúdos acerca das pesquisas e projetos desenvolvidos na FFLCH alinhados aos 17 Objetivos do Desenvolvimento Sustentável da Agenda 2030.
+Data de início: setembro/2020
+Data de finalização: em andamento
+Pessoal da Biblioteca envolvido: Chefia técnica/SAT/SAU/SAI sob a coordenação do Prof. Dr. Yuri Tavares
+Patrocinador: Pró-Reitoria de Cultura e Extensão
+Recursos recebidos do(s) patrocinador(es): R$ 9.950,00.
+Resultados: Publicação de 5 episódios em 2021.
+URL do projeto: https://biblioteca.fflch.usp.br/vemjunto2030.
+
+Nome do Projeto: Clube de Leitura “Com Leitura e com Afeto” 
+Descrição: Projeto em parceria entre o Departamento de Fonoaudiologia da Faculdade de Odontologia de Bauru, Comissão de Cultura e Extensão, e a Biblioteca Florestan Fernandes da Faculdade de Filosofia, Letras e Ciências Humanas todos da USP com o apoio da Pró-Reitoria de Cultura e Extensão. Referente ao Edital PRCEU 02/2021, cujo escopo contém: curadoria de textos literários com seleção de títulos (escolha de títulos que dialoguem com os objetivos do clube, sessões de treinamento com os bolsistas para estabelecer dinâmicas das sessões de leitura); coordenação das sessões de leitura virtuais e, posteriormente, presenciais; avaliação dos encontros e adoção de medidas corretivas, quando for o caso.
+Data de início: setembro/2021
+Data de finalização: em andamento
+Pessoal da Biblioteca envolvido: Diretoria, SAT, SAI
+Patrocinador: Pró-Reitoria de Cultura e Extensão
+Recursos recebidos do(s) patrocinador(es): R$ 99.700,00.
+Resultados: 02 encontros
+URL do projeto: https://biblioteca.fflch.usp.br/clubedeleitura.
+
+Nome do projeto: Desenvolvimento de novos conteúdos para o site da Biblioteca
+Descrição: Criação de páginas para os eventos e projetos: ""Encontro de Integração da Pós-graduação"",
+""Sempre às Segundas"", Podcast ""Vem junto 2030"", Clube de leitura ""Com Leitura e com Afeto"", Armário
+de oportunidades.
+Data de início: março/2020
+Data de finalização: em andamento.
+Patrocinador(es): Não aplicável.
+Recursos recebidos do(s) patrocinador(es): Não aplicável.
+Pessoal da Biblioteca envolvido: Chefia técnica/SAT.
+Resultados obtidos: O próprio site (biblioteca.fflch.usp.br/).
+URL do projeto: biblioteca.fflch.usp.br/
+
+Nome do Projeto: Intervenções Estruturantes de Melhor Qualificação dos Ambientes para a Biblioteca Florestan Fernandes
+Descrição: Implementação do projeto de arquitetura de interiores desenvolvido pela TECLA Arquitetura e aquisição de equipamentos para modernização das instalações e serviços prestados pela BFF.
+Data de início: janeiro/2021
+Data de finalização: em andamento
+Patrocinador(es): Comissão de Orçamento e Patrimônio da USP
+Recursos recebidos do(s) patrocinador(es): R$ 14.000.000,00
+Pessoal envolvido: Chefia técnica/SAT, Assistência Administrativa, Assistência Financeira
+Resultados: 
+URL do projeto: Não aplicável.
+
+Nome do Projeto: Sistema para submissão dos trabalhos de conclusão de curso (TGIs e TCC) da FFLCH/USP 
+Descrição: O sistema visa atender as determinações da Resolução CoCEx-CoG Nº 7497, de 09 de abril de 2018, e da Deliberação da Comissão de Graduação da Faculdade de Filosofia, Letras e Ciências Humanas, de 09 de março de 2021. O sistema está configurado para que os diversos interessados sejam responsáveis por uma determinada etapa, iniciando com o Aluno, em seguida Orientador, Secretaria e Biblioteca.
+Data de início: janeiro/2021
+Data de finalização: maio/2021
+Patrocinador(es): Não aplicável.
+Recursos recebidos do(s) patrocinador(es): Não aplicável.
+Pessoal envolvido: Biblioteca (2), Departamento de Geografia (1) e Seção Técnica de Informática (5)
+Resultados: Não aplicável.
+URL do projeto: https://trabalhoacademico.fflch.usp.br/.
+
+Nome do Projeto: Plataforma para submissão e acesso aos arquivos da produção intelectual da FFLCH/USP
+Descrição: O sistema armazena e disponibiliza os arquivos PDFs vinculados aos registros já cadastrados no Dedalus. O acesso é regulado e atende a legislação dos direitos autorais vigente.
+Data de início: maio/2021
+Data de finalização: junho/2021
+Patrocinador(es): Não aplicável.
+Recursos recebidos do(s) patrocinador(es): Não aplicável.
+Pessoal envolvido: Biblioteca (4), Seção Técnica de Informática (3)
+Resultados: Não aplicável.
+URL do projeto: https://biblio.fflch.usp.br/.
+
+Nome do Projeto: Criação de conta e definição de política de publicação do Instagram da Biblioteca Florestan Fernandes. 
+Descrição: Tem como missão a publicação de postagens para divulgar: a) Eventos da e na Biblioteca Florestan Fernandes; b) Serviços oferecidos e informações gerais; c) Treinamentos em Bases de dados; c) Divulgação de eventos da FFLCH e em Humanidades em geral. 
+Data de início: 20/08/2021
+Data de finalização: 31/12/2021
+Resultados: Até a data de 23/12/2021, atingiu a marca de 945 seguidores e 74 postagens no Instagram, com 5.300 contas alcançadas e 690 contas com engajamento direto.
+URL do projeto: www.instagram.com/biblioteca.fflch.usp
+","Participação da Semana de Recepção aos Calouros 2021.","Mundo Melhor: podcast da Agenda 2030 (Edital PRCEU 01/2020)
+Clube de Leitura “Com Leitura e com Afeto” (Edital PRCEU 02/2021)
+Armário de Oportunidades (Comissão de Cultura e Extensão)
+
+
+","Sim","Sim","Sim","https://www.facebook.com/bibliotecaflorestanfernandes","https://twitter.com/bibliofflch","","https://www.flickr.com/photos/bibliofflch/","","https://www.youtube.com/channel/UCNiH334YQslyClYxjkM0X8A / Sempre às Segundas: https://www.youtube.com/playlist?list=PL-A0PPdfxK","https://pt.wikipedia.org/wiki/Biblioteca_Florestan_Fernandes / Instagram: www.instagram.com/biblioteca.fflch.usp","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"16","342","03/01/2022 - 14:46","13/01/2022 - 14:30","02/02/2022 - 11:54","0","143.107.21.3","173","io","Instituto Oceanográfico","58","832.14","0","30.67","4","1","0","0","1","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","30","13","0","0","0","0","12","0","3","87","78","99","106","152","0","0","0","0","0","0","0","0","0","0","0","0","0","2","0","20","55514","163","888","0","0","0","374","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","65","0","0","11","10","1","0","1","0","1","0","A base de dados da biblioteca: Aquatic Sciences and Fisheries Abstracts - ASFA, a qual o Instituto mantém convênio para indexação da literatura marinha produzida no Brasil. Número de artigos indexados: 206","Não temos.","Não Temos","Não temos","Não temos","Treinamento em base de dados (Dedalus, web science, Scopus, entre outras), bibliometria, normalização de dissertações e teses, curso de normalização de trabalhos-técnicos científicos segundo normas da ABNT e de softwares de gerenciamento de referência  (EndNote, Mendeley e Zotero.","Auxilia na disponibilização de material para serem usados nas disciplinas de cultura e extensão e também, oferece treinamento no uso de bases de dados utilizadas para coletar bibliografias.","Sim","Sim","Não","","","","","","","","Sim","Não","Não","Não","Sim","Sim","Sim","Não","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"17","343","04/01/2022 - 09:20","20/01/2022 - 11:17","20/01/2022 - 11:17","0","143.107.180.193","169","ifsc","Instituto de Física de São Carlos","167","1.560","0","0","7","3","0","0","3","0","0","0","0","46","37","0","0","0","0","0","0","0","0","0","0","3","2","0","3","5","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/169_4.xlsx","12","12","2","0","0","20","2","0","0","0","0","63","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","24","0","0","14","0","0","172.910","0","0","0","0","0","0","0","5.936","263","1.296","12","0","0","0","0","0","0","0","0","0","25","0","223","0","0","0","0","0","0","0","0","0","1","0","0","0","1.480","123","11.513","18","15","0","5","1","4","1","22","AQUILI - Base de Dados para Controle da Demanda de Aquisições
+Base:Local
+Registros cadastrados em 2021: 11
+","Não possui
+","1) XI SEMANA INTEGRADA DO INSTITUTO DE FÍSICA DE SÃO CARLOS - SIFSC
+Periodicidade: Anual
+Formato: Caderno de Resumos - Online (https://indico.ifsc.usp.br/event/1/)
+Distribuição: Doação
+Nível de Participação:
+a) revisão e correção das referências bibliográficas e das citações (ABNT 6023 e 10520) dos resumos submetidos para o evento 
+b) normalização técnica (ABNT 14724) do caderno de resumos
+c) solicitação do número do ISBN para a publicação","1) 5ª ESCOLA DE PESQUISADORES DO CAMPUS USP SÃO CARLOS
+Período: 30 de novembro a 02 de dezembro de 2021
+Patrocinador: Springer / Pró-Reitoria de Pesquisa da USP e Unidades do Campus que participam da Comissão do Portal da Escrita do Campus USP São Carlos
+Tipo de evento: Palestra e Mini-Cursos
+Nível de participação da Biblioteca: 
+- organização geral do evento em conjunto com as demais bibliotecas do Campus USP São Carlos
+- contratar e gerenciar a plataforma de inscrição do eventos e as questões financeiras
+- ministrar palestra sobre a Base de Dados Web of Science e Perfis acadêmicos em plataformas digitais e rede social acadêmica (ResearchGate)
+
+2) XI SEMANA INTEGRADA DO INSTITUTO DE FÍSICA DE SÃO CARLOS - SIFSC
+Período: 6 a 10 de setembro de 2021
+Patrocinador: IFSC
+Tipo de evento: Palestra e Mostra
+Nível de participação da Biblioteca: Normalização técnica do caderno de resumos e obtenção do ISBN do caderno de resumos.
+Caderno de Resumos disponível em: https://indico.ifsc.usp.br/event/1/
+","Nome do projeto: CRIAÇÃO DE UM ESPAÇO COWORKING ACADÊMICO"" NA BIBLIOTECA DO IFSC
+Descrição: criar um lugar estratégico, dentro da Biblioteca, denominado “sala coworking”, que irá ampliar ainda mais a utilização da Biblioteca, atendendo a demanda de docentes por um espaço equipado com mais recursos tecnológicos, onde poderão ser realizadas diferentes atividades com seus alunos. 
+Data de início: setembro de 2019
+Data de finalização: 2022
+Patrocinador(es): IFSC-USP
+Recursos recebidos do(s) patrocinador(es): Pró-Reitoria de Graduação da USP/ Orçamento Administrativos e Captação de recursos externos (empresas; projetos, etc...)
+Pessoal da Biblioteca envolvido: 4
+Resultados esperados: acomodar aproximadamente 50 pessoas que poderão dispor de tecnologias de informação, principalmente por estarem dentro de uma biblioteca, para seus estudos, pesquisas e geração de conhecimento, com atividades integradas e docentes dispostos a investir no desenvolvimento dos seus alunos. 
+","1) Recepção online de calouros dos cursos: “Bacharelado em Física”, ""Física Computacional"" e ""Licenciatura em Ciências Exatas”
+
+2) Curso a distância EAD sobre ""Elaboração de Referências em trabalhos acadêmicos""
+
+3) Curso a distância EAD sobre ""Citações em Trabalhos Acadêmicos""
+
+4) Curso a distância EAD sobre ""Estrutura de Trabalhos Acadêmicos""
+
+5) Programa de capacitação dos alunos de graduação voltado para o uso da biblioteca, fontes de informação, normalização de publicações e referencias bibliográficas.
+
+6) Priorização de recursos da AGUIA-USP e do orçamento da Unidade para aquisição de livros para graduação
+
+7) Distribuição de folders e sacolas retornáveis na semana de recepção dos calouros
+
+8) Campanha de uso adequado do acervo e mobiliário da biblioteca
+
+9) Portal da Escrita Científica do Campus USP São Carlos
+
+10) XI Semana Integrada do Instituto de Física de São Carlos - SIFSC
+","1) Visita dos ALUNOS das escolas de ensino médio do Programa ""Universitário por um dia""
+
+2) Visita dos ALUNOS das Escolas de Física Contemporânea do IFSC
+
+3) Curso a distância EAD sobre ""Elaboração de Referências em trabalhos acadêmicos""
+
+4) Curso a distância EAD sobre ""Citações em Trabalhos Acadêmicos""
+
+5) Curso a distância EAD sobre ""Estrutura de Trabalhos Acadêmicos""
+
+6) XXIV Semana do Livro e da Biblioteca na USP
+","Sim","Sim","Sim","https://www.facebook.com/bibliotecaifsc","https://twitter.com/sbi_ifsc","","","","https://www.youtube.com/channel/UC228Ou86HLJ92Pra_CqRaYQ","","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"18","344","04/01/2022 - 11:30","20/01/2022 - 17:24","20/01/2022 - 17:24","0","143.107.121.42","164","icb","Instituto de Ciências Biomédicas","196","1.165","0","0","1","3","0","0","2","4","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/164_5.xlsx","12","0","0","0","0","273","0","0","0","0","0","78","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","15","470","73","528","0","124","116.291","0","0","0","0","12.940","74","15","188","12","0","0","0","0","0","8","0","55","0","0","0","15","13","154","0","0","0","0","0","0","0","0","0","0","0","0","0","1.460","0","0","38","16","0","2","0","1","7","4","Aquisição: 12
+Produção científica: 485
+","Vídeo tutorial de normalização técnica do ICB (on-line);
+Vídeo tutorial de normalização técnica da Biotecnologia (on-line);
+Estrutura do trabalho ABNT - Programa de Pós-graduação do ICB (on-line);
+Estrutura do trabalho Vancouver - Programa de Pós-graduação do ICB (on-line);
+Estrutura do trabalho ABNT - Programa de Pós-graduação em Biotecnologia (on-line);
+Estrutura do trabalho Vancouver - Programa de Pós-graduação em Biotecnologia (on-line);
+Tutorial Normalização Formato convencional (digital);
+Tutorial Normalização Formato alternativo em capítulos (digital);
+Tutorial Normalização Formato alternativo coletânea de artigos científicos (digital);
+Tutorial ICB para uso da ferramenta de busca de repositórios de dados re3data (on-line);
+Recepção aos Novos Pós-graduandos 2020/2021 - Produtos e Serviços do SBIB/ICB e AGUIA/USP (digital);
+Recepção aos Graduandos 2021 - Produtos e Serviços do SBIB/ICB e AGUIA/USP (vídeo);
+Tutorial de usabilidade do Repositório da Produção USP – ReP (digital);
+Cadastro ORCID no DataUSP - weR_USP (digital);
+VPN – como conectar e desconectar (digital);
+JCR – compilação e formatação (digital);
+Tutorial de Biblioteca Virtual Pearson (digital);
+Tutorial configurações ALEPH – Circulação (digital);
+Tutorial de catalogação de teses e dissertações no Pandora e ALEPH (digital);
+Manual de emissão do Caderno de Laboratório (digital);
+Roteiro de 1º acesso ao DEDALUS, renovação e reserva de material bibliográfico (impresso e digital);
+Renovação de empréstimo no DEDALUS (digital);
+Guia rápido para submissão de trabalhos acadêmicos na Biblioteca Digital de Teses e Dissertações da USP BDTD (impresso e digital);
+Como trocar a senha na Web of Science (digital);
+Lista de contatos do ICB (impresso).","","","","","Comissão de Apoio à Comunidade do ICB (CAC-ICB).","Sim","Sim","Não","","","","","","","","Sim","Não","Não","Não","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"19","345","04/01/2022 - 13:46","20/01/2022 - 09:03","20/01/2022 - 09:03","0","143.107.3.41","158","fsp","Faculdade de Saúde Pública","216","1850","0","0","2","1","0","1","8","2","5","2","4","14","0","0","0","0","0","0","0","0","0","0","0","0","0","0","2","4","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/158_4.xlsx","13","0","0","0","0","55","13","0","0","0","0","0","10","0","0","0","0","46","105","0","0","0","0","0","0","0","0","0","0","304","0","0","0","0","0","330524","0","151","0","0","0","0","0","250","20","0","0","0","0","0","0","0","0","0","0","0","477","0","11506","0","0","0","0","0","0","0","0","0","0","0","0","0","1019","4","9","28","27","0","9","0","8","0","3","Lilacs/Bireme - Base Internacional - 173 registros
+e-Coleções - Base nacional institucional da FSP/USP - 3 registros","Biblioteca/CIR em Números – periodicidade: anual; formato: online. Distribuição: doação.
+
+Agenda Coletiva da Biblioteca – periodicidade: anual; formato: online. Distribuição: doação.
+
+Site da Biblioteca – formato: online. Distribuição: doação.
+
+Blog da Biblioteca da FSP/USP – formato: online. Distribuição: doação.
+
+Facebook da Biblioteca (Fan Page) – formato: online. Distribuição: doação.
+
+Twitter da Biblioteca – formato: online. Distribuição: doação.","Revista de Saúde Pública - formato: online; distribuição: doação; nível e participação da Biblioteca: Editoração, Normalização Técnica, Infraestrutura Administrativa, Distribuição ou Divulgação.
+
+Saúde e Sociedade – formato: online; distribuição: doação; nível e participação da Biblioteca: Infraestrutura Administrativa, Normalização Técnica.
+
+Livro eletrônico: Novos olhares sobre o ambiente urbano com foco na sustentabilidade – formato: online; distribuição: doação; nível e participação da Biblioteca: Comissão responsável pela publicação, Editoração, Normalização Técnica, Infraestrutura Administrativa, Produção Gráfica, Distribuição ou Divulgação.
+
+Livro eletrônico: Manual para avaliação do consumo alimentar em estudos epidemiológicos utilizando a versão brasileira do software GloboDiet – formato: online; distribuição: doação; nível e participação da Biblioteca: Comissão responsável pela publicação, Editoração, Normalização Técnica, Infraestrutura Administrativa, Produção Gráfica, Distribuição ou Divulgação.
+
+","","","Colaboração na Disciplina HCV121 - Informação Bibliográfica em Saúde Pública - Curso Bacharelado em Saúde Pública. Treinamento em bases de dados e orientação referente às normas bibliográficas.
+
+Colaboração na Disciplina 60018 - Comunicação e Informação: Atividade Integradora. Curso de Nutrição, período matutino e noturno. Treinamento em bases de dados e orientação referente às normas bibliográficas.
+
+Participação da chefia técnica, como integrante, da banca de avaliação do TCC de aluna de nutrição, em 3/12/2021, por videoconferência. Curso de Nutrição.
+
+Colaboração na revisão das Diretrizes Para Elaboração de Trabalhos de Conclusão de Curso - TCC2. Curso de Nutrição. Revisão de parte do conteúdo, formatação e divulgação.","Divulgação de informação em saúde nas redes sociais: blog, facebook e twitter.
+
+Biblioteca Virtual em Saúde - Saúde Pública - membro do comitê consultivo e participação como palestrante da 17a. Reunião do Comitê Consultivo, 24/09/2021, por videoconferência.
+
+Biblioteca Virtual em Bioética e Diplomacia em Saúde - membro do comitê consultivo.
+
+Participação da chefia técnica da Biblioteca como parecerista de projeto da Secretaria de Estado da Saúde de São Paulo.
+
+Participação da chefia técnica da Biblioteca no Comitê de Especialistas em Saúde Pública para apoiar a Bireme/OPAS/OMS na revisão das categorias de Saúde Pública dos Descritores em Ciências da Saúde (DeCS), maio a novembro de 2021.","Sim","Sim","Sim","http://www.facebook.com/bibfsp","@bibfsp_usp","http://www.fsp.usp.br/biblioteca/blog","http://www.flickr.com/photos/bibfsp/","","","","Sim","Não","Não","Sim","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"20","346","04/01/2022 - 15:03","20/01/2022 - 11:40","02/02/2022 - 17:08","0","200.144.215.134","148","fau","Faculdade de Arquitetura e Urbanismo","100","1723.45","1932.45","0","4","2","4","0","6","3","0","0","0","27","25","0","1","0","0","0","0","0","0","0","0","2","2","0","6","4","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/148_3.xlsx","12","0","3","0","0","20","7","0","0","0","0","125","0","5","104","1","7","11","11","0","0","0","0","0","0","0","0","0","0","0","0","462","0","0","0","47.684","17","554","0","17","1477","0","115.139","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1039","7","0","8","20","0","3","1","4","0","0","1) Nome : Acervos da Faculdade de Arquitetura e Urbanismo - USP
+Tipo : Base local
+N.o. de registros : 9.351
+URL : http://acervos.fau.usp.br/A/acervos/page/inicio
+2) Nome : Índice de Arquitetura Brasileira
+Tipo : base local
+No. de registros : 0 (*)
+URL : http://143.107.16.155.88/index.htm
+(*) fora do ar desde 2019 por problemas no servidor na qual estava abrigada, mas temos projeto em andamento para migrar os 64.071 registros recuperados da antiga base de dados para uma nova.
+
+","Não fizemos nenhuma esse ano. ","1 -Pós. Revista do Programa de Pós-Graduação em Arquitetura e Urbanismo da FAUUSP. Publicação online em fluxo contínuo. Participação na indexação e editoração.
+2 - Paisagem e Ambiente. Ensaios. Publicação online em fluxo contínuo. Participação na Comissão Editorial, indexação e editoração da revista.
+3- Informativo Fauusp. Publicação Quadrimensal. Formato Online. Participação no recebimento e coleta de material; organização das matérias; fornecimento de lista de produção docente do período formatada; revisão gramatical e ortográfica, escolha de imagens e capa; gestão para recebimento do ISSN a partir de 2019.
+
+","- Cultura Wiki nas Universidades: panorama e possibilidades. FAU em Prosa. Julho/2021. 
+Na ocasião, Ana Carolina Coelho,  Serviço de Comunicação Institucional FAU USP, João Alexandre Peschanski,  Coordenador do Wiki Movimento Brasil, afiliado brasileiro da Fundação Wikimedia e Amarílis Montagnolli Gomes Corrêa - Bibliotecária da FAU USP,   conversam sobre as possibilidades de ação da comunidade acadêmica no desenvolvimento do conteúdo disponível nos projetos da Fundação Wikimedia. Via : https://youtu.be/TITRKmLt_fc ","1) IndexAB: Projeto de Recuperação do Índice de Arquitetura Brasileira
+[Projeto aprovado pelo Programa Unificado de Bolsas - PUB/USP – 2020/2021]
+O Índice de Arquitetura Brasileira, criado em 1950, pela Biblioteca da FAUUSP, é um projeto pioneiro, que constitui a única base referencial de artigos publicados nas principais revistas nacionais de divulgação dedicadas à arquitetura e áreas afins, incluindo as publicadas pelas faculdades e universidades no âmbito acadêmico. Este projeto visa disponibilizar novamente o Índice de Arquitetura Brasileira para consulta digital em rede, por público especializado e por todos interessados na produção cultural material em geral, atualizando seus dados a novos padrões de interoperabilidade e a ferramentas de integração com outros catálogos, inclusive os acervos digitais da própria FAU e da USP.
+Data de início: ago./2020 e Data de finalização: ago./2021 
+Coordenação: Profa. Dra. Myrna Nascimento
+Supervisão bibliotecária: Amarílis Montagnolli Gomes Correa
+Pessoal da biblioteca envolvido no período: 4
+Bolsista PUB: 2
+2) IndexAB: Projeto de Recuperação do Índice de Arquitetura Brasileira
+[Projeto aprovado pelo Programa Unificado de Bolsas - PUB/USP – 2021/2022]
+O Índice de Arquitetura Brasileira, criado em 1950, pela Biblioteca da FAUUSP, é um projeto pioneiro, que constitui a única base referencial de artigos publicados nas principais revistas nacionais de divulgação dedicadas à arquitetura e áreas afins, incluindo as publicadas pelas faculdades e universidades no âmbito acadêmico. Este projeto visa disponibilizar novamente o Índice de Arquitetura Brasileira para consulta digital em rede, por público especializado e por todos interessados na produção cultural material em geral, atualizando seus dados a novos padrões de interoperabilidade e a ferramentas de integração com outros catálogos, inclusive os acervos digitais da própria FAU e da USP.
+Data de início: ago/2021 e Data de finalização: ago/2022
+Coordenação: Profa. Dra. Myrna Nascimento
+Pessoal da biblioteca envolvido no período: 2
+Bolsista PUB: 2
+3) PRObiblioFAU : Desenvolvimento de soluções para layout e mobiliário da Biblioteca da  FAUUSP para uso durante e pós pandemia de COVID-19 
+[Projeto aprovado pelo Programa Unificado de Bolsas - PUB/USP – 2020/2021] 
+A pandemia relacionada ao COVID-19 surpreendeu a todos, em pleno início de ano  letivo de 2020. Com as atividades presenciais suspensas, o novo cenário exigiu a adaptação  de uma série de práticas referentes ao atendimento realizado pelo Serviço Técnico de  Biblioteca da FAUUSP. Mesmo após o pico da pandemia, ou com a descoberta de vacinas  usadas para prevenir esse vírus, todas as nossas atividades cotidianas estarão impactadas  e deverão estar de acordo com uma nova realidade. Assim, desenvolver soluções que propiciassem uma melhor interação dos usuários,  e também dos funcionários, com o ambiente físico da biblioteca era o passo  inicial desse projeto. Infelizmente, mudanças foram necessárias ao longo de seu  desdobramento, em função do período pandêmico que suspendeu atividades  presenciais. Contudo, a proposta que foi executada conseguiu proporcionar uma  integração, instigando a curiosidade de quem ainda não pôde conhecer as dependências da biblioteca. Portanto, este projeto PUB tornou-se um  convite aos novos alunos (e aos veteranos) a conhecerem os serviços e recursos  que a Biblioteca da FAU-USP tem a oferecer, produzindo vídeos com a participação de parte da equipe. 
+Data de início: ago/2020 e Data de finalização: ago/2021
+Coordenação: Profa. Dra. Myrna Nascimento 
+Supervisão Bibliotecária: Mônica de Arruda Nascimento – chefe técnica 
+Pessoal da biblioteca envolvido no período: 6
+Bolsista PUB: 1
+4) PRObiblioFAU : Desenvolvimento de soluções e demandas dos espaços CUASO e Maranhão da Biblioteca da FAUUSP, durante e pós pandemia COVID-19
+[Projeto aprovado pelo Programa Unificado de Bolsas - PUB/USP – 2021/2022] 
+Este projeto propõe o desenvolvimento de soluções para o uso da biblioteca como um todo, considerando a divulgação das atividades desenvolvidas em cada um dos espaços, e  as novas demandas de layout, para atender à  necessidade de adaptações no ambiente, que auxiliem o funcionamento das atividades de atendimento e consulta presencial ao acervo, guardando-se o distanciamento entre funcionários e usuários e introduzindo dispositivos de proteção necessários no mobiliário e nos espaços de trabalho.
+Data de início: set./2021 e Data de finalização: set.2022
+Coordenação: Profa. Dra. Myrna Nascimento 
+Supervisão Bibliotecária: Mônica de Arruda Nascimento – chefe técnica 
+Bolsista PUB: 1
+5) GLAM-Wiki Bibliotecas da USP
+Este projeto é uma iniciativa das bibliotecas do IME-USP, da ECA-USP e da FAUUSP. É o primeiro GLAM-Wiki de bibliotecas universitárias brasileiras do qual se tem conhecimento. Os objetivos são: partir das coleções das bibliotecas da USP para contribuir quantitativa e qualitativamente com os dados bibliográficos e informações educacionais disponíveis nas plataformas da Fundação Wikimedia, com foco na Wikipedia, Wikidata e Wikimedia Commons; incentivar a produção e edição de conteúdo; contribuir para ampliar a representatividade do idioma português no universo wiki; produzir materiais para capacitação e divulgação em português; além de incluir os trabalhos no universo wiki dentre as novas práticas bibliotecárias. 
+Data de início: maio/2020 e Data de finalização: segue ativo
+Pessoal da biblioteca envolvido no período: 3
+6)Coleções de Projetos: Ensino, Aprendizado, Prática e Difusão: Coleções Samuel e Christiano das Neves e Carlos Ekman
+Coordenação: Profa. Dra. Ana Lucia Duarte Lanna
+Programa Unificado de Bolsas de Estudo para apoio e Formação de Estudantes de Graduação – PUB
+
+7)Imaginando a História de São Paulo: Olhando Desenhos de Arquitetura 
+Coordenação: Prof. Dr. Hugo Segawa
+Programa Unificado de Bolsas de Estudo para apoio e Formação de Estudantes de Graduação – PUB
+
+8)Coleções de Projetos: Ensino, Aprendizado, Prática e Difusão: Coleções Roberto José Goulart Tibau e Roger Zmekhol
+Coordenação: Prof. Dr. Ivo Renato Giroto
+Programa Unificado de Bolsas de Estudo para apoio e Formação de Estudantes de Graduação – PUB
+
+9)Coleções de Projetos: Ensino, Aprendizado, Prática e Difusão: as obras de Oswaldo Bratke e do Governo Carvalho Pinto no acervo da FAUUSP
+Coordenação: Profa. Dra. Monica Junqueira de Camargo
+Programa Unificado de Bolsas de Estudo para apoio e Formação de Estudantes de Graduação – PUB
+
+10)Coleções de Projetos: Ensino, Aprendizado, Prática e Difusão: Coleções Ruben Martins e Cauduro Martino Arquitetos Associados
+Coordenação: Profa. Dra. Tatiana Sakurai
+Programa Unificado de Bolsas de Estudo para apoio e Formação de Estudantes de Graduação – PUB
+
+11)A Verticalização de São Paulo no Acervo da FAUUSP
+Coordenação: Prof. Dr. Ivo Renato Giroto
+Programa Unificado de Bolsas de Estudo para apoio e Formação de Estudantes de Graduação – PUB
+
+12)Escritório Técnico Ramos de Azevedo, Severo & Villares para além de São Paulo
+Coordenação: Profa. Dra. Beatriz Piccolotto Siqueira Bueno
+Programa Unificado de Bolsas de Estudo para apoio e Formação de Estudantes de Graduação – PUB
+
+
+","1) Realização de oficinas com alunos matriculados na disciplina TFG e TCC para orientação referente ao uso de fontes de pesquisa, de como redigir seu trabalho final de graduação, etc.;
+2) Elaboração de projetos PUB´s com a participação de alunos da graduação como bolsistas, envolvendo pesquisas no acervo iconográfico e outros envolvendo a recuperação de registros em base de dados da FAUUSP em nível nacional e também a produção de 5 videos com apresentação da biblioteca e seus serviços para os calouros.
+","A Biblioteca ainda colaborou com alguns eventos no sentido de empréstimo de materiais do acervo. Esses estão citados abaixo. 
+
+Título : “Pacaembu: o estádio monumento”
+Período: 27 de abril de 2020 a 26 de abril de 2022
+Local: Museu do Futebol (exposição na sede, em São Paulo, e virtual - https://artsandculture.google.com/exhibit/pacaembu/KAJiOz4JD3BgIg)
+Responsável: Museu do Futebol
+
+Título ; “Casa Carioca”
+Período: setembro de 2020* a 1º de agosto de 2021
+Local: Museu de Arte do Rio, em Rio de Janeiro
+Responsável: curadoria de Marcelo Campos e Joice Berth,
+(*abertura adiada em função da pandemia do novo coronavírus)
+
+Título ; ""Infinito Vão, 90 Anos de Arquitetura Brasileira""
+Período: 11 de novembro de 2020 a 27 de junho de 2021
+Local: SESC 24 de Maio
+Responsável: Cia das Licenças Licenciamentos Ltda  
+
+Título: “Arquivo Peter Scheier”
+Período: de 20 de março a 1º de agosto de 2021
+Local: Instituto Moreira Salles no Rio de Janeiro
+Curadoria: Heloisa Espada
+ 
+Título: “Patrimônio Arquitetônico e Documental em Risco: São Paulo”
+Período: de 15 de abril e 15 de maio de 2021
+Local: Bienal de Restauro Arquitetônico e Urbano - BRAU5, Brasil e Itália (on-line)
+Curadoria: Beatriz Piccolotto Siqueira Bueno, Mirza Pellicciotta e Fernanda Carvalho
+ 
+Título: “Projetos para um cotidiano moderno no Brasil - 1920-1960?”
+Período: de 7 de agosto de 2021 a 28 de fevereiro de 2022
+Local: Museu de Arte Contemporânea da USP, São Paulo-SP
+Curadoria: MAC USP
+ 
+Título: “Bramante Buffoni”
+Período: setembro de 2021 a janeiro de 2022
+Local: Casa Modernista do Museu da Cidade de São Paulo
+Curadoria: Patrícia Freitas
+ 
+Título: “Casas e Coisas”
+Período: setembro de 2022 a setembro de 2027
+Local: Museu Paulista da USP, São Paulo-SP 
+Curadoria: Profa. Vânia Carneiro de Carvalho
+ 
+Título: Expo Dubai 2020-2021
+Período: de 1º de outubro de 2021 a 31 de março de 2022
+Local: Pavilhão do Brasil no Parque da Expo Dubai 2020-2021 - Distrito da Sustentabilidade, em Dubai, Emirados Árabes Unidos
+Curadoria: Guilherme Wisnik e Alexandre Benoit (execução e produção da Galápagos Produções)
+
+
+","Sim","Sim","Sim","https://www.facebook.com/Biblioteca FAUUSP","https://twitter.com.br/bibfauusp","","","","","","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"21","347","05/01/2022 - 11:02","06/01/2022 - 18:05","06/01/2022 - 18:05","0","143.107.62.162","176","iri","Instituto de Relações Internacionais","43","301.64","0","0","0","0","2","0","0","0","0","0","0","2","0","0","0","0","0","0","0","0","0","0","0","2","0","0","1","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/176_3.xlsx","12","0","0","0","0","135","0","0","0","0","0","22","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","2.839","0","0","0","0","0","92","0","0","0","0","61","0","0","1","0","0","0","0","0","0","0","0","0","0","2","0","11","9","221","0","0","0","0","0","0","0","0","0","1","420","0","4","3","3","0","1","0","1","4","0","1)
+Nome: Repositório 5G (http://repositorioiri5g.iri.usp.br/jspui/)
+Tipo: Base local
+Registros cadastrados no período: 63
+Observação: O repositório é temático e abrange documentos digitais diversos, de acesso aberto e restrito, sobre o tema 5G.  Tem como empreendedores iniciais o Instituto de Estudos Avançados (IEA), a Escola Politécnica (EP) e o Instituto de Relações Internacionais (IRI) da Universidade de São Paulo (USP). O repositório foi desenvolvido pela Biblioteca e o Setor de Informática do IRI-USP. A gestão e o cadastro dos documentos no repositório são feitos pela Biblioteca do IRI.
+
+2)
+Nome: Repositório DSI/GACInt (http://repositoriodsi.iri.usp.br:8080/jspui/)
+Tipo: Base local
+Registros cadastrados no período: 0
+Observação: Repositório sobre Segurança Internacional (DSI) do Grupo de Análise da Conjuntura Internacional da USP (GACint). Repositório foi criado pela Biblioteca e o Setor de Informática do IRI-USP e agora a Biblioteca aguarda o envio de alguns dados pelo Grupo DSI para o início do cadastro dos documentos.","Não tivemos publicações elaboradas pela Biblioteca.","Não tivemos publicações oficiais do IRI com participação da Biblioteca.","Não tivemos eventos.","Nome do Projeto: Projeto apresentado junto à Pró-Reitoria de Graduação da Universidade de São Paulo para concorrência no edital PRG/Santander Universidades: Santander e-Grad (edição 2019)
+Descrição: O projeto está em nome do Prof. Felipe Pereira Loureiro, presidente da Comissão de Biblioteca do IRI-USP, na época da abertura do edital, teve como objetivo principal remodelar e equipar o espaço didático de videoconferência da sala de reuniões da Biblioteca do IRI-USP para os alunos de bacharelado de Relações Internacionais do IRI, transformando-o em um local de apoio para as disciplinas de graduação, para grupos de estudo e para instituições discentes de extensão.
+Data de início: 2019
+Data de finalização: 2021
+Patrocinador: Santander
+Recursos financeiros recebidos dos patrocinadores: R$54.545,45 
+Recursos financeiros utilizados dos patrocinadores: R$49.205,40 
+Equipe da Biblioteca envolvida: 2 bibliotecárias
+Resultados obtidos: em 2020 e 2021 foram adquiridos 1 Sistema de videoconferência Intelbras EVC 1000 (R$15.280,00); 1 Suporte pedestal de chão c/rodízio bandeja e regulagem – modelo AO5V6 ELG (R$1.149,40); 1 Armário extra alto (R$950,00); 5 Estantes de madeira com 5 prateleiras (R$4.250,00); 1 Mesa de reunião 3000x1000 P-P 25/18/25MM marfim marfiv (R$2.146,00); 26,8 Persianas rolo TS (R$4.020,00), 1 Notebook Lenovo ThinkPad E490, modelo: 20N9 (R$6.200,00); 1TV 4K 65 Samsung LH65BETHVGGXD (R$4.170,00) e 12 Cadeiras giratórias c/encosto em tela preto, apoio de cabeça (R$11.040,00). Com a aquisição dos equipamentos e mobiliário o projeto foi finalizado, a sala está montada, somente aguardando a instalação de um novo ponto de rede para funcionamento da videoconferência.","Participação da Biblioteca na Roda Acadêmica organizada pela Seção de Graduação com a apresentação da Biblioteca aos alunos.
+Dois treinamentos foram oferecidos especificamente para os alunos da graduação, são eles: “ABNT e bases de dados” e “Bases de dados internacionais para pesquisa – 2021”.
+Elaboramos vídeos-tutoriais especialmente para a graduação, como por exemplo, “Estação de Autochecagem Turnitin da Biblioteca do IRI-USP: como solicitar o acesso”, dentre outros
+(https://www.youtube.com/playlist?list=PL-vyFK3U_wjfSCzPswiPc_CiyAjr6u06a).
+O Projeto Santander teve como objetivo principal remodelar e equipar um espaço didático de videoconferência na sala de reuniões da Biblioteca do IRI-USP para os alunos de bacharelado de Relações Internacionais, transformando-o em um local de apoio para, principalmente, as disciplinas de graduação.","Boletim Acauã (projeto de extensão da Profa. Cristiane Lucena Carneiro realizado com verba Santander) – 2020-2021
+Participação na criação do Boletim Acauã do IRI para divulgação científica da área de Relações Internacionais (RI) com conteúdos como entrevistas, relatos de experiências profissionais, oportunidades de estágio, cursos etc. 
+Atualmente as duas bibliotecárias são colaboradoras do Boletim, participando das reuniões periódicas do Grupo.
+https://acaua.info/
+","Sim","Sim","Sim","https://www.facebook.com/bibliotecairiusp","https://twitter.com/UspIri","","","","https://www.youtube.com/playlist?list=PL-vyFK3U_wjfSCzPswiPc_CiyAjr6u06a","Instagram https://www.instagram.com/bibliotecairiusp/ ","Sim","Não","Sim","Sim","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"22","348","05/01/2022 - 15:41","13/01/2022 - 14:46","20/01/2022 - 17:14","0","143.107.178.163","154","fm","Faculdade de Medicina","156","3070","0","0","2","1","3","0","8","5","0","0","0","23","0","0","0","0","0","0","0","0","0","0","0","0","0","0","10","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/capacitacao_de_usuarios_2021v2.xlsx","19","0","0","0","0","229","0","0","0","0","0","377","0","0","7","0","0","60","10","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","253.632","70","0","0","0","0","0","0","4.904","659","375","0","5","0","77","46","20","309","0","0","0","1.753","172","2.996","28","0","403","5","0","31","14","0","0","0","0","20","126","11.126","569","1.904","49","31","2","3","0","3","51","0","Nome: OPI - Observatório da Produção Intelectual do Sistema FMUSP-HC
+Tipo: Base Local
+Registros cadastrados no período: 5.364","Durante o ano da pandemia do coronavírus (2021) foram mantidas todas as publicações online da Biblioteca, com um aumento de acesso aos conteúdos. 
+Home page da Biblioteca, Blog da Biblioteca da FMUSP, Facebook da Biblioteca da FMUSP, Twitter da Biblioteca da FMUSP e Instagram da Biblioteca da FMUSP.","Título: Clinics
+Periodicidade: Fluxo contínuo
+Formato: Online
+Distribuição: Acesso Aberto 
+Nível de participação da Biblioteca: Divulgação
+
+Título: Revista de Terapia Ocupacional da USP
+Periodicidade: Quadrimestral
+Formato: Impresso e Online
+Distribuição: Acesso Aberto
+Nível de participação da Biblioteca: Editoração, normalização técnica, inserção no portal de revistas da USP e em base de dados LILACS e divulgação
+
+Título: Revista de Medicina
+Periodicidade: Bimestral
+Formato: Impresso e Online
+Distribuição: Acesso Aberto
+Nível de participação da Biblioteca: Editoração, normalização técnica, produção gráfica, inserção no portal de revistas da USP e em base de dados LILACS, distribuição e divulgação.
+
+
+","Devido à pandemia, concentramos nossos esforços no atendimento digital de nossos usuários. A descrição das capacitações oferecidas pela Biblioteca no período já foram relatadas anteriormente.","Nome: OPI - Observatório da Produção Intelectual do Sistema FMUSP-HC
+Descrição: Projeto para a coleta, disponibilização e análise da produção científica de relevância internacional da FMUSP e HC
+Data de início: 06/06/2021
+Data de finalização: 05/06/2022
+Patrocinadores: FFM
+Recursos recebidos dos patrocinadores: R$ 98.796,00
+Pessoal da Biblioteca envolvido: 04
+Resultados: atualização da versão do DSpace, novo layout, novos gráficos, novas métricas e comunidade temática.
+Quantificação: 5.364
+URL: http://observatorio.fm.usp.br
+
+","Assinatura juntamente com outras Unidades (FMRP e FOB) e órgãos centrais da Plataforma de E.books Minha Biblioteca.
+
+Participação na Disciplina UC-0 para o primeiro ano do curso de Medicina, além de aulas para os cursos de Fonoaudiologia, Fisioterapia e Terapia Ocupacional.","Participação na Comissão Editorial da FMUSP, de acordo com a Portaria nº 2513 de 17 de maio de 2021.","Sim","Sim","Sim","bibliotecafmusp","@bibliotecafmusp","http://spdbcfmusp.wordpress.com","","","https://www.youtube.com/user/bibliotecafmusp/","Instagram: bibliotecafmusp","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Sim","Não"
+"23","349","05/01/2022 - 16:40","21/01/2022 - 15:45","31/01/2022 - 15:38","0","143.107.49.227","151","fe","Faculdade de Educação","312","3.520","0","0","3","2","0","0","9","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","1825","0","0","0","0","0","100","0","0","0","0","0","35","0","0","0","0","0","0","0","0","0","0","0","0","0","28","33741","0","0","75670","0","0","0","0","8426","0","0","0","0","0","0","704","0","74539","0","0","0","0","0","0","500","0","58155","0","0","0","4","0","0","0","0","0","0","0","0","0","2864","0","0","12","16","0","6","0","3","0","0","Livres - banco de dados de livros escolares brasileiros","Não se aplica","Educação e Pesquisa: Revista da Faculdade de Educação da USP
+Participação da Biblioteca: Editoração; Normalização técnica; Infraestrutura administrativa e Divulgação.","BiblioLeitor: o prazer da leitura e da descoberta.","Vinculado ao Programa Unificado de Bolsas - PUB / USP
+Título: Era uma vez ... Contando histórias
+Quantidade de bolsas: 02","Não se aplica","Não se aplica","Sim","Sim","Sim","","","","","","","","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Sim","Não","Sim","Não","Sim","Não","Não","Sim","Sim"
+"24","350","06/01/2022 - 14:45","11/01/2022 - 16:46","11/01/2022 - 16:46","0","143.107.236.205","162","iau","Instituto de Arquitetura e Urbanismo","9","85","0","0","0","0","1","0","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/162_3.xlsx","16","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","250","0","10","0","0","0","4529","0","0","0","0","35","2","6","9","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","822","0","2","3","3","0","1","3","3","0","0","","","","Nome do evento: 5ª Escola de Pesquisadores da USP. Período:  30/11/2021 à 02/12/2021. Tipo de evento: :
+Palestras. Nível de participação da Biblioteca: Participação na Comissão Organizadora e Divulgação.","","","","Sim","Sim","Sim","https://www.facebook.com/Biblioteca-do-IAU-USP-1887490454816888","","","","","","","Não","Não","Sim","Sim","Sim","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"25","351","07/01/2022 - 10:43","31/01/2022 - 09:19","31/01/2022 - 09:19","0","143.107.4.130","167","iee","Instituto de Energia e Ambiente","12","307","0","0","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","25","0","0","0","9","0","0","0","0","0","21","0","1","4","0","0","9","2","0","0","0","0","0","0","2","9","0","0","0","0","0","140","0","4","43.142","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","23","44","0","4","3","0","1","0","1","0","0","187","não se aplica","não se aplica","não se aplica","não se aplica","não se aplica","não se aplica","Sim","Sim","Sim","www.facebook.com/Biblioteca.iee","","","","","","","Sim","Não","Sim","Sim","Sim","Não","Sim","Sim","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"26","352","07/01/2022 - 15:16","19/01/2022 - 18:01","19/01/2022 - 18:01","0","143.107.59.221","140","each","Escola de Artes, Ciências e Humanidades","377","3000","0","0","5","2","0","0","5","4","0","2","3","30","68","4","0","0","0","0","0","0","0","0","0","0","3","1","9","4","9","0","0","9","https://indicadores.abcd.usp.br/sites/default/files/webform/140_5.xlsx","16","25","1","0","0","517","232","0","0","0","0","2","0","0","0","21","5","118","6","0","0","0","0","0","0","0","0","0","0","0","0","0","7491","0","1","23389","115","0","0","0","410","0","4931","76","0","0","30","4","0","80","4","0","150","0","0","0","170","0","12215","0","0","0","2","0","0","0","0","0","1","0","2","0","454","0","310","22","21","0","3","3","2","0","2","Tecidoteca - Biblioteca da EACH - USP. disponível em: http://colecoes.sibi.usp.br/tecidoteca/","Não se aplica","BETTINE, Marco. A Teoria do Agir Comunicativo de Jürgen Habermas: bases conceituais. São Paulo: Edições EACH, 2021. 1 E-book. DOI 10.11606/9786588503027
+
+GUERRA, G. R.; SILVA, G. G. L.; TOMAZZONI. E. L.; BRAGA, D.C. (org.). Gestão regional e políticas públicas de turismo. São Paulo: EACH/USP, 2021. 1 ebook. Disponível em: http://www.each.usp.br/turismo/livros.php
+ITALIANO, I. C.; MARCICANO, J. P.; BARUQUE RAMOS, J.; HELD, M. S. B.; SANCHES, R. A. (org.). Pesquisas em design, gestão e tecnologia de têxtil e moda: volume 9. São Paulo: EACH/USP, 2019. 1 ebook. DOI 10.11606/9788564842557.
+
+REIMÃO, Sandra. Livros e televisão: correlações. São Paulo: Edições EACH, 2021. 1 e-book. DOI 10.11606/9786588503034
+
+REIMÃO, S.; MIYAZAKI, S. Y. M. (org.). Tópicos de marketing no século XXI: volume 1. São Paulo, Edições EACH/USP, 2021. 1 ebook. DOI 10.11606/9786588503089.
+
+SHUARE, Marta. Fisiología y psicologia: complejidad y dialéctica. São Paulo: Edições EACH 2021. 237p. Disponível em: https://sites.usp.br/gepespp-ledep/livro-fisiologia-y-psicologia/
+","Palestra sobre a Tecidoteca em 11 de junho de 2021 para LiberJr - Empresa Júnior de Biblioteconomia e Ciência da Informação da Universidade Federal de São Carlos - UFSCar","Não existem projetos em andamento","Tecidoteca: Finalização dos estágios de Bolsas PUB de Regiane Alves Vieira, bolsista PUB Vertente Pesquisa, iniciada em setembro de 2020; Gabriela de Souza Medeiros, Bolsista PUB vertente Ensino, iniciada em setembro de 2020. Início dos estágios de Naomy Diniz de Jesus, vertente Ensino, Letícia Mendes Ribeiro, vertente Cultura e extensão, Thalita Soares Aranda dos Santos, vertente Cultura e extensão e Gabriela, Cerqueira dos Santos, vertente Pesquisa ","Projeto Tecidotecas do Brasil da bolsistas Thalita Soares Aranda dos Santos: Coleta e informações sobre endereço, telefone, site, email e redes sociais de Tecidotecas do Brasil","Sim","Sim","Sim","https://www.facebook.com/bibliotecaeachusp","","","","","","https://www.instagram.com/tecidotecausp/","Sim","Não","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"27","353","10/01/2022 - 17:37","18/01/2022 - 18:05","18/01/2022 - 18:05","0","143.107.31.154","166","ieb","Instituto de Estudos Brasileiros","20","2597","0","0","1","0","2","0","0","2","2","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","125","0","0","0","0","0","18","0","0","0","0","0","19","6","0","0","0","0","0","0","0","0","0","0","0","0","0","110600","0","0","53508","347","0","3818","0","0","0","0","62","0","1532","0","0","0","0","0","0","0","0","0","0","723","52","32946","7","2","150","0","0","0","0","0","0","0","0","0","0","241","0","21","6","14","0","2","0","2","0","0","Biblioteca Digital do IEB-USP - 1394 títulos - <http://200.144.255.59/catalogo_eletronico/consultaDocumentos.asp?Tipo_Consulta=Projeto_Especial&Acervo_Codigo=3&Setor_Codigo=12>","Não se aplica","Revista do IEB - RIEB
+Informe IEB
+Cadernos do IEB","- Exposição Era Uma Vez o Moderno (1910-1944) - parceria IEB-USP / SESI - de 07/12/2021 a 29/05/2022 - empréstimo de 60 obras e montagem da exposição por funcionário da Biblioteca
+
+- Exposição A Máquina do Mundo - Pinacoteca de São Paulo - de 06/11/2021 a 22/02/2022 - empréstimo de obra 
+
+","- Mecila - Maria Sibylla Merian Centre Conviviality-inequality in Latin America. Participação como biblioteca de
+apoio à pesquisa desde dezembro de 2020. 1 funcionário envolvido
+
+- Red de Bibliotecas Académicas de America Latina y el Caribe (Red BAALC) - membro coordenador. Tem por objetivo promover a integração, cooperação e articulação das bibliotecas participantes para o fortalecimento das instituições de educação superior e suas distintas comunidades. Ao todo a rede congrega 36 bibliotecas universitárias - 1 funcionário envolvido
+
+- Conservação e Restauro Coleção Mário de Andrade - elaboração e encaminhamento do projeto, que deverá ser executado em 2022. 
+
+- Projeto de ampliação do espaço de reserva técnica - 2021-2022
+
+- Minecraft no IEB - colaboração com o setor de Difusão do IEB para desenvolvimento do jogo ; Elaboração de vídeos de divulgação e das páginas do site com o conteúdo digital do acervo para o jogo Minecraft no IEB;
+
+- Vídeo comemorativo dos 60 anos do IEB-USP: colaboração com o setor de Difusão do IEB. Verificação de informações em processos; seleção de imagens representativas de cada fundo e coleção do IEB.
+
+   
+","Não se aplica","Não se aplica","Sim","Sim","Não","","","","","","","","Sim","Não","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"28","354","11/01/2022 - 09:29","19/01/2022 - 15:57","19/01/2022 - 15:57","0","143.107.83.231","141","eca","Escola de Comunicações e Artes","141","1634","0","0","6","1","0","1","10","4","5","2","0","27","1","0","0","0","0","0","0","0","1","0","0","0","0","0","4","1","1","9","5","1","https://indicadores.abcd.usp.br/sites/default/files/webform/141_5.xlsx","14","0","0","0","0","780","300","0","0","0","0","66","0","0","3","1","0","0","0","0","0","0","0","12","0","0","0","0","0","310","84","11","11555","0","71","79039","3","0","5141","2","25807","0","1231","0","0","0","3","0","0","0","4","0","122","0","0","0","201","0","21900","0","0","0","0","0","0","0","0","0","0","0","0","0","749","5","10","17","27","0","2","3","3","11","5","Base Foto: slides, fotos e imagens digitais
+Base Cena: Imagens em movimento
+Base Sonora: gravações
+Base HQ: histórias em quadrinhos","Blog da Biblioteca da ECA
+https://bibliotecadaeca.wordpress.com/
+Acontece na Biblioteca (boletim)
+https://mailchi.mp/cea9b552f3c6/acontece-na-biblioteca-dezembro-18997441","Nenhuma","- Ferramentas da Wikimedia nas bibliotecas e potenciais de uso. Período: 10 de março de 2021. Palestras on-line. Participação da Biblioteca na comissão organizadora.
+
+- Wikipédia para bibliotecárixs: oficina com o Grupo de Pesquisa em Catalogação – GEPCAT. Período: 23 de março de 2021. Oficina on-line. Participação da Biblioteca na comissão organizadora.
+
+
+- Catalogação de filmes: uma visão prática – apresentada por Marina Macambyra no evento Prosas de Catalogação. Período: 26 de abril de 2021. Promovida pelo Grupo de Estudos e Pesquisas em Catalogação. Palestra on-line transmitida pelo YouTube (https://youtu.be/FQF2uNGrMqM). Participação da Biblioteca na apresentação da palestra.
+ 
+- GLAM Wiki Bibliotecas da USP - apresentada por Lilian Viana na Festa da Wiki-Lusofonia: Apresentação dos grupos de utilizadores lusófonos. Período: 08 de maio de 2021. Organizada por Wiki Movimento Brasil. Palestra on-line. Participação da Biblioteca na divulgação e apresentação da palestra.
+
+- A importação de dados no Wikidata via Quick Statement. Período: 28 de maio de 2021. Oficina on-line. Participação da Biblioteca na comissão organizadora.
+
+- Biblioteca em sala de aula: a edição de verbetes da Wikipédia na disciplina Procedimentos de Pesquisa em Educomunicação - apresentada por Lilian Viana no 6º Congresso de Graduação da USP. Período: 19 a 21 de agosto de 2021. Organizado pela USP. Palestra on-line. Participação da Biblioteca na apresentação da palestra.
+
+- Biblioteca em sala de aula: a edição de verbetes da Wikipédia na disciplina Procedimentos de Pesquisa em Educomunicação - apresentada por Lilian Viana no 6º Congresso de Graduação da USP. Período: 19 a 21 de agosto de 2021. Organizado pela USP. Palestra on-line. Participação da Biblioteca na apresentação da palestra.
+
+- O papel da biblioteca na escrita científica - apresentada por Marina Macambyra. Período: 16 de setembro de 2021.  Promovida pelo Clube da Escrita do Centro de Tecnologia (CT) da UFRJ. Palestra on-line transmitida pelo YouTube (https://youtu.be/uAN1L4CBeWk). Participação da Biblioteca na apresentação da palestra.
+
+- WikidataCon - O universo das bibliotecas: Wikidata e a multiplicação de potências do conhecimento - apresentada por Lilian Viana no evento Trasnbordados - pré WikidataCon. Período: 21 de setembro de 2021. Organizado pelo  Goethe-Institut São Paulo. Palestra on-line. Participação da Biblioteca na apresentação da palestra.
+
+- Primeiros passos no Wikidata - evento paralelo ao WikidataCon 2021. Período: 14 de outubro de 2021. Oficina on-line. Participação da Biblioteca na comissão organizadora.
+
+- Biblioteca universitária e educação: mediação cultural como modelo epistêmico – apresentada por Lilian Viana no XXI ENANCIB 2021 - PPGCI IBICT UFRJ. Período: 26 de outubro de 2021. Organizado por ANCIB. Palestra on-line. Participação da Biblioteca na apresentação da palestra.
+
+- Uma visão sobre o Schema.org para bibliotecas - apresentada por Tiago Murakami no evento Prosas de Catalogação. Período: 18 de novembro de 2021. Promovida pelo Grupo de Estudos e Pesquisas em Catalogação. Palestra on-line transmitida pelo YouTube (https://youtu.be/-pKv9hj-QJA). Participação da Biblioteca na apresentação da palestra.","Biblioteca Digital da Produção Artística da ECA/USP
+GLAM das Bibliotecas da USP
+","Participação em aulas de 13 disciplinas, a convite dos docentes
+
+Preparação de tutoriais, textos e infográficos destinados a capacitação de usuários da graduação
+
+Preparação de vídeos instrucionais e publicação no canal da Biblioteca no YouTube
+
+Organização do plantão de empréstimos por agendamento
+
+","Nenhuma","Sim","Sim","Sim","https://www.facebook.com/ecabiblioteca","https://twitter.com/bibliotecadaeca/","https://bibliotecadaeca.wordpress.com/","https://www.flickr.com/photos/bibliotecadaeca/","https://br.pinterest.com/bibliotecadaeca/","https://www.youtube.com/user/bibliotecadaeca","Instagram: https://www.instagram.com/bibliotecadaeca","Sim","Não","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Não","Não","Sim","Não","Sim","Não","Não","Sim","Sim"
+"29","355","11/01/2022 - 17:27","19/01/2022 - 11:21","21/01/2022 - 10:47","0","143.107.38.164","180","mz","Museu de Zoologia","23","815","0","0","4","3","1","0","3","0","0","2","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/180_4.xlsx","12","0","0","0","3","14","4","0","0","0","0","10","0","0","2","1","137","15","16","0","0","0","0","1","0","0","0","0","1","0","0","173","716","0","0","234.829","338","0","0","0","0","0","0","4","130","0","2","9","3","236","0","0","0","0","0","0","571","0","44.261","28","0","494","0","0","0","0","0","0","5","0","0","0","18","158","5987","8","13","0","5","0","4","0","0","Sophia","Alerta Bibliografico; 
+Tutorial Guia de cadastro das espécies no ZOOBANK
+Normas para elaboração de dissertações e teses","Papeis Avulsos de Zoologia
+Arquivos de Zoologia","07/04/2021 - SciELO Preprints: estado atual, desafios e perspectivas, ministrado por Alex Mendonça - ABEC Brasil - Carga Horária: 2h.
+22/04/2021 - ORCID: Aprenda a criar e atualizar sua produção científica - ABEC Brasil. Carga Horária: 3h.
+24/06/2021 - OJS: Recursos que potencializam a divulgação do seu periódico - ABEC Brasil - Carga horária: 3h.
+26/08/2021 - Ferramentas Crossref para apoio ao editor - ABEC Brasil. Carga horária: 3h.","CODAGE/ MZ","Não","Seleção Bibliográfica relativas às Exposições Temporárias","Sim","Sim","Sim","Http://www.facebook.com/profile.php?id=100010593135103&fref=ts","","","","","","","Sim","Não","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"30","356","12/01/2022 - 13:09","17/01/2022 - 17:11","26/01/2022 - 15:23","0","143.107.135.170","168","if","Instituto de Física","221","1.590","0","0","4","1","0","0","6","2","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","5","4","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/168_5_4.xlsx","12","0","0","0","0","106","39","0","0","0","0","0","0","0","17","0","0","0","13","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","181.367","30","0","0","0","0","0","0","2105","228","6.264","8","14","1","211","3","2","42","0","0","0","198","2","438","0","0","0","3","0","0","0","0","0","29","0","36","0","478","92","142","6","18","1","2","1","2","0","4","Repositório das Publicações do IFUSP
+http://portal.if.usp.br/bib/pt-br/node/409
+","Repositório de pré-prints http://portal.if.usp.br/bib/pt-br/node/409
+- Folder para discentes da graduação, pós graduação e pesquisadores ingressantes:
+- Guia do SBI/IFUSP para alunos ingressantes
+- Relatório Anual de Atividades do Serviço de Biblioteca e Informação do IFUSP
+","- Relatório de Atividades do Instituto de Física
+- Boletim de Instituto de Física (BIFUSP) - http://portal.if.usp.br/diretoria/bifusp
+- Preprints - https://portal.if.usp.br/bib/pt-br/node/384
+","Divulgação e Webinars dos editores científicos na área de exatas","- Atualização dos novos fluxos de comunicação entre Diretoria, Setor de Comunicação, Biblioteca e Cultura e Extensão.
+- Atualização do repositório institucional do IFUSP
+- Digitalização Retrospectiva das Teses e Dissertações;
+- Revisão dos PDF´s das Dissertações e Teses do IFUSP
+- Depósito das Teses Digitalizadas na Biblioteca Digital de Teses e Dissertações da USP
+- Revisão da homepage da biblioteca em  inglês
+- Análise de coleções IF e IFSC para futuro compartilhamento;
+
+","Atividades ligadas à Graduação
+-Semana de recepção dos calouros;
+-Visitas monitoradas;
+-Treinamento do Portal de Busca Integrada.
+-Fistur - com apresentação de produtos e serviços da biblioteca em parceria com o CEFISMA (Centro
+Acadêmico)
+-Webinars
+","-Webinars
+-Divulgação e disseminação de informações sobre softwares e ferramentas úteis. Os meios de
+divulgação foram emails institucionais, setor de comunicação do Instituto.
+Internet
+","Sim","Sim","Sim","bib@if.usp.br","https://twitter.com/bibliotecaifusp","","","","https://www.youtube.com/channel/UChxn_D77SwTsaZ9Yt9J3HzQ","","Não","Não","Sim","Não","Sim","Não","Sim","Sim","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"31","357","12/01/2022 - 15:16","21/01/2022 - 14:06","21/01/2022 - 14:06","0","143.107.0.110","142","ee","Escola de Enfermagem","104","653.12","0","0","0","2","1","1","2","2","0","0","0","27","7","0","0","0","0","0","0","0","0","0","0","0","0","0","7","0","0","1","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/142_5.xlsx","58","0","0","0","0","21","4","0","0","0","0","109","0","0","0","0","2","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","3","0","8","11799","8","0","0","0","0","4","0","584","0","57","0","0","0","0","5","1","40","0","0","0","17","1","347","0","0","0","0","0","1","0","0","0","0","0","0","0","1.611","0","477","17","8","0","2","1","2","0","0","LILACS -  Literatura Latino-Americana e do Caribe em Ciências da Saúde - base bibliográfica - 579 registros.
+BDENF - Base de dados em Enfermagem - base bibliográfica - 579 registros.
+","-
+
+","Título: Revista da Escola de Enfermagem da USP
+Periodicidade: Fluxo contínuo
+Formato: online
+Nível de participação da Biblioteca: atividades administrativas, editoração e normalização técnica.","-","-","Aula gravada a convite na disciplina  ENO 0221 - Pesquisa em Enfermagem  - Data: 15/09/2021","Participação de bibliotecária como pesquisadora no JBI Brasil
+Atividades desenvolvidas: Pareceres de 23 protocolos de revisão, submetidos a reunião científica mensal do JBI Brasil; suporte e orientação a pesquisadores que fizeram o curso Comprehensive Systematic Review Training (CSRT), sobre fontes de pesquisa customizada à pergunta de pesquisa; orientação no registro de protocolos de revisão no PROSPERO, avaliação das estratégias de busca; monitoria no módulo 1 do curso ""Comprehensive Systematic Review Training (CSRT).","Sim","Sim","Sim","https://www.facebook.com/Bibliotecaeeusp","","","","","","Slideshare: https://www.slideshare.net/bibliotecaee/","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"32","358","14/01/2022 - 11:12","21/01/2022 - 10:50","21/01/2022 - 10:50","0","200.144.202.53","177","mac","Museu de Arte Contemporânea","20","405","0","0","1","0","0","1","2","1","0","0","0","2","11","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","10","15","11","64","88","0","0","0","0","0","0","0","3","1","0","0","0","0","0","0","0","1","0","0","0","0","0","19","23","0","0","0","0","10170","0","0","0","0","29406","0","37625","98","14","308","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","419","29","491","4","5","1","2","1","2","3","0","Catálogos Coletivos/Individuais (Base Local da Biblioteca) 0
+Coleção de Catálogos de Artistas do Acervo MAC USP (Base Local da Biblioteca) 0
+Tombo de Livros (Base Local da Biblioteca) 0
+Biblioteca Walter Zanini (Base Local da Biblioteca) 0","-","CARMA ideológico : Grupo Empreza. São Paulo: MAC-USP, 2021. 11 p. Folder de Exposição. (Periodicidade: Desconhecida. Formato: folder (pdf). Nível de Participação da Biblioteca: Normalização técnica.)
+
+MAGALHÃES, Ana G. (Org.). Design for modern daily life in Brazil, 1920-1960. São Paulo: MAC-USP,
+2021. 1 v. (Periodicidade: Desconhecida. Formato: e-book (pdf). Nível de Participação da Biblioteca: Normalização técnica.)
+
+
+MAGALHÃES, Ana G. (Org.). Projetos para um cotidiano moderno no Brasil, 1920-1960. São Paulo: MAC-USP,
+2021. 1 v. (Periodicidade: Desconhecida. Formato: e-book (pdf). Nível de Participação da Biblioteca: Normalização técnica.)
+
+REGINA Silveira : outros paradoxos. São Paulo: MAC-USP, 2021. 23 p. Folder de Exposição. (Periodicidade: Desconhecida. Formato: folder (pdf). Nível de Participação da Biblioteca: Normalização técnica.)","-","-","-","-","Sim","Sim","Não","","","","","","","","Sim","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não"
+"34","360","17/01/2022 - 10:39","17/01/2022 - 11:00","28/01/2022 - 08:52","0","143.107.214.222","147","esalq","Escola Superior de Agricultura Luiz de Queiroz","220","3056.2","0","356.86","10","4","1","0","11","2","0","0","0","34","1","0","0","0","0","0","0","0","0","0","0","3","0","0","0","2","2","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/147_4.xlsx","22","54","6","0","0","192","22","0","0","0","0","10","0","2","64","0","0","23","9","0","0","0","0","0","0","0","0","0","0","0","0","50","0","19","1","212218","79","27","0","3","0","0","0","0","6","0","0","39","0","535","84","1","577","0","0","0","1.023","0","27.979","16","1","248","51","8","0","0","0","0","31","1","37","6","3.619","0","0","57","44","2","5","2","3","0","15","- VOCALQ - Vocabulário Controlado em Ciências Agrárias do Campus ""Luiz de Queiroz"" - SQL.
+- SISAQ - Aquisição – SQL","- Série Produtor Rural - Monografia Seriada - Impressa e Online - Compra ou Doação","Não se Aplica","Não se Aplica","- Continuidade do Projeto de Digitalização retrospectiva de dissertações e teses da ESALQ e disponibilização na Biblioteca Digital de Teses e Dissertações - BDTD/USP - Inicio - 07/01/2021 - Término: 23/12/2021","Aquisição:
+- Material bibliográfico específico para grade curricular, dentro do orçamento da ESALQ
+
+Treinamentos para as seguintes disciplinas:
+- Disciplina LAN 0127 - Informação e Pesquisa em Ciências dos Alimentos - on-line
+- Disciplina LES 0124 - Métodos e Técnicas de Pesquisa
+- Disciplina LES 0216 - Conhecimento e Pesquisa 
+- Disciplina LES 0362 - Preparação do Projeto de Pesquisa em Engenharia Agronômica - on-line
+
+Capacitação em:
+- Serviços e Produtos da Divisão de Biblioteca
+- Estrutura do Trabalho Científico, Citações e Referências
+- Estrutura das Dissertações e Teses da ESALQ/USP
+- Sistema de Submissão de Teses da ESALQ/USP
+- Estratégia de Busca e Operadores Booleanos
+- Pesquisa Avançada no Google Acadêmico
+- Portais de Pesquisa Abertos
+- Portais de Pesquisa Restritos
+- Identificadores Digitais de Autor (ORCID)
+- EndNote
+- Mendeley
+- Turnitin, Direitos Autorais e Plágio
+- Dicas de Apresentação Oral de Trabalhos Acadêmicos
+
+Material Didático:
+- Tutorial: Uso de Template do MS Word para elaboração Dissertações e Teses segundo normas da Comissão de Pós-Gradução da ESALQ/USP - http://www.esalq.usp.br/biblioteca/arquivos/Tutorial.pdf
+- Endnote Basic - http://www.esalq.usp.br/biblioteca/pdf/EndNote_Basic_2018.pdf
+- Mendeley:
+Manual do Usuários -http://www.esalq.usp.br/biblioteca/pdf/Mendeley-manual-do-usuario-2018-v.1.pdf
+
+VideosAulas:
+Canal Youtube: https://www.youtube.com/bibliotecaesalq
+
+Folhas de estilo:
+- Folha de estilo (template TCC) - http://www.esalq.usp.br/biblioteca/docs/Folha-de-estilo-template-TCC
+- Folha de estilo (LAN 0127 - Informação e Pesquisa em Ciências dos Alimentos - https://www.esalq.usp.br/biblioteca/docs/LAN_0127_FolhaEstilo_2021.doc
+- Folha de estilo (LES 0216 - Conhecimento e Pesquisa) - https://www.esalq.usp.br/biblioteca/docs/LES%200216_FolhaEstilo_2021.doc
+- Folha de estilo (LES 0362 - Preparação do Projeto de Pesquisa em Engenharia Agronômica) - https://www.esalq.usp.br/biblioteca/docs/Folha-estilo-LES0362_2021.doc","- Parceria com o Serviço de Cultura e Extensão na revisão da Série Produtor Rural, escrita por professores junto com os respectivos orientados","Sim","Sim","Sim","https://www.facebook.com/bibliotecaesalq/","https://twitter.com/Biblio_Esalq","http://bibliotecaesalq.blogspot.com.br/","Não se Aplica","Não se Aplica","https://www.youtube.com/bibliotecaesalq","Slideshare: http://pt.slideshare.net/esalq/slideshowsslideshows  -  Instagram: https://www.instagram.com/bibliotecaesalq/","Sim","Não","Não","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"35","361","17/01/2022 - 11:46","19/01/2022 - 17:02","31/01/2022 - 17:01","0","143.107.184.66","182","puspsc","Prefeitura do Campus de São Carlos","468","4051.10","0","0","0","3","0","0","0","2","0","0","0","8","0","0","0","0","0","0","0","0","0","0","0","0","0","0","12","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/182_5.xlsx","18","0","0","0","0","50","5","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","331","4","0","1.189","0","0","0","0","0","0","0","82","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","5","0","0","52","15","1","3","0","2","23","1","Não há","Não há","Não há","■ 5ª Escola de Pesquisadores da USP 
+Período: 30 de novembro e 2 de dezembro de 2021
+Realizado pelo Portal de Escrita Científica do Campus USP de São Carlos, que
+conta com a participação de todas as Bibliotecas do Campus, incluindo a
+Biblioteca da PUSP-SC.
+Participação da Biblioteca: Comissão Organizadora e de Divulgação
+Descrição: A  5ª Escola de Pesquisadores da USP aconteceu entre os dias 30 de novembro e 2 de dezembro de 2021, e neste ano foi novamente em formato virtual, com o objetivo de desenvolver, aprimorar e consolidar as habilidades necessárias à vida científica de pesquisadores em pesquisa básica e aplicada, em temas ousados e de alto impacto, aprendendo a trabalhar no estado-da-arte.
+A Escola foi oferecida a alunos de Pós-Graduação e Pós-Docs., no entanto Técnicos de nível superior e Professores pesquisadores também puderam participar.
+O evento foi formatado para contemplar todas as áreas do conhecimento, incluindo: Exatas/Engenharias, Biológicas/Biomédicas e Humanas/Sociais. Como resultados, ressaltamos a formação de pesquisadores de alto nível, treinados para reconhecer e atuar no estado-da-arte em suas áreas, e que possam gerar conhecimento e inovação relevantes para a sociedade, além de propagarem seus conhecimentos na formação de recursos humanos altamente capacitados e especializados.
+A inscrição foi gratuita, sendo que a organização ficou a cargo do Comitê Gestor do Portal da Escrita Científica do Campus USP de São Carlos.
+Confira toda a programação da Escola e outras informações nos links:
+http://escoladepesquisadores.sc.usp.br/5/
+https://www.facebook.com/escoladepesquisadores/
+
+■ Oficina ""Identificadores digitais e redes sociais acadêmicas""
+Período: 13/09/2021 (1h)
+Organização: Biblioteca do IAU
+Webinar Palestrantes: Ana Paula (PUSP-SC) e Brianda Sígolo (IAU)
+
+■ Palestra ""Perfis acadêmicos em plataformas digitais e rede social acadêmica (ResearchGate)"" - 5ª Escola de Pesquisadores da USP 
+Período: 01/12/2021 (1h15)
+Organização: Portal de Escrita Científica do Campus USP de São Carlos
+Webinar Palestrantes: Ana Paula (PUSP-SC) e Brianda Sígolo (IAU)
+
+■ Mini Curso ""Identificadores digitais, orientação de publicação em periódicos e gestão de dados de pesquisa: como planejar e onde depositar"" - 4ª Semana do Programa de  Pós-Graduação em Arquitetura e Urbanismo""
+Período: 29/06/2021 (3 horas)
+Organização: Biblioteca do IAU
+Webinar Palestrantes: Ana Paula (PUSP-SC) e Brianda Sígolo (IAU)
+","Não há","■ Mini Curso ""Zotero""
+Período: 22/03/2021 (2h)
+Organização: Biblioteca do IAU
+Webinar Palestrantes: Ana Paula (PUSP-SC) e Brianda Sígolo (IAU)
+
+
+","Não há","Sim","Sim","Sim","https://www.facebook.com/biblioteca.puspsc","https://twitter.com/BibliotecaPUSP","","","","","https://www.instagram.com/biblioteca_puspsc","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Sim","Não","Não","Não","Não","Não"
+"36","362","17/01/2022 - 12:54","20/01/2022 - 10:20","20/01/2022 - 10:20","0","143.107.245.48","163","ib","Instituto de Biociências","150","1.126","0","0","1","3","1","0","4","2","0","0","0","6","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/163_5.xlsx","13","0","9","0","0","8","3","0","0","0","0","0","0","0","0","0","4","77","232","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","168.697","313","0","0","0","0","0","0","0","0","0","0","4","1","47","5","2","205","0","0","0","64","0","4.339","3","0","936","0","0","0","0","0","0","1","0","0","0","2.743","1","338","11","21","0","7","1","5","0","7","Aquili (Base de Dados de Aquisição de Livros); Banco de Dados de Obras Raras e Especiais; Base de registro de uso de periódicos; Visualpratica (Base de imagens)   ","Não houve no período","Não houve no período","Não houve no período","Não houve no período","Treinamentos sobre ORCID e Repositório Institucional ","Não houve no período","Sim","Sim","Sim","facebook.com/BibliotecaIBUSP","twitter.com/IBciencia","","","","www.youtube.com/c/IBciênciaDivulgaçãoCientíficadoIBUSP","Instagram (@bibliotecaibusp)","Sim","Não","Sim","Sim","Sim","Sim","Não","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"37","363","17/01/2022 - 15:47","18/01/2022 - 14:48","18/01/2022 - 14:48","0","200.144.210.225","160","hu","Hospital Universitário","30","292","0","0","0","0","0","0","1","1","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","23432","0","0","0","0","0","0","0","0","0","31","0","4","0","19","8","1","65","0","0","0","0","0","0","0","0","0","8","5","4","2","0","0","0","0","0","0","13","0","0","9","3","1","1","2","1","0","0","Não se aplica","Não se aplica","Não se aplica","Não se aplica","Não se aplica","Não se aplica","Não se aplica","Sim","Sim","Não","","","","","","","","Sim","Não","Não","Não","Sim","Não","Sim","Sim","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"38","364","17/01/2022 - 17:10","20/01/2022 - 09:32","20/01/2022 - 09:32","0","143.107.211.203","138","cena","Centro de Energia Nuclear na Agricultura","20","277","0","0","3","0","0","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","53","27","0","0","0","0","177","0","0","0","0","0","15","13","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","26686","28","0","0","0","0","0","0","95","24","98","2","0","0","0","0","0","0","0","0","0","9","1","316","0","0","0","0","0","0","0","0","0","12","2","0","0","149","95","10200","10","6","1","2","1","2","1","4","Não pertinente","Biblioteca Divulga (online)","Relatório Anual da Unidade
+Relatórios de Avaliação
+Revista Scientia Agricola
+Série Didática
+Série Manuais ","Não pertinente","Não pertinente","Não pertinente","Não pertinente","Sim","Sim","Sim","https://www.facebook.com/biblioteca.cena.divulga","https://twitter.com/biblioteca_CENA","","","","","https://www.instagram.com/biblioteca.cena.usp/","Não","Não","Sim","Sim","Sim","Não","Sim","Sim","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"39","365","18/01/2022 - 10:58","20/01/2022 - 16:18","20/01/2022 - 16:18","0","143.107.116.222","143","eefe","Escola de Educação Física e Esporte","90","454","0","0","1","0","1","0","2","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/143_3.xlsx","12","0","0","0","0","8","0","0","0","0","0","13","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","10","0","25","0","22.445","10","0","0","0","0","0","0","105","499","51","7","1","0","18","0","0","0","0","0","0","220","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1.978","93","3.627","9","6","0","1","2","2","0","2","- Embase
+- Google Scholar 
+- JCR
+- Medline PubMed
+- Portal Capes
+- Scielo Periódicos
+- Science Direct
+- Scopus
+- SportDiscus","- Revista Brasileira de Educação Física e Esporte - trimestral (online)
+A biblioteca atua como Comissão de Publicação: editoração, normalização técnica, infra administrativa, produção gráfica, diagramação e divulgação. ","- Seminário Internacional de Ginástica Artística e Rítmica de Competição
+
+- Seminário Internacional de Educação Física Escolar
+
+- Seminário de Direitos Humanos de Educação Física  e Esporte","Participação em 08 eventos.","A biblioteca não enviou projeto.","- 01 aula ministrada para alunos ingressantes da Graduação em 13/04/2021.
+  Responsável: Prof. Dr. Luciano Basso
+- Apresentação sobre o uso das bases de dados, por 2 horas - (13h30 -15h30)., no dia 02.09.2021, disciplina TCC.
+  Responsável: Prof. Dr. Osvaldo Ferraz    ","- Participação no I Seminário de Cultura e Extensão da USP, com apresentação de 2 (dois) trabalhos. O evento foi realizado nos dias 25 e 26/11/2021.","Sim","Sim","Sim","http://facebook.com/bibeefe /  http://facebook.com/reveefe","https://twitter.com /  http://twitter.com/RBEFE","https://bibliotecaeefe.blogspot.com / http://rbefe.blogspot.com","","","","https://pt.slideshars.net/bibeefe / http://pt.slideshare.net/RBEFE /   @bibeefe.usp / @rbefe.usp  ","Sim","Não","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"40","366","19/01/2022 - 10:33","19/01/2022 - 11:22","01/02/2022 - 07:25","0","143.107.113.74","137","cebimar","Centro de Biologia Marinha","7","73","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/137_5.xlsx","12","0","0","0","0","17","12","0","0","0","0","0","0","14","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","211","0","35","19584","0","0","24","0","262","0","7960","2","0","10","0","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1","3","1","2","1","1","0","0","Base do site de notícias do CEBIMar (http://noticias.cebimar.usp.br) – Total: 1878 registros - 71 registros cadastrados em 2019","Não houve.","Não houve.","Não houve.","Não houve.","Não houve.","Gerenciamento do site do CEBIMar.","Sim","Sim","Sim","https://www.facebook.com/cebimarusp/","","","","","","","Não","Não","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"42","368","19/01/2022 - 14:10","21/01/2022 - 17:27","31/01/2022 - 19:26","0","189.41.188.9","181","pusprp","Prefeitura do Campus de Ribeirão Preto","436","4.243","0","0","0","9","0","0","12","9","1","1","0","27","12","96","1","0","0","0","0","0","0","0","0","5","5","10","25","28","31","7","8","5","https://indicadores.abcd.usp.br/sites/default/files/webform/181_5.xlsx","12","0","0","0","0","0","0","0","0","0","0","1235","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","449.601","0","0","0","0","0","0","0","0","0","0","0","772","148","3.948","260","65","1.297","0","0","0","0","0","0","3","0","42","262","45","111","21","0","0","0","0","0","0","7.206","380","14.366","75","56","1","11","0","5","1","0","Bases de dados LILACS/REBAP - 1.321 artigos indexados","Título: Página institucional / home page (www.bcrp.prefeiturarp.usp.br). Formato: online.
+
+Título: Blog da Biblioteca Central de Ribeirão Preto/USP (https://blogbcrp.blogspot.com/). Formato: online.","Título: Paideia; Periodicidade: fluxo contínuo; Formato: online; Distribuição: doação; Nível de Participação da Biblioteca: Normalização técnica - citações e referências.",".",".",".",".","Sim","Sim","Sim","https://www.facebook.com/bcrpusp/"," https://twitter.com/bcrpusp","https://blogbcrp.blogspot.com/","","","","https://www.instagram.com/bcrpusp/?hl=pt-br","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Sim","Não","Não","Sim","Não","Sim","Não"
+"43","369","19/01/2022 - 14:46","20/01/2022 - 14:36","20/01/2022 - 14:36","0","143.107.237.17","175","iqsc","Instituto de Química de São Carlos","180","1442","74.26","0","1","4","0","0","2","2","0","0","0","64","24","19","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/175_4.xlsx","12","0","0","0","0","21","0","0","0","0","0","62","0","0","0","0","0","5","0","0","0","0","0","0","0","0","0","0","0","179","315","0","0","0","0","67960","7","17179","0","0","0","0","0","179","0","73","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","344","93","8609","28","11","0","3","0","1","0","9","Banco de Sugestões de Livros - 929","Relatório de Atividades 2020 - Anual - impresso - doação
+SBI Divulga - on line
+Manual de Normas IQSC - on line
+","Nada consta","Nome do evento: Homenagem ao Dia Internacional da Mulher
+Período: data inicial e final do evento: 08/03/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Homenagem ao Dia do Bibliotecário
+Período: data inicial e final do evento: 12/03/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Campanha Utilização do software de detecção de plágio - Turnitin
+Período: data inicial e final do evento: 05/01/2021 a 17/12/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Exposição virtual – “Conheça seus professores”
+Período: data inicial e final do evento: 13/04/2021 e 11/05/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Visita virtual na Biblioteca – com melhorias e fotos da revitalização
+Período: data inicial e final do evento: 13/04/2021 e 11/05/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Expectativas do curso do IQSC – seção interativa
+Período: data inicial e final do evento: 13/04/2021 e 11/05/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Homenagem ao Dia das Mães
+Período: data inicial e final do evento: 06/05/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Campanha – Dicas para o pesquisador
+Período: data inicial e final do evento: 11/05/2021 a 27/06/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Homenagem ao Dia do Químico
+Período: data inicial e final do evento: 18/06/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Campanha: Vamos tirar dúvidas? Normas para trabalhos acadêmicos
+Período: data inicial e final do evento: 04/09/2021 a 02/12/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Homenagem ao Dia dos Pais
+Período: data inicial e final do evento: 06/08/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Setembro Amarelo – Mês de prevenção ao suicídio
+Período: data inicial e final do evento: 01/09/2021 a 30/09/2021
+Tipo de evento: Exposição virtual Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Outubro Rosa – Mês de prevenção ao câncer de mama
+Período: data inicial e final do evento: 01/10/2021 a 31/10/2021
+Tipo de evento: Exposição virtual - Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Homenagem ao Dia do Professor
+Período: data inicial e final do evento: 15/10/2021
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Novembro Azul – Mês de prevenção ao câncer de próstata
+Período: data inicial e final do evento: 01/11/2021 a 30/11/2021
+Tipo de evento: Exposição virtual - Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca","Nome do Projeto: Campanha Vínculo ORCID USP 
+Objetivo: Consolidar um único Identificador Digital para o acadêmico/pesquisador, gratuito e integrado em nível global. A afiliação dos pesquisadores do IQSC e seu consequente vínculo permitirá à USP gerar ORCIDs autenticados e ou autenticar os registros já existentes de todos os integrantes da comunidade (Docentes, Estudantes e Servidores Técnicos Administrativos). 
+Descrição: Recebimento da listagem da Agência USP de Gestão da Informação Acadêmica – AGUIA; Levantamento dos docentes na base ORCID vinculados ao ORCID-USP. Elaboração de tutorial: Como verificar se seu ORCID está vinculado à USP. Encaminhamento de e-mail nominal para o docente atualizar e integrar-se com a plataforma ORCID- USP juntamente com tutorial. Exposição: “ORCID: por que ele é importante?” com orientações de como efetuar o registro, o vínculo e a importação de trabalhos através da Web of Science, Scopus, Google Acadêmico. Divulgação através das mídias sociais da Biblioteca e do IQSC.
+Período: março 2020 –
+Número de funcionários envolvidos: 03 
+Resultados esperados: O objetivo desta ação é conscientizar a comunidade acadêmica do IQSC da importância da integração com plataformas internacionais, possibilitando assim a divulgação e o acesso à sua produção científica. Além disso, o cadastro no ORCID e seu vínculo à USP ampliam a visibilidade e a conexão da Universidade e do Instituto junto às agências de fomento que financiam seus projetos científicos.
+
+Nome do Projeto:  Armazenamento da Produção Técnico Cientifica dos Docentes IQSC
+Objetivo: Otimizar espaços na biblioteca para área de usuário
+Descrição:  Desde 1985, de acordo com a resolução 2.858,  a biblioteca mantém impressa as produções técnico cientificas da Unidade IQSC, como uma forma de  garantir todo o conhecimento que é gerado no IQSC. É importante estabelecer um conjunto de práticas que garanta a organização e preservação para podermos recuperar a informação e preservar a memória deste conhecimento. No total foram impressos  19.741 artigos que eram armazenados em pastas suspensas ocupando um grande espaço na biblioteca (estantes deslizantes).  De acordo com as novas necessidades dos usuários e com o novo projeto da biblioteca de readequação do espaço físico, o arquivamento desses documentos foram reavaliados.  Dessa forma, esses documentos impressos foram armazenados em envelopes em outra área, diminuindo consideravelmente o espaço que era ocupado antes.
+Período: 2019 a 2021
+Número de funcionários envolvidos: 06
+Resultados esperados:  O espaço que era destinado ao armazenamento destes documentos será readequado para área de estudo aos usuários.
+
+Nome do projeto: Correção de citações na Base Web of Science 
+Objetivo: Identificar inconsistências das citações recebidas nos artigos indexados na base Web of Science de cada docente do IQSC, o que implicará em um possível aumento do seu índice H. 
+Descrição: Contato com a representante da Clarivate Analytics para verificar a viabilidade da implementação do novo serviço; Contato com a representante da Clarivate Analytics para verificar a melhor forma de procedimento para o serviço; Reuniões virtuais; Tutorial: Guia de procedimentos para detecção de inconsistências das citações recebidas nos artigos indexados na base Web of Science de cada docente do IQSC; Planilha de controle de conferência; Conferência será feita semestralmente, em ordem alfabética; Divulgação por e-mail aos docentes informando o novo serviço. 
+Período: junho 2020 até hoje
+Número de funcionários envolvidos: 03 
+Resultados esperados: espera-se que, com esta conferência e solicitação para regularização das inconsistências, que as citações recebidas nas publicações dos docentes estejam indexadas corretamente, o que favoreceria um possível aumento do Índice H.
+
+Nome do projeto:  Agenda 2030 para o Desenvolvimento Sustentável : MENOS DE 10 ANOS .......o que temos feito !!!!
+Objetivo: Contribuir para a divulgação da Ciência no Mundo, Brasil, Universidade de São Paulo em relação à “Agenda 2030 para o Desenvolvimento Sustentável” elaborada pela ONU em 2015. Os “17 Objetivos de Desenvolvimento Sustentável” (ODS) foram formalizados pelas Nações Unidas em um pedido à ação mundial visando um novo padrão e desenvolvimento para o século XXI, de forma a integrar a sustentabilidade social, econômica e ambiental. A tônica da pesquisa foi identificar e consolidar o número de trabalhos científicos sobre cada um dos ODS, no âmbito da USP, em comparação com as pesquisas mundiais, no período de 2018 a 2020.
+Descrição: A plataforma SciVal, desenvolvida pela Elsevier,  possui um portfólio de ferramentas de análise de indicadores de produção científica, tendo como fonte  de dados a Scopus e a Science Direct. Através da ferramenta Scival, analisou-se o desempenho das Instituições e países mais ativos, posição da USP no mundo, no Brasil, palavras chaves e a Produção da USP em cada ODS em comparação com as 100 Instituições Mundiais mais ativas das mais utilizadas das 16 ODS incluídas na plataforma.
+Etapas: Pesquisa, coleta de dados; Definição do período; Reunião virtual com representante da Scopus – Scival; Reunião com a Seção de Comunicação do IQSC, envio das Informações para o Diretor e Vice-Diretor. 
+Período: junho 2021 - 
+Número de funcionários envolvidos: 04 da biblioteca, 02 da Seção de Comunicação e 02 Diretor e Vice Diretor.
+Resultados obtidos: Em 2015, a ONU elaborou os “Objetivos de Desenvolvimento Sustentável da ONU” (ODS) estabelecendo uma meta ambiciosa para 2030 para alcançar um futuro sustentável e equitativo abrangendo o mundo todo. O alinhamento da pesquisa com os ODS ofereceu à comunidade acadêmica uma forma relevante de demonstrar seu impacto. Nesta pesquisa pudemos observar a participação do Brasil e da Universidade de São Paulo em relação ao cumprimento dos ODS da ONU. Pretende-se em 2022 divulgar tal pesquisa através das mídias sociais.
+
+Nome do Projeto: Campanha Natal solidário do IQSC
+Objetivo: Arrecadar fraldas geriátricas e doces de acordo com orientação da nutricionista do asilo Cantinho Fraterno Dona Maria Jacinta.
+Descrição: Elaboração e divulgação da Campanha através das mídias sociais do IQSC e Biblioteca. Distribuição de 04 caixas encapadas na entrada principal do IQSC e entrada da Biblioteca para arrecadação dos itens. Enviado relatório com fotos dos números de itens à Comissão de Cultura e Extensão do IQSC. Doação ao asilo Cantinho Fraterno Dona Maria Jacinta no dia 13.12.2021.
+Período: 01.12.2021 a 12.12.2021
+Número de funcionários envolvidos: 01 da biblioteca, 01 do Setor de Comunicação do IQSC e Docentes da CCEX. 
+Resultados esperados: Doação de itens ao asilo conforme relatório apresentado nas mídias sociais do IQSC e da Biblioteca.
+
+Nome do Projeto: Projeto 10- Bibliotecas Acessíveis: uma realidade da EESC e do IQSC (Edital 02/2021 Pró-Reitoria de Cultura e Extensão  Universitária – PRCEU - (Edital ODS/ONU – 2021))
+Coordenador: Fernando Martini Catalano e Vice-Coordenadora: Maria Olimpia de Oliveira Rezende. Equipe: Clelia Junko Kinzu Dimario e Sonia Alves  (IQSC); Eduardo Graziosi Silva, Andressa de Carvalho e Elenise Maria de Araujo (EESC)
+Objetivo: Realizar o projeto de sinalização acessível nas Bibliotecas da EESC e IQSC para atender de maneira inclusiva o público com alguma deficiência, quer seja visual, auditiva e /ou de locomoção promovendo a igualdade de direitos e fomentando a inclusão social. O projeto está inserido no campo temático “ 1.1.10. Redução das Desigualdades”.
+Descrição: Os procedimentos metodológicos para elaboração deste projeto são: realização de um benchmarking das Bibliotecas acessíveis em âmbito nacional e internacional; mapeamento da situação arquitetônica comunicacional e atitudinal das Bibliotecas EESC e IQSC, utilizando o check-list da FEBAB; consulta aos especialistas das associações de deficientes da cidade (surdos, cegos e com mobilidade reduzida) ; oferecimento de um curso básico de libras, produção de um vídeo institucional das Bibliotecas da EESC e do IQSC com tradução em libras e elaboração e execução do projeto. Contratação de empresa especializada para realização do projeto de sinalização, rotas e mapas táteis acessíveis nas Bibliotecas da EESC e do IQSC; compra de equipamentos acessíveis (scanner de voz, notebook e laptop)
+Período: Agosto de 2021 a Agosto de 2022.
+Número de funcionários envolvidos: 02 da biblioteca. 
+Resultados esperados: Espera-se que os resultados obtidos sensibilizem a comunidade acadêmica para as questões da acessibilidade, fornecendo aos futuros engenheiros e químicos modelos de inclusão para ambientes e serviços que incorporam os conceitos de desenho universal, rota e a sinalização acessíveis.
+Recursos recebidos do patrocinador: R$ 99.999,86
+
+Nome do Projeto: Rearranjo de livros de consulta no acervo geral
+Objetivo: Realocação de livros da Consulta (livros da Bibliografia básica) nas estantes do acervo geral, para otimizar mais espaço para usuários.
+Descrição: Retirada de livros das estantes de Consulta e realocação em estantes de acervo geral. Confeccionada etiquetas em material especial na cor vermelha para destaque dos demais livros no acervo.
+Período: Setembro de 2021 a Dezembro de 2021
+Número de funcionários envolvidos: 04 funcionárias
+Resultados esperados: Otimização de espaços na Biblioteca.
+
+Nome do Projeto: Melhoria do polo computacional para os alunos, melhoria na segurança da Biblioteca e conforto térmico.
+Objetivo: Adquirir 13 computadores all in one para a sala de alunos “sala multiuso”. Trocar 10 ares condicionados da Biblioteca que não funcionavam mais. Comprar 04 câmeras de segurança para o anexo da Biblioteca, 03 contadores digitais de presença e troca do portal de segurança pela tecnologia RFID. 
+Descrição: Solicitação dos itens acima a Diretoria do IQSC, que prontamente solicitou no escopo da chamada CODAGE/CIRC/05/2021.
+Período: Agosto de 2021-2022
+Número de funcionários envolvidos: Toda a Equipe
+Resultados esperados: Melhoria nos ambientes da Biblioteca, maior segurança nos ambientes e do acervo e também do polo computacional para os alunos.","Durante a XXV Semana de Recepção aos Calouros do Instituto de Química de São Carlos foram promovidas: visita virtual (com melhorias e fotos de revitalização), exposição virtual – “Conheça seus professores”, integração dos alunos com os sistemas informacionais do SBI/IQSC, enfatizando acesso a bibliotecas virtuais (e-books); apresentação dos produtos e serviços da biblioteca e de vídeo de preservação do acervo; seção interativa: expectativas do curso do IQSC.","Campanha Natal solidário do IQSC, com objetivo de arrecadar fraldas geriátricas e doces destinados aos idosos de longa permanência na instituição filantrópica Cantinho Fraterno – Dona Maria Jacinta.
+Elaboração do Projeto 10- Bibliotecas Acessíveis: uma realidade da EESC e do IQSC (Edital 02/2021 Pró-Reitoria de Cultura e Extensão Universitária – PRCEU - (Edital ODS/ONU – 2021)) e contemplação do mesmo. Tem como objetivo atender de maneira inclusiva o público com alguma deficiência, quer seja visual, auditiva e /ou de locomoção promovendo a igualdade de direitos e fomentando a inclusão social, por meio de sinalização acessível, rotas e mapas táteis, curso básico de libras, produção de um vídeo institucional com tradução em libras e compra de equipamentos acessíveis (scanner de voz, notebook e laptop).","Sim","Sim","Sim","https://www.facebook.com/BibliotecaIQSC","","http://sbi.iqsc.usp.br/","","","","https://www.instagram.com/sbi.iqsc","Não","Sim","Sim","Não","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"44","370","20/01/2022 - 12:34","21/01/2022 - 16:59","21/01/2022 - 16:59","0","143.107.19.17","161","iag","Instituto de Astronomia, Geofísica e Ciências Atmosféricas","82","962","0","0","3","1","0","0","1","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","57","0","0","0","0","0","0","0","0","0","41","0","0","0","0","0","7","5","0","0","0","0","0","0","0","0","0","0","0","0","3","20","0","25","43150","42","0","12","0","0","0","0","2","15","5","0","0","0","0","0","0","0","0","0","0","1","0","148","0","0","0","0","0","0","0","0","0","0","0","0","0","2","2","78","4","8","1","2","0","0","0","0","","","","","","","","Sim","Sim","Sim","Biblioteca Iag","","","","","","","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Sim","Sim","Não","Não","Não","Não","Não","Sim"
+"45","371","20/01/2022 - 14:59","21/01/2022 - 16:39","21/01/2022 - 16:39","0","143.107.84.50","152","fea","Faculdade de Economia, Administração e Contabilidade","422","5.288","0","0","7","5","0","0","7","2","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","10","14","1","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/152_5.xlsx","20","219","79","0","0","1043","667","0","0","0","0","14","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","445","2","2280","678","91","0","85846","149","0","0","0","0","0","1500","0","0","0","24","0","0","0","2","0","131","0","0","0","61","6","7184","0","0","0","0","0","1","0","0","0","0","0","0","0","1200","0","0","30","19","0","4","4","6","6","4","Bibfea (Aquisição)","Guia da Biblioteca FEA de forma on-line no Blog da Biblioteca 
+Folder da Biblioteca FEA de forma online
+Tutoriais e manuais para uso dos produtos e serviços oferecidos pela Biblioteca
+(disponível em https://www.fea.usp.br/biblioteca/publicacoes)","Capítulo em livro sobre os 75 anos da unidade em andamento.","Foram oferecidas capacitações a usuários:
+Apresentação da Biblioteca FEAUSP  aos calouros 2021: informações, produtos e serviços (matutino e noturno)
+Treinamento no Portal de Busca Integrada (2)
+Treinamento Economática (4)
+Treinamento Add-In para Excel Economática (1)
+TREINAMENTO ONLINE DA SOLUÇÃO PROQUEST ONE BUSINESS (1)
+TREINAMENTO ONLINE DO SISTEMA COMDINHEIRO (1)
+Treinamento Refinitiv Eikon (1)
+
+","RFId - substituição de equipamentos e implementação de sistema","O Guia da Biblioteca, em formato on-line, é elaborado especialmente para os calouros da graduação. Ele é atualizado todos os anos. Além disso, elaboramos tutoriais no Blog da Biblioteca sobre bases de dados, utilização de equipamentos da Biblioteca etc. para a graduação.
+Participamos da Recepção aos calouros na Aula Magna","Não se aplica","Sim","Sim","Sim","https://pt-br.facebook.com/bibliotecafeausp/","https://twitter.com/bibliotecafea","bibliotecafea.com","","","","Instagram: @bibliotecafeausp","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Sim","Não","Não","Sim","Não","Sim","Sim"
+"46","372","20/01/2022 - 15:41","20/01/2022 - 15:43","31/01/2022 - 09:21","0","200.144.210.225","129","dgdi","Departamento Técnico do SIBiUSP","0","863.14","0","30.67","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/capacitacao_de_usuarios_2021_teste_dgdi.xlsx","12","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","não se aplica","não se aplica","não se aplica","não se aplica","não se aplica","não se aplica","não se aplica","Sim","Sim","Sim","","","","","","","","Sim","Não","Não","Não","Sim","Não","Sim","Sim","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Sim"
+"47","373","21/01/2022 - 11:26","26/01/2022 - 16:36","03/02/2022 - 13:09","0","143.107.52.224","139","cq","Conjunto das Químicas","205","3.473","0","0","3","4","0","0","6","6","0","0","0","17","7","7","0","0","0","0","0","0","0","0","0","0","0","0","7","15","1","0","0","0","","","0","0","0","0","14","0","0","0","0","0","115","0","0","0","0","0","4","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","249.423","5.528","0","0","0","0","0","0","317","0","1.354","1","0","0","0","40","5","517","0","0","0","88","0","2.365","0","0","0","0","0","0","1","0","0","0","0","0","0","707","0","233","25","22","1","5","1","4","0","4","Alimentação da base de dados 'Literatura Latino-Americana e do Caribe em Ciências da Saúde', totalizando-se 24 Artigos
+científicos da revista Brazilian Journal of Pharmaceutical Sciences, além de 20 Teses (defendidas nas unidades IQ-USP e FCFUSP) e 144 trabalhos de conclusão de curso (TCCs).","Publicações da Biblioteca
+Alimentação de notícias e informações relevantes nas redes sociais e canais digitais da DBDCQ, tais como:
+- YouTube, Xibo e Podteca (podcast) com aulas, treinamentos, Tutoriais online, artigos e Entrevistas com docentes das
+duas faculdades - FCF e IQ da USP.
+Publicações Oficiais da Unidade com Participação da Biblioteca
+BJPS - Brazilian Journal of Pharmaceutical Sciences, publicação de fluxo contínuo disponível na SciELO
+(www.scielo.br/bjps)","A Biblioteca participa da revista Brazilian Journal of Pharmaceutical Sciences da FCF","Semana do Livro e da Biblioteca, de 25 a 29 de outubro de 2021:
+
+-Exposição virtual realizada em estilo Minecraft: ""Biblioteca CQ: entre o real e virtual"";
+- Vídeo em homenagem aos usuários da Biblioteca;
+- Podcast: Entrevista com Prof. Dr. Tibor Rabóczkay sobre sua opinião quanto a Produção Acadêmica e
+- Treinamento dos gerenciadores de referências bibliográficas EndNote e Mendeley. Entretanto, com a invasão de ""trolls"" durante a apresentação, estes foram cancelados e disponibilizados online no canal do YouTube da Biblioteca.
+
+- Apresentação dos resultados do projeto desenvolvido no decorrer do curso sobre ferramentas da qualidade oferecido a funcionários de diversos setores da Faculdade de Ciências Farmacêuticas. Intitulado “Ferramentas da qualidade com ênfase em 5S para multiplicadores Aplicação do 5S no Setor de Circulação” a apresentação mostrou aos outros grupos o caminho trilhado pela equipe para identificar o problema, selecionar as ferramentas que mais serviam a sua solução, aplicá-las ao fato e, por fim, traçar as expectativas de melhoramentos em sua decorrência, bem como multiplicar a técnica. A apresentação foi realizada por: Caroline Battistini, Eudes Colodino e Luciana da Costa aos servidores da administração da faculdade, incluindo o diretor, prof. Humberto Gomes Ferraz.","Projetos CODAGE 05/21 - Investimentos Estruturantes: 
+FCF
+- Sistema de segurança com câmeras, alarmes e monitoramento;
+- Portal de segurança RFID, com Software de Gerenciamento e Monitoramento libraryConnect
+Instalação, configuração, treinamento e operação assistida dos equipamentos
+- Projeto de sinalização interna composto de placas, totens e instalação
+IQ
+Atualização de equipamentos para os usuários da Biblioteca:
+- 05 Galax Tab A7 (WIFI) 64GB SAMSUNG
+- 25 All in One Inspiron 24 5000 dell 
+- 01 Notebook Descrição: Intel® Core™ i7-10750H (2.6 GHz até 5 GHz, cache de 12MB, hexa-core, 10ª geração) 
+- Equipamentos de gravação e streaming de videoaulas, workshops, palestras e outros tipos de eventos e conteúdos
+- Isolamento acústico em salas de estudo em grupo
+","Neste ano de trabalho remoto, o Google Meet foi a ferramenta utilizada para treinar, auxiliar e elucidar os alunos nas bases de dados, e elaboração de documentos (relatórios, artigos e TCCs).
+Produção de conteúdo complementar para graduação publicado nas mídias da DBDCQ.","Curso: Ferramentas da qualidade com ênfase em 5S, realizado em 22, 27 a 29 de setembro e 4 de outubro, ministrado pelo SENAI, com duração 20h.
+","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Sim","Wiki, Podcast e Whatsapp","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"48","374","21/01/2022 - 15:28","27/01/2022 - 08:30","28/01/2022 - 14:24","0","143.107.107.131","146","ep","Escola Politécnica","609","5195.87","0","0","13","4","0","0","6","15","1","2","3","5","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/capacitacao_de_usuarios_2021.xlsx","57","0","0","0","0","11","9","0","0","0","0","364","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","2246","0","0","0","473153","108","0","0","0","0","0","0","0","0","0","0","0","0","0","9","7","390","0","0","0","161","0","14879","0","0","0","0","0","0","0","0","0","15","8","0","0","3.682","217","1250","56","44","0","16","0","11","0","0","Nada a relacionarr","Nada a relacionar","Nada a relacionar","Nada a relacionar","Projeto para a Subcomissão de Planejamento Estratégico da Comissão de Pesquisa da Poli - levantamento de dados nas bases SCOPUS, ORCID e SCIVAL. 1-  Pesquisa do registro dos docentes nas bases SCOPUS e ORCID, e coleta do Identificador de Autor, 2- Solicitação da junção dos perfis, quando encontrado mais de um perfil por docente, 3 -  Criação de uma planilha para inserção dos dados na ferramenta SCIVAL. 4- Resumo dos resultados: 413 docentes ativos / 394 com ID SCOPUS, 376 com H-index atualizado, 19 sem ID SCOPUS e 17 com H-index desatualizado.
+
+Criação na base Scival de grupos de docentes da Poli, por referência e departamento e os respectivos relatórios, a pedido da Comissão de Pesquisa da Poli.
+","* Palestra: Fontes de Informação para Trabalhos Acadêmicos, na disciplina PCS5028.","* Ciclo de Palestras para os alunos do PAE.","Sim","Sim","Sim","@DVBIBL.Poli","@biblioepusp","","","","","","Sim","Não","Não","Não","Sim","Sim","Não","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"49","375","23/01/2022 - 09:31","04/02/2022 - 00:13","04/02/2022 - 00:13","0","191.242.227.8","179","mp","Museu Paulista","20","356.69","0","0","0","0","0","0","3","1","1","0","0","0","4","0","0","0","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","3","0","0","44","0","0","0","0","0","0","0","0","0","0","0","11","0","0","0","0","0","2","0","0","0","0","0","0","0","0","98","0","10","31608","40","0","157","0","28","0","3","34","50","79","1","0","0","11","0","0","0","0","0","0","59","1","427","1","0","120","0","0","0","0","0","0","22","0","0","0","144","2","80","5","7","0","2","1","4","0","0","Não se aplica.","Não se aplica.","Não se aplica.","- Participação da biblioteca do MRCI no lançamento do site educativo ""Almeida Júnior no acervo do Museu Republicano"". Data: 21 set. 2021. Local: https://www.youtube.com/watch?v=ruHzLmO7Unw&t=69s. Nível de participação: intervenção do funcionário José Renato Margarido Galvão, que falou a respeito da Coleção Digital de Jornais Ituanos disponível em http://obrasraras.usp.br.","Não se aplica.","Não se aplica.","Não se aplica.","Sim","Sim","Sim","https://www.facebook.com/museurepublicano/","","","","","https://www.youtube.com/channel/UCusa85HFfzju1DIoT6xKpSw","https://www.instagram.com/museurepublicano/","Sim","Não","Sim","Sim","Sim","Não","Sim","Sim","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"50","376","24/01/2022 - 11:11","26/01/2022 - 19:20","26/01/2022 - 19:20","0","143.107.45.1","171","ime","Instituto de Matemática e Estatística","220","1642.42","0","0","5","3","2","0","3","3","0","0","0","24","3","4","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","2","0","0","0","142","82","0","0","0","0","0","0","0","0","0","0","3","7","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","152.671","30","0","0","0","0","0","0","2.131","32","185","1","13","0","343","0","0","0","0","0","0","75","0","1.120","0","0","0","2","0","0","0","0","0","2","0","2","0","2.103","15","181","10","16","0","7","1","5","1","10","- Colmeia: sistema interno de controle de acervo.
+- Ícaro: sistema interno de controle da catalogação de teses e dissertações defendidas.","- Guia da Biblioteca do IME-USP (online)
+- Folder - Guia do Usuário (impresso)
+- Site da Biblioteca/Blog - https://www.ime.usp.br/bib","São Paulo Journal of Mathematical Sciences - ISSN: 1982-6907 (print version), ISSN: 2316-9028
+(electronic version).
+Periodicidade: semestral. Formato: impresso e online. Distribuição: compra.
+Nível de Participação da Biblioteca: responsável pela divulgação, atualização do site institucional e
+página do Facebook.","Semana de Recepção Online aos Calouros de Graduação IME 2021
+Data: 06/04/2021
+Participantes: 140
+
+Recepção Online aos Novos Alunos de Pós-Graduação IME - 2º Semestre 2021
+Data: 13/04/2021
+Participantes: 73
+
+Recepção Online aos Novos Alunos de Pós-Graduação IME - 2º Semestre 2021
+Data: 18/08/2021
+Participantes: 40
+
+Primeiros passos no Wikidata - Oficina pré WikidataCon 2021
+Data: 14/10/2021
+Participantes: 21
+
+I Oficina Wikipédia em Sala de Aula - Curso de Educomunicação, disciplina Procedimentos de Pesquisa em Educomunicação
+Data: 02/06/2021
+Participantes: 60
+
+II Oficina Wikipédia em Sala de Aula - Curso de Educomunicação, disciplina Procedimentos de Pesquisa em Educomunicação
+Data: 21/07/2021
+Participantes: 60
+","Projeto: Inventário da Produção Intelectual IME (parte 1).
+Data de início: julho de 2017. Data de finalização (previsão): dezembro de 2021.
+Número de funcionários envolvidos: 6.
+
+Projeto: Digitalização de Teses e Dissertações antigas para inclusão na BDTD e retirada de duplicatas do acervo.
+Data de início: novembro de 2018. Data de finalização (previsão): julho de 2020.
+Número de funcionários envolvidos: 6.
+
+Projeto: Automatização da biblioteca do Centro de Aperfeiçoamento do Ensino de Matemática ""João Affonso Pascarelli"".
+Data de início: agosto de 2018. Data de finalização (previsão): dezembro de 2023.
+Número de funcionários envolvidos: 2 da biblioteca do IME e 3 do CAEM.
+
+Projeto: Novo site do IME e da biblioteca.
+Data de início: junho de 2019. Data de finalização: junho de 2020.
+Número de funcionários envolvidos: 1 + equipe da diretoria do IME.
+
+Projeto: Digitalização de Teses e Dissertações antigas para inclusão na BDTD e retirada de duplicatas do acervo.
+Data de início: novembro de 2018. Data de finalização (previsão): dezembro 2021.
+Número de funcionários envolvidos: 6.
+
+Projeto GLAM- Wiki Bibliotecas USP.
+Data de início: junho de 2020. Data de finalização: sem previsão.
+Número de funcionários envolvidos: 11.","Semana de Recepção Online aos Calouros de Graduação IME 2021
+Data: 06/04/2021
+Participantes: 140","Primeiros passos no Wikidata - Oficina pré WikidataCon 2021
+Data: 14/10/2021
+Participantes: 21
+
+I Oficina Wikipédia em Sala de Aula - Curso de Educomunicação, disciplina Procedimentos de Pesquisa em Educomunicação
+Data: 02/06/2021
+Participantes: 60
+
+II Oficina Wikipédia em Sala de Aula - Curso de Educomunicação, disciplina Procedimentos de Pesquisa em Educomunicação
+Data: 21/07/2021
+Participantes: 60
+","Sim","Sim","Sim","https://www.facebook.com/bibliotecaimeusp","","https://www.ime.usp.br/bib/blog/","https://www.flickr.com/photos/141687657@N07/albums","","https://www.youtube.com/channel/UCI_lNnq_7ervVKbKcLI_71Q","site: https://www.ime.usp.br/bib | Wikipedia: https://pt.wikipedia.org/wiki/Biblioteca_Carlos_Benjamin_de_Lyra","Sim","Não","Sim","Não","Sim","Sim","Sim","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"51","377","24/01/2022 - 14:28","24/01/2022 - 16:02","24/01/2022 - 16:02","0","143.107.118.102","144","eel","Escola de Engenharia de Lorena","396","1659","0","0","1","2","0","0","9","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","15","5","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/144_4.xlsx","12","0","0","0","0","182","135","0","0","0","0","0","21","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","216","0","8","0","0","0","20.744","0","0","0","0","12","0","0","1","3","0","0","0","0","18","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","128","59","7140","67","15","2","2","2","3","1","6","Nome: DISSERTAÇÕES & TESES (FAENQUIL) - Base Local: http://bibliotecas2.eel.usp.br/BDTD-FAENQUIL - 0 registros
+Nome: MONOGRAFIAS (TCC - EEL) http://bibliotecas2.eel.usp.br/monografias - Base Local:  - 204 registros","Sem publicações","Sem publicações","Em virtude do período de Pandemia de Coronavírus (COVID-19) não foram realizados nenhum evento.","Em virtude do período de Pandemia de Coronavírus (COVID-19) não foram executados nenhum projetos.","Em virtude do período de Pandemia de Coronavírus (COVID-19) não foram realizados atividades","Em virtude do período de Pandemia de Coronavírus (COVID-19) não foram realizados atividades.","Sim","Sim","Sim","https://www.facebook.com/BibliotecasEEL/","","","","","","https://www.instagram.com/bibliotecaeel/","Sim","Não","Não","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"52","378","27/01/2022 - 10:45","27/01/2022 - 11:34","27/01/2022 - 11:34","0","143.107.230.61","136","cdcc","Centro de Divulgação Científica e Cultural","70","253","0","0","0","0","2","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","125","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","3.186","0","0","0","0","0","0","15","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","15","0","14","5","1","1","0","2","0","0","A  Biblioteca não possui Bases de Dados.","Não Possui.","Não Possui.","FLUSP - FESTA DO LIVRO DA USP CAMPUS SÃO CARLOS E SEMANA DO LIVRO E DA BIBLIOTECA
+Patrocinador: Pró-Reitoria de Cultura e Extensão-PRCEU/USP
+Tipo de evento: Exposição; lançamento de livros; lançamento de produtos/seviços; palestras; outros.
+Nível de participação: Comissão organizadora e divulgação
+","Projeto: ESPAÇO LÚDICO: JOGOS EDUCATIVOS NA CONSTRUÇÃO DO CONHECIMENTO
+O Projeto consiste em levar aos alunos do ensino fundamental e médio e comunidade em geral um novo método de aprendizagem de maneira informal e lúdica, despertando o gosto e interesse pela ciência utilizando jogos científicos. As atividades são desenvolvidas através de jogos educativos como: Tangram, Torre de Hanói, entre outros. Há dois tipos de abordagem, conforme o público: 1) visita agendada à grupos de estudantes; 2) visita espontânea: dentro das atividades oferecidas pelo espaço o visitante tem atendimento de um bolsista (aluno de graduação) que irá orientá-lo.
+Apoio: Pró-Reitoria de Cultura e Extensão-PRCEU/USP
+
+Projeto: INFORMÁTICA PARA ALUNOS DO ENSINO FUNDAMENTAL E MÉDIO: UMA PROPOSTA EDUCATIVA DE INCLUSÃO DIGITAL E SOCIAL
+O objetivo do projeto é promover a inclusão social e digital dos cidadãos, bem como sua autonomia e o desenvolvimento de habilidades na utilização das ferramentas da informática para pesquisa e apoio na busca de informação utilitária para a comunidade. Para tal, minicursos são oferecidos aos alunos e comunidade em geral com orientação de bolsistas (alunos de graduação).
+Apoio: Pró-Reitoria de Cultura e Extensão-PRCEU/USP
+","A Biblioteca pertence a um Centro de Ciências que atua na ""Extensão Universitária"", nesse sentido, não apresenta atividades ligadas diretamente à Graduação.","Projeto: ESPAÇO LÚDICO: JOGOS EDUCATIVOS NA CONSTRUÇÃO DO CONHECIMENTO
+O Projeto consiste em levar aos alunos do ensino fundamental e médio e comunidade em geral um novo método de aprendizagem de maneira informal e lúdica, despertando o gosto e interesse pela ciência utilizando jogos científicos. As atividades são desenvolvidas através de jogos educativos como: Tangram, Torre de Hanói, entre outros. Há dois tipos de abordagem, conforme o público: 1) visita agendada à grupos de estudantes; 2) visita espontânea: dentro das atividades oferecidas pelo espaço o visitante tem atendimento de um bolsista (aluno de graduação) que irá orientá-lo.
+Apoio: Pró-Reitoria de Cultura e Extensão-PRCEU/USP
+
+Projeto: INFORMÁTICA PARA ALUNOS DO ENSINO FUNDAMENTAL E MÉDIO: UMA PROPOSTA EDUCATIVA DE INCLUSÃO DIGITAL E SOCIAL
+O objetivo do projeto é promover a inclusão social e digital dos cidadãos, bem como sua autonomia e o desenvolvimento de habilidades na utilização das ferramentas da informática para pesquisa e apoio na busca de informação utilitária para a comunidade. Para tal, minicursos são oferecidos aos alunos e comunidade em geral com orientação de bolsistas (alunos de graduação).
+Apoio: Pró-Reitoria de Cultura e Extensão-PRCEU/USP
+","Sim","Sim","Sim","http://www.facebook.com.br/bibliotecacdccusp/","não possui","não possui","não possui","não possui","não possui","site: http://www.cdcc.usp.br","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Sim","Sim","Sim","Não","Sim","Não"
+"54","380","10/02/2022 - 11:12","10/02/2022 - 11:45","14/02/2022 - 15:29","0","143.107.46.104","178","mae","Museu de Arquelogia e Etnologia","25","459","0","0","0","1","0","0","5","1","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","585","697","0","0","0","0","16","5","0","0","0","0","120","145","0","0","0","0","2","0","0","0","0","0","0","0","0","4.300","0","0","11.525","0","0","37.780","0","0","0","0","256","15","315","5","0","0","0","5","0","255","0","0","0","143","0","74184","0","0","0","0","0","0","0","0","0","0","0","0","0","143","0","0","9","9","1","1","1","2","0","0","Não possui","Não possui no período","Não possui no período","Não possui no período","Não possui no período","Não possui no período","Não possui no período","Sim","Sim","Sim","www.facebook.com/bibmae","","","","","","","Sim","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não"
