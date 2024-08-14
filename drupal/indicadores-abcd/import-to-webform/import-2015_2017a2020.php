@@ -1,17 +1,22 @@
 <?php
-// Criado por Anna Valim - 2024
-// // Para rodar:
-// // ./vendor/bin/drush php ~/scripts/drupal/indicadores-abcd/import-to-webform/import-2015_2017a2020.php
 
 use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
+// Criado por Anna Valim - 2024
+// Para rodar, insira o código abaixo, atentando para o seu pwd atual:
+// ./vendor/bin/drush php-script ~/projetos/scripts/drupal/indicadores-abcd/import-to-webform/import-2015_2017a2020.php
+
+// Passo-a-passo:
+// 1. Criar um webform com o nome de máquina: indicadores_abcd
+// 2. Na aba build do webform criado, copiar o conteúdo do arquivo: drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+
 $csvArchives = [
-  fopen('../data/2015.csv', "r"),
-  fopen('/../data/2017.csv', "r"),
-  fopen('../data/2018.csv', "r"),
-  fopen('../data/2019.csv', "r"),
-  fopen('../data/2020.csv', "r"),
+  fopen('../../scripts/drupal/indicadores-abcd/data/2015.csv', "r"),
+  fopen('../../scripts/drupal/indicadores-abcd/data/2017.csv', "r"),
+  fopen('../../scripts/drupal/indicadores-abcd/data/2018.csv', "r"),
+  fopen('../../scripts/drupal/indicadores-abcd/data/2019.csv', "r"),
+  fopen('../../scripts/drupal/indicadores-abcd/data/2020.csv', "r"),
 ];
 
 foreach($csvArchives as $archive){
@@ -185,7 +190,7 @@ foreach($csvArchives as $archive){
         $teclado_virtual,
     ) = array_slice($data, 8);
 
-      $webform_id = 'teste_abcd';
+      $webform_id = 'indicadores_abcd';
       $webform = Webform::load($webform_id);
 
       if ($webform) {

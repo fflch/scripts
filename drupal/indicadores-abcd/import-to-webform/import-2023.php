@@ -1,13 +1,17 @@
 <?php
 
-// Criado por Anna Valim - 2024
-// // Para rodar:
-// // ./vendor/bin/drush php ~/scripts/drupal/indicadores-abcd/import-to-webform/import-2023.php
-
 use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
-$csvArchive = fopen('../data/2023.csv', "r");
+// Criado por Anna Valim - 2024
+// Para rodar, insira o código abaixo, atentando para o seu pwd atual:
+// ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2023.php
+
+// Passo-a-passo:
+// 1. Criar um webform com o nome de máquina: indicadores_abcd
+// 2. Na aba build do webform criado, copiar o conteúdo do arquivo: drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+
+$csvArchive = fopen('../../scripts/drupal/indicadores-abcd/data/2023.csv', "r");
 
 if ($csvArchive !== FALSE) {
   $anoDeSubmissao = fgetcsv($csvArchive, 1000, ",");
@@ -107,7 +111,7 @@ if ($csvArchive !== FALSE) {
       $teclado_virtual,
     ) = array_slice($data, 8);
 
-    $webform_id = 'teste_abcd';
+    $webform_id = 'indicadores_abcd';
     $webform = Webform::load($webform_id);
 
     if ($webform) {
