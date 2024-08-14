@@ -1,0 +1,1434 @@
+"2016","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"Submission Details","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Formulário para Coleta de Dados das Atividades de Capacitação de Usuários ","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"Serial","SID","Hora do Envio","Completed Time","Modified Time","Draft","Endereço IP","UID","Usuário","Unidade","Número de assentos para usuários","Área Física (em m²) - Total ano anterior","Área Física (em m²) - Ampliação no período","Área Física (em m²) - Redução no período","Funcionários de nível Superior","Funcionários de nível Superior com Especialização","Funcionários de nível Superior com Mestrado","Funcionários de nível Superior com Doutorado","Funcionários de nível Técnico","Funcionários de nível Básico","Funcionários de nível Superior - Vagas não preenchidas","Funcionários de nível Técnico - Vagas não preenchidas","Funcionários de nível Básico - Vagas não preenchidas","Eventos - Superior","Eventos - Técnico","Eventos - Básico","Pós-Graduação - Especialização - Superior","Pós-Graduação - Especialização - Técnico","Pós-Graduação - Especialização - Básico","Pós-Graduação - Mestrado - Superior","Pós-Graduação - Mestrado - Técnico","Pós-Graduação - Mestrado - Básico","Pós-Graduação - Doutorado - Superior","Pós-Graduação - Doutorado - Técnico","Pós-Graduação - Doutorado - Básico","Cursos - Gerencial - Superior","Cursos - Gerencial - Técnico","Cursos - Gerencial - Básico","Cursos - Capacitação para Serviços - Superior","Cursos - Capacitação para Serviços - Técnico","Cursos - Capacitação para Serviços - Básico","Cursos - Tecnologia de Informação e Comunicação (TIC) - Superior","Cursos - Tecnologia de Informação e Comunicação (TIC) - Técnico","Cursos - Tecnologia de Informação e Comunicação (TIC) - Básico","Nome","Filesize (KB)","Livros - Nacional - Compra","Livros - Internacional - Compra","Livros - Nacional - Permuta","Livros - Internacional - Permuta","Livros - Nacional - Doação","Livros - Internacional - Doação","Teses - Nacional - Compra","Teses - Internacional - Compra","Teses - Nacional - Permuta","Teses - Internacional - Permuta","Teses - Nacional - Doação","Teses - Internacional - Doação","Periódicos - Títulos Correntes - Nacional - Compra","Periódicos - Títulos Correntes - Internacional - Compra","Periódicos - Títulos Correntes - Nacional - Permuta","Periódicos - Títulos Correntes - Internacional - Permuta","Periódicos - Títulos Correntes - Nacional - Doação","Periódicos - Títulos Correntes - Internacional - Doação","Multimeios - Nacional - Compra","Multimeios - Internacional - Compra","Multimeios - Nacional - Permuta","Multimeios - Internacional - Permuta","Multimeios - Nacional - Doação","Multimeios - Internacional - Doação","Outros Tipos - Nacional - Compra","Outros Tipos - Internacional - Compra","Outros Tipos - Nacional - Permuta","Outros Tipos - Internacional - Permuta","Outros Tipos - Nacional - Doação","Outros Tipos - Internacional - Doação","Livros - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Livros - Materiais não Cadastrados no DEDALUS","Teses - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Teses - Materiais não Cadastrados no DEDALUS","Periódicos - A biblioteca faz desdobramento retrospectivo de suas coleções periódicas?","Periódicos - Se sim, qual o percentual já desdobrado?","Periódicos (Fascículos) - Materiais cadastrados no DEDALUS até a presente data","Periódicos (Fascículos) - Materiais cadastrados no DEDALUS no ANO (01/01 a 31/12/2016)","Periódicos (Fascículos) - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Periódicos (Fascículos) - Materiais não Cadastrados no DEDALUS","Multimeios - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Multimeios - Materiais não Cadastrados no DEDALUS","Outros Tipos - Baixas Efetuadas de Materiais Cadastrados no DEDALUS","Outros Tipos - Materiais não Cadastrados no DEDALUS","Frequência de Usuários - USP","Frequência de Usuários - Locais das Bibliotecas","Consultas ao Acervo","Empréstimo entre Bibliotecas - Como Biblioteca Solicitante","Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - SIBiUSP","Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - SIBiUSP","Nacional Como Biblioteca Fornecedora - Número de Cópias - SIBiUSP","Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - COMUT","Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - COMUT","Nacional Como Biblioteca Fornecedora - Número de Cópias - COMUT","Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - BIREME","Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - BIREME","Nacional Como Biblioteca Fornecedora - Número de Cópias - BIREME","Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - OUTROS","Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - OUTROS","Nacional Como Biblioteca Fornecedora - Número de Cópias - OUTROS","Internacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos","Internacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos","Internacional Como Biblioteca Fornecedora - Número de Cópias","Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - SIBiUSP","Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - SIBiUSP","Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - COMUT","Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - COMUT","Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - BIREME","Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - BIREME","Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - OUTROS","Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - OUTROS","Internacional Como Biblioteca Solicitante - Número de Pedidos Atendidos","Internacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos","Número de Assistências Efetuadas","Documento como um Todo","Referências Bibliográficas","Microcomputador - Número de Equipamentos para Usuários","Microcomputador - Número de Equipamentos para Funcionários","Impressora - Número de Equipamentos para Usuários","Impressora - Número de Equipamentos para Funcionários","Scanner - Número de Equipamentos para Usuários","Scanner - Número de Equipamentos para Funcionários","Outros - Número de Equipamentos para Usuários","Outros - Número de Equipamentos para Funcionários","Bases de dados","Publicações da Biblioteca","Publicações Oficiais da Unidade com Participação da Biblioteca","Eventos","Projetos","Atividades ligadas à Graduação","Atividades ligadas à Cultura e Extensão","Oferece serviços pela internet?","Possui rede sem fio?","Participa de redes sociais?","Facebook","Twitter","Blog","Flickr","Pinterest","Youtube","Outro","Oferece condições de acessibilidade?","Atendente ou membro da equipe de atendimento treinado na língua brasileira de sinais Libras?","Possui banheiros adaptados?","Possui bebedouros e lavabos adaptados?","Possui Entrada/Saída com dimensionamento?","Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?","Possui espaço para atendimento adaptado?","Possui mobiliário adaptado?","Possui rampa de acesso com corrimão?","Possui sinalização tátil?","Possui sinalização visual?","Possui sinalização sonora?","Possui ambiente desobstruídos que facilitem a movimentação de cadeirantes e pessoas com deficiência visual?","Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato especial?","Possui acervo em formato especial (Braille/Sonoro)?","Possui websites e aplicações desenvolvidas para que pessoas percebam, compreendam, naveguem e utilizem os serviços oferecidos?","Disponibiliza impressoras em Braille?","Disponibiliza software de leitura para pessoas com baixa visão?","Disponibiliza teclado virtual?"
+"4","64","05/12/2016 - 08:05","31/01/2017 - 10:17","31/01/2017 - 10:17","0","143.107.48.192","151","fe","Faculdade de Educação","312","3.520","0","0","3","3","1","0","11","3","4","0","1","0","0","0","1","0","0","0","0","0","0","0","0","0","1","0","1","4","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/151_0.xlsx","12","0","0","0","0","2.423","0","0","0","0","0","390","0","0","46","38","14","58","10","0","0","0","0","0","0","0","0","0","0","0","0","119","50.009","263","31","Sim","100%","74.630","483","0","0","0","8.426","0","0","73.437","7.903","36.215","118","0","0","0","34","5","3.163","0","0","0","0","0","0","0","0","0","1","0","7","0","0","0","0","0","0","0","4.220","3","262","49","34","0","16","4","3","15","20","LIVRES - Banco de Livros Escolares Brasileiros
+Base Local
+Total cadastrado no período: 551","","Educação e Pesquisa: Revista da Faculdade de Educação da USP. Trimestral nos formatos impresso (papel) e online. Distribuída por doação, compra (assinatura) e permuta.
+Nível de Participação da Biblioteca - Editoração, Normalização Técnica, Infraestrutura Administrativa, Distribuição e Divulgação.","Nome: Oficina para alunos da Escola de Aplicação da USP
+Data: 11 de abril de 2016
+Tipo: Visita a Exposição de Arte
+Evento totalmente realizado pela Biblioteca.
+
+Nome: Oficina para alunos da Escola de Aplicação da USP
+Data: 14 de abril de 2016
+Tipo: Visita a Exposição de Arte
+Evento totalmente realizado pela Biblioteca.
+
+Nome: Oficina para alunos de graduação - Faculdade Pascoal Dantas
+Data: 04 de maio de 2016
+Tipo: Visita a Exposição de Arte
+Evento totalmente realizado pela Biblioteca.
+
+Nome: Oficina para alunos da graduação USP Ribeirão Preto
+Data: 04 de maio de 2016
+Tipo: Visita a Exposição de Arte
+Evento totalmente realizado pela Biblioteca.
+
+Nome: Oficina para alunos da Escola Lourenço Castanho
+Data: 15 de setembro de 2016
+Tipo: Visita a Exposição de Arte
+Evento realizado pelo MEB.
+
+Nome: Oficina para alunos da Escola da Prefeitura de Guarulhos Manuel Bandeira
+Data: 22 de setembro de 2016
+Tipo: Visita a Exposição de Arte
+Evento realizado pelo MEB.
+
+Nome: Oficina para alunos da Creche Oeste - USP
+Data: 27 de setembro de 2016
+Tipo: Visita a Exposição de Arte
+Evento realizado pelo MEB.
+
+Nome: Oficina para alunos da Fundação Bradesco
+Data: 05 de outubro de 2016
+Tipo: Visita a Exposição de Arte
+Evento realizado pelo MEB.
+
+Nome: Oficina para alunos da Fundação Bradesco
+Data: 06 de outubro de 2016
+Tipo: Visita a Exposição de Arte
+Evento realizado pelo MEB.
+
+Nome: Oficina para alunos da Creche Oeste - USP
+Data: 11 de outubro de 2016
+Tipo: Visita a Exposição de Arte
+Evento totalmente realizado pela Biblioteca.
+
+Nome: Oficina para alunos da Escola Gracinha
+Data: 25 de outubro de 2016
+Tipo: Visita a Exposição de Arte
+Evento realizado pelo MEB.
+
+Nome: Oficina para alunos da Escola Gracinha
+Data: 26 de outubro de 2016
+Tipo: Visita a Exposição de Arte
+Evento realizado pelo MEB.
+
+Nome: Oficina para alunos da Escola Gracinha
+Data: 27 de outubro de 2016
+Tipo: Visita a Exposição de Arte
+Evento realizado pelo MEB.
+
+Nome: Oficina para alunos da Escola São Luiz
+Data: 17 de novembro de 2016
+Tipo: Visita a Exposição de Arte
+Evento realizado pelo MEB.
+","","Nome: Encontro com autor
+Data: 06/04/2016
+Tipo: Lançamento de livro do Professor Emerson de Pietri
+Evento realizado na Biblioteca.
+
+Nome: Formação de Alunos
+Data: 25 a 28 de abril de 2016.
+Tipo: 13ª Semana de Estudo Clássicos
+Evento realizado na Biblioteca.
+
+Nome: Encontro com autor.
+Data 18 de novembro de 2016
+Tipo: Lançamento do livro do Professor José Nilson Machado e equipe
+Evento realizado na Biblioteca.
+
+
+
+","---","Sim","Sim","Sim","www.facebook.com/bibliotecafeusp","","","","","","Chat online","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Sim","Não","Sim","Não","Sim","Não","Não","Sim","Sim"
+"5","65","05/12/2016 - 08:31","10/02/2017 - 14:18","10/02/2017 - 14:18","0","143.107.157.37","150","fdrp","Faculdade de Direito de Ribeirão Preto","112","880","0","0","3","1","2","1","2","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","69","189","0","0","2098","726","0","0","0","0","0","0","116","10","0","0","29","8","0","0","0","0","0","0","0","0","0","0","0","0","0","6000","0","0","Não","","6335","163","0","0","0","0","0","0","98896","0","16438","353","30","5","160","7","2","60","0","0","0","0","0","0","0","0","0","45","5","8","1","0","0","0","0","0","0","45","10","215","9","10","0","1","1","0","0","0","Não consta","Não consta","Não consta","Não consta","Não consta","Não consta","Não consta","Sim","Sim","Sim","Faculdade de Direito de Ribeirão Preto","","","","","","Instagram","Sim","Não","Sim","Sim","Não","Sim","Sim","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"6","66","05/12/2016 - 09:42","13/02/2017 - 08:34","13/02/2017 - 08:34","0","143.107.51.50","143","eefe","Escola de Educação Física e Esporte","90","454","0","0","2","0","0","0","3","0","1","0","0","1","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/143_0.xlsx","13","68","79","0","0","123","5","0","0","0","0","34","0","0","15","0","0","5","0","0","0","0","0","0","0","0","0","0","0","0","0","153","0","0","0","Não","","22297","0","0","0","0","0","0","0","3158","10373","27497","45","74","0","873","77","3","943","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1275","82","2750","8","7","0","2","2","1","0","0","Não.","Não.","Revista Brasileira de Educação Física e Esporte. Periodicidade trimestral. Disponível somente online. Nível de participação: participa da Comissão editorial; responsável por: editoração, normalização, infra-estrutura administrativa; produção gráfica e divulgação.","Exposição de livros raros da Biblioteca e produção docente da profa. Katia Rubio: Olimpíadas.","Não.","Participação nas atividades da Semana de Recepção dos Alunos (gincana); palestras sobre Recursos Informacionais.","Participação na campanha dos Correios: Cartas para o Papai Noel.","Sim","Sim","Sim","https://www.facebook.com/bibeefe/?fref=ts","@bibeefe","http://bibliotecaeefe.blogspot.com.br/","Não.","Não.","Não.","Não.","Sim","Não","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"7","67","05/12/2016 - 14:29","30/01/2017 - 10:21","30/01/2017 - 10:21","0","143.107.14.22","165","icmc","Instituto de Ciências Matemáticas e de Computação","350","3.009","0","0","0","3","2","0","5","4","0","0","0","17","21","14","0","0","0","0","0","0","0","0","0","0","0","0","10","5","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/165_0.xlsx","14","0","96","0","0","117","88","0","0","0","0","217","0","3","41","2","22","15","17","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","Sim","95%","97969","354","0","0","0","0","0","0","124.861","3.816","19.759","466","142","1","2087","6","10","74","0","0","0","0","0","0","1","1","22","36","1","0","0","0","0","4","0","1","0","31.618","31","387","17","19","0","4","0","3","0","8","Repositório Institucional do ICMC","- Título: Boletim de Novas Aquisições. Periodicidade: Irregular. Formato online.Distribuição: doação
+- Título: Manual do Usuário. Periodicidade: anual. Formato: impresso. Distribuição: doação
+- Título: Homepage da Biblioteca Prof. Achille Bassi. Periodicidade: irregular. Formato online. Distribuição: doação","- Título: Cadernos de Matemática. Periodicidade: semestral. Formato: impresso e online. Distribuição: permuta e doação. Nível de Participação da Biblioteca Distribuição e divulgação.
+- Título: Notas Didáticas do ICMC/USP. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: Produção gráfica, distribuição e divulgação.
+- Título: Notas do ICMC/USP - Série Computação. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: Produção gráfica, distribuição e divulgação
+- Título: Notas do ICMC/USP - Série Estatística. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: Produção gráfica, distribuição e divulgação.
+- Título: Notas do ICMC/USP - Série Matemática. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: Produção gráfica, distribuição e divulgação.
+- Título: Relatórios Técnicos do ICMC/USP - Série Computação. Periodicidade: irregular. Formato: impresso e online. Distribuição: doação. Nível de Participação da Biblioteca: Produção gráfica, distribuição e divulgação","Nome do Evento: Workshop Web of Science, Journal Citation Reports e EndNote Web. Atividade conjunta com o Instituto de Química de São Carlos. Dia: 18/10/2016. Ministrante: Deborah Dias
+Nome do Evento: 3 ª Festa do Livro e XIX Semana do Livro e da Biblioteca na USP. Período de  24 a 27/10/2016.
+Nome do evento: Workshop Scopus, ScienceDirect, Mendeley. Atividade conjunta com o Instituto de Química de São Carlos. Data: 08/11/2016. Ministrante: Sérgio Vidal
+
+","Nome do Projeto: Centro de Memória e Documentação do ICMC/USP
+Nome do Projeto: Evento 45 anos - Recebido pela Pró-reitoria de Cultura e Extensão Universitária para realização do Evento ICMC 45 anos: memórias em vozes e cenas.","Tipo de capacitação: Treinamento. Nome:Treinamento quanto ao uso da Biblioteca para os alunos ingressantes. Disciplina: SCC0200. Nº alunos: 119. Data: 22/02/2016. Período: tarde
+Tipo de capacitação: Treinamento. Nome: Treinamento quanto ao uso da Biblioteca para os alunos ingressantes. Disciplina: SME 0890. Nº alunos: 38. Data: 29/02/2016. Período: noite
+Tipo de capacitação: Treinamento. Nome: Treinamento quanto ao uso da Biblioteca para os alunos ingressantes. Disciplina: SCC 0530. Nº alunos: 53. Data: 29/02/2016. Período: tarde
+Tipo de capacitação: Treinamento. Nome: Uso das Bases de Dados: Web of Science, Scopus e Scielo. Disciplina: Metodologia da Pesquisa em Educação Matemática - SMA 0346.  Nº alunos: 8. Data: 29/03/2016. Período: Manhã
+Tipo de capacitação: Treinamento. Nome: Aula complementar de metodologia científica: recursos da ABNT para uso em TCC's. Disciplina: Metodologia Científica II - SME 0826 - Bacharelado em estatística. Nº alunos: 28. Dia 10/11/2016. Período: Noite","- Visita Monitorada à Biblioteca: Atividade da semana de recepção dos calouros.
+Dia: 16/02/2016. Período: Manhã. Participantes: 80
+- Visita Monitorada à Biblioteca: Atividades da visita monitorada Campus
+Nº alunos: 270 Dia: 12/04/2016. Período: manhã e tarde 
+- Visita Monitorada à Biblioteca: ICMC de portas abertas. Nº alunos: 250. Dia: 13/08. Período: manhã e tarde 
+- Visita Monitorada à Biblioteca: Colégio Técnico Industrial prof. Isaac Portal Roldán, Bauru.
+Nº alunos: 40.  Dia: 13/08/2016. Período: manhã.
+- Exposição Nanoarte – A Arte de Fazer Arte. De: 19/09/2016 a 31/12/2016
+","Sim","Sim","Sim","www.facebook.com/BibliotecaICMC","https://twitter.com/BibliotecaICMC","","","","","","Sim","Não","Sim","Sim","Sim","Sim","Não","Não","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"8","68","05/12/2016 - 15:03","30/01/2017 - 11:05","30/01/2017 - 11:05","0","143.107.211.194","138","cena","Centro de Energia Nuclear na Agricultura","23","277","0","0","2","0","0","0","0","1","0","1","1","1","0","4","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","7","0","0","106","24","0","0","0","0","154","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","49","0","0","0","Sim","100%","0","96","0","0","0","0","0","0","1213","889","405","9","1","0","10","15","1","362","0","0","0","9","0","69","0","0","0","7","1","3","0","0","0","0","0","0","0","1097","174","6868","10","6","1","2","1","1","2","2","Não pertinente","- Biblioteca Divulga (online)","- Relatório de Atividades do CENA/USP
+- Scientia Agricola
+- Série Didática
+- Série Manuais","- Workshop Bases Scopus, Science Direct, Mendeley da Elsevier - 02 de maio de 2016. 
+- IX Simpósio Científico dos Pós-graduandos no CENA - 14 a 16 de setembro de 2016.","Não pertinente","Não pertinente","Não pertinente","Sim","Sim","Sim","https://www.facebook.com/Biblioteca-CENA-USP-337631616263304","https://twitter.com/biblioteca_CENA","","","","","","Sim","Não","Sim","Não","Sim","Não","Sim","Sim","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"9","69","05/12/2016 - 15:38","30/01/2017 - 15:49","30/01/2017 - 15:55","0","143.107.184.66","182","puspsc","Prefeitura do Campus de São Carlos","263","2320.71","0","0","0","3","0","0","1","1","0","0","0","10","1","0","0","0","0","0","0","0","0","0","0","0","0","0","1","0","5","1","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/182_0.xlsx","15","346","56","0","0","114","0","0","0","0","0","0","0","7","0","0","0","5","0","25","32","0","0","0","0","0","0","0","0","0","0","0","606","0","4","Não","","901","111","0","0","0","91","0","42","19492","15","606","18","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","435","3","111","20","14","1","3","0","1","0","0","Não se aplica","Não se aplica","Não se aplica","FLUSP 2016: Festa do Livro e XIX Semana do Livro e da Biblioteca na USP - ocorreu de 24 a 27/10 (segunda a quinta-feira), no Térreo do Edifício E-1, Anfiteatro Jorge Caron da EESC e nas Bibliotecas do Campus USP de São Carlos.
+O evento foi uma ação conjunta das Bibliotecas do Campus de São Carlos e Grupo Coordenador de Cultura e Extensão do Campus. http://www.saocarlos.usp.br
+Atividades conjuntas:
+24/10/2016
+14h00 – Abertura – Anfiteatro Jorge Caron
+15h00 – Palestra -“A política no Brasil: partidos, personagens e conjuntura”.  - Prof. Dr. Rodrigo Augusto Prando (Universidade Presbiteriana Mackenzie) - Anfiteatro Jorge Caron
+17h00 – Apresentação musical – MPB, Blues e Jazz com “Os desafinados” – Espaço Tenda
+19h30 – Abertura do XVI Programa TUSP de Leituras Públicas “Dramaturgas” com Ana Roxo – Espaço Tenda
+
+25/10/2016
+10h00 -Oficina“Bonecas africanas”– Espaço Tenda
+14h00 – Palestra e Roda de Conversa “Direitos Autorais” - Prof. José Augusto Chaves Guimarães e João Carlos Gardini Santos (UNESP Marilia) – Anfiteatro Jorge Caron
+17h00 – Musica Erudita -Espaço Tenda
+18h30 – Oficina “Origami” – Espaço Tenda
+18h30 – Apresentação do Coral CAASO Sixifupa – Escadaria E1
+
+26/10/2016
+10h00 – Palestra“Cidades Inteligentes” – Eduardo Santana (IME/USP) – Anfiteatro Jorge Caron
+14h00 – Palestra“Alzheimer” – Profa. Isabel Cristina Sabatini Peres (FMRP/USP) – Anfiteatro Jorge Caron
+16h00 – Futebol de Robôs–Espaço Tenda
+18h00 – Poesia Parida em experimento 1 “A Palavra” – Espaço Tenda
+
+27/10/2016
+10h00 – Palestra “Garrafa e Método de Construção Civil Utilizando Garrafa” - José Renato Dibo (IAU/USP) – Anfiteatro Jorge Caron
+13h15 – Apresentação do Coral USP Campus de São Carlos – Escadaria E1
+17h00 – Apresentação do Grupo Forró CAASO – Espaço Tenda
+
+Espaço Tenda: 
+Café, leitura, informação, integração e ponto BookCrossing
+
+Atividades realizadas pela Biblioteca da PUSP-SC
+
+24/10 a 25/11/2016 - Exposição “Nanoarte: do início às cores” – imagens obtidas por intermédio de microscópios eletrônicos de alta precisão, incluindo as em preto e branco que fazem parte do acervo da Biblioteca da PUSP-SC e novas obras que são frutos das pesquisas realizadas no Centro de Desenvolvimento de Materiais Funcionais – CDMF da Universidade Federal de São Carlos – UFSCar.
+
+24/10 a 25/11/2016 - Exposição “7ª Expovisual – Mangá” – resultado de alguns anos de dedicação aos estudos das Artes Gráficas no curso de História em Quadrinhos do Estúdio Iéio – Escola de Desenho. Serão apresentadas histórias em quadrinhos no estilo Mangá produzidas pelos alunos Anderson Marques da Silva e Bruno Matheus Janduzzo Cavaretto.
+
+
+2ª Semana Junina na Biblioteca da PUSP-SC - é um evendo do Programa IntegrArt que foi realizado de 20 a 24 de junho de 2016 no Espaço de Convivência da Biblioteca,oferecendo pipoca, doces e música típica das 10h à 15h. (http://biblioteca.puspsc.usp.br/?p=2448)
+
+","Sistema de Gestão - Status: Em andamento
+Projeto de Comunicação Visual e Sinalização  - Status: Em andamento
+","- Palestras do Programa de Educação de Usuários (realizadas em parceria com o Serviço de Biblioteca Prof. Dr. Sérgio Rodrigues Fontes - EESC): Recepção aos Calouros dos cursos de Engenharia Ambiental, Engenharia de Computação, Engenharia Aeronáutica, Engenharia de Materiais, Engenharia Elétrica, Engenharia Mecatrônica e Engenharia Mecânica
+- Visita Orientada aos Calouros dos Cursos de Graduação do Instituto de Física de São Carlos - IFSC
+- Aulas a convite da Unidade (realizadas em parceria com o Serviço de Biblioteca Prof. Dr. Sérgio Rodrigues Fontes - EESC) - Tema: Apresentação das bibliotecas e recursos informacionais SIBi-NET - ministrada na disciplina SAA0338- Palestras e Seminários em Iniciação Científica em Engenharia Aeronáutica (EESC)
+
+- Aulas a convite da Unidade (realizadas em parceria com o Serviço de Biblioteca Prof. Dr. Sérgio Rodrigues Fontes - EESC) - Tema: Apresentação das bibliotecas e recursos informacionais SIBi-NET - ministrada na disciplina SAA0338- Palestras e Seminários em Iniciação Científica em Engenharia Aeronáutica (EESC)
+
+","- Aulas a convite da Unidade - Tema: Uso de Gerenciadores de Referências: Endonote - ministrada na disciplina SQF0320 - Comunicação e Expressão em Linguagem Científica I (IQSC) - dias 10/05 e 12/05
+
+- Visitas Orientadas aos alunos do Ensino Médio de Escolas Públicas:  1º Ano do Ensino Médio da Escola Estadual Esterina Placco;  1º Ano do Ensino Médio da Escola Estadual Jesuino de Arruda; 1º Ano do Ensino Médio da Escola Estadual Jardim dos Coqueiros
+
+
+Eventos do Programa IntegrArt em 2016:
+- Exposição “7ª Expovisual – Mangá“ - realizada de 24 de outubro a 25 de novembro no 1º andar da Biblioteca da PUSP-SC (http://biblioteca.puspsc.usp.br/?p=2616)
+- Exposição “Nanoarte: do início às cores“ - realizada de 24 de outubro a 25 de novembro no 1º andar da Biblioteca da PUSP-SC (http://biblioteca.puspsc.usp.br/?p=2626)
+- 2ª Semana Junina	- realizada de 20 a 24 de junho no Espaço de Convivência da Biblioteca da PUSP-SC	(http://biblioteca.puspsc.usp.br/?p=2448)
+
+
+","Sim","Sim","Sim","https://www.facebook.com/biblioteca.puspsc","","","","","","http://www.bookcrossing.com/mybookshelf/BibPUSPSC (Bookcrossing - rede que incentiva a troca de livros em lugares públicos)","Sim","Sim","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Sim","Não","Não","Não","Não","Não"
+"10","70","06/12/2016 - 15:04","27/01/2017 - 14:06","27/01/2017 - 14:06","0","143.107.243.212","156","fo","Faculdade de Odontologia","66","1.5051","0","0","5","2","0","2","11","6","2","0","1","10","7","4","0","0","3","0","0","0","0","0","0","0","0","0","6","1","2","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/156_0.xlsx","15","0","13","0","0","277","23","0","0","0","0","0","0","1","19","0","0","29","27","0","0","0","0","28","0","0","0","0","0","12","0","0","0","0","0","Sim","43,8%","64.056","417","0","0","0","0","0","0","16633","8042","7182","11","10","1","96","455","210","4830","0","0","0","430","187","4812","0","0","0","13","0","0","0","0","0","0","0","0","0","9771","155","12016","25","34","0","10","0","3","0","1","SeCS - cadastrados 352 fascículos.","SDO em Rede. Publicação trimestral. Formato online.
+","INFOUSP. Publicação trimestral. formato print/online.
+CLRD - Clinical Laboratorial Research in Dentistry. Publicação trimestral. Formato online.","-","Projeto “Aprender com Cultura e Extensão”  Prof. Dr. Igor Studart Medeiros responsável pelo projeto e os bibliotecários Dra. Lúcia Maria Sebastiana Verônica Costa Ramos; Dra. Vânia Martins Bueno de Oliveira Funaro; Maria Cláudia Pestana e  Fábio jastwebski assinam como co-responsáveis sendo distribuídos de acordo com as necessidades dos serviços: dois para o Serviço de Assistência e Divulgação Técnico-Científica, dois para a BVS Odontologia Brasil e três para trabalhar no processo do Portal Rev@Odonto.
+
+•	Projeto “Repositório Objetos Educacionais de Aprendizagem”, os quais culminam no desenvolvimento do Repositório FOUSP de acesso aberto, que disponibilizará a produção acadêmica e acervo fotográfico da Unidade.
+","-","-","Sim","Sim","Sim","https://www.facebook.com/sdousp","","","","","","","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não"
+"11","71","07/12/2016 - 09:04","31/01/2017 - 09:26","20/03/2017 - 13:15","0","143.107.213.112","147","esalq","Escola Superior de Agricultura Luiz de Queiroz","282","3056.2","0","0","10","4","1","0","11","3","0","0","1","37","18","9","0","0","0","0","0","0","0","0","0","0","0","0","9","3","3","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/147_0.xlsx","20","135","134","0","0","608","38","0","0","0","0","797","0","16","107","16","8","47","15","5","0","0","0","7","0","0","0","0","0","1","4","383","0","348","0","Sim","41,5%","240799","898","685","0","2","0","0","0","141560","445","16360","543","79","2","1600","360","4","4010","0","0","0","777","0","10829","17","1","421","55","2","5","6","0","0","25","0","18","2","3929","1217","0","55","54","2","5","2","2","0","12","- Vocalq - Vocabulário Controlado - SQL","- Série Produtor Rural - publicação seriada - monografia - Impressa e Online - Compra ou Doação","Não se aplica","- I Semana da Escrita Científica na ESALQ - Período: 17/05/16  a 19/05/16
+- VI SIM - Pecege -  Período: 22/07/16 a 23/07/2016
+- Workshop - Web of Science, Journal Citation Reports, Essencial Science Indicators e EndNote Web - Período: 12/08/16
+- XIX Semana do Livro e da Biblioteca: Os Autores e Suas Obras - Período: 24/10/16 a 27/10/16
+- Workshop Scopus, Science Direct e Mendeley - Período: 07/11/16","- Promoção da Recepção aos Ingressantes na DIBD - Início:   -  Fim: 
+- Criação de sistemática para capacitação e utilização da ferramenta Mendeley (gerenciador de referências) - Módulo 1 - Início: 21/03/2016  -  Fim: 27/10/2016
+- Formatação de conteúdo programático de disciplina para o curso de Engenharia Agronômica da ESALQ/USP  Início: 24/03/2016  -  Fim: 30/11/2016
+- Consolidação das práticas do Sistema de Gestão da DIBD: Módulo 1 - Elaboração de documentação descritiva conforme modelo PNQ  - Início: 26/02/2016  -  Fim: 26/11/2016
+ - Organização física e preservação das fotos impressas  - Início: 16/05/2016  -  Fim: 11/11/2016
+- Mapeamento de canais de financiamentos e parceiros como oportunidade para captação de recursos para projetos da DIBD  - Início: 01/03/2016  -  Fim: 15/09/2016
+- Atualização do manual de Postura de Atendimento da DIBD  - Início: 27/06/2016  -  Fim: 26/11/2016
+- Realização da Semana da Gestão: atualização de conhecimento de funcionários  -  Fim: 04/07/20146  -  Fim: 14/09/2016
+- Confecção de caixas p/ acondicionamento de materiais bibliográficos danificados - acervo de coleções especiais  - Início: 04/05/2016  -  Fim: 23/09/2016
+- Levantamento do histórico de implantação da Qualidade na DIBD e pesquisa sobre o seu perfil  -  Início: 12/08/2016  - Fim: 25/11/2016
+- Realização da XIX Semana do Livro e da Biblioteca  - Início: 23/02/2016  -  Fim: 25/11/2016
+- Utilização dos recursos captados da Fundação Agrisus para aquisição de material bibliográfico para a DIBD. -  Início: 04/01/2016  -  Fim: 24/06/2016
+- Avaliação da usabilidade do acervo da DIBD  - Início: 15/02/2016  -  Fim: 30/09/2016","Aquisição:
+- Material bibliográfico específico para grade curricular, dentro do orçamento RUSP
+Treinamentos:
+- Recepção aos alunos ingressantes
+- Treinamento da ferramenta de formação de trabalhos acadêmicos ""EndNote Basic""
+Material Didático:
+- Formatação de Dissertação/Tese
+http://www.esalq.usp.br/biblioteca/Tutorial.pdf
+- Disciplina do LAN 0132 - Informação Científica - http://www4.esalq.usp.br/biblioteca/sites/www4.esalq.usp.br.biblioteca/files/Apostila_LAN0132_2016.pdf
+- Disciplina LES 0216 - Conhecimento e Pesquisa
+http://www4.esalq.usp.br/biblioteca/sites/www4.esalq.usp.br.biblioteca/files/Apostila_LES0216_2016.pdf","- Parceria com o Serviço de Cultura e Extensão na revisão da Série Produtor Rural, escrita por professores junto com os respectivos orientados.","Sim","Sim","Sim","https://www.facebook.com/webdibd","https://twitter.com/Biblio_Esalq","Não se aplica","Não se aplica","Não se aplica","https://www.youtube.com/user/BIBLIOTECAESALQ","Slideshare: http://pt.slideshare.net/esalq/slideshows - Google+: https://plus.google.com/110598122348188004617/posts","Sim","Não","Não","Sim","Sim","Não","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"12","72","09/12/2016 - 08:27","31/01/2017 - 13:10","31/01/2017 - 13:10","0","143.107.45.11","171","ime","Instituto de Matemática e Estatística","182","1642.42","0","0","6","3","0","0","6","6","1","1","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/171_0.xlsx","12","0","407","0","0","234","139","0","0","0","0","228","0","1","58","3","48","5","0","0","0","0","0","0","0","0","0","0","0","0","0","0","24","0","41","Sim","100%","152.090","486","0","0","0","0","0","0","53.744","1.002","13.480","42","8","2","237","19","8","249","0","0","0","2","0","23","3","0","42","3","0","2","0","0","0","0","0","0","0","584","0","83","7","19","0","4","0","3","3","0","COLMEIA {2016} Total de 970 registros cadastrados.","","São Paulo Journal of Mathematical Sciences - ISSN: 1982-6907 e-ISSN: 2316-9028. Periodicidade: Semestral, Formato: Impresso e online.","","Projeto de Modernização da Biblioteca Carlos Benjamin de Lyra, verba FAPESP. Status: aprovado, em andamento.","","","Sim","Sim","Não","Não","Não","Não","Não","Não ","Não","Não","Não","Não","Não","Não","Sim","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"13","73","12/12/2016 - 08:02","31/01/2017 - 13:15","06/04/2017 - 21:20","0","143.107.52.224","139","cq","Conjunto das Químicas","195","3473","0","0","3","5","1","0","8","8","0","0","0","30","8","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/139.xlsx","14","0","154","0","0","84","51","0","0","0","0","208","0","1","48","3","2","18","7","0","8","0","0","0","0","0","0","0","0","0","0","4","3","0","14","Sim","57%","188.881","216","0","0","0","0","0","0","71.408","12.602","228.848","34","34","1","361","186","19","1.802","0","0","0","60","3","816","0","0","0","0","0","0","0","0","0","0","0","0","0","27.190","48","3.829","24","34","0","13","1","5","0","0","Base de Dados SeCs - Base Nacional - total de 701 títulos
+Base de Dados EVENTOS - Base Local  - total de 602 títulos","Homepage
+Guia para localização de livros
+Guia para localização de revistas
+Biblioteca do Conjunto das Químicas Wiki","Brazilian Journal of Pharmaceutical Sciences, publicação oficial da Faculdade de Ciências Farmacêuticas da Universidade de São Paulo possui periodicidade trimestral, estando disponível na versão impressa e eletrônica. (ISSN 1984­8250 e On­line version ISSN 2175­9790). O título é continuação da “Revista Brasileira de Ciências Farmacêuticas/Brazilian Journal of Pharmaceutical Sciences” que teve origem nos “Anais de Farmácia e Odontologia da USP” É distribuida por doação, permuta e através de assinaturas anuais. A Biblioteca do Conunto das Químicas é o órgão responsável por sua edição, compreendendo trabalhos de editoração, normalização técnica, infraestrutura administrativa, distribuição e divulgação.","Palestra sobre Acesso às Bases de Dados e Obtenção dos documentos, ministrada pela bibliotecária Adriana de Almeida Barreiros, nos Seminários Gerais da Pós-Graduação da Faculdade de Ciências Farmacêuticas, em 21 de março de 2016; Exposição de Totens, Campanha do Silêncio, com frases educativas sobre o assunto, realizado pela Biblioteca de 11 de abril a 13 de maio de 2016; Exposição de Pôster no evento ""Portas Abertas"" do IQ, divulgação dos serviços da Biblioteca, em 7 de maio de 2016; Exibição de vídeo sobre a Biblioteca e seus serviços no evento ""Visita Monitorada"" da FCF, em 14 de maio de 2016; Palestra sobre Elaboração de Artigos Científicos, ministrada pela bibliotecária Adriana de Almeida Barreiros, para a pós-graduação da EPQI, em 11 de junho de 2016; ""USP e as Profissões"", participação da Biblioteca em colaboração ao SIBiUSP, em 18 e 19 de agosto de 2016; Semana do Livro e da Biblioteca, treinamento EndNote Basic, ministrado pelo técnico André Toreli Salatino e pela bibliotecária Leila Aparecida Bonadio, treinamento Mendley Desktop, ministrado pelo técnico Eudes de Pádua Colodino e pela bibliotecária Leila Aparecida Bonadio, exposição de pôsters sobre os serviços da Biblioteca, de 7 de novembro a 11 de novembro; Lançamento de Livro, Nanotecnologia Experimental, tarde de autógrafos com o Prof. Dr. Henrique Eise Toma, com os pesquisadores doutores Delmércio Gomes da Silva e Ulisses Condomitti, em 8 de novembro de 2016.","- Projeto de digitalização das teses retrospectivas: O processo de disponibilização no Portal de Teses da USP e de digitalização das teses retrospectivas é realizado na própria Biblioteca por meio de scanners e dois funcionários.
+
+- Atividades relacionadas aos Centros de Memória (IQ/FCF): Realização contínua de treinamentos e oficinas de capacitação para os funcionários da Biblioteca para atuarem com a documentação dos Centros de Memória. Além disso, a
+Biblioteca tem contato com o apoio dos Professores Ana Maria de Almeida Camargo e José Francisco Campos. - A descrição documental do acervo do Prof. Dr. Paschoal E.A. Senise (IQ) está em andamento.
+
+- Continuidade do Projeto: “Preservação do Acervo Iconográfico da Faculdade de Ciências Farmacêuticas da Universidade de São Paulo”, relativo ao Edital da Pró-Reitoria de Cultura e Extensão Universitária da USP, Programas e Editais 2012, que visa a catalogação de uma parte selecionada do acervo de iconografias da FCF.","Nossa equipe participou da Semana dos Calouros do IQ apresentando a Biblioteca e seus serviços, através de porsters e explicação no local, na qual foram distribuídos brindes aos participantes.
+A Biblioteca elaborou guias didáticos online para localização de livros e revistas no acervo, demonstrando o uso dos catálogos, e localização na estante, como também a localização das revistas não encontradas no acervo da Biblioteca.
+Realizamos treinamentos nos catálogos Dedalus, Busca Integrada e CAPES, nos meses de março e abril, e também  na Semana do Livro e da Biblioteca. Nos meses de maio e outubro realizamos treinamentos em bases de dados. 
+O serviço de apresentação da Biblioteca e seus recursos se estendem a comunidade, escolas e faculdades. Nesta proposta, além de usuários externos a USP receberem esse treitamento, em 18 de agosto a equipe recebeu um grupo da ETEC de Osasco II, e para esta visita elaboramos um treinamento diferenciado, e foi ministrado pelos técnicos André Toreli Salatino e Eudes de Pádua Colodino.","Há dois anos mantemos um espaço para troca de livros não didáticos/técnicos, pois a finalidade é ampliar o hábito de leitura e lazer, portanto os assuntos são variados. Este serviço é bem sucedido, o que nos motivou a fazer campanha junto a editoras e sebos, solicitando, através de ofício, via e-mail, doação de livros. Com alguns resultados, esperamos obter mais doações. Esta campanha, foi repetida na Semana Cultural do Instituto de Química, realizada em novembro.
+A Biblioteca participou efetivamente na Semana Cultural do Instituto de Química, realizada de 7 a 11 de dezembro, com a supervisora da área de referência, circulação e publicações Adriana de Almeida Barreiros como membro da coordenação do evento, a participação da equipe de referência e informação, na organização do espaço, cedido pela Biblioteca, nas oficinas de artesanato e palestras realizadas na semana, como também nos shows deste evento. 
+Ouve ainda, exposição de trabalhos artísticos da comunidade do IQ e bazar, que contaram com a participação dos funcionários da Biblioteca.
+A Semana do Livro e da Biblioteca realizada junto a Semana Cultural do IQ teve um almoço de confraternização na Praça de Integração do Instituto, com parceria da Biblioteca.
+Neste ano o espaço cultural da Biblioteca foi efetivamente inaugurado, e com propostas e programação para 2017. Entre as atividades, um projeto de exposição da artista plástica Anita Colli foi elaborado e apresentado a Pró-Reitoria de Cultura e Extensão.","Sim","Sim","Sim","Sim","Sim","","","","Sim","Wiki","Sim","Não","Sim","Não","Sim","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Não"
+"14","74","12/12/2016 - 15:22","03/02/2017 - 16:26","15/03/2017 - 08:58","0","143.107.107.146","146","ep","Escola Politécnica","661","5526.33","0","0","13","4","0","0","9","16","4","4","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","13","1","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/146_0.xlsx","14","0","331","0","0","566","299","0","0","0","0","743","0","1","201","0","0","4","2","0","0","0","0","18","4","0","4","0","0","0","0","1.859","0","3.345","0","Sim","99,5%","481.772","1.770","0","15","0","0","0","0","167.046","1.235","30.252","369","47","9","723","169","46","5.346","0","0","0","10","13","1.921","0","0","0","38","9","19","1","0","0","19","1","33","11","36.187","671","10831","53","47","0","20","0","4","0","0","BDE - Base de Dados em Engenharia - 108","Guia do calouro
+Guia da Biblioteca de Engenharia de Petróleo - USP - Campus Santos
+","Não se aplica","Web of Science / JCR / EndNote Web -  Thomson - Deborah Dias - 18/11 - Palestra - Evento realizado pela Biblioteca
+Scopus / Engineering Village - Elsevier: Sergio Vidal  e Luiz Baginski - 25/10 - Palestra - Evento realizado pela Biblioteca
+V Workshop de Pós-Graduação em Engenharia de Computação – WPGEC - 24/11/2016 - Participação da Biblioteca na Comissão Organizadora","Não se aplica","Os treinamentos oferecidos aos alunos estão relacionados na planilha Capacitação de usuários.","Os treinamentos oferecidos aos alunos estão relacionados na planilha Capacitação de usuários.","Sim","Sim","Sim","facebook.com/DVBIBL.POLI","@biblioepusp","Não se aplica","Não se aplica","Não se aplica","Não se aplica","Não se aplica","Sim","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"15","75","13/12/2016 - 13:10","11/01/2017 - 15:44","26/01/2017 - 14:45","0","143.107.59.221","140","each","Escola de Artes, Ciências e Humanidades","415","3000","0","0","5","2","0","0","6","5","0","1","1","3","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/140_0.xlsx","13","0","93","0","0","538","25","0","0","0","0","162","0","1","31","62","5","120","6","0","0","0","0","0","0","0","0","0","0","81","0","0","14650","0","27","Sim","100%","22595","322","0","0","0","401","0","2528","113400","5900","32855","410","16","2","270","13","1","279","0","0","0","42","7","811","0","0","0","22","2","3","2","0","0","0","0","1","0","2350","0","0","17","24","0","3","0","1","0","1","Base de dados Têxtil, transferida em 2016 pela equipe do DT-Sibi para a plataforma OMEKA.
+
+Link: http://colecoes.sibi.usp.br/tecidoteca/","Não se aplica","Não se aplica","EVENTO: Semana do calouro – Tudo junto e misturado
+PROMOVIDO POR: EACH – Escola de Artes, Ciências e Humanidades
+DATA: 19/02/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Apresentação e visita monitorada à Tecidoteca
+
+EVENTO: Recepção aos pais dos calouros
+PROMOVIDO POR: EACH – Escola de Artes, Ciências e Humanidades
+DATA: 20/2/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Apresentação da Biblioteca e visita monitorada
+
+EVENTO: Recepção aos pós-graduandos – primeiro semestre
+PROMOVIDO POR: Comissão de pós-graduação da EACH
+DATA: 8/3/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Apresentação da Biblioteca
+
+EVENTO: Curso de inverno sobre redação acadêmica
+PROMOVIDO POR: Comissão de Cultura e extensão da EACH
+DATA: 28/7/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Palestra sobre Mendeley
+
+EVENTO: Modelagem e traje de cena: Uma exposição, três módulos
+PROMOVIDO POR: Núcleo Traje de Cena, Indumentária e Tecnologia.
+DATA: 1/8/2016 a 1/9/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Cessão de espaço
+
+EVENTO: Ciclo de Palestras do Arquivo Geral da USP
+PROMOVIDO POR: Arquivo da USP
+DATA: 30/8/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Palestra, inauguração do site e apresentação da Tecidoteca da EACH
+
+EVENTO: Recepção aos pós-graduandos – segundo semestre
+PROMOVIDO POR: Comissão de pós-graduação da EACH
+DATA: 15/8/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Apresentação da Biblioteca
+
+EVENTO: Workshop Web of Science na EACH
+PROMOVIDO POR: DT-SIBi
+DATA: 23/9/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Providência de espaço e equipamentos
+
+EVENTO: A EACH de Portas abertas – Visita dos professores da EMEF Pres. João Pinheiro
+PROMOVIDO POR: Escola de Artes, Ciências e Humanidades - EACH
+DATA: 30/9/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Visita monitorada
+
+EVENTO: A EACH de Portas abertas – Visita alunos da ETEC Itaquaquecetuba
+PROMOVIDO POR: Escola de Artes, Ciências e Humanidades - EACH
+DATA: 18/10/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Visita monitorada
+
+EVENTO: 19a. Semana do Livro e da Biblioteca da EACH.
+PROMOVIDO POR: DT-SIBi
+DATA: 26/10/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Apresentação da Tecidoteca da na IX Semana de Têxtil e Moda e exibição de itens do acervo.
+
+EVENTO: Traje fúnebre: Estas são nossas mortalhas, qual será a tua?
+PROMOVIDO POR: Núcleo Traje de Cena, Indumentária e Tecnologia.
+DATA: 24/10/2016 a 1/12/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Cessão de espaço, desmontagem da exposição
+
+EVENTO INTERNO: Apresentação e explicação da exposição Traje Fúnebre para funcionários da Biblioteca
+PROMOVIDO POR: Biblioteca da Escola de Artes, Ciências e Humanidades – EACH e Prof. Fausto Viana
+DATA: 11/11/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Organização
+
+EVENTO: A EACH de Portas abertas – Visita alunos da EMEF Irmã Anete
+PROMOVIDO POR: Escola de Artes, Ciências e Humanidades - EACH
+DATA: 22/11/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Visita monitorada
+
+EVENTO: A EACH de Portas abertas – Visita alunos da EMEF Cecilia Meireles 
+PROMOVIDO POR: Escola de Artes, Ciências e Humanidades - EACH
+DATA: 25/11/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Visita monitorada
+
+EVENTO: A EACH de Portas abertas – Visita alunos da EMEF Arquiteto Luis Saia
+PROMOVIDO POR: Escola de Artes, Ciências e Humanidades - EACH
+DATA: 1/12/2016
+PARTICIPAÇÃO DA BIBLIOTECA: Visita monitorada
+
+","Não se aplica","As estagiárias do Programa Unificado de Bolsas, Mariana Yuri Yoshino, Ana Luiza Sergio e Yasmin Monteiro de Queiróz  desenvolvem pesquisas e auxiliam na organização e catalogação do acervo da Tecidoteca, sob a orientação do prof. Dr. Maurício Campos de Araújo.","Não se aplica.","Sim","Sim","Sim","https://www.facebook.com/pages/Biblioteca-EACH-USP-Leste/308809459193048","","","","","","http://www5.each.usp.br/biblioteca/","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"16","76","14/12/2016 - 12:26","31/01/2017 - 12:01","31/01/2017 - 12:01","0","143.107.227.85","145","eesc","Escola de Engenharia de São Carlos","440","4020","0","0","4","1","1","1","11","3","2","0","0","23","1","0","0","0","0","0","0","0","0","0","0","3","4","1","3","7","0","0","1","0","https://indicadores.abcd.usp.br/sites/default/files/webform/145_0.xlsx","22","0","152","0","0","792","363","0","0","0","0","303","0","31","180","0","0","53","18","0","0","0","0","5","0","0","0","0","0","0","0","0","0","0","0","Sim","100%","296.883","1.434","0","0","0","0","0","0","149.692","1.321","47.624","384","29","7","458","86","66","1.445","0","0","0","427","27","6.127","7","2","109","62","12","5","30","0","0","4","0","17","21","717","74","4.266","19","63","0","10","0","5","0","18","Nome: Biblioteca Digital de Trabalhos Acadêmicos Tipo: Trabalhos Acadêmicos - Base Local
+Acesso: http://www.tcc.sc.usp.br/
+Registros cadastrados no período: 130
+Nome: Repositório Institucional da EESC Tipo: Memória Institucional da Unidade - Base Local
+Acesso: não público
+Registros cadastrados no período: 963
+Nome: Portal de Eventos Científicos da EESC-USP -  Tipo: Produção Científica- Base Local
+Acesso: http://soac.eesc.usp.br/index.php
+Registros cadastrados no período: 203","Não possui publicações no período.","1- Anais eletrônicos do XV Simpósio do Curso de pós-graduação em Ciências da Engenharia Ambiental e X Simpósio da Especialização em Educação Ambiental e Recursos Hídricos
+ISBN  978-85-8023-043-7
+2- Anais eletrônicos do I Simpósio do Programa de Pós-Graduação em Engenharia Mecânica da EESC-USP (SiPGEM)
+ISBN 978-85-8023-044-4
+3- Anais eletrônicos do V Simpósio de Iniciação Científica da Engenharia Elétrica
+ISBN: em andamento
+4- Anais eletrônicos do XVII Simpósio em Ciência e Engenharia de Materiais
+ISBN: 978-85-8023-042-0
+5- Anais eletrônicos do XIII Semana da Engenharia Ambiental EESC-USP
+ISBN: 978-85-8023-037-6
+6- Anais eletrônicos do XIII Semana de Engenharia Aeronáutica EESC-USP
+ISBN 978-85-8023-041-3","Nome do evento: XII Semana ""A pós-graduação da EESC na Biblioteca""
+Período: 25 a 29 de abril de 2016
+Tipo de evento: Congresso, seminario, workshop
+Nível de participação da Biblioteca: participação na Comissão Organizadora e Divulgação (coordenação)
+
+19ª Semana do Livro e da Biblioteca na USP e 3ª Festa do Livro da USP
+Período: 24 a 27 de outubro de 2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca: participação na Comissão Organizadora e Divulgação","1- Projeto de Digitalização da Coleção retrospectiva das teses e dissertações da EESC-USP
+Visa dar continuidade ao processo de digitalização e divulgação eletrônica da coleção retrospectiva de teses e dissertações da Escola. Seu principal objetivo é ampliar a visibilidade desse material, que apoia o desenvolvimento do ensino e pesquisa e, por consequência, ampliar a possibilidade de acesso ao principal produto dos programas de pós-graduação mantidos pela Escola alem da preservação da memória institucional. Durante a primeira fase do projeto (01/08/2015 - 31/07/2016), com dois bolsistas, foram digitalizadas 525 teses/dissertações e  inseridas na Biblioteca Digital de Teses e Dissertações da USP (BDTD-USP). Esse total representa 57% da coleção a ser inserida no periodo, razão pela qual foi solicitada a continuidade do projeto para abranger igualitariamente toda coleção distribuída entre os departamentos da Unidade. A Equipe responsável já adquiriu experiência para gerenciar a coleção, e diante da dificuldade para localização dos autores e recuperação da autorização por escrito, optou-se por utilizar o parecer da Procuradoria Geral da Universidade de São Paulo de 19 de agosto de 2013, concedido ao Serviço de Biblioteca do IFSC e também utilizado pelo ICMC, que autoriza a divulgação dos trabalhos científicos na BDTD-USP sem a necessidade de autorização prévia dos autores, após a terceira tentativa oficial de localização (documentação em arquivo).
+Data de início: 01/08/2016
+Data de finalização: 31/07/2017
+Patrocinador: Pró-Reitoria de Cultura e Extensão Universitária
+Recursos recebidos do patrocinador: 1 bolsista
+
+2. Projeto de Desenvolvimento de estudos bibliométricos para análise da produção científica da EESC-USP
+Visa aplicar estudos bibliométricos para analisar a produção científica do corpo docente e pesquisadores da Escola de Engenharia de São Carlos da Universidade de São Paulo (EESC/USP). Para tanto devem ser utilizadas ferramentas integradas e desenvolvidas para essa finalidade e voltadas para a extração e tratamento dos dados resultantes de estratégias de buscas em fontes de informação relevantes para a comunicação científica.
+Data de início: 01/08/2016
+Data de finalização: 31/07/2017
+Patrocinador: Pró-Reitoria de Cultura e Extensão Universitária
+Recursos recebidos do patrocinador: 2 bolsistas","1. Participação na Semana de Recepção de Calouros, com palestras em sala de aula de todos os cursos oferecidos pela Escola, dos seguintes temas:
+a) Biblioteca: abordando regulamento de uso, horário de funcionamento, portal da Biblioteca, portal de busca integrada SIBi, serviços e produtos (15min)
+b) Portal da Escrita Cientifica, em conjunto com o Prof. José Marcos Alves, docente do SES/EESC e membro do Portal (15min);
+
+2. Criação do Template em Word para elaboração de trabalhos de conclusão de curso, conforme as normas ABNT;
+
+3. Compilação e revisão das Diretrizes para elaboração de trabalhos acadêmicos na EESC-USP (2.edição), em conjunto com a Comissão de Graduação;
+
+4. Criação do serviço de apoio a eventos, com o lançamento do ""Portal de Eventos Científicos da EESC"", a partir da necessidade dos alunos de graduação para a organização das ""semanas acadêmicas"".","As atividades tiveram como foco as exposições:
+1. De 12 a 30 de abril - “Indígenas na UFSCar - Desconstruindo o construído” em parceria com o grupo PET “Saberes Indígenas da UFSCar”.  A exposição foi realizada em comemoração ao Dia do Índio (19/4). A programação constou de duas atividades: contação de histórias para crianças e adolescentes do Projeto Pequeno Cidadão e da Creche e Pré-Escola do campus USP de São Carlos e exposição de fotografias e banners dos alunos integrantes do grupo que retrataram alguns de seus costumes.
+
+2. De 1 a 8 de junho, em comemoração ao Dia Mundial do Meio Ambiente (5/6), foi realizada uma mostra de reportagens, a doação de mudas de árvores frutíferas e nativas e o sorteio de cinco exemplares do livro “Aves da Amazônia”, de Edson Endrigo. A data foi instituída em 1972 durante a Conferência das Nações Unidas sobre o Meio Ambiente, em Estocolmo, na Suécia, mas no Brasil foi estabelecida somente em 1981 pelo Decreto nº 86.028/1981 e sua finalidade é promover a participação popular na preservação dos recursos naturais.
+
+3. De 9 a 25 de julho - exposição “Tectônica”, de Daniel Morais Paschoalin, que iniciou suas atividades em artes plásticas há três anos, e Maria Eugênia Pinochet Donoso (Kena), ceramista atuante em São Carlos e com diversas exposições durante sua carreira. A exposição apresentou esculturas que utilizam como suporte material arame galvanizado, cerâmica e metais de fundição (alumínio e bronze), além de registros como desenhos e fotografias que retratam o processo criativo e a vivência artística dos expositores.
+
+4. De 29 de agosto a 28 de setembro: a exposição “Amarras: Narrativas visuais de uma memoria genealógica”, da artista Cecilia Gushi. A exposição foi composta por três séries de intervenções em fotografias impressas e uma série fotográfica autoral. Ao fazer um resgate pelas origens da artista, em parte orientais e em parte ocidentais, a exposição procurou tratar o choque cultural resultante desse encontro, bem como buscar e entender a identidade da artista enquanto mulher e produto dessas relações e da realidade contemporânea. Esta exposição fez parte das atividades da Semana de Arte e Cultura na EESC/USP.
+
+5. “Inofensivas?”  - de 06 a 21 de outubro, foi uma exposição de telas composta por pinturas em diferentes técnicas. De autoria de Preá Rentes, codinome do professor do Departamento de Engenharia de Produção (SEP), Antonio Freitas Rentes, ela faz parte do Projeto Arte no Caminho, do Departamento de Engenharia Elétrica e de Computação (SEL), que tem o objetivo de promover cultura no ambiente de trabalho por meio de obras de arte expostas em diversos locais nas dependências do SEL e da Escola de Engenharia de São Carlos.
+
+6. De 24 de outubro a 25 de novembro, foi realizada uma nova exposição em parceria com o grupo PET “Saberes Indígenas da UFSCar”, como uma das atividades da 19ª Semana do Livro e da Biblioteca na USP e a 3ª Festa do Livro da USP. Constou de um conjunto de painéis denominados “Indigenan Isaid Universidade Iacnoshon Dada Uaquim”, que contam a história de alunos dos povos Mayoruna, Terena, Balatiponé-Umutina, Piratapuya e Xavante em sua própria língua e “Expositor de Livros”, elaborado em polímero de alta resistência e baixa densidade, impermeável, resistente, com acabamento em adesivo plástico e ligação entre as chapas feita com cordões de elástico. A equipe responsável é composta pela Profª Drª Maria Cristina Comunian Ferraz (Coordenadora), Hylio Lagana Fernandes, Monica Filomena Caron, Marcia Bracciali e Denise Tahan Melo.
+
+7. De 7 a 30 de novembro, a Biblioteca recebeu a exposição de telas “Harmonia”, do artista plástico Claudio Rosante, que utiliza lápis de cor, aquarela, pintura a óleo, pintura acrílica, grafite, giz pastel, nanquim, carvão e técnica mista em seus quadros. Natural de São Paulo (SP), o artista já participou de várias exposições nacionais mostrando em seus trabalhos a harmonia das cores da natureza de várias maneiras, procurando captar o equilíbrio das tonalidades presentes na vida e no universo.
+
+8. Projeto ""Memória da EESC: a visão dos funcionários que construíram a história institucional"": visa a reunião da  documentação em fotos e a produção de vídeos resultantes de entrevistas com ex-funcionários, professores e colaboradores do antigo Centro de Processamento de Dados (CPD) da Escola de Engenharia de São Carlos da Universidade de São Paulo (EESC-USP), hoje Seção Técnica de Informática (SCINFOR) que, em 2017, completa 50 anos. Além da documentação impressa a ser a ser guardada no Serviço de Biblioteca, será produzido um documentário de aproximadamente 50 minutos, a ser lançado em um evento comemorativo em 2017, uma realização em parceria com a IBM, pois foi a fornecedora dos primeiros equipamentos computacionais do CPD. Além preservar a memória institucional, a atividade ressalta a importância da evolução tecnológica observada ao longo desse período, que impulsionou a pesquisa e a prestação de serviços computacionais para sociedade.
+
+Essa atividade contou com o apoio da Pró-Reitoria de Cultura e Extensão Universitária para o pagamento de bolsista para trabalhar na edição das fotos e vídeos e com a participação de dois funcionários da Biblioteca. O projeto está na segunda fase: 01/08/2015 a 31/07/2016 e 01/08/2016 a 31/07/2017. Os resultados obtidos foram a compilação das fotos e entrevistas realizadas com ex-funcionários, professores e colaboradores do antigo CPD em um documentário e seleção da documentação para arquivo.","Sim","Sim","Sim","https://www.facebook.com/bibliotecaeescusp/","https://twitter.com/@bibliotecaEESC","","","","","Chat/mibew: http://www.eesc.usp.br/mibew/operator/login.php","Sim","Não","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Sim","Não"
+"17","77","14/12/2016 - 16:11","19/01/2017 - 18:27","24/02/2017 - 14:15","0","143.107.180.193","169","ifsc","Instituto de Física de São Carlos","165","1.560","0","0","7","3","0","0","3","0","0","0","0","24","20","0","0","0","0","0","0","0","0","0","0","0","0","0","2","2","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/169.xlsx","13","79","18","0","0","173","47","0","0","0","0","62","0","6","46","0","0","8","0","0","0","0","0","8","0","0","0","0","0","0","0","0","90","0","0","Não","","172.683","171","0","0","0","0","0","0","113.467","1.786","20.352","402","72","7","1.174","18","6","166","0","2","0","27","8","199","0","0","0","24","9","6","3","0","0","0","0","0","0","25.860","362","11.168","20","24","1","11","1","1","0","3","1) AQUILI - Base de Dados para Controle da Demanda de Aquisições
+Base: Local
+Registro cadastrados = 36
+
+2) CIN/CNEN
+Base: Nacional
+Registro cadastrados = 10
+","1) FIQUE POR DENTRO
+Periodicidade: Anual
+Formato: Impresso
+Distribuição: Doação
+
+2) PRESTAÇÃO DE SERVIÇOS
+Periodicidade: Anual
+Formato: Impresso
+Distribuição: Doação
+","1) VI SEMANA INTEGRADA DO INSTITUTO DE FÍSICA DE SÃO CARLOS - SIFSC
+ISBN 978-85-61958-11-4
+Periodicidade: Anual
+Formato: Caderno de Resumos - Online
+Distribuição: Doação
+Nível de Participação:
+1) membro da comissão organizadora do evento
+2) revisão e correção das referências bibliográficas e das citações (ABNT 6023 e 10520) dos resumos submetidos para o evento 
+3) normalização técnica (ABNT 14724) do caderno de resumos
+4) solicitação do número do ISBN para a publicação
+
+2) 1ª ESCOLA DE PESQUISADORES DA USP
+Periodicidade: Anual
+Formato: DVD e Online (via IPTV)
+Distribuição: Doação
+Nível de Participação: responsável pela organização geral do evento juntamente com um docente da Unidade
+
+","1) VI SEMANA INTEGRADA DO INSTITUTO DE FÍSICA DE SÃO CARLOS - SIFSC
+Período: 03 a 05 de outubro de 2016
+Patrocinador: IFSC
+Tipo de evento: Palestra e Mostra
+Nível de participação da Biblioteca: 
+-Palestra sobre ""Curriculum Lattes""- ministrada pela bibliotecária de referência
+-Normalização técnica do caderno de resumos
+-Solicitação do número do ISBN
+-Exposição da produção científica dos materiais bibliográficos produzidos pelos docentes e funcionários do IFSC (indicadores da produção científica / trabalhos com destaques em capas de revistas e com altos fatores de impactos altos);
+
+2) XIX SEMANA DO LIVRO E DA BIBLIOTECA NA USP
+Período: 24 a 27 de outubro de 2016
+Patrocinador: SBI/IFSC
+Tipo de evento: Exposição, Mostra e Palestra
+Nível de participação da Biblioteca: responsável pela organização das atividades desenvolvidas no IFSC e também na organização conjunto para a realização de palestras abaixo descritas.
+Atividades desenvolvidas localmente: 
+-Exposição de digigravuras ""Um ensaio sugestivo"" do artista Rafael Zafalon;
+-Exposição sobre a Produção Científica do IFSC ""Highy Papers Cited"" na WOS.
+Palestras realizadas conjuntamente com as demais Bibliotecas do Campus:
+1) “A política no Brasil: partidos, personagens e conjuntura”. Prof. Dr. Rodrigo Augusto Prando (Universidade Presbiteriana Mackenzie);
+2) “Direitos Autorais” (Palestra e Roda de Conversa) com o Prof. José Augusto Chaves Guimarães e João Carlos Gardini Santos (UNESP Marilia);
+3)“Cidades Inteligentes” -  Eduardo Santana (IME/USP);
+4)“Alzheimer” - Profa. Isabel Cristina Sabatini Peres (FMRP/USP);
+5) “Garrafa e Método de Construção Civil Utilizando Garrafa” José Renato Dibo (IAU/USP).
+Atividades Culturais, Musicais e Educacionais realizadas conjuntamente com as demais Bibliotecas do Campus:
+1) Apresentação musical - MPB, Blues e Jazz com “Os desafinados” com Thiago Estevão (trompete), Carla Priscila (piano) e Nico Noya (percussão);
+2) Abertura do XVI Programa TUSP de Leituras Públicas “Dramaturgas"" com Ana Roxo - dramaturgia, professora, desenhista, também desenvolve roteiros e mantém o canal no Youtube  O Mundo segundo Ana Roxo;
+3) Oficina“Bonecas africanas”com a Profª Margarete Marchetti (CPESC-USP);
+4) Musica Erudita com os alunos Gil Barbosa Reis , André Zimermmane Castro Santos e Carolina Jesuíno Nunes;
+5) Oficina “Origami”;
+6) Apresentação do Coral CAASO Sixifupa;
+7) Futebol de Robôs;
+8) Grupo Poesia Parida em experimento 1  “A Palavra”;
+9) Apresentação do Coral USP Campus de São Carlos;
+10) Apresentação do Grupo Forró CAASO.
+
+3) 2ª FESTA DO LIVRO NO CAMPUS USP SÃO CARLOS
+Período: 24 a 27 de outubro de 2016
+Patrocinador: CCEx - Comissão de Cultura e Extensão do Campus USP São Carlos e EDUSP
+Tipo de evento: Exposição e Venda
+Nível de participação da Biblioteca: organização das atividades culturais e palestras realizadas no espaço interativo das Bibliotecas (Tenda) e no anfiteatro Jorge Caron da EESC-USP
+
+Palestras realizadas conjuntamente com as demais Bibliotecas do Campus:
+1) “A política no Brasil: partidos, personagens e conjuntura”. Prof. Dr. Rodrigo Augusto Prando (Universidade Presbiteriana Mackenzie);
+2) “Direitos Autorais” (Palestra e Roda de Conversa) com o Prof. José Augusto Chaves Guimarães e João Carlos Gardini Santos (UNESP Marilia);
+3)“Cidades Inteligentes” -  Eduardo Santana (IME/USP);
+4)“Alzheimer” - Profa. Isabel Cristina Sabatini Peres (FMRP/USP);
+5) “Garrafa e Método de Construção Civil Utilizando Garrafa” José Renato Dibo (IAU/USP).
+
+Atividades Culturais, Musicais e Educacionais realizadas conjuntamente com as demais Bibliotecas do Campus:
+1) Apresentação musical - MPB, Blues e Jazz com “Os desafinados” com Thiago Estevão (trompete), Carla Priscila (piano) e Nico Noya (percussão);
+2) Abertura do XVI Programa TUSP de Leituras Públicas “Dramaturgas"" com Ana Roxo - dramaturgia, professora, desenhista, também desenvolve roteiros e mantém o canal no Youtube  O Mundo segundo Ana Roxo;
+3) Oficina“Bonecas africanas”com a Profª Margarete Marchetti (CPESC-USP);
+4) Musica Erudita com os alunos Gil Barbosa Reis , André Zimermmane Castro Santos e Carolina Jesuíno Nunes;
+5) Oficina “Origami”;
+6) Apresentação do Coral CAASO Sixifupa;
+7) Futebol de Robôs;
+8) Grupo Poesia Parida em experimento 1  “A Palavra”;
+9) Apresentação do Coral USP Campus de São Carlos;
+10) Apresentação do Grupo Forró CAASO.
+
+4) 1ª ESCOLA DE PESQUISADORES DA USP
+Período: 10 e 11 de agosto de 2016
+Patrocinador: Springer
+Tipo de evento: Palestra, Minicursos e Mostra
+Nível de participação da Biblioteca: Comissão responsável pela organização geral do evento 
+Atividades desenvolvidas:
+-Palestra sobre EndNote Basic ministrada pela equipe de referência da Biblioteca;
+-Mostra de Livros e DVDs sobre Escrita Científica existentes no acervo da biblioteca
+","1) Nome do Projeto: SALA DE ESTUDO 24 HORAS
+Descrição: O projeto consiste na readequação de uma sala de estudo em grupo existente no piso térreo da biblioteca. Foi feita um entrada externa de acesso a sala, ao lado da entrada principal da biblioteca. A sala ficará disponível para uso 24h e possui capacidade para 15 pessoas. Neste ambiente o usuário terá disponível: Lousa, Wi-Fi, ar condicionado e mobiliario adequado, além da segurança física (vigilante e monitoramento por câmera 24h)
+ 
+Data de início: 18 de Julho de 2013
+Data de finalização: março 2017
+Patrocinador(es): IFSC
+Recursos recebidos do(s) patrocinador(es): porta de correr (Blindex); câmera de monitoramento; sinalização
+Pessoal da Biblioteca envolvido: 3
+Resultados obtidos: 
+1) disponibilização de um espaço para estudo 24 horas com entrada externa de acesso a sala, ao lado da entrada principal da biblioteca. A sala ficará disponível para uso 24h e possui capacidade para 15 pessoas. Neste ambiente o usuário terá disponível: Lousa, Wi-Fi, ar condicionado e mobiliario adequado, além da segurança física (vigilante e monitoramento por câmera 24h)
+2) atender a uma demanda apontada pelos usuários nos 2 últimos PAQ- Programa de Avaliação da Qualidade dos Produtos e Serviços oferecidos pelas Bibliotecas da USP e acreditamos que a biblioteca estará provendo com este espaço mais recursos para que os alunos possam desenvolver suas atividades no tempo e horário que melhor lhes convir.
+
+2) Nome do Projeto: CRIAÇÃO DO ESPAÇO INTERATIVO NO SBI/IFSC
+Descrição: O projeto consiste na readequação do espaço do 1º piso da biblioteca. Para isso estamos dependendo da liberação de uma área de 205m2 ocupados por periódicos para que possamos implementar projeto de ocupação já elaborado, com maior número de salas de estudo em grupo, além de uma sala de seminário, sala de vídeo conferencia, sala de produção visual e espaço interativo para estudo e leitura.
+ 
+Data de início: 18 de Julho de 2013
+Data de finalização: em andamento
+Patrocinador(es): a ser definido
+Recursos recebidos do(s) patrocinador(es): pendente
+Pessoal da Biblioteca envolvido: 3
+Resultados obtidos: projeto encaminhado e aguardando retorno da Pró-Reitoria de Graduação
+
+3) Nome do projeto: Criação do Researcher ID institucional do IFSC
+Descrição: O Serviço de Biblioteca e Informação do IFSC criou o Researcher ID IFSC com a produção científica dos pesquisadores do Instituto, registrada na Web of Science de 2007 a 2016, sendo que os anos anteriores serão incluídos nos próximos meses. 
+O ResearcherID é uma ferramenta criada pela Thomson Reuters para solucionar o problema da ambiguidade em autores homônimos. Além disso, propicia visibilidade internacional ao pesquisador e seus trabalhos, identificando aqueles que possuem linhas de pesquisa similares. Permite, também, construir um perfil de seus trabalhos acadêmicos, visualizar o índice H e o índice de citações, bem como o mapa de relacionamento de pesquisadores, instituições, países, ano de publicação, entre outros.
+Data de início: 24 de Agosto de 2016
+Data de finalização: em andamento
+Patrocinador(es): IFSC
+Recursos recebidos do(s) patrocinador(es): Sem recursos financeiros
+Pessoal da Biblioteca envolvido: 2
+Resultados obtidos: O Researcher ID IFSC foi criado pela equipe da Biblioteca e sua alimentação está sendo feito de forma retroativa.  A produção científica do IFSC indexada na WOS dos anos de 2007 a 2016 já foram inseridas no RID e totalizam 3818 registro. Esse projeto já se tornou um processo da Seção de Tratamento de Informação da Biblioteca  e tem como meta para o próximo ano,  retroagir essa inserção até a criação do IFQSC.  
+Este é mais um importante serviço criado pela Biblioteca que oferece aos gestores do IFSC ferramenta que possibilitam análises de indicadores sobre a produção científica do IFSC em âmbito mundial.  
+
+4) Nome do projeto: Analise das Coleções de periódicos comuns entre IF-USP e IFSC-USP
+Descrição: analisar as coleções comuns entre as Unidades, com objetivo de que cada biblioteca fique como depositária da metade do total de títulos. Liberando assim espaço para outras atividades, como espaços interativos para os usuários.
+Data de início: setembro de 2016
+Data de finalização: em andamento
+Patrocinador(es): nenhum
+Recursos recebidos do(s) patrocinador(es): Sem recursos financeiros
+Pessoal da Biblioteca envolvido: 4
+Resultados obtidos:  em fase de análise
+
+
+","1) Curso a distância EAD sobre ""Elaboração de Referências em trabalhos acadêmicos""
+
+2) Curso a distância EAD sobre ""Citações em Trabalhos Acadêmicos""
+
+3) Curso a distância EAD sobre ""Estrutura de Trabalhos Acadêmicos""
+
+4) Programa de capacitação dos alunos de graduação voltado para o uso da biblioteca, fontes de informação, normalização de publicações e referencias bibliográficas.
+
+5) Priorização de recursos SIBi-USP e do orçamento da Unidade para aquisição de livros para graduação
+
+6) Distribuição de “squeezers”, folders e sacolas retornáveis na semana de recepção dos calouros
+
+7) Campanha de uso adequado do acervo e mobiliário da biblioteca
+
+8) Portal da Escrita Científica do Campus USP São Carlos
+","1) Recepção de calouros dos cursos: “Bacharelado em Física”, ""Física Computacional"" e ""Licenciatura em Ciências Exatas”
+
+2) Recepção dos PAIS dos alunos participantes da Escola de Física Contemporânea
+
+3) Recepção dos ALUNOS participantes da Olimpíadas de Física e Matemática das Escolas Publicas
+
+4) Visita dos ALUNOS das escolas de ensino médio do Programa ""Universitário por um dia""
+
+5) Visita dos ALUNOS participantes da Advanced School on Glasses and Glass Ceramics
+
+6) Curso a distância EAD sobre ""Elaboração de Referências em trabalhos acadêmicos""
+
+7) Curso a distância EAD sobre ""Citações em Trabalhos Acadêmicos""
+
+8) Curso a distância EAD sobre ""Estrutura de Trabalhos Acadêmicos""
+
+9) V Semana Integrada do Instituto de Física de São Carlos - SIFSC
+
+10) XVIII Semana do Livro e da Biblioteca na USP
+
+11) 1ª Escola de Pesquisadores da USP
+
+12) Repositório Institucional do IFSC
+
+13) Portal da Escrita Científica do Campus USP São Carlos
+","Sim","Sim","Sim","https://www.facebook.com/bibliotecaifsc/","https://twitter.com/sbi_ifsc","Não","Não","Não","BibIFSC ","Não","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"18","78","15/12/2016 - 09:11","30/01/2017 - 12:56","24/03/2017 - 14:28","0","143.107.16.152","148","fau","Faculdade de Arquitetura e Urbanismo","98","1.723","0","0","7","1","3","1","7","3","0","2","2","24","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/capacitacao_de_usuarios_2016_0.xlsx","14","66","48","0","0","364","113","0","0","0","0","109","0","11","133","3","8","30","12","0","0","0","0","18","9","0","0","0","0","2.127","0","100","10.421","0","0","Sim","46%","47.703","605","11","0","0","1.665","0","114.673","34.028","6.855","20.083","50","2","1","29","41","6","938","0","0","0","0","0","0","0","0","0","5","0","3","2","0","0","0","0","0","0","11.694","60","1.490","8","27","0","5","1","5","0","0","1) Nome: Catálogo de Projetos de Arquitetura
+Tipo: Base local
+Nº de registros: 60
+URL: http://143.107.16.155/ProjetosFau/buscaavancada.jsp
+
+2) Nome: Índice de Arquitetura Brasileira
+Tipo: Base local
+Nº de registros: 0
+URL: http://143.107.16.155:88/index.htm","1) Título: Folder de apresentação da Biblioteca
+Formato: Impresso
+Distribuição: Doação
+
+2) Título: Tutorial para consulta à base ABNT – Portal GedWeb 
+Formato: Online
+Distribuição: Link no blog da Biblioteca (https://www.gedweb.com.br/aplicacao/usuario/asp/pre_cadastro.asp)
+","1) Título: Revista Paisagem e Ambiente
+Periodicidade: Semestral
+Formato: Impresso e Online (http://www.revistas.usp.br/paam/)
+Distribuição: Doação, Permuta e Venda (ocasional)
+Nível de participação: Comissão responsável pela publicação, Distribuição e Divulgação
+
+2) Título: Pós. Revista do Programa de Pós-Graduação em Arquitetura e Urbanismo da FAUUSP
+Periodicidade: Quadrimestral
+Formato: Impresso e Online (http://www.revistas.usp.br/posfau)
+Distribuição: Doação, Permuta e Venda (ocasional)
+Nível de participação: Editoração, Normalização técnica, Distribuição e Divulgação
+
+3) Título: Informativo FAUUSP
+Periodicidade: Quadrimestral
+Formato: Impresso e Online (http://www.fau.usp.br/a-fau/informativo-2/)
+Distribuição: Doação
+Nível de participação: Apoio editorial - fornece a lista de produção docente do período devidamente formatada para publicação","1) Evento: 10ª Feira USP e as Profissões
+Período: 18 de agosto de 2016
+Carga horária:  8 horas
+Instituição: Departamento Técnico do Sistema Integrado de Bibliotecas da USP - SIBiUSP
+Tipo de evento: Feira
+Nível de participação da Biblioteca: Participação no stand, apresentação de coleção das bibliotecas da USP e recursos informacionais disponíveis
+
+2) Evento: 19ª Semana do Livro e da Biblioteca na USP
+Período: 24 a 27 de outubro de 2016
+Tipo de evento: Divulgação e capacitação de usuários
+Nível de participação da Biblioteca: 
+2.1) Eventos totalmente organizados pela Biblioteca: Oficina de conservação e pequenos reparos em livros (dias 25/10 e 26/10, das 9 às 13h) e Distribuição de revistas publicadas pela FAU
+2.2) Participação na Comissão Organizadora e Divulgação (parceria com SIBi): Workshop Scopus, ScienceDirect, Compendex e Mendeley
+(dia 27/10, das 14h às 16h30, na FAU-Campus Butantã, aberto ao público)
+","1) Projeto Acervo David Libeskind FAUUSP: constituição por meio do ensino, aprendizado, prática e difusão 
+
+Resumo
+O ""Projeto Acervo David Libeskind FAUUSP: constituição por meio do ensino, aprendizado, prática e difusão"" tem como objetivo principal a introdução e capacitação de alunos de graduação dos cursos de Arquitetura e Urbanismo e Design FAUUSP aos métodos e procedimentos de catalogação, pesquisa e conservação de material histórico. Vislumbra se benefícios para além da esfera de aprendizado e prática desses alunos. No âmbito da difusão, permitirá o acesso de pesquisadores nacionais e internacionais, internos e externos à Universidade dos mais diversos níveis e áreas do conhecimento, a este material inédito desta forma organizado; Como parte importante desta proposta, visando um maior diálogo com a comunidade externa/ sociedade, o projeto, durante a sua vigência, propõe atender alunos do curso técnico de Edificações de ETECs da região metropolitana de São Paulo, oferecendo visitas guiadas (pré-agendadas) à Seção de Materiais Iconográficos, onde além de conhecerem as instalações, os profissionais envolvidos, poderão conhecer peças gráficas originais de projetos selecionados do arquiteto e receber informações. 
+
+Data de início: 03/08/2015
+Data de finalização: 02/08/2016
+
+Patrocinador: Programa Unificado de Bolsas de Estudos da Universidade de São Paulo
+Recursos recebidos do patrocinador: duas bolsas de monitoria
+Pessoal da biblioteca envolvido no período: quatro 
+Pessoal da biblioteca envolvido no total: quatro 
+
+Resultados obtidos: A perspectiva é que ao final do período de 12 meses (período de duração do programa referente ao Edital 2015/2016) grande parte da identificação e catalogação primária (folha a folha) do acervo do arquiteto David Libeskind esteja consolidado, incluindo as fotos e pastas anexas. O andamento dos trabalhos está sendo documentado em relatórios semanais produzidos individualmente pelos bolsistas e discutidos quinzenalmente com os coordenadores. As informações gerais estão sendo inseridas, após supervisão e revisão, no banco de dados de projetos da Seção de Materiais Iconográficos da Biblioteca da FAUUSP <http://143.107.16.155/ProjetosFau/buscaavancada.jsp>, para acesso público. Para a medição dos resultados, estão sendo contabilizados apenas os materiais acondicionados segundo os preceitos da Conservação de Acervos Especiais e devidamente armazenados na reserva técnica da Seção. 
+
+2) Projeto Memória docente: a biblioteca pessoal do arquiteto e professor José Claudio Gomes e sua produção acadêmica - FAUUSP
+
+Resumo: Esse projeto visa promover a divulgação dos livros pertencentes à coleção do Prof. Dr. José Claudio Gomes, sendo que já foram incluídos no ano de 2015, no Banco Dedalus 1.000 títulos selecionados da coleção de cerca de 5 mil volumes. Outros 2000 volumes serão catalogados na próxima etapa. Para fazer esse recorte adotou-se como critério a raridade do título, as linha de pesquisa do professor, a relevância dos autores para a área de arquitetura e urbanismo, entre outros. Além dos livros, iremos também catalogar, higienizar e acondicionar uma coleção com 23 cadernos, com desenhos feitos pelo professor, que serão posteriormente selecionados e digitalizados para facilitar a consulta e divulgação dos trabalhos e pesquisas realizados por esse docente ao longo de sua de carreira acadêmica. Ocorre que após seu falecimento em setembro de 2015 foram entregues aos cuidados dessa Professora (Rosana Helena Miranda) e à biblioteca da FAUUSP o restante do material já doado anteriormente e que estavam em pode do professor por sua vontade. Esse novo lote de documentos e livros já arrolados anteriormente pela FAUUSP contem boa parte da pesquisa de Diamantina, e mais alguns cadernos com teoria sobre “a arquitetura da cidade”, material ainda inédito para o conhecimento da comunidade acadêmica e de grande valor para alunos, professores e pesquisadores do campo da arquitetura e urbanismo bem como da história da paisagem.
+
+Data de início: 01/08/2015
+Data de finalização: 31/07/2017
+ 
+Patrocinador: Programa Unificado de Bolsas de Estudos da Universidade de São Paulo
+Recursos recebidos do patrocinador: quatro bolsas de monitoria
+Pessoal da biblioteca envolvido no período: duas
+Pessoal da biblioteca envolvido no total: duas
+ 
+Resultados esperado / Indicadores de acompanhamento: Divulgar para toda a comunidade FAU, e também para a comunidade de pesquisadores de arquitetura em geral, essa importante e significativa coleção de títulos sobre arquitetura e urbanismo, facilitando a consulta e acesso por meio da inserção no Banco Dedalus. Divulgação também de um aspecto ainda pouco explorado da produção intelectual do Prof. José Claudio Gomes que são seus desenhos e textos originais.","Treinamento ""Caixa de Ferramentas: treinamento sobre recursos para o TFG"" organizado em parceria com a docente responsável pela disciplina de TFG (trabalho Final de Graduação - curso de Arquitetura e Urbanismo). Realizado no horário da aula, das 14h às 17h. Aberto não apenas aos alunos matriculados, mas a docentes interessados nos recursos informacionais disponíveis e demais alunos interessados.","1) Parceria e consultoria com o projeto Arquigrafia desde 2009. Coordenado pelo Prof. Dr. Artur Rozestraten (FAU), o Arquigrafia envolve pesquisadores de diversas unidades da USP. A Biblioteca da FAU, além de ceder a coleção de slides e fotografias para ser o conjunto fundamental de documentos trabalhados no projeto, orienta os bolsistas e a bolsista da ECA no desenvolvimento de vocabulário controlado e estudo das tags.
+
+2) Parceria com a Biblioteca Brasiliana Guita e José Mindlin. Iniciada em novembro, a equipe de conservação da FAU está dedicando um dia na semana para reativar o laboratório dessa especialidade e, consequentemente, o fluxo de digitalização de obras. A contrapartida é a realização, por tempo equivalente, de digitalização de obras raras da coleção da FAU.","Sim","Sim","Sim","","https://twitter.com/bibfauusp","https://bibfauusp.wordpress.com/","","","","","Não","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"19","79","15/12/2016 - 14:10","02/02/2017 - 09:43","02/02/2017 - 09:43","0","143.107.21.3","173","io","Instituto Oceanográfico","66","863.14","0","0","4","1","0","0","2","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1","0","0","","","0","54","7","5","57","56","0","0","0","0","28","1","3","87","78","99","105","152","0","0","0","0","0","0","0","1","0","0","0","0","25","0","0","0","Sim","44,25","55.756","444","0","0","0","0","0","0","500","7500","1691","63","17","3","354","58","6","1319","0","0","0","0","0","0","0","0","0","4","0","1","0","0","0","0","0","0","0","5001","4","213","13","11","0","3","0","1","0","0","ASFA - Base Internacional: 40 registros","","","","","","","Sim","Sim","Não","","","","","","","","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"20","80","15/12/2016 - 15:51","31/01/2017 - 16:24","03/03/2017 - 14:26","0","143.107.192.198","181","pusprp","Prefeitura do Campus de Ribeirão Preto","436","4.243","0","0","9","8","0","0","13","10","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/181_0.xlsx","18","426","612","0","0","295","30","0","0","0","0","869","0","0","77","5","5","114","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","Não","","509.963","397","0","0","0","0","0","0","171.018","50.760","150.954","1.097","199","28","1.864","174","114","2.000","0","0","0","0","0","0","0","0","0","49","5","10","3","0","0","0","0","0","0","5.165","237","13.089","75","56","1","6","0","2","0","3","LILACS/REBAP - 902 ","Relatório de Atividades - anual
+Folders - anual
+Guia do Calouro - anual","","XIX Semana do Livro e da Biblioteca na USP da  BCRP - 24 a 27 de outubro de 2016
+Treinamentos sobre o uso de Gerenciadores Eletrônicos de Referências
+
+
+ 
+
+
+","","","","Sim","Sim","Sim","https://www.facebook.com/Biblioteca-Central-do-Campus-da-USP-de-Ribeir%C3%A3o-Preto-285113194897359/?fref=ts","https://twitter.com/bcrpusp","http://blogbcrp.blogspot.com.br/","","","","","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Não","Não","Sim","Não","Sim","Não","Não","Sim","Não","Sim","Não"
+"21","81","19/12/2016 - 14:48","31/01/2017 - 12:42","31/01/2017 - 12:42","0","143.107.121.43","164","icb","Instituto de Ciências Biomédicas","223","1.165","0","0","1","2","0","0","3","4","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/164_0.xlsx","13","0","2","0","0","13","3","0","0","0","0","145","0","0","0","0","0","6","2","0","0","0","0","2","0","0","0","0","0","30","396","0","575","0","0","Sim","97%","115529","41","0","0","0","12939","0","282","52318","29","7244","35","19","2","197","91","77","782","0","0","0","284","125","3010","1","0","7","77","3","5","2","0","0","1","1","0","0","1019","199","28137","27","19","1","1","1","1","6","2","Aquisição: 18;
+Multimeios: 2;
+Cadastro de usuários: 29;
+Empréstimo entre bibliotecas: 35;
+Agendamento: 1;
+Ficha catalográfica: 123;
+Produção Científica: 426;
+TESESRETRODIG/Títulos Digitalizados - Produção Bibliográfica: 0;
+TESESRETRODIG/Páginas Digitalizadas - Produção Bibliográfica: 0;
+LILDBI-LILACS: 3;
+SECS/Title: 0;
+SECS/Fasic: 0.
+
+
+","Manual ABNT (on-line);
+Manual Vancouver (on-line);
+Estrutura do trabalho ABNT - Programa de Pós-graduação do ICB (on-line);
+Estrutura do trabalho Vancouver - Programa de Pós-graduação do ICB (on-line);
+Estrutura do trabalho ABNT - Programa de Pós-graduação em Biotecnologia (on-line);
+Estrutura do trabalho Vancouver - Programa de Pós-graduação em Biotecnologia (on-line);
+Folderes impressos, com distribuição gratuita, sobre os produtos e serviços da Biblioteca e do Sistema Integrado de Bibliotecas da USP, direcionados a: alunos de graduação e pós-graduação, USP e as Profissões, Cursos de Verão e Inverno dos Departamentos do ICB, Virada Científica; Procedimentos para a normalização técnica e entrega da versão eletrônica e corrigida das teses e dissertações, Roteiros de 1º acesso ao DEDALUS, renovação e reserva de material bibliográfico. ","","","","Visitas orientadas;
+Treinamentos em fontes de informação, produtos e serviços do SBiB  e SIBi/USP.","","Sim","Sim","Não","","","","","","","","Sim","Não","Não","Não","Não","Sim","Sim","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"22","82","22/12/2016 - 14:07","31/01/2017 - 16:55","31/01/2017 - 16:55","0","143.107.83.231","141","eca","Escola de Comunicações e Artes","115","1648","0","0","6","0","3","0","11","5","5","0","0","27","0","0","0","0","0","0","0","0","0","0","0","0","0","0","4","6","3","1","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/141_0.xlsx","20","0","226","0","0","900","423","0","0","119","0","0","0","8","79","17","6","45","5","0","0","0","0","196","5","0","0","0","0","510","73","109","10.446","2","125","Sim","100%","76.073","820","0","5.157","64","24.259","1","12748","90932","75","16721","11","13","3","47","59","3","1658","0","0","0","19","3","211","0","0","0","4","0","1","0","0","0","0","0","0","0","548","1","9","16","28","0","4","0","2","0","0","Filmes e Vídeos (Base Cena): catálogo de filmes e vídeos, acessível pelo site da Biblioteca da ECA
+Gravações (base Sonora): catálogo de gravações em áudio,  acessível pelo site da Biblioteca da ECA
+Partituras (base Acorde): catálogo de partituras, acessível pelo site da Biblioteca da ECA.
+","Blog da Biblioteca da ECA","Não temos","Dança do ventre na Biblioteca da ECA: lançamento do livro de Ellen  Pereira, com apresentação de dança. 25.02.2016, das 15 às 17 horas.
+
+Uma casa para a Xilogravura (participação na exposição organizada pelo Centro de Preservação Cultural da USP). Setembro a dezembro de 2016.","Não temos","Visitas orientadas; treinamentos e apresentações em sala de aula; atividades específicas para alunos de intercâmbio estrangeiros.","Participação no projeto A USP e as profissões.","Sim","Sim","Sim","https://www.facebook.com/ecabiblioteca","https://twitter.com/bibliotecadaeca/","https://bibliotecadaeca.wordpress.com/","https://www.flickr.com/photos/bibliotecadaeca/","https://br.pinterest.com/bibliotecadaeca/","https://www.youtube.com/user/bibliotecadaeca","Pearltrees: http://www.pearltrees.com/bibliotecadaeca","Sim","Não","Sim","Sim","Sim","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Sim","Não","Não","Sim","Não"
+"23","83","22/12/2016 - 14:24","15/02/2017 - 15:27","15/02/2017 - 15:27","0","143.107.135.74","168","if","Instituto de Física","167","1590","0","0","5","1","0","0","6","2","1","1","0","4","3","0","1","2","0","0","0","0","0","0","0","0","0","0","0","3","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/168_0.xlsx","13","198","115","0","0","62","151","0","0","0","0","94","0","3","74","0","0","0","0","0","3","0","0","1","0","0","0","0","0","0","0","0","0","1","0","Sim","90%","180.831","498","0","0","0","0","0","20","45.708","13.212","20.954","25","8","1","98","28","9","405","0","0","0","4","2","24","2","105","35","35","6","5","0","0","0","13","5","31","3","8.720","105","67","6","18","1","3","3","1","0","2","Dedalus, CCN/IBICT, WebofScience","Guia do SBIIFUSP para alunos ingressantes - periodicidade: anual impresso
+Relatório de Atividades do SBIIFUSP - periodicidade: anual impresso e online
+Publicações Oficiais da Unidade com Participação da Biblioteca: Boletim do Instituto de Física (BIFUSP) - periodicidade: semanal impresso e online 
+Preprints - periodicidade: irregular impresso e online","Relatório de Atividades do Instituto de Física - periodicidade: anual impresso","Não houve","Não houve","Semana de Recepção aos Calouros 2016; visitas monitoradas; treinamento no portal de busca integrada
+Divulgação de e-books através de cartazes, web e correio eletrônico; apresentação de produtos e serviços da Biblioteca do IFUSP aos alunos ingressantes.","Divulgação de bases de dados e publicações eletrônicas via web, cartazes e correio eletrônico. Treinamento em bases de dados e publicações eletrônicas USP","Sim","Sim","Sim","http://ptbr. facebook.com/biblioteca.ifusp","https://twitter.com/bibliotecaifusp","","","","","SBI Mobile: http://wwwsbi. if.usp.br/mobile/; chat; skype. whatapp 11967323748","Não","Não","Sim","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"24","84","23/12/2016 - 15:24","23/01/2017 - 10:26","23/01/2017 - 10:26","0","143.107.174.1","158","fsp","Faculdade de Saúde Pública","210","1850","0","0","4","1","0","1","8","3","3","1","3","18","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/158.xlsx","15","29","78","0","0","234","35","0","0","0","0","179","0","1","31","0","0","76","39","2","1","0","0","8","0","0","0","0","0","160","0","0","0","0","0","Sim","73%","329.176","665","0","0","0","0","0","0","51.460","13.163","24.804","99","44","4","486","194","45","2.197","0","0","0","325","3","5.376","0","0","0","28","8","5","0","0","0","0","0","0","0","17.097","59","1.032","23","31","0","7","0","6","1","11","Lilacs/Bireme - Base internacional - 462
+SeCS (Bireme) - Base nacional - 47","Guia de Apresentação de Teses Online - 2.ed.atual. – periodicidade: outras; formato: online
+Biblioteca/CIR em Números – periodicidade: anual; formato: online
+Novidades no Acervo Biblioteca/CIR – periodicidade: mensal; formato: online
+EndNote Basic: Guia de Uso – periodicidade: anual; formato: online
+Roteiro Curso PubMed/Medline – periodicidade: anual; formato: impresso
+Calendário de Funcionamento – periodicidade: anual; formatos: impresso/online
+Agenda Coletiva da Biblioteca – periodicidade: anual; formato: online
+Site da Biblioteca – formato: online
+Blog da Biblioteca da FSP/USP – formato: online
+Facebook da Biblioteca (Fan Page) – formato: online
+Twitter da Biblioteca – formato: online","Editora Eletrônica da FSP/USP – formato: online; distribuição: doação; nível de participação da Biblioteca: Comissão responsável pela publicação, Editoração, Normalização Técnica, Infraestrutura Administrativa, Produção Gráfica, Distribuição ou Divulgação.
+
+Revista de Saúde Pública - formato: online; distribuição: doação; nível e participação da Biblioteca: Editoração, Normalização Técnica, Infraestrutura Administrativa, Distribuição ou Divulgação.
+
+Saúde e Sociedade – formato: online; distribuição: doação; nível e participação da Biblioteca: Normalização Técnica.
+
+Livro eletrônico: SustentAREA A Rede Alimentar: a história do projeto de extensão da USP sobre comida gostosa, saudável e sustentável – formato: online; distribuição: doação; nível e participação da Biblioteca: Comissão responsável pela publicação, Editoração, Normalização Técnica, Infraestrutura Administrativa, Produção Gráfica, Distribuição ou Divulgação.","Workshop Web of Science
+Período: 21/03/2016 (9h às 12h)
+Patrocinador: SIBiUSP
+Tipo de evento: Workshop
+Nível de participação da Biblioteca - Opções disponíveis: Participação na Comissão Organizadora ou Divulgação.
+
+Workshop: Get yourself published! – “Publique seu manuscrito!”
+Período: 04/04/2016 (8h30 às 13h)
+Patrocinadores: Thieme, Capes, SIBiUSP
+Tipo de evento: Workshop
+Nível de participação da Biblioteca - Opções disponíveis: Participação na Comissão Organizadora ou Divulgação.
+
+Workshop Scopus – ScienceDirect – Mendeley - Quadrilátero da Saúde/Direito
+Período: 30/05/2016 (14h às 16h)
+Patrocinador: SIBiUSP
+Tipo de evento: Workshop
+Nível de participação da Biblioteca - Opções disponíveis: Participação na Comissão Organizadora ou Divulgação.
+
+Conversando Sobre “Biblioteca da Diversidade”
+Período: 13/04/2016 (13h30 às 17h30)
+Patrocinadores: FEBAB
+Tipo de evento: Palestra
+Nível de participação da Biblioteca - Opções disponíveis: Participação na Comissão Organizadora ou Divulgação.
+
+Workshop Web of Science
+Período: 05/09/2016 (14h às 17h)
+Patrocinador: SIBiUSP
+Tipo de evento: Workshop
+Nível de participação da Biblioteca - Opções disponíveis: Participação na Comissão Organizadora ou Divulgação.
+
+Conversando Sobre “O bibliotecário, a história do livro e a preservação: relações necessárias”
+Período: 02/12/2016 (14h às 16h)
+Patrocinadores: FEBAB
+Tipo de evento: Palestra
+Nível de participação da Biblioteca - Opções disponíveis: Participação na Comissão Organizadora ou Divulgação.","","- Colaboração na disciplina: 60018 Comunicação e Informação: Atividade Integradora - período matutino e noturno - Curso de Nutrição. Treinamento em bases de dados e orientação referente às normas bibliográficas.
+- Colaboração na disciplina; HSM0134 Introdução à Pesquisa Científica em Saúde Pública, Ciclos de Vida e Sociedade - O Projeto de pesquisa. Apresentação de bases de dados.
+- Colaboração na disciplina: HSM 0121 Informação Bibliográfica em Saúde Pública - Curso Bacharelado em Saúde Pública. Treinamento em bases de dados e orientação referente às normas bibliográficas.
+- Colaboração na disciplina: 60028	Trabalho de Conclusão de Curso I - Curso de Nutrição. Orientação sobre normalização bibliográfica.
+
+
+","- Participação no Curso de especialização em Saúde Pública (curso de extensão semipresencial).
+- Programa Educativo da Biblioteca: curso Introdução aos Recursos Bibliográficos da USP e Lilacs/BVSSP/SciELO.
+- Participação no evento ""A USP e as Profissões"" em 25/08/2016.
+- Divulgação de informação em saúde nas redes sociais: Blog, Facebook, Twitter.
+- Biblioteca Virtual em Saúde - Saúde Pública - audioteca, bases de dados, notícias em saúde, portal de teses de dissertações.","Sim","Sim","Sim","http://www.facebook.com/bibfsp","@bibfsp_usp","http://www.fsp.usp.br/biblioteca/blog","http://www.flickr.com/photos/bibfsp/","","","","Sim","Não","Não","Sim","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"25","85","02/01/2017 - 10:09","19/01/2017 - 09:51","19/01/2017 - 11:35","0","143.107.46.127","178","mae","Museu de Arquelogia e Etnologia","23","394.04","0","10.64","1","1","0","0","4","1","1","0","0","5","3","0","0","0","0","0","0","0","0","0","0","0","0","0","2","3","2","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/capacitacao_de_usuarios_bibmae_2016.xlsx","13","1","28","2","11","416","1221","0","0","0","0","56","4","0","53","0","0","9","52","0","0","0","0","2","0","0","0","0","0","1","0","307","4252","0","0","Sim","12,6","6437","1927","0","44623","0","78","0","115","4.140","1.944","8.146","36","1","0","36","19","0","420","0","0","0","474","0","17.856","0","0","0","3","0","1","0","0","0","0","0","0","0","3835","4","36","10","11","1","2","1","4","0","0","*","Guia do usuário SBD/MAE, Manual de referências bibliográficas, Manual de citações","Não possui","Organização de dois treinamentos na 19. Semana do Livro e da Biblioteca na USP","Projeto apresentado a Vice-Reitoria em conjunto com a Diretoria do MAE visando a salvaguarda dos acervos do Museu","atividades","atividades","Sim","Sim","Sim","https://www.facebook.com/bibmaeusp","https://twitter.com/BibMAEUSP","","","","","","Sim","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não"
+"26","86","02/01/2017 - 14:18","30/01/2017 - 16:53","22/03/2017 - 18:22","0","200.144.59.55","157","fob","Faculdade de Odontologia de Bauru","304","3.608","0","0","1","5","2","1","6","7","0","0","0","2","0","1","0","0","0","0","0","0","0","0","0","1","0","0","6","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/ribi2016_fobhrac_mar2017_0.xlsx","17","3","8","0","0","135","11","0","0","0","0","335","0","3","14","8","4","153","130","0","1","0","0","96","0","0","0","0","0","2","3","0","0","0","0","Sim","86,76%","133125","593","270","0","0","0","0","0","110462","5597","5391","158","26","9","225","564","174","4517","0","0","0","491","0","5128","2","1","18","52","10","20","8","0","0","2","8","15","16","11292","898","28766","53","33","0","13","0","8","0","7","BBO – Bibliografia Brasileira de Odontologia – Base Nacional (166)
+LILACS – Literatura Latino-Americana e do Caribe em Ciências da Saúde – Base internacional (120)
+Protocolos de Pesquisa da FOB-USP – Base local (7)
+Delfos – Pesquisas em desenvolvimento HRAC – Projetos – Base local (111)
+Thotline – Produção Científica HRAC – Base local (448)
+SeCS – Seriados em Ciências da Saúde (títulos novos cadastrados) – Base nacional (164)","Acesso à Internet na USP: Rede sem Fio e VPN (FOB) – irregular – impressa e online – doação
+Acesso à Internet na USP: Rede sem Fio e VPN (HRAC) – irregular – impressa e online - doação
+Bases de dados PubMed [Tutorial] – irregular – online – doação
+Citações em documentos – ABNT – irregular – online - doação
+Como agrupar o Author ID na Scopus - irregular - online - doação
+Dedalus: Banco de Dados Bibliográficos da USP[Tutorial] – irregular – online - doação
+Diretrizes Básicas para Elaboração de Dissertações eTeses (FOB-USP) – irregular – online - doação
+Diretrizes Básicas para Elaboração de Monografias(FOB-USP) – irregular – online – doação
+Formas de comunicação científica: periódicos – irregular – online – doação
+Guia do Usuário (HRAC) – irregular – impressa – doação
+Integração: Boletim do HRAC-USP – anual – impressa e online - doação
+Referências ABNT NBR 6023 – irregular – online – doação
+Normas de Vancouver: referências – irregular – online – doação
+Regulamento de Empréstimo – irregular – impresso – doação
+Revistas científicas: acesso eletrônico [Tutorial] – irregular – online – doação
+Conheça a Biblioteca [guia de serviços da Biblioteca FOB/USP] – irregular – impresso – doação","Catálogo de Graduação – anual – impresso e online – doação – comissão responsável pela publicação e normalização técnica 
+Journal of Applied Oral Science (ISSN 1678-7757/ 1678-7765) – bimestral – impresso e online – compra, permuta e doação – comissão responsável pela publicação, normalização técnica, infraestrutura administrativa, distribuição e divulgação.
+PET Informa (ISSN 1806-6151) –  semestral – online – normalização técnica
+Relatório de Gestão – a cada 4 anos – impresso e online – doação – comissão responsável pela publicação e normalização técnica","- Mês do Meio Ambiente da FOB/USP - junho 2016 - Diferentes atividades foram realizas, tais como encontro educativo, pesagem de bandejas no restaurante universitário, feira de trocas etc. - Patrocinadores: FOB/USP e empresas locais - Participação da Biblioteca  na Comissão Organizadora e na Divulgação.
+
+- Educação: segredos do sucesso de Cocal dos Alves, PI - 26/11/16 - Patrocinador: FOB/USP, Comissão de Pós-Graduação da FOB-USP, Pró-Reitoria de Cultura e Extensão da USP e Tilibra - Palestra - Participação da Biblioteca na Comissão Organizadora e na Divulgação
+","Publicação do PET Informa: desenvolvido em parceria com os docentes tutores dos grupos PET da FOB-USP, busca finalizar os fascículos pendentes (sem finalização) e retomar a publicação do PET Informa, a partir de 2010. A Biblioteca tem auxiliado na definição de normas de publicação e normalização dos artigos.   Data de início: junho 2015 – em andamento. Patrocinador: não há patrocinador. Recursos recebidos: o projeto é desenvolvido com recursos próprios da Unidade. Pessoal da Biblioteca envolvido: 3 (três) e um funcionário de editoração, que atua na Biblioteca, nas atividades do periódico JAOS. Resultados obtidos: foram estabelecidas novas normas de publicação e os arquivos estão sendo normalizados e editorados. Os fascículos pendentes, sem finalização, estão sendo conferidos e normalizados.","- Participação na Semana de Recepção aos Calouros, com apresentação sobre a Biblioteca
+- Participação em aulas dos cursos de Odontologia e Fonoaudiologia, a convite dos docentes
+- Promoção de treinamento sobre pesquisa e normalização para alunos do grupo PET e de Iniciação Científica
+- Participação e auxílio em atividades de publicação do PET Informa","Não se aplica.","Sim","Sim","Sim","https://www.facebook.com/BibliotecaFOBUSP/","https://twitter.com/bibfobusp","https://sddinforma.wordpress.com/","https://www.flickr.com/people/56370315@N03/","https://br.pinterest.com/bibfobusp/","https://www.youtube.com/user/bibfobusp","","Não","Não","Sim","Não","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"27","87","02/01/2017 - 16:48","26/01/2017 - 10:38","26/01/2017 - 10:38","0","143.107.255.30","155","fmvz","Faculdade de Medicina Veterinária e Zootecnia","110","1127.11","0","0","3","3","0","0","10","1","1","0","2","13","4","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/155_0.xlsx","17","20","67","0","0","67","7","0","0","0","0","173","0","1","10","13","13","36","15","0","0","0","0","6","0","0","0","0","0","8","0","19","1","17","0","Sim","94%","88.590","500","3.267","2","0","0","1","1","47.739","2.486","9.426","18","38","1","383","56","21","583","0","0","0","199","41","1.916","12","1","84","21","0","3","0","0","0","0","0","0","0","2.025","376","26.990","22","23","0","2","0","3","0","17","Base Local: Portal de Revistas em Veterinária e Zootecnia - PRVZ (5.017) 
+
+Base Nacional: SECS (145) / VetIndex (2.484) / VetTeses (15) / Direve (265)
+
+Base Internacional: Lilacs (754) ","Home page da Biblioteca
+(http://www.fmvz.usp.br/biblioteca)","Brazilian Journal of Veterinary Research and Animal Science (Revista da FMVZ/USP)
+Periodicidade: trimestral
+Formato: online
+Participação da Biblioteca: Normalização ","Dia do Médico Veterinário
+Tipo de evento: Exposição em Homenagem ao Médico veterinário","Memória (digitalização da produção científica docente da FMVZ/USP)","Treinamento de pesquisa em bases de dados","Estande fixo de troca de livros para a comunidade acadêmica","Sim","Sim","Sim","https://pt-br.facebook.com/bibliotecafmvzusp/","https://twitter.com/bibliotecafmvz","","","","","","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"28","88","04/01/2017 - 09:53","05/01/2017 - 15:23","05/01/2017 - 15:23","0","143.107.42.18","172","imt","Instituto de Medicina Tropical de São Paulo","15","90","0","0","1","1","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","1","14","0","0","10","0","0","0","0","0","14","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","Não","","16.399","117","0","0","0","0","0","0","1923","991","110","8","14","0","0","0","0","0","0","0","0","85","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","580","18","2.228","4","5","0","3","0","1","0","0","Não tivemos em 2016","Não tivemos em 2016","Não tivemos em 2016","Workshop de Publicação Científica - American Journal Experts - 1º de Novembro de 2016 - Workshop - Participação na Comissão Organizadora","Não tivemos em 2016","Não tivemos em 2016","Não tivemos em 2016","Sim","Sim","Não","","","","","","","","Sim","Não","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"29","89","04/01/2017 - 11:10","11/01/2017 - 17:23","11/01/2017 - 17:23","0","143.107.236.205","162","iau","Instituto de Arquitetura e Urbanismo","12","85","0","0","0","0","1","0","2","0","0","0","0","9","9","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","1966","0","0","0","0","0","150","0","0","0","0","0","0","0","0","0","0","0","179","0","0","0","0","0","0","0","0","1818","0","500","Não","","0","0","0","7.424","0","179","0","847","950","848","200","282","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","65","0","9","1","4","0","1","1","1","0","0","","","","3ª festa do livro da USP e 19ª Semana do Livro e da Biblioteca na USP, 24 a 27 de outubro de 2016. Tipo de evento: Feira de livros e palestras. Opções disponíveis: Evento totalmente realizado pela Biblioteca.","","","","Sim","Sim","Sim","https://www.facebook.com/Biblioteca-do-IAU-USP-1887490454816888/?fref=ts","","","","","","","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"30","90","05/01/2017 - 14:01","31/01/2017 - 18:48","31/01/2017 - 18:48","0","200.136.10.72","149","fd","Faculdade de Direito","150","1.585","0","0","13","4","2","0","11","13","3","1","2","18","5","6","0","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/149.xlsx","16","0","58","8","9","946","97","0","0","0","0","375","0","26","32","26","40","35","3","0","0","0","0","2","1","0","0","0","0","0","0","0","29.211","0","22","Sim","35,64%","157.107","592","0","0","0","255","0","18.254","14.786","5.774","31.896","136","49","21","517","29","21","1.015","0","0","0","571","38","15.721","7","1","76","20","3","4","0","0","0","4","1","2","1","4.227","0","0","10","38","0","14","1","5","0","45","IusData: base local, com 4.545 registros cadastrados no período
+Iuslibri: base local, com 2.632 registros cadastrados no período
+Teses: base local, com 461 registros cadastrados no período
+Rarus: base local, com 0 registros cadastrados no período
+Jornal: base local, com 0 registros cadastrados no período","","","XVII Semana de Recepção aos Calouros
+Profa. Dra. Juliana Krueger Pela
+Desafios da pesquisa acadêmica na era digital
+28/03/2016
+28/03/2016
+Palestra
+Evento totalmente realizado pela Biblioteca
+
+XVII Semana de Recepção aos Calouros
+Bibliotecária: Rosangela Ap. Ventura Pupo
+Visita orientada ao Acervo da Biblioteca Central, Biblioteca Circulante e Bibliotecas Especializadas
+29/03/2016
+29/03/2016
+Visita Orientada
+Evento totalmente realizado pela Biblioteca
+
+XVII Semana de Recepção aos Calouros
+Bibliotecárias: Maria Lucia Beffa, Erinalva da Conceição Batista, Rosangela Ap. Ventura Pupo
+Visita à Sala de Obras Raras com a presentação de uma Obra Rara e apresentação dos cursos Competências Informacionais e Orientação Bibliográfica 
+30/03/2016
+30/03/2016
+Visita Orientada
+Evento totalmente realizado pela Biblioteca
+
+XVII Semana de Recepção aos Calouros
+Prof. Dr. Eduardo Tomasevicius
+O Livro Didático no Ensino Jurídico
+31/03/2016
+31/03/2016
+Palestra
+Evento totalmente realizado pela Biblioteca
+
+A Biblioteca das Arcadas e seu Acervo: do Convento à Academia de Direito
+Bibliotecárias: Maria Lucia Beffa, Maíra Cunha Souza Maria, Silvia Mara Andrade Jastwebski, Raquel Lima de Matos
+09/08/2016
+06/09/2017
+Exposição
+Participação na Comissão Organizadora e Divulgação","Projeto: Higienização do acervo da Biblioteca Central e Sala de Consulta do Serviço de Biblioteca e Documentação da Faculdade de Direito da USP: conservação preventiva. Proponente: Silvia Mara de Andrade Jastwebski. Coordenadores: Maíra Cunha de Souza Maria, Maria Lucia Beffa, Mércia Maria Costa da Fonseca e Sérgio Carlos Novaes. Período: 26/09/2013 a 03/2016. Apoio: PRCEU/USP.","XVII Semana de Recepção aos Calouros:
+
+Solicitação em doação de livros publicados por docentes da FD para sorteio aos calouros, durante a XVII Semana de Recepção aos Calouros;
+
+Apresentação do acervo da Sala de Obras Raras, Biblioteca Central, Biblioteca Circulante e Bibliotecas Especializadas aos calouros, durante a XVII Semana de Recepção aos Calouros;
+
+Palestra “O livro didático no ensino jurídico”.","Visita guiada à Faculdade de Direito da Universidade de São Paulo, realizada na última sexta-feira de cada mês. Atividade da Faculdade sob a direção da Biblioteca. O objetivo da visita é contar um pouco da história da Faculdade de Direito, desde sua criação aos dias atuais. Em 2016 foram realizadas 11 visitas, que atenderam um público total de 246 pessoas.
+
+Participação no programa a USP e as Profissões, coordenado pela Pró-Reitoria de Cultura e Extensão Universitária, que compreende visitas monitoradas de estudantes à USP e oferece uma visão geral dos cursos oferecidos pelas Unidades.
+
+Os Treinamentos em ferramentas de pesquisa e bases de dados também foram oferecidos a usuários externos à Universidade.","Sim","Sim","Sim","https://ptbr. facebook.com/BibliotecadaFDUSP553522528001156/","http://twitter.com/BibliotecaFDUSP","0","www.flickr.com/photos/bibliotecafdusp/","0","https://www.youtube.com/BibliotecaFDUSP","0","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"31","91","05/01/2017 - 14:11","05/01/2017 - 15:54","24/02/2017 - 14:15","0","143.107.172.98","142","ee","Escola de Enfermagem","89","653.12","101.70","0","0","2","1","0","4","2","0","0","0","23","7","3","0","0","0","0","0","0","0","0","0","0","0","0","7","2","1","3","4","2","https://indicadores.abcd.usp.br/sites/default/files/webform/142_0.xlsx","15","19","31","0","0","81","38","0","0","0","0","78","0","1","3","4","3","9","2","0","0","0","0","0","0","0","8","0","0","12","17","8","31","0","82","Sim","100%","0","61","0","0","0","0","0","13","23.631","0","2.405","11","29","3","204","77","42","842","0","0","0","126","23","1532","1","0","13","5","5","2","33","0","0","0","0","0","0","3.529","0","168","15","16","0","2","0","4","0","2","Não há.","- Guia prático para elaboração de dissertação, tese, monografia e projeto de pesquisa;","- Revista da Escola de Enfermagem - Bimestral - Impresso / Online - Permuta / Doação / Compra - Normalização Técnica","Não houve.","- Mutirão de orientação aos docentes para criar o perfil no ORCID;
+- Criação de um gerenciador de referências bibliográficas do estilo Vancouver;
+- Ficha catalográfica online;
+- Criação de formulários Comut e EEB para atendimento remoto;
+- Revisão das citações dos artigos dos docentes da EEUSP na Web of Science;
+- Digitalização da coleção retrospectiva da Revista da Escola de Enfermagem da USP para inclusão no SciELO;
+- Participação dos funcionários em grupos de trabalho: Instituto Joanna Briggs; Vocabulário Controlado; SAUUSP; CIPA e COASSE. ","- Treinamento no acesso ao Portal BVS e Portal de Revistas Eletrônicas para 80 alunos do segundo ano de graduação na disciplina de Metodologia em Pesquisa (01/09/2016).
+","- Visita monitorada ao Centro Histórico (CHCEIA) para o Projeto USP e as Profissões na EEUSP (12/05/2016);
+- Visita monitorada à Biblioteca para o Projeto USP e as Profissões na EEUSP (12/05/2016);
+- Participação no stand do DT/SIBi na Feira USP e as Profissões (19/08/2016).","Sim","Sim","Sim","www.facebook.com/bibliotecaenfermagemusp","","","","","","http://pt.slideshare.net/bibliotecaee","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"32","93","09/01/2017 - 11:09","31/01/2017 - 10:25","31/01/2017 - 10:25","0","200.144.202.66","177","mac","Museu de Arte Contemporânea","16","180","68","0","2","1","1","0","2","0","0","0","0","5","1","0","0","0","0","0","0","0","1","0","0","0","0","0","2","8","0","0","0","0","","","0","83","27","72","33","41","0","0","0","0","0","0","0","4","0","0","1","3","0","0","5","2","4","3","0","0","22","39","27","38","0","413","0","0","Não","","9827","17","0","0","0","29406","0","37348","2145","1240","13777","1","2","0","12","2","0","7","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","872","22","315","2","5","0","2","1","1","0","3","Catálogos Coletivos/Individuais (Base Local da Biblioteca) 52
+Coleção de Catálogos de Artistas do Acervo MAC USP (Base Local da Biblioteca) 83
+Tombo de Livros (Base Local da Biblioteca) 243 ","-","ARANHA, Carmen S.G. (Org.). Espaços da mediação : a arte e suas histórias na educação. São Paulo : MAC USP, 2016. (Periodicidade: Desconhecida. Formato: Online. Distribuição: Compra, permuta,
+doação. Nível de Participação da Biblioteca: Normalização técnica e Distribuição).
+RODRIGUES, Bélgica (Cur.). Oswaldo Vigas : antológica 1943-2013.São Paulo : MAC USP, 2016. (Periodicidade: Desconhecida. Formato: Impresso. Distribuição: Compra, permuta,
+doação. Nível de Participação da Biblioteca: Normalização técnica e Distribuição).
+","-","-","-","-","Sim","Sim","Não","","","","","","","","Não","Não","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não"
+"33","94","09/01/2017 - 16:27","27/01/2017 - 14:49","27/01/2017 - 14:49","0","143.107.4.130","167","iee","Instituto de Energia e Ambiente","15","260","307","0","2","0","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","50","3","0","0","191","0","0","0","0","0","97","0","2","6","0","0","8","1","0","0","0","0","0","0","0","0","0","0","0","0","0","160","0","0","Não","","42.888","100","0","0","0","0","0","0","51","25","210","47","0","0","0","7","0","41","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","166","40","350","4","5","0","1","0","1","0","0","SIS-IEE- Sistema de Biblioteca - Base Local de Biblioteca  - 491","não se aplica","não se aplica","não se aplica","não se aplica","não se aplica","não se aplica","Sim","Sim","Sim"," Biblioteca Prof. Fonseca Telles ","","","","","","","Sim","Não","Sim","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Não"
+"34","95","10/01/2017 - 12:18","19/01/2017 - 12:18","19/01/2017 - 12:18","0","143.107.19.32","161","iag","Instituto de Astronomia, Geofísica e Ciências Atmosféricas","102","962","0","0","1","2","0","0","3","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/161.xlsx","13","0","26","0","0","42","0","0","0","0","0","50","0","1","6","0","0","9","6","0","0","0","0","111","0","0","0","0","0","0","0","0","0","0","0","Sim","20%","42913","110","24","42","0","0","0","0","27106","699","9755","5","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","5","7","22","7","0","0","4","1","0","0","280","10","258","5","8","1","5","0","1","0","0","","","","","PROJETO FAPESP - RESERVA TÉCNICA INSTITUCIONAL - ENCADERNAÇÃO (ainda não aprovado)","","","Sim","Sim","Não","","","","","","","","Sim","Não","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"35","96","10/01/2017 - 14:22","31/01/2017 - 15:58","31/01/2017 - 15:58","0","143.107.126.152","134","bbm","Biblioteca Brasiliana Guita e José Mindlin","109","7000","0","0","2","0","1","0","0","1","4","1","1","11","0","0","0","0","0","0","0","0","0","0","0","0","0","0","9","0","0","0","0","0","","","0","0","0","0","215","13","0","0","0","0","0","0","0","0","0","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","10822","0","0","Não","0","127","126","0","4871","0","0","0","0","4256","235","706","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","562","0","0","2","42","0","7","0","9","3","3","Acervo Digital da Biblioteca Mindlin","","","Exposições: O Mundo ao Redor ( 1 de fevereiro a 27 de abril ), FRITZ MÜLLER - O Príncipe dos Observadores.
+XIII Colóquio Mindlin - Relatos de viagem pelo Brasil do século XIX e sua recepção por Goethe (10 de março), XIV Colóquio Mindlin - Paulo da Silva Prado: empresário intelectual (12 de abril), XV Colóquio Mindlin - ""Roger Bastide"" por Glória Amaral e Fernanda Arêas Peixoto (17 de maio), XVI Colóquio Mindlin - ""Jaime Cortesão"" (20 de junho), XVIII Colóquio Mindlin - Relações de Von Martius com imagens naturalísticas e artísticas do século XIX - por Heitor de Assis Júnior (28 de novembro)
+","","","Música na BBM: ""Entardecer com Bach"" (órgão digital Viscount) realizado em março nos dias (01, 02, 03,08,09,10,15,16,17, 22, 23, 29, 30, 31) ; "" A música de Câmara Barroca"" em 3 de março; ""Concerto de flauta doce e cravo"" - 10 de março; ""Bach – ano II - Recital de cravo"" 1 - 5 de maio; “Última inspiração” - 12 de maio; Bach – ano II - Recital de cravo 2 - 19 de maio;  “Volver a Latinoamérica” - 2 de junho;  ""Bach – ano II - Trio Sonare"" - 9 de junho; ""Bach – ano II - Recital de cravo 3"" - 30 de junho; Bach – ano II - Recital de cravo 4 - 4 de agosto; “Núcleo de Performance dos Professores do Departamento de Música da ECA/USP ”- 11 de agosto; Recital de piano com Leandro Motta - 18 de agosto; Bach – ano II - Recital de cravo 5 - 25 de agosto; Bach – ano II -Trio Pró-Música Antiga - 1 de setembro; Recital de piano com Carlos Vogt e Pedro Brack - 8 de setembro; Recital de piano com Ricardo Augusto e Helber Fernandes - 15 de setembro; “Última Inspiração” - 22 de setembro;  Bach – ano II - Recital de viola e cravo - 29 de setembro; Bach – ano II - Concerto de dois cravos - 6 de outubro; Recital de piano com Lucas Gonçalves - 13 de outubro; “Concerto de piano e violino” - 20 de outubro;  Bach – ano II - Recital de cravo 6 - 27 de outubro; Bach – ano II - Quinteto USP - 3 de novembro; “Los Duos” - 10 de novembro; Recital de piano com Lucas Thomazinho - 17 de novembro; Bach – ano II - Coral Audi Coelum e Conjunto de Música Antiga da ECA - 24 de novembro;  “Núcleo de Performance dos Professores do Departamento de Música da ECA/USP ” - 1 de dezembro;  Recital de piano com Milena Lopes e Carlos Vogt - 8 de dezembro","Sim","Sim","Sim","Biblioteca Brasiliana Mindlin USP","BBM USP","blog.bbm.usp.br","","","","","Sim","Não","Sim","Não","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"36","97","11/01/2017 - 09:59","27/01/2017 - 09:56","27/01/2017 - 09:56","0","143.107.76.5","170","igc","Instituto de Geociências","160","1222","0","0","1","2","1","0","7","2","0","0","0","3","10","3","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/170_0.xlsx","12","0","24","3","0","222","149","0","0","0","0","104","11","33","174","15","51","103","231","0","0","0","0","11","6","0","0","0","2","44","5","11","35","1","0","Sim","100%","63.511","273","0","0","0","5.981","0","4","8578","34313","7527","25","18","2","210","37","8","711","0","0","0","0","0","0","0","0","0","4","0","3","1","0","0","0","0","0","0","4037","0","323","22","20","0","11","1","2","1","5","Mapoteca - 61 registros
+PPEGeo - 880 artigos
+Catálogo de Autoridades: 13.237 autores
+Rubrica de Assunto: 7.318 rubricas","- Infobib - Informativo da Biblioteca do Instituto de Geociências: 
+- Folder Fique por Dentro: anual -
+-  Novas aquisições: mensal, online;
+-  Regulamento de Empréstimo e Consulta: anual, impresso e online
+- Homepage da Biblioteca: atualizações
+- Receptivo: Bem-vindos calouros!
+","Geologia USP: Publicação Especial, irregular, impressa e online, doação, distribuição ou divulgação
+Geologia USP: Série Científica: trimestral, impressa e online, doação, distribuição ou divulgação
+Geologia USP: Série Didática: irregular, impressa e online, doação, distribuição ou divulgação","Nome: XVIII Semana de Recepção aos Calouros 2016
+Tipo: Palestra - Apresentação da Biblioteca e Visita Orientada
+Nível de participação da Biblioteca: Participação da comissão organizadora e divulgação
+Período: de 18 e 19/02/2016
+Horário: 14:00 hs e 19:00 hs
+Patrocinador: IGc/USP
+
+Nome: ""Retrospectiva de sua vida Científica e Acadêmica"" em comemoração ao Dia do Geólogo - Prof. Dr. Antonio Carlos Rocha-Campo
+tipo: Exposição
+Nível de participação: Evento totalmente realizado pela biblioteca, participação da comissão organizadora e divulgação
+Período: 27/07 - 13h30min Biblioteca do IGc/USP
+Patrocinadores: IGc/USP, Biblioteca e Museu de Geociências da USP
+Total de Participantes: +50 pessoas
+
+Nome: Geologia das terras que Jesus pisou - Prof. Dr.Benjamim Bley de Brito Neves
+Tipo: Palestra
+Nível de participação da Biblioteca: participação da comissão organizadora para transmissão online e divulgação nas redes sociais
+Período: 18/08/2016
+Patrocinadores: IGc/USP, Seção de Informática e SBD/USP
+Total de participantes: 20 pessoas
+
+Nome: Workshop ""PPEGeo - Portal de Períodicos Eletrônicos em Geociências""
+Tipo: Palestra
+Nível de participação da Biblioteca: evento totalmente realizado pela Biblioteca, participação da comissão organizadora e divulgação
+Período: 10/11/2016
+Patrocinadores: IGc/USP; SBD/IGc/USP
+Total de participantes: 25 pessoas
+
+
+","Digitalização das Teses e Dissertações defendidas no IGc/USP: acervo retrospectivo do período de 1944-1971 e disponibilização na BDTD.","Nada a informar.","Nada a informar.","Sim","Sim","Sim","https://www.facebook.com/BibliotecaInstitutoDeGeocienciasUsp/","https://twitter.com/bibigcusp","Não","https://www.flickr.com/photos/101560089@N07/albums","Não","https://www.youtube.com/user/BibliotecaIGcUSP","Não","Não","Não","Não","Não","Sim","Sim","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não"
+"37","99","16/01/2017 - 10:24","30/01/2017 - 17:39","30/01/2017 - 17:39","0","143.107.31.49","166","ieb","Instituto de Estudos Brasileiros","32","844","0","0","0","0","2","0","0","3","3","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1","0","2","0","0","0","","","0","4","14","0","155","13","0","0","0","0","17","0","0","2","42","12","18","3","0","0","0","0","0","0","0","0","0","0","0","0","22","35400","0","0","Sim","","45240","77","0","5480","0","0","0","3878","688","137","1836","0","2","0","230","14","3","430","0","0","0","85","0","7836","6","2","842","0","0","0","0","0","0","1","0","0","0","211","0","0","12","24","0","4","0","1","0","1","Biblioteca Digital - Base Local
+Sistema de Gerenciamento de Acervos (SGA) IEB - Base local","Não se aplica","Cadernos do IEB","Não se aplica","Não se aplica","Não se aplica","Não se aplica","Sim","Não","Não","","","","","","","","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"38","100","16/01/2017 - 16:54","18/01/2017 - 16:30","18/01/2017 - 16:30","0","143.107.64.5","160","hu","Hospital Universitário","30","292","0","0","0","0","1","0","1","1","1","1","0","5","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/160_0.xlsx","13","4","17","0","0","16","7","0","0","0","0","1","0","5","0","0","0","20","4","0","0","0","0","1","0","0","0","0","0","0","0","0","0","0","0","Sim","100","23.572","29","0","0","0","0","0","0","3.676","4","910","0","3","1","28","32","12","257","0","0","0","0","0","0","0","0","0","33","3","8","2","0","0","0","0","1","0","1152","8","69","8","4","1","2","1","1","0","0","Não se aplica","Não se aplica","Autopsy and Case reports
+Periodicidade: trimestral
+Formato: online
+Nível de participação da Biblioteca: Divulgação","Não se aplica","Não se aplica","Não se aplica","Não se aplica","Sim","Sim","Não","","","","","","","","Sim","Não","Não","Não","Sim","Não","Sim","Sim","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"39","101","18/01/2017 - 10:44","18/01/2017 - 14:07","18/01/2017 - 14:07","0","143.107.230.61","136","cdcc","Centro de Divulgação Científica e Cultural","70","217","0","0","0","0","1","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","122","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","Não","","2.906","121","0","0","0","0","0","0","420","4.950","4.398","3","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","2.466","6","45","14","6","1","2","0","1","0","0","A Biblioteca não possui Bases de Dados","Não possui","Não Possui","CDCC no Shopping : 30 anos do Observatório Astronômico ""Dietrich Schiel""
+Período: 12 a 15/03/2016
+Patrocinador: CDCC/USP
+Tipo de evento: Exposição; Outros
+Nível participação: Participação na Comissão Organizadora e na Divulgação 
+
+RIAH COMIC FEST 2016
+Período: 17/04/2016
+Tipo de Evento: Evento de Cultura Pop
+Nível de participação: Apresentação de jogos educativos 
+
+3ª. FESTA DO LIVRO DA USP CAMPUS SÃO CARLOS e 19ª. SEMANA DO LIVRO E DA BIBLIOTECA NA USP 
+Período: de 24 a 27/10/2016
+Patrocinador: Pró-Reitoria de Cultura e Extensão-PRCEU/USP
+Tipo de evento: Exposição; Lançamento de Livros; Lançamento de Produtos/Serviços; Palestras; Outros
+Nível participação: Participação na Comissão Organizadora e de Divulgação
+
+SEMANA NACIONAL DE CIÊNCIA E TECNOLOGIA – SNCT 2016
+Atividades: Leitura e Jogos Educativos na Praça
+Período: 30/10/2065
+Patrocinador(es): CDCC/USP 
+Tipo de evento: Outros
+Nível participação: Participação na Comissão Organizadora e Divulgação
+
+","Projeto: ESPAÇO LÚDICO: JOGOS EDUCATIVOS NA CONSTRUÇÃO DO CONHECIMENTO
+O projeto consiste em levar aos alunos do ensino fundamental e médio e comunidade em geral um novo método de aprendizagem de maneira informal e dinâmica, despertando o gosto e interesse pela ciência utilizando jogos científicos. As atividades são desenvolvidas em torno da ludicidade, através de jogos educativos como: Tangram, Jogo da memória, Dominó ecológico, Torre de Hanói, Arranha Céu, entre outros. A periodicidade é semanal e em períodos alternados do dia, contemplando assim a participação de alunos que estudam em períodos diferentes. Há dois tipos de abordagens, conforme o público. 1) Visita agendada a grupos de alunos: no agendamento da visita é solicitado ao professor e/ou coordenador da escola a indicação dentro dos jogos oferecidos, dos conteúdos e habilidades que gostariam de trabalhar com o grupo, uma vez que cada jogo possui competências particulares a serem desenvolvidas. O grupo poderá jogar entre seus pares ou individualmente. 2) Visita espontânea: dentro das atividades oferecidas pelo espaço, o visitante solicita ao bolsista o jogo de seu interesse. 
+Apoio: Pró-Reitoria de Cultura e Extensão-PRCEU/USP – Programa Aprender com Cultura e Extensão
+
+Projeto: INFORMÁTICA PARA ALUNOS DO ENSINO FUNDAMENTAL E MÉDIO: UMA PROPOSTA EDUCATIVA DE INCLUSÃO DIGITAL E SOCIAL
+O objetivo do projeto é promover a inclusão social e digital dos cidadãos, bem como sua autonomia e o desenvolvimento de habilidades na utilização das ferramentas da informática para pesquisa, apoio na busca de informação utilitária ao cidadão e lazer. As atividades consistem em minicursos de capacitação aos alunos do ensino Fundamental e Médio e a comunidade em geral; ensinando-os a trabalhar com ferramentas de apoio, como as do pacote Microsoft Office. Tais minicursos contam com auxílio de apostilas criadas pelos próprios bolsistas e lousa digital para exposição das ferramentas abordadas. Outras atividades oferecidas: orientações de como realizar pesquisas dos mais variados tipos, criação e formatação de documentos, preenchimento de formulários, entre outros. 
+Apoio: Pró-Reitoria de Cultura e Extensão-PRCEU/USP – Programa Aprender com Cultura e Extensão
+
+PROGRAMA “ACERVO LITERÁRIO ITINERANTE”
+
+O Programa consiste em disponibilizar um lote do acervo literário da Biblioteca do CDCC/USP para consulta e empréstimo no espaço da Biblioteca PUSP-SC/USP.
+Apoio: Biblioteca CDCC/USP e  Biblioteca PUSP-SC/USP","A Biblioteca pertence a um Centro de Ciências que atua na ""Extensão Universitária"", nesse sentido, não apresenta atividades ligadas diretamente à Graduação.","Projeto: ESPAÇO LÚDICO: JOGOS EDUCATIVOS NA CONSTRUÇÃO DO CONHECIMENTO
+O projeto consiste em levar aos alunos do ensino fundamental e médio e comunidade em geral um novo método de aprendizagem de maneira informal e dinâmica, despertando o gosto e interesse pela ciência utilizando jogos científicos. As atividades são desenvolvidas em torno da ludicidade, através de jogos educativos como: Tangran, Jogo da memória, Dominó ecológico, Torre de Hanói, Arranha Céu, entre outros. A periodicidade é semanal e em períodos alternados do dia, contemplando assim a participação de alunos que estudam em períodos diferentes. Há dois tipos de abordagens, conforme o público. 1) Visita agendada a grupos de alunos: no agendamento da visita é solicitado ao professor e/ou coordenador da escola a indicação dentro dos jogos oferecidos, dos conteúdos e habilidades que gostariam de trabalhar com o grupo, uma vez que cada jogo possui competências particulares a serem desenvolvidas. O grupo poderá jogar entre seus pares ou individualmente. 2) Visita espontânea: dentro das atividades oferecidas pelo espaço, o visitante solicita ao bolsista o jogo de seu interesse. 
+Apoio: Pró-Reitoria de Cultura e Extensão-PRCEU/USP – Programa Aprender com Cultura e Extensão
+
+Projeto: INFORMÁTICA PARA ALUNOS DO ENSINO FUNDAMENTAL E MÉDIO: UMA PROPOSTA EDUCATIVA DE INCLUSÃO DIGITAL E SOCIAL
+O objetivo do projeto é promover a inclusão social e digital dos cidadãos, bem como sua autonomia e o desenvolvimento de habilidades na utilização das ferramentas da informática para pesquisa, apoio na busca de informação utilitária ao cidadão e lazer. As atividades consistem em minicursos de capacitação aos alunos do ensino Fundamental e Médio e a comunidade em geral; ensinando-os a trabalhar com ferramentas de apoio, como as do pacote Microsoft Office. Tais minicursos contam com auxílio de apostilas criadas pelos próprios bolsistas e lousa digital para exposição das ferramentas abordadas. Outras atividades oferecidas: orientações de como realizar pesquisas dos mais variados tipos, criação e formatação de documentos, preenchimento de formulários, entre outros. 
+Apoio: Pró-Reitoria de Cultura e Extensão-PRCEU/USP – Programa Aprender com Cultura e Extensão
+","Sim","Sim","Sim","https://www.facebook.com/bibliotecacdcc/?fref=ts","","","","","","Site: http://www.cdcc.usp.br/bibli/","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Sim","Sim","Sim","Não","Sim","Não"
+"40","102","25/01/2017 - 15:17","27/01/2017 - 09:22","27/01/2017 - 10:38","0","143.107.190.116","159","fzea","Faculdade de Zootecnia e Engenharia de Alimentos","191","1453.93","0","0","0","3","1","0","1","3","0","1","0","5","1","2","0","0","0","0","0","0","0","0","0","0","0","0","5","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/159_0.xlsx","20","10","93","0","0","89","0","0","0","0","0","106","0","6","2","0","0","26","2","0","0","0","0","0","0","0","0","0","0","77","0","0","13","1","10","Sim","100%","48.557","421","0","0","0","0","0","0","97.822","1.544","26.932","204","5","0","160","10","8","68","0","0","0","0","0","0","0","0","0","115","2","2","0","0","0","0","0","0","0","5.808","144","6.951","20","8","0","2","1","1","0","2","Não se aplica","Alerta Bibliográfico. Periodicidade irregular, formato impresso e on-line, distribuição: doação.
+Folder: Conheça a Biblioteca da FZEA/USP. Periodicidade irregular, formato impresso, distribuição: doação.
+Folder: Fique por dentro: seus direitos e seus deveres. Periodicidade: anual, formato impresso, distribuição: doação.","Nenhuma","Workshop Web of Science, JCR, Essential Science Indicators, End Note Web - primeiro semestre. Em parceria com 	Thomson Reuters. Evento realizado pela Biblioteca com apoio do DT/SIBi.
+Workshop Scopus, ScienceDirect, Compendex, Mendeley - primeiro semestre. Em parceria com Elsevier. Evento realizado pela Biblioteca com apoio do DT/SIBi.
+Café com Pesquisa com os docentes do Departamento de Engenharia de Biossistemas: Currículo Lattes, Produção Bibliográfica e WeR_USP. Evento realizado com a participação da Biblioteca.
+Workshop Scopus, ScienceDirect e Mendeley - segundo semestre. Em parceria com Elsevier. Evento realizado pela Biblioteca com apoio do DT/SIBi.
+Workshop Web of Science, JCR, End Note - segundo semestre. Em parceria com Thonsom Reuters. Evento realizado pela Biblioteca com apoio do DT/SIBi.
+
+
+","Nenhum","Treinamentos para Calouros
+Elaboração de Template e Diretrizes para elaboração de TCCs, citações e referências 
+Treinamentos de Gerenciadores de referência bibliográfica (EndNote e Mendeley)
+Normalização de trabalhos acadêmicos
+Treinamento para Trabalho de Conclusão de Curso I : acesso às bases de dados e portais de pesquisa
+Treinamento para Trabalho de Conclusão de Curso I : normalização de trabalhos acadêmicos
+Oficina de Citação, Referências (Turma Engenharia de Biossistemas)
+Oficina de Normalização (Turma Engenharia de Biossistemas)
+
+
+
+","Parceria com Secretaria de Cultura e Turismo da Prefeitura Municipal de Pirassununga para elaboração de eventos culturais
+Parceria com Academia da Força Aérea de Pirassununga (AFA), Faculdades Anhanguera Educacional e Instituto Chico Mendes de Conservação da Biodiversidade, em treinamentos, EEB´s e comutação bibliográfica.","Sim","Sim","Sim","https://www.facebook.com/bibliotecafzea/?ref=aymt_homepage_panel","","http://bibliotecafzea.blogspot.com.br/","","","","","Sim","Não","Sim","Não","Sim","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"41","103","26/01/2017 - 12:33","26/01/2017 - 17:06","02/03/2017 - 14:24","0","143.107.245.4","163","ib","Instituto de Biociências","110","1.126","0","0","1","3","1","0","5","2","0","2","1","27","3","0","0","0","0","0","0","0","0","0","0","2","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/163_0.xlsx","13","0","97","0","0","105","90","0","0","0","0","0","0","7","44","29","35","79","18","0","0","0","0","0","0","0","0","0","0","0","0","1","0","0","0","Sim","47%","167.739","212","0","0","0","0","0","0","35171","2500","15962","53","24","4","704","22","53","1038","0","0","0","10","0","198","8","0","412","20","3","3","1","0","0","0","0","0","0","5602","2","1636","11","21","0","15","2","4","0","9","Aquili (base de dados de aquisição de livros); Banco de Obras Raras e Especiais; Base de registro de uso de periódicos; Visualpratica (base de imagens)","Periódicos Correntes","Boletim de Botânica da Universidade de São Paulo","No ano de 2016 não promovemos eventos","No ano de 2016 não participamos de projetos","Participação na Semana de Recepção aos Calouros","Visita monitorada à Biblioteca","Sim","Sim","Sim","facebook.com/BibliotecaIBUSP","","","","","","","Sim","Não","Sim","Sim","Sim","Sim","Não","Não","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"42","104","26/01/2017 - 13:43","30/01/2017 - 18:16","30/01/2017 - 18:16","0","143.107.38.164","180","mz","Museu de Zoologia","23","815","0","0","4","2","0","0","3","0","0","2","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/180_0.xlsx","13","0","28","2","2","65","57","0","0","0","0","14","0","1","51","31","300","18","15","0","0","0","0","1","1","0","0","0","0","3","4","0","0","0","0","Sim","10%","231.747","1.117","0","0","0","0","0","0","2363","2834","23.898","52","1","0","10","101","5","1930","0","0","0","502","2","18.358","40","0","1340","0","0","30","0","0","0","0","1","1","3","1.357","34","3.482","8","13","0","6","0","0","3","0","Sophia","Alerta Bibliográfico","Papeis Avulsos de Zoologia
+Arquivos de Zoologia","Apresentação dos Recursos informacionais da Biblioteca do Museu de Zoologia ","Participação no Levantamento de Dados para a Implantação da Memória do Museu de Zoologia","Não Possuímos
+","Seleção de Bibliografia relativa às exposições temporárias","Sim","Sim","Sim","https://www.facebook.com/profile.php?id=100010593135103&fref=ts","","","","","","","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"43","105","26/01/2017 - 14:41","31/01/2017 - 14:44","31/01/2017 - 14:44","0","143.107.84.251","152","fea","Faculdade de Economia, Administração e Contabilidade","414","5000","0","0","8","4","1","1","8","4","0","0","0","3","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/152_0.xlsx","15","14","49","0","0","783","850","0","0","0","0","154","30","712","94","2","0","156","4","0","0","0","0","4","6","0","0","0","0","0","0","54","75","5","0","Sim","46,9%","62747","25046","0","0","0","0","0","0","210255","6623","4122","154","13","2","271","33","21","1284","0","0","0","19","14","1252","12","0","94","4","1","2","0","0","0","0","0","14","9","2213","42","315","28","39","0","6","2","3","5","0","Não se aplica.
+","Guia da Biblioteca FEA para calouros de graduação. Formatos impresso e on-line.
+
+Link de acesso ao Guia:
+https://bibliotecafea.com/2016/02/23/guiadabiblioteca2016/
+
+","Não se aplica.
+
+","Nome do evento: Workshop “Web of Science; EndNote Web; JCR; Essential Science Indicators e InCities”.
+Expositor: Deborah Dias (Thomson Reuters).
+Período: 03/05/2016 (das 9h às 16h).
+Tipo de evento: Workshop.
+Nível de participação da Biblioteca: Participação na Comissão Organizadora e na Divulgação.
+
+Nome do evento: “Workshop LexisNexis”.
+Expositor: Thiago Barbosa (LexisNexis)
+Período: 29/11/2016 (das 14h às 16h).
+Tipo de evento: Workshop.
+Nível de participação da Biblioteca: Participação na Comissão Organizadora e na Divulgação.
+
+","Projeto Biblioteca Inteligente - Implantação de sistema de segurança e inventário por rádio-frequência (RFID).
+","O Guia da Biblioteca, em formato impresso e on-line, é elaborado especialmente para os calouros da graduação. Ele é atualizado todos os anos. Além disso, elaboramos tutoriais no Blog da Biblioteca sobre bases de dados, utilização de equipamentos da Biblioteca etc. para a graduação.
+À pedido dos professores, ministramos, em sala de aula, treinamentos sobre técnicas de pesquisa, utilização de bases de dados e normas bibliográficas para alunos de graduação.
+
+","Não se aplica.
+","Sim","Sim","Sim","http://www.facebook.com/bibliotecafeausp ","http://twitter.com/BibliotecaFEA ","http://bibliotecafea.com","https://www.flickr.com/fotos/bibliotecafea   ","https://www.pinterest.com/bibliotecafea/  ","Não se aplica","Slideshare - http://pt.slideshare.net/BibliotecaFEA  ","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"44","106","26/01/2017 - 16:55","31/01/2017 - 11:42","10/03/2017 - 18:22","0","143.107.8.30","153","fflch","Faculdade de Filosofia, Letras e Ciências Humanas","374","6.200","0","0","10","3","2","0","19","10","3","0","1","28","6","0","0","0","0","0","0","0","0","0","0","0","0","0","12","4","1","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/153_0.xlsx","14","0","512","0","0","1.358","742","0","0","0","0","781","4","9","432","0","0","76","97","0","1","0","0","64","9","0","0","0","0","0","0","1.912","939","820","293","Sim","20%","183.579","614","0","0","12","0","1660","0","179.823","19.981","148.302","338","12","4","367","61","13","4652","0","0","0","0","0","0","6","4","1.420","8","2","22","7","0","0","0","0","58","8","8.463","92","20","27","64","0","9","3","4","3","1","","Blog, Homepage da biblioteca, homepage de trabalhos acadêmicos, Folders, Guias de informações, serviços e produtos","","Leitura com performance da escritora Cláudia Canto.
+ Data: 8 de novembro de 2016
+Organização: Biblioteca FFLCH","- Divulgação de Produtos e Serviços da Biblioteca 
+- Organização do acervo ""Livros sem condições de uso""
+- Reorganização da mapoteca
+- Modernistas: : Levantamento de obras de escritores Modernistas, identificando as que a Biblioteca Florestan Fernandes possui e quais destas obras devem ir para o acervo de obras especiais.
+- Avaliação de termos na área de História a ser enviada ao Vocabulário Controlado SIBIX (Em andamento)
+","- Václav Havel na Metamorfose da Europa  (1936-2011).
+Data: 18 de abril a 30 de outubro de 2016. 
+Organização: Prof. Antonio Menezes - FFLCH/DLO
+ 
+- Marguerite Duras e seus tempos
+Data: 13 de outubro e 18 de novembro de 2016
+Organização: Cristina Kuntz e Maurício Ayer - FFLCH/DLM
+
+- Relíquias da cultura coreana
+Data: 10 de novembro a 23 de dezembro
+Organização: Profa. Yun Jung Im - FFLCH/DLO
+","","Sim","Sim","Sim","https://www.facebook.com/bibliotecaflorestanfernandes/","https://twitter.com/bibliofflch","https://bibliotecaflorestan.wordpress.com/","","","","","Sim","Não","Sim","Sim","Sim","Sim","Sim","Não","Não","Sim","Sim","Sim","Sim","Não","Não","Não","Não","Não","Não"
+"45","107","27/01/2017 - 10:21","27/01/2017 - 16:33","27/01/2017 - 16:33","0","143.107.57.24","174","ip","Instituto de Psicologia","120","2.170","0","0","10","6","3","0","6","2","1","0","0","26","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/174.xlsx","15","0","107","0","0","650","62","0","0","0","0","143","0","0","29","0","0","0","0","0","0","0","0","59","31","0","0","0","0","5","0","4","0","0","0","Sim","95%","57.063","132","0","82","12","0","0","0","22.110","8.377","29.593","20","34","7","428","52","10","1.822","0","0","0","0","0","0","0","0","0","7","1","8","0","0","0","0","0","0","0","3.800","121","2.420","20","25","0","2","1","4","0","7","Bases de dados
+Base Nacional 
+
+Index Psi Livros: 25 registros
+Index Psi Periódicos: 2.198 registros
+Index Psi Teses/TCC: 161 registros
+Index Vídeos: 0
+
+Base Internacional 
+Eventos em Psicologia: 207 registros
+LILACS: 122 registros
+
+BDTD:  163 registros
+Multihes:  21 registros
+","BOLETIM INFORMATIVO DA BIBLIOTECA DANTE MOREIRA LEITE DO INSTITUTO DE PSICOLOGIA DA USP (Vol.1, 2011-)
+Versão atualizada: Ano V | n. 4 | abril 2015
+Periodicidade: Quadrimestral
+Opções disponíveis: Online e Impressa
+Edição: Aparecida Angélica Zoqui Paulovic Sabadini
+Comissão Editorial: Aparecida Angélica Zoqui Paulovic Sabadini, Aline Frascarelli e Vanessa Cristine de Oliveira Martins
+Design e Diagramação: Vanessa Cristine de Oliveira Martins
+Revisão de texto: Vanessa Cristine de Oliveira Martins
+Divulgação: Carla Cristina do Nascimento; Helina Alves de Araujo; Sandra Teixeira Alves.","Revista ""Psicologia USP"" - Periódico editado pelo IPUSP.
+Atividades - Biblioteca
+Gerenciamento do Sistema ScholarOne de submissão de manuscritos
+Colaboração em Projetos
+Participação nas reuniões da Comissão Executiva
+Gerenciamento do Facebook da revista  ","Eventos:
+
+Inauguração do Museu de Psicologia do Instituto de Psicologia da USP. Data: 6 de maio de 2016.
+
+VI Coletiva de Autores do IPUSP / Apresentação do novo site do IPUSP. Data: 31 de agosto de 2016.
+
+Conversando com Margarida [Maggi] Hoffman Windholz sobre Fred S. Keller. Data: 15 de setembro 2016.
+
+19a. Semana do Livro e da Biblioteca - Exposição Margarida [Maggi] Hoffman Windholz Data: 24 a 27 de outubro de 2016.
+
+Exposições (Fotos, documentos etc.)
+
+Exposição “César Ades”. Abertura: 6 de maio de 2016.
+
+Exposição “Profa. Maria Helena Souza Patto”. Abertura: 16 de março de 2016.
+
+Exposição “Profa. Sylvia Leser de Mello”. Abertura: 15 de junho de 2016.
+
+","Projetos
+Nome: Biblioteca Virtual em Saúde - Psicologia (BVS-Psi) 
+Descrição: Fonte de informação que reúne, organiza e dissemina o conhecimento técnico-científico em Psicologia gerado no Brasil. 
+Data de início 1/1/2000. Convênio: Conselho Federal de Psicologia x IPUSP para formalização da coordenação técnica da BVS-Psi na Biblioteca do IPUSP: dezembro de 2015.  
+Patrocinador(es): Instituto de Psicologia da USP, Conselho Federal de Psicologia (CFP) e Fórum Brasileiro das Entidades de Psicologia 
+Pessoal da Biblioteca envolvido: 3 (três)
+Resultados obtidos: Controle bibliográfico da produção técnico-científica nacional na área de Psicologia 
+Quantificação no período: 2.384 registros incluídos
+URL: www.bvs-psi.org.br
+
+Nome: PePSIC (Periódicos Eletrônicos em Psicologia)
+Descrição: Publicação de Periódicos com texto completo na Biblioteca Virtual em Saúde - Psicologia 
+Data de início 15/6/2004.
+Patrocinador(es): IPUSP e Conselho Federal de Psicologia
+Resultados obtidos dos patrocinadores: Financeiro
+Pessoal da Biblioteca envolvido: 1
+Resultados obtidos: Inclusão de 6 títulos, no total de 164 títulos, 3.318 fascículos de revistas de Psicologia dos países da América Latina
+Quantificação no período: 87 títulos editados.
+URL: http://portal.pepsic.bvsalud.org","Treinamentos em diversas bases de dados.
+Cursos sobre Metodologia do Trabalho Científico.
+Cursos sobre o artigo científico  -  “Artigo científico dos fundamentos a submissão""
+Aula, a convite de Professores, em diversas disciplinas do IPUSP, com introdução ao curso “Artigo científico dos fundamentos a submissão”, “Acesso às bases de dados”, “EndNote Basic”.","Projeto - Biblioteca Virtual em Saúde Psicologia (BVS-Psi), parceria entre o Conselho Federal de Psicologia (CFP) e a Biblioteca Dante Moreira Leite do Instituto de Psicologia da Universidade de São Paulo (IPUSP).","Sim","Sim","Sim","https://www.facebook.com/bibliotecaipusp/?fref=ts ","","","","","","","Sim","Não","Sim","Sim","Sim","Sim","Sim","Sim","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não"
+"46","108","30/01/2017 - 14:31","30/01/2017 - 16:55","30/01/2017 - 16:55","0","143.107.237.17","175","iqsc","Instituto de Química de São Carlos","177","1442","0","0","2","4","0","0","3","1","0","0","0","0","2","1","6","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1","1","0","https://indicadores.abcd.usp.br/sites/default/files/webform/175.xlsx","14","18","29","0","0","181","20","0","0","0","0","85","0","0","6","0","0","10","0","0","0","0","0","0","0","0","0","0","0","180","383","0","0","0","0","Sim","95%","85.038","42","0","0","0","0","0","0","68.957","505","20.282","138","37","7","404","26","10","451","0","0","0","2","0","20","3","0","27","15","0","8","0","0","0","0","0","0","0","20.873","157","21.919","23","13","0","7","0","1","19","0","Base Local: Banco de Sugestões. No. de registros cadastrados: 996
+Base Nacional: CIN. No. de registros cadastrados: 01","Título: SBI Divulga • Periodicidade: Mensal • Formato: impressa e online • Distribuição: Doação
+Título: Fanpage da Biblioteca • Formato: online • Distribuição: Doação
+Título: Blog da Biblioteca • Formato: online • Distribuição: Doação
+Título: Relatório de atividades 2015 • Formato: Impresso • Distribuição: Doação
+Título: Manual para uso do software Anti-plágio : Plagiarism Detector Formato: Impresso • Distribuição: Doação
+","","Nome do evento: Novo layout da Biblioteca: classificação por nível de ruído
+Período: data inicial e final do evento. 20/01/2016
+Tipo de evento: Lançamento de Produtos/Serviços
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Café com livros – recepção dos calouros
+Período: data inicial e final do evento. 17-18/02/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca - Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Dia Internacional da Mulher
+Período: data inicial e final do evento. 08/03/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Aula para disciplina
+Período: data inicial e final do evento. 15-17/03/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca - Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Programa “USP e as profissões – visita monitorada”
+Período: data inicial e final do evento. 12/04/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca - Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Homenagem ao Dia das Mães
+Período: data inicial e final do evento. 05/05/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Disponibilização da Sala Multiuso do SBI/IQSC para a comunidade IQSC
+Período: data inicial e final do evento. 19/05/2016
+Tipo de evento: Lançamento de Produtos/Serviços
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Semana do Meio Ambiente – Oficina de origami com papéis reciclados, facilitadora: Amanda Carneiro da Silva
+Período: data inicial e final do evento. 09/06/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca - Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Dia do Químico – “A química da Festa Junina”
+Período: data inicial e final do evento. 16/06/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca - Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Projeto Pequeno Cidadão – visita monitorada
+Período: data inicial e final do evento. 22/06/2016 e 28/06/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca - Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Exposição de painéis de disciplina do curso de graduação em Química
+Período: data inicial e final do evento. 30/06/2016
+Tipo de evento: Exposição
+Nível de participação da Biblioteca – Divulgação
+
+Nome do evento: O surreal das sensações, artista plástico Rafael Zafalon
+Período: data inicial e final do evento. 15/07-25/08/2016
+Tipo de evento: Exposição
+Nível de participação da Biblioteca - Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Confiança gera confiança - resultado da conferencia dos livros no acervo e liberação de entrada com mochilas
+Período: data inicial e final do evento. 29/07/2016
+Tipo de evento: Lançamento de Produtos/Serviços
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Campanha Mundial pela Leitura – participação da Mobilização Mundial pela Leitura
+Período: data inicial e final do evento. 20/09/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca - Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Faces – fotos e poesias que retratam o cenário da Aldeia Mana Culele, Angola – África – autor: Casimiro Paschoal “Lumbandanga” da Silva
+Período: data inicial e final do evento. 20/09-28/10/2016
+Tipo de evento: Exposição
+Nível de participação da Biblioteca - Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Outubro Rosa na Biblioteca do IQSC – Mês de combate ao câncer de mama – Arrecadação de alimentos em prol da Rede Feminina de Combate ao Câncer
+Período: data inicial e final do evento. 01-14/10/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Origin para principiantes: principais usos no curso de química – XIX Semana de Química Prof. Edson Rodrigues, palestrante: Dr. Antonio Carlos Roveda Junior 
+Período: data inicial e final do evento. 03/10/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca - Participação na Comissão Organizadora 
+
+Nome do evento: Artesanato solidário – Outubro Rosa na Biblioteca do IQSC em prol da Rede Feminina de Combate ao Câncer
+Período: data inicial e final do evento. 13/10/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Participação na Comissão Organizadora 
+
+Nome do evento: Workshop Web of Science, Journal Citation Reports e Endnote Web
+Período: data inicial e final do evento. 18/10/2016
+Tipo de evento: Workshop
+Nível de participação da Biblioteca – Participação na Comissão Organizadora
+
+Nome do evento: 3ª Festa do Livro da USP, 19ª Semana do Livro e da Biblioteca na USP
+Período: data inicial e final do evento. 24-27/10/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Participação na Comissão Organizadora
+
+Nome do evento: “MICROSOFT EXCEL – Conceitos fundamentais para o uso da ferramenta”
+Período: data inicial e final do evento. 26-27/10/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Contação de história para confecção de livros, facilitadores: Ninho Coletivo, participantes: Alunos da Creche e Pré-Escola São Carlos - SAS/USP
+Período: data inicial e final do evento. 27/10/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Bonecas Africanas – 3ª Festa do Livro da USP, 19ª Semana do Livro e da Biblioteca na USP
+Período: data inicial e final do evento. 25/10/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Participação na Comissão Organizadora
+
+Nome do evento: 19ª Semana do Livro e da Biblioteca na USP
+Período: data inicial e final do evento. 24-27/10/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+
+Nome do evento: Árvore de Natal Interativa
+Período: data inicial e final do evento. 05-23/12/2016
+Tipo de evento: Outros
+Nível de participação da Biblioteca – Evento totalmente realizado pela Biblioteca
+","Nome do Projeto: Implantação da Sala Multiuso
+Descrição: Readequação de sala e de equipamentos de informática para atender à demanda por um espaço destinado a treinamentos e capacitações. Foram instalados: 12 microcomputadores e softwares com licenças institucionais de acordo com sugestão dos docentes e de interesse dos usuários
+Data de início: Março/2016
+Data de finalização: 19/05/2016
+Resultados: Utilização para as atividades de ensino, pesquisa e extensão, por toda a comunidade do IQSC, como: atividades extraclasse, aulas, assim como treinamentos e capacitações de usuários.
+Pessoal da biblioteca envolvido: 3
+
+Nome do Projeto: Projeto de Revitalização da Biblioteca do Instituto de Química de São Carlos
+Descrição: Readequação de espaço físico e melhor distribuição do mobiliário. Os três pisos da biblioteca foram divididos por nível de ruído (Piso 1 – piso interativo e de fácil mobilidade para atividades como seminários, aulas com docentes, atividades extraclasse ou mesmo como um ponto de encontro; Piso 2 – neste piso, o nível de ruído é moderado; Piso 3 – foi estruturado para que alunos pudessem estudar individualmente e em silêncio).
+Permissão de entrada com mochilas e bolsas. Colocação de lousas nas salas de estudo em grupo. Alteração do layout do piso térreo de forma que o espaço possa ser utilizado para múltiplas atividades da comunidade acadêmica. 
+Data de início: Janeiro/2016
+Resultado: Foram criados espaços flexíveis, proporcionando aos usuários maior interação e também liberdade de escolha quanto ao local de preferência de estudo, ou seja, dependendo da atividade a ser realizada na biblioteca, é possível aos usuários optarem pelo espaço adequado.
+Favorecem também sua utilização para aulas de disciplinas que requeiram os recursos de informática
+Pessoal da biblioteca envolvido: 10
+
+Nome do Projeto: Projeto de Revitalização da Biblioteca do Instituto de Química de São Carlos
+Descrição: Readequação de espaço físico e melhor distribuição do mobiliário. Os três pisos da biblioteca foram divididos por nível de ruído. Permissão de entrada com mochilas e bolsas. Colocação de lousas nas salas de estudo em grupo Alteração do layout do piso térreo de forma que o espaço possa ser utilizado em horários diferenciados para múltiplas atividades da comunidade acadêmica, instalação de sala de informática multiuso no piso térreo, que englobará a sala pró-aluno, com 30 microcomputadores, criação de um espaço de integração da Unidade.
+Data de início: Janeiro/2016
+Resultado: Foram criados espaços flexíveis, proporcionando aos usuários maior interação e também liberdade de escolha quanto ao local de preferência de estudo, ou seja, dependendo da atividade a ser realizada na biblioteca, é possível aos usuários optarem pelo espaço adequado.
+Favorecem também sua utilização para aulas de disciplinas que requeiram os recursos de informática; e espaço de integração no Instituto que servirá como área mais descontraída para estudos e realização de eventos acadêmicos, científicos e culturais.
+Pessoal da biblioteca envolvido: 5
+
+Nome do Projeto: Finalização e implantação do Sistema de fichas catalográficas (Publicações) /ISBN
+Descrição: Desenvolvimento em parceria com o STI/IQSC, de um sistema automatizado para geração de fichas catalográficas, páginas de rosto e dados para solicitação e atribuição de ISBN.
+Data de Início: Janeiro/2016
+Resultado: Agilizar o processo de confecção de fichas catalográficas, paginas de rosto, e de outros dados de publicações de docentes e pesquisadores da Unidade. Geração de dados para solicitação/atribuição de ISBN à essas publicações.
+Pessoal da biblioteca envolvido: 3","Foram promovidas visitas orientadas, treinamentos, semana de integração dos alunos com os sistemas informacionais do SBI/IQSC (SEMANA DEDALUS) e atividade lúdica: “qual sua experiência com biblioteca?” com toda a equipe para apresentação dos produtos e serviços da biblioteca. 
+Também foram promovidas palestras técnicas e aulas a convite da unidade direcionadas aos alunos de graduação, tiveram como suporte: microcomputadores ligados à rede mundial de computadores, com acesso a bases de dados nacionais e internacionais, livres e regulamentadas; materiais editorados pela equipe do SBI; e vídeo de sensibilização para usuários na utilização da infraestrutura da biblioteca e vídeo de preservação do acervo, ambos criados pelo SBI/IQSC.
+No Dia do Químico, que teve como tema: Química da Festa Junina, foram realizadas atividades em parceria com o Grupo PET. E na Semana da Química ocorreu uma exposição fotográfica e de poesias e curso de aplicativo direcionado ao alunos de graduação.","Durante o ano ocorreram visitas monitoradas – USP e as profissões - destinadas a estudantes de ensino médio de diferentes cidades do Estado de São Paulo e do próprio município. Em atividade conjunta com a Comissão de Cultura e Extensão do IQSC ocorreram exposições artísticas. Foi promovida uma oficina de artesanato, que contou com a participação de docentes, funcionários (do IQSC e de outras Unidades), alunos e terceirizados que confeccionaram peças artesanais. Algumas peças produzidas foram vendidas e outras doadas à Rede Feminina de Combate ao Câncer. Com valor arrecadado foram compradas latas de leite e fraldas geriátricas e doadas a essa entidade, assim como alimentos não perecíveis deixados no posto de arrecadação que foi montado no SBI no Outubro Rosa. Durante todo o mês foi promovida a conscientização de prevenção ao câncer. Em parceria com as demais Bibliotecas do Campus São Carlos, o Grupo Coordenador de Atividades de Cultura e Extensão Universitária do Campus de São Carlos (GCACEx) e a Editora da Universidade de São Paulo (EDUSP) foi promovida a 3ª Festa do Livro de São Carlos e 19ª Semana do Livro e da Biblioteca na USP, com apresentações artísticas, de teatro, poesia, grupos musicais e corais, oficinas de artesanato e origami, palestras.
+Houve a participação da biblioteca na Mobilização Mundial pela Leitura.
+Atividades desenvolvidas em parceria com o Grupo PET direcionadas ao Projeto Pequeno Cidadão. 
+Foram realizadas atividades específicas como: dia da mulher, dia das mães, dia do químico, dia do meio ambiente, semana do livro e da biblioteca. ","Sim","Sim","Sim","https://www.facebook.com/BibliotecaIQSC","0","http://sbi.iqsc.usp.br/","0","0","0","0","Não","Não","Sim","Não","Sim","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"47","109","30/01/2017 - 15:36","31/01/2017 - 14:23","31/01/2017 - 14:23","0","143.107.42.186","137","cebimar","Centro de Biologia Marinha","13","73","0","0","1","0","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/137_0.xlsx","13","0","27","0","0","30","0","0","0","0","0","0","0","0","0","0","0","14","0","1","0","0","0","3","0","0","0","0","0","0","0","0","0","0","0","Não","","19460","94","0","0","0","262","0","7960","320","255","230","20","6","0","83","8","0","243","0","0","0","0","0","0","0","0","0","14","0","0","0","0","0","0","0","0","0","210","2","70","6","4","1","2","1","1","0","0","Base do site de notícias do CEBIMar (http://noticias.cebimar.usp.br) – Base Local - Total 1633 registros - 206 registros cadastrados em 2016.","Não houve.","Não houve.","Não houve.","Não houve.","Não houve.","Gerenciamento do site do CEBIMar, incluindo o agendamento de Visitas Monitoradas","Sim","Sim","Sim"," https://www.facebook.com/cebimarusp/","","","","","","","Não","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
+"48","110","31/01/2017 - 09:14","31/01/2017 - 12:02","31/01/2017 - 12:02","0","201.27.126.182","179","mp","Museu Paulista","22","501","501","0","1","1","0","0","4","1","2","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","40","1","0","42","20","0","0","0","0","0","0","1","11","13","1","5","0","0","0","0","0","0","0","2","0","0","0","0","0","0","0","0","0","Sim","100%","44124","120","0","22","0","0","0","0","47","387","495","28","0","0","0","0","0","0","0","0","0","31","2","0738","0","0","0","0","0","0","0","0","0","13","0","1","0","877","17","48","7","9","2","4","0","3","1","1","Não","Não","Não","Exposição “O comércio de alimentos na Itu de antigamente”
+
+Em 2016 a Biblioteca participou, juntamente com os Setores de Objetos e Arquivo Histórico e Fotografia, da Exposição O comércio de alimentos na Itu de antigamente, no Centro de Estudos do Museu Republicano “Convenção de Itu”/MP/USP.
+Os serviços de Arquivo Histórico e Fotografia, de Objetos e de Biblioteca selecionaram documentos de seus acervos referentes aos banquetes dos quais participou o político Washington Luiz, expondo cardápios e fotografias dos eventos; objetos utilizados para os serviços de mesa; matérias e anúncios de jornais de época sobre doces de Itu, padarias, confeitarias, armazéns e restaurantes da cidade naquele momento histórico.
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+Exposição “Itu em fotografias e postais”
+
+A Biblioteca participou da exposição Itu em fotografias e postais, concebida a partir da pesquisa de mestrado de André Luís de Lima, Imagens da cidade: a evolução urbana de Itu através da fotografia, defendida na Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo em 2014. A exposição está localizada na sala A2 do edifício histórico do Museu Republicano e conta com exemplares originais da Coleção de Jornais dos Séculos XIX e XX que possuem anúncios de fotógrafos e casas fotográficas.
+
+
+
+","Projeto Oral - Termino 2016
+
+Para comemorar essas duas décadas de existência, a Biblioteca criou o Projeto Memória Oral, inspirando-se em iniciativa semelhante da Biblioteca Mário de Andrade (São Paulo).
+
+Até o final de 2016 foram coletados depoimentos orais de vinte pessoas, entre usuários, pesquisadores, funcionários e ex-funcionários do próprio Museu, que tiveram, de alguma forma, ligação com a Biblioteca e puderam contar suas experiências para registro e acesso ao público. O projeto assegura e preserva as impressões dos entrevistados que resultarão em banco de registro da cultura material e imaterial da instituição.
+Entrevista	Data 	Entrevistado	                               Relação com a biblioteca
+19	            24/05/16	Maria Cristina Monteiro Tasca	            Ex-funcionária
+20	            10/06/16	Maurício Maiolo Lopes	                    Pesquisador
+
+","Não","Não","Sim","Não","Não","","","","","","","","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"49","111","31/01/2017 - 10:13","01/02/2017 - 10:43","01/02/2017 - 10:43","0","143.107.178.163","154","fm","Faculdade de Medicina","156","2.850","220","0","0","3","3","0","10","6","3","0","2","6","0","0","1","0","0","0","0","0","0","0","0","1","1","0","3","0","0","3","3","0","https://indicadores.abcd.usp.br/sites/default/files/webform/154_0.xlsx","16","47","47","0","0","362","6","0","0","0","0","0","0","0","45","26","20","120","6","0","0","0","0","0","0","0","0","0","0","0","0","3","0","0","5","Sim","26.674 ","0","207","0","31","0","0","0","0","30.984","7.761","53.284","147","168","115","1.593","306","210","2.958","0","0","0","4.108","138","43.983","0","0","0","96","25","103","39","0","0","0","0","75","0","77.490","643","3.137","39","28","2","5","0","2","63","0","Nome: OPI - Observatório da Produção Intelectual do Sistema HC e FMUSP
+Tipo: Base Local
+Registros cadastrados no período: 4.372
+
+Nome: EDUCA
+Tipo: Base Nacional
+Registros cadastrados no período: 131
+
+Nome: LILDBI
+Tipo: Base ocal
+Registros cadastrados no período:  441 (teses) 11 (artigos)","Título: Guia de Apresentação de Dissertações, Teses e Monografias
+Periodicidade: Variável
+Formato: Impresso e Online
+Distribuição: Doação
+
+Título: Home page da Biblioteca
+Periodicidade: Diária
+Formato: Online
+Distribuição: Doação
+
+Título: Home page da BVS-Educ
+Periodicidade: Diária
+Formato: Online
+Distribuição: Doação
+
+Título: Blog da Biblioteca da FMUSP
+Periodicidade: Diária
+Formato: Online
+Distribuição: Doação
+
+Título: Facebook da Biblioteca da FMUSP
+Periodicidade: Diária
+Formato: Online
+Distribuição: Doação
+
+Título: Twitter da Biblioteca da FMUSP
+Periodicidade: Diária
+Formato: Online
+Distribuição: Doação","Título: Clinics
+Periodicidade: Bimestral
+Formato: Online
+Distribuição: Doação
+Nível de participação da Biblioteca: Divulgação
+
+Título: InRad News
+Periodicidade: Bimestral
+Formato: Online
+Distribuição: Doação
+Nível de participação da Biblioteca: Divulgação
+
+Título: Revista de Terapia Ocupacional da USP
+Periodicidade: Quadrimestral
+Formato: Impresso e Online
+Distribuição: Doação
+Nível de participação da Biblioteca: Editoração, normalização técnica, inserção no portal de revistas da USP e em base de dados LILACS e divulgação
+
+Título: Revista de Medicina
+Periodicidade: Trimestral
+Formato: Impresso e Online
+Distribuição: Doação
+Nível de participação da Biblioteca:  Editoração, normalização técnica, produção gráfica, inserção no portal de revistas da USP e em base de dados LILACS, distribuição e divulgação.","Nome: Workshop Get Yourself Published!
+Período: 04/04/2016
+Patrocinadores: SIBiUSP; Thieme; Bibliotecas do Quadrilátero da Saúde
+Tipo de evento: workshop
+Nível de participação da Biblioteca: Participação da Comissão Organizadora, inscrições, orçamentos buffet e divulgação
+
+Nome: An Authors Guide to Scientif Publishing - Karger
+Período: 06/10/2016
+Patrocinadores: SIBiUSP; DotLib; Biblioteca FMUSP
+Tipo de evento: palestra
+Nível de participação da Biblioteca: Participação da Comissão Organizadora e divulgação
+
+Nome: Workshop de Publicação Científica - American Journal Experts AJE
+Período: 01/11/2016
+Patrocinadores: SIBiUSP; AJE; Bibliotecas do Quadrilátero da Saúde
+Tipo de evento: workshop
+Nível de participação da Biblioteca: Participação da Comissão Organizadora e divulgação","Nome: BVS-Educ - Biblioteca Virtual de Educação em Ciências da Saúde
+Descrição: Projeto para certificação da BVS.
+Data de início: 01/01/2016 Data de finalização: 31/05/2016
+Patrocinadores: CREMESP
+Recursos recebidos dos patrocinadores: R$ 12.800,00
+Pessoal da Biblioteca envolvido: 04
+Resultados obtidos: Manutenção do site, criação de dois ambientes um de homologação e outro de produção; automatização de processos; criação de blog e twitter; inserção de estatísticas de acesso ao site; criação de widget e padronização de conteúdos de acordo com a metodologia LILACS.
+Quantificação: 5.353
+Site: http://bvs.fm.usp.br 
+Blog: https://bvseduc.wordpress.com/
+
+Nome: OPI - Observatório da Produção Intelectual do Sistema FMUSP-HC
+Descrição: Projeto para coleta, disponibilização e análise da produção científica de relevância da FMUSP e HC
+Data de início: 13/06/2016 Data de finalização: 12/06/2017
+Patrocinadores: FFM
+Recursos recebidos dos patrocinadores: R$ 48.060,00
+Pessoal da Biblioteca envolvido: 05
+Resultados obtidos: atualização do ambiente DSpace para a versão mais recente; coleta de Fator de Impacto da Web of Science e da Scopus; criação de cadastro de autoridade controle dos institutos envolvidos; transferência de know-how para a equipe de TI da FM.
+Quantificação: 4.372
+URL: http://observatorio.fm.usp.br/
+
+Nome: Projeto de Modernização e Readequação do Espaço Físico da Biblioteca da FMUSP
+Descrição: Troca do mobiliário para ampliação de locais de estudo e convivência; ampliação da infraestrutura elétrica e de rede de dados; ampliação de guarda-volumes.
+Data de início: 2015 Data de finalização: 18/10/2016
+Patrocinadores: FFM
+Recursos recebidos dos patrocinadores: R$ 230.000,00
+Pessoal da Biblioteca envolvido: todos
+Resultados obtidos: ampliação de assentos, salas de estudo, guarda-volumes e tomadas.
+","Assinatura de 35 títulos de e.books da área da saúde, dando continuidade à Proposta de Implantação de Sistema de Livros Eletrônicos para a Graduação.
+Participação nas reuniões da Plataforma Educacional (Google Classroom) para a implantação do novo currículo do curso de Medicina.
+Participação na disciplina MSP1010 Introdução à Medicina e à Saúde, Módulo de Educação à Distância sobre Acesso e Recuperação da Informação na Prática Médica para os alunos ingressantes de 2016.","Participação no 2nd FMUSP Medical Winter School - visita monitorada à Biblioteca e apoio à pesquisa de 58 intercambistas de diversos países.
+Visita periódica do Programa PALTEX ao posto existente na Biblioteca da FMUSP e participação em stand de evento.
+","Sim","Sim","Sim","https://www.facebook.com/DBDFMUSP","https://twitter.com/bibliotecafmusp","http://spdbcfmusp.wordpress.com","https://www.flickr.com/photos/69541987@N03/","","https://www.youtube.com/user/bibliotecafmusp/","","Sim","Não","Sim","Sim","Sim","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"51","113","22/02/2017 - 15:05","22/02/2017 - 17:29","22/02/2017 - 17:29","0","143.107.118.88","144","eel","Escola de Engenharia de Lorena","58","1.659","0","0","5","1","0","0","8","0","0","0","0","5","6","0","0","0","0","0","0","0","0","0","0","0","0","0","14","5","8","0","0","0","https://indicadores.abcd.usp.br/sites/default/files/webform/144_0.xlsx","14","0","0","0","0","128","0","0","0","0","0","16","0","0","2","0","0","21","2","0","0","0","0","0","0","0","0","0","0","0","0","0","35","0","366","Não","","0","0","0","20.118","0","0","0","0","151.748","220","9.532","49","32","15","379","23","15","264","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","4.414","98","5.260","56","13","3","3","0","3","1","0","Nome: DISSERTAÇÕES & TESES (FAENQUIL)
+Link: http://bibliotecas2.eel.usp.br/BDTD-FAENQUIL
+Base Local
+Registros: 140
+
+Nome: MONOGRAFIAS (TCC - EEL)
+link: http://bibliotecas2.eel.usp.br/monografias
+Base Local
+Registros: 517 ","Sem publicações","Sem publicações","Nível de participação da biblioteca: em todos os eventos abaixo "" Evento totalmente realizado pela biblioteca""
+
+19º Semana do Livro e da Biblioteca na USP 
+
+Tipo de evento: Exposição
+Nome do Evento: Exposição Fotográfica “Anjos” - Fotógrafo Pedro Hummel   Período: 16 a 31 de agosto de 2016
+
+Tipo de evento: Exposição
+Nome do evento: Exposição  Fotográfica ""Brasil Adentro"" - Fotógrafa Taísa Maar   Período: 17 a 28 de outubro de 2016
+
+Tipo de evento: Exposição
+Nome do evento: Exposição ""Fragrâncias de Impressões"" - Artista Samuel Reis    Período:  17 a 28 de outubro de 2016
+
+Tipo de evento: Concurso Fotográfico
+II Concurso de Fotografias “Olhares sobre a Biblioteca EEL” 
+
+BiblioRosa – adesão ao movimento ""Outubro Rosa"".Plantio de mudas de rosas nos jardins da Biblioteca EEL.
+
+Inauguração Virtual da Galeria de Diretores da EEL/USP Data: 24 de outubro de 2016
+
+Visita Técnica para alunos do curso de  Biblioteconomia do Centro Universitário Teresa D´Ávila - UNIFATEA 
+
+III Café Acadêmico para docentes com a apresentação ""E-books na EEL/USP"" - Ministrante:  Rodrigo Oliveira - Cengage Learning. Data: 27 de outubro de 2016 
+
+Palestra “Acervo Bibliográfico: ações preventivas e procedimentos para pequenos reparos” – Ministrante: Nelson Roberto da Silva Data: 26 de outubro de 2016 
+
+
+Participação da Biblioteca EEL no vídeo ""SeR DiFeReNtE é NoRmAL""
+ Clipe Colaborativo com a música ""SeR DiFeReNtE é NoRmAL""? de Adilson Xavier e Vinícius Castro 
+ Coordenadora: Profª Elisabeth Pinheiro Alcântara
+","Sem projetos vigentes","Participa das atividades da disciplina de graduação TCC, com orientações de metodologia científica, formatos, normas e acesso à pesquisa bibliográfica. Organiza e/ou ministra cursos e treinamento individual ou em grupo em pesquisa e em redação científica.
+	","A Biblioteca tem desenvolvido projetos, como “Livro Andante” e “Ação Cultural na Biblioteca EEL”. Este último, com o intuito de divulgar a biblioteca como espaço de cultura, dinâmica e aberta a todo tipo de expressão tais como: exposições, saraus, cursos, oficinas entre outras.  Tais eventos são realizados pela parceria profissional entre as bibliotecárias da EEL, UNIFATEA e UNISAL através do intercâmbio de eventos programados nas referidas bibliotecas. ","Sim","Sim","Sim","https://www.facebook.com/BibliotecasEel/","https://twitter.com/bibliotecaseel","http://tcc-eel.blogspot.com.br/","","","","","Sim","Não","Sim","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não"
+"52","114","03/03/2017 - 15:45","03/03/2017 - 18:16","03/03/2017 - 18:16","0","143.107.62.162","176","iri","Instituto de Relações Internacionais","25","60","301.64","0","1","0","0","1","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","","","0","0","0","0","1060","1076","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","3000","0","80","Não","","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","2","3","0","1","0","0","0","0","","Abertura da Biblioteca do IRI","Relatório Anual","","","","","Sim","Sim","Sim","iri","","","","","","","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"
