@@ -7,7 +7,7 @@
 use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
-$csvArchive = fopen('/home/anna_valim/csv_ABCD/2014.csv', "r");
+$csvArchive = fopen('../data/2014.csv', "r");
 
 if ($csvArchive !== FALSE) {
 
