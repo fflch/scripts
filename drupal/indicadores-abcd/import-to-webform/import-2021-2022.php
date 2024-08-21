@@ -20,13 +20,8 @@ foreach($csvArchives as $archive){
   if ($archive !== FALSE) {
     
     $anoDeSubmissao = fgetcsv($archive, 1000, ",");
-    fgetcsv($archive, 1000, ",");
 
     while (($data = fgetcsv($archive, 1000, ",")) !== FALSE) {
-      if (!$header) {
-          $header = $data;
-          continue;
-      }
 
       list(
         $usuario,
