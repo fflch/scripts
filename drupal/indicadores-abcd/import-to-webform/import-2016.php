@@ -16,13 +16,8 @@ $csvArchive = fopen('../../scripts/drupal/indicadores-abcd/data/2016.csv', "r");
 if ($csvArchive !== FALSE) {
 
     $anoDeSubmissao = fgetcsv($csvArchive, 1000, ",");
-    fgetcsv($csvArchive, 1000, ",");
 
     while (($data = fgetcsv($csvArchive, 1000, ",")) !== FALSE) {
-      if (!$header) {
-          $header = $data;
-          continue;
-      }
 
     list(
         $usuario,
