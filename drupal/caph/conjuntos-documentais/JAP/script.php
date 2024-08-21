@@ -83,15 +83,15 @@ Texto Simples       'field_descritores'
 Texto Simples       'field_referencia'
 Texto (simples,longo)       'field_observacoes'
 Arquivo             'field_arquivo'
+
+Crie um diretório no servidor onde os arquivos PDF serão copiados.
+Execute o seguinte comando, considerando o caminho para o seu arquivo de script:
+
+./vendor/bin/drush php-script /home/acesarfs/projetos/scripts/drupal/caph/conjuntos-documentais/JAP/script.php
+
+Para apagar todos os nodes:    ./vendor/bin/drupal entity:delete node --all
+Para apagar todos os arquivos: ./vendor/bin/drupal entity:delete file --all
  
-Execute o seguinte comando, considerando o caminho para o seu arquivo de script: ./vendor/bin/drush php-script /home/SEU USER/-caminho restante-/script.php
-Ex.: ./vendor/bin/drush php-script /home/acesarfs/projetos/scripts/drupal/caph/conjuntos-documentais/JAP/script.php
- *
- * ** Para apagar todos os nodes:    ./vendor/bin/drupal entity:delete node --all
- * ** Para apagar todos os arquivos: ./vendor/bin/drupal entity:delete file --all
- *
- *  Fase de progresso: pesquisa de código multivalue para o coluna$coluna descritores.
- *
  */
 use \Drupal\node\Entity\Node;
 use \Drupal\file\Entity\File;
@@ -106,7 +106,7 @@ foreach ($arquivos as $arquivo) {
 }
 array_pop($arquivos_array);
 
-$full_path = $home_dir . 'arquivos_JAP/';
+$full_path = $home_dir . 'CAPH/arquivos_JAP/';
 $arquivospdf = scandir($full_path);
 
 foreach($arquivos_array as $coluna) {
@@ -188,7 +188,7 @@ foreach($arquivos_array as $coluna) {
     $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado){
         $arquivo_conteudo = file_get_contents($full_path.$arquivo_relacionado);
-        $file = file_save_data($arquivo_conteudo, 'public://'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
+        $file = file_save_data($arquivo_conteudo, 'public://'.'JAP/'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
         $Arquivos_PDF[] = [
             'target_id' => $file->id(),
             'alt'       => 'Arquivo' . $file->id(),
