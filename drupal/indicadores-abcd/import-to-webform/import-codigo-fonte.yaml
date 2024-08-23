@@ -63,6 +63,8 @@ pagina_dados_administrativos:
       PCRP: 'Prefeitura do Campus de Ribeirão Preto'
       PCSC: 'Prefeitura do Campus de São Carlos'
       ABCD: 'Agência de Biblioteca e Coleções Digitais'
+    '#empty_option': '- Selecione -'
+    '#empty_value': '- Selecione -'
   dados_administrativos:
     '#type': fieldset
     '#title': 'Dados Administrativos'
@@ -163,135 +165,93 @@ pagina_capacitacao_rh:
     cursos_eventos_fieldset:
       '#type': fieldset
       '#title': 'Cursos/Eventos e Outros Promovidos pela Biblioteca e/ou Unidade'
-      eventos_fieldset:
-        '#type': fieldset
-        '#title': Eventos
-        superior_eventos:
-          '#type': number
-          '#title': Superior
-        tecnico_eventos:
-          '#type': number
-          '#title': Técnico
-        basico_eventos:
-          '#type': number
-          '#title': Básico
-      pos_graduacao:
-        '#type': fieldset
-        '#title': Pós-Graduação
-        especializacao:
-          '#type': fieldset
-          '#title': Especialização
-          superior_especializacao:
-            '#type': number
-            '#title': Superior
-          tecnico_especializacao:
-            '#type': number
-            '#title': Técnico
-          basico_especializacao:
-            '#type': number
-            '#title': Básico
-        mestrado:
-          '#type': fieldset
-          '#title': Mestrado
-          superior_mestrado:
-            '#type': number
-            '#title': Superior
-          tecnico_mestrado:
-            '#type': number
-            '#title': Técnico
-          basico_mestrado:
-            '#type': number
-            '#title': Básico
-        doutorado:
-          '#type': fieldset
-          '#title': Doutorado
-          superior_doutorado:
-            '#type': number
-            '#title': Superior
-          tecnico_doutorado:
-            '#type': number
-            '#title': Técnico
-          basico_doutorado:
-            '#type': number
-            '#title': Básico
-        cursos:
-          '#type': fieldset
-          '#title': Cursos
-          gerencial:
-            '#type': fieldset
-            '#title': Gerencial
-            '#states':
-              invisible:
-                ':input[name="ano_de_submissao"]':
-                  value:
-                    greater_equal: '2023'
-            superior_gerencial:
-              '#type': number
-              '#title': Superior
-            tecnico_gerencial:
-              '#type': number
-              '#title': Técnico
-            basico_gerencial:
-              '#type': number
-              '#title': Básico
-          capacitacao_servicos:
-            '#type': fieldset
-            '#title': 'Capacitação para Serviços'
-            '#states':
-              invisible:
-                ':input[name="ano_de_submissao"]':
-                  value:
-                    greater_equal: '2023'
-            superior_capacitacao_servicos:
-              '#type': number
-              '#title': Superior
-            tecnico_capacitacao_servicos:
-              '#type': number
-              '#title': Técnico
-            basico_capacitacao_servicos:
-              '#type': number
-              '#title': Básico
-          tic:
-            '#type': fieldset
-            '#title': 'Tecnologia de Informação e Comunicação'
-            '#states':
-              invisible:
-                ':input[name="ano_de_submissao"]':
-                  value:
-                    greater_equal: '2023'
-            superior_tic:
-              '#type': number
-              '#title': Superior
-            tecnico_tic:
-              '#type': number
-              '#title': Técnico
-            basico_tic:
-              '#type': number
-              '#title': Básico
-          superior_cursos:
-            '#type': number
-            '#title': Superior
-            '#states':
-              visible:
-                ':input[name="ano_de_submissao"]':
-                  value:
-                    greater_equal: '2023'
-          tecnico_cursos:
-            '#type': number
-            '#title': Técnico
-            '#states':
-              visible:
-                ':input[name="ano_de_submissao"]':
-                  value:
-                    greater_equal: '2023'
-          basico_cursos:
-            '#type': number
-            '#title': Básico
-            '#states':
-              visible:
-                ':input[name="ano_de_submissao"]':
-                  value:
-                    greater_equal: '2023'
+      superior_eventos:
+        '#type': number
+        '#title': 'Eventos - Superior'
+      tecnico_eventos:
+        '#type': number
+        '#title': 'Eventos - Técnico'
+      basico_eventos:
+        '#type': number
+        '#title': 'Eventos - Básico'
+      superior_especializacao:
+        '#type': number
+        '#title': 'Pós-Graduação - Especialização - Superior'
+      tecnico_especializacao:
+        '#type': number
+        '#title': 'Pós-Graduação - Especialização - Técnico'
+      basico_especializacao:
+        '#type': number
+        '#title': 'Pós-Graduação - Especialização - Básico'
+      superior_mestrado:
+        '#type': number
+        '#title': 'Pós-Graduação - Mestrado - Superior'
+      tecnico_mestrado:
+        '#type': number
+        '#title': 'Pós-Graduação - Mestrado - Técnico'
+      basico_mestrado:
+        '#type': number
+        '#title': 'Pós-Graduação - Mestrado - Básico'
+      superior_doutorado:
+        '#type': number
+        '#title': 'Pós-Graduação - Doutorado - Superior'
+      tecnico_doutorado:
+        '#type': number
+        '#title': 'Pós-Graduação - Doutorado - Técnico'
+      basico_doutorado:
+        '#type': number
+        '#title': 'Pós-Graduação - Doutorado - Básico'
+      superior_gerencial:
+        '#type': number
+        '#title': 'Cursos - Gerencial - Superior'
+      tecnico_gerencial:
+        '#type': number
+        '#title': 'Cursos - Gerencial - Técnico'
+      basico_gerencial:
+        '#type': number
+        '#title': 'Cursos - Gerencial - Básico'
+      superior_capacitacao_servicos:
+        '#type': number
+        '#title': 'Cursos - Capacitação para Serviços - Superior'
+      tecnico_capacitacao_servicos:
+        '#type': number
+        '#title': 'Cursos - Capacitação para Serviços - Técnico'
+      basico_capacitacao_servicos:
+        '#type': number
+        '#title': 'Cursos - Capacitação para Serviços - Básico'
+      superior_tic:
+        '#type': number
+        '#title': 'Cursos - Tecnologia de Informação e Comunicação (TIC) - Superior'
+      tecnico_tic:
+        '#type': number
+        '#title': 'Cursos - Tecnologia de Informação e Comunicação (TIC) - Técnico'
+      basico_tic:
+        '#type': number
+        '#title': 'Cursos - Tecnologia de Informação e Comunicação (TIC) - Básico'
+      superior_cursos:
+        '#type': number
+        '#title': 'Cursos - Superior'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2023'
+      tecnico_cursos:
+        '#type': number
+        '#title': 'Cursos - Técnico'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2023'
+      basico_cursos:
+        '#type': number
+        '#title': 'Cursos - Básico'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2023'
     capacitacao_usuarios:
       '#type': fieldset
       '#title': 'Capacitação de Usuários'
@@ -308,214 +268,151 @@ aquisicao_acervo:
   '#title': 'Aquisição e Acervo'
   '#prev_button_label': '< Página anterior'
   '#next_button_label': 'Próxima página >'
-  livros:
+  aquisicao:
     '#type': fieldset
-    '#title': Livros
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+    '#title': Aquisição
     livros_nacional_compra:
       '#type': number
-      '#title': 'Nacional - Compra'
+      '#title': 'Livros - Nacional - Compra'
     livros_internacional_compra:
       '#type': number
-      '#title': 'Internacional - Compra'
+      '#title': 'Livros - Internacional - Compra'
     livros_nacional_permuta:
       '#type': number
-      '#title': 'Nacional - Permuta'
+      '#title': 'Livros - Nacional - Permuta'
     livros_internacional_permuta:
       '#type': number
-      '#title': 'Internacional - Permuta'
+      '#title': 'Livros - Internacional - Permuta'
     livros_nacional_doacao:
       '#type': number
-      '#title': 'Nacional - Doação'
+      '#title': 'Livros - Nacional - Doação'
     livros_internacional_doacao:
       '#type': number
-      '#title': 'Internacional - Doação'
-  livros_e_outros_tipos_de_materiais:
-    '#type': fieldset
-    '#title': 'Livros e Outros Tipos de Materiais'
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-    livros_compra_seg_versao:
-      '#type': number
-      '#title': Compra
-    livros_doacao_seg_versao:
-      '#type': number
-      '#title': Doação
-  teses:
-    '#type': fieldset
-    '#title': Teses
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+      '#title': 'Livros - Internacional - Doação'
     teses_nacional_compra:
       '#type': number
-      '#title': 'Nacional - Compra'
+      '#title': 'Teses - Nacional - Compra'
     teses_internacional_compra:
       '#type': number
-      '#title': 'Internacional - Compra'
+      '#title': 'Teses - Internacional - Compra'
     teses_nacional_permuta:
       '#type': number
-      '#title': 'Nacional - Permuta'
+      '#title': 'Teses - Nacional - Permuta'
     teses_internacional_permuta:
       '#type': number
-      '#title': 'Internacional - Permuta'
+      '#title': 'Teses - Internacional - Permuta'
     teses_nacional_doacao:
       '#type': number
-      '#title': 'Nacional - Doação'
+      '#title': 'Teses - Nacional - Doação'
     teses_internacional_doacao:
       '#type': number
-      '#title': 'Internacional - Doação'
-  periodicos_titulos_correntes:
-    '#type': fieldset
-    '#title': 'Periódicos - Títulos Correntes'
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+      '#title': 'Teses - Internacional - Doação'
     periodicos_nacional_compra:
       '#type': number
-      '#title': 'Nacional - Compra'
+      '#title': 'Periódicos - Títulos Correntes - Nacional - Compra'
     periodicos_internacional_compra:
       '#type': number
-      '#title': 'Internacional - Compra'
+      '#title': 'Periódicos - Títulos Correntes - Internacional - Compra'
     periodicos_nacional_permuta:
       '#type': number
-      '#title': 'Nacional - Permuta'
+      '#title': 'Periódicos - Títulos Correntes - Nacional - Permuta'
     periodicos_internacional_permuta:
       '#type': number
-      '#title': 'Internacional - Permuta'
+      '#title': 'Periódicos - Títulos Correntes - Internacional - Permuta'
     periodicos_nacional_doacao:
       '#type': number
-      '#title': 'Nacional - Doação'
+      '#title': 'Periódicos - Títulos Correntes - Nacional - Doação'
     periodicos_internacional_doacao:
       '#type': number
-      '#title': 'Internacional - Doação'
-  periodicos_segunda_versao:
-    '#type': fieldset
-    '#title': 'Periódicos - Títulos Correntes'
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-    periodicos_compra_seg_versao:
-      '#type': number
-      '#title': Compra
-    periodicos_doacao_seg_versao:
-      '#type': number
-      '#title': Doação
-  multimeios:
-    '#type': fieldset
-    '#title': Multimeios
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+      '#title': 'Periódicos - Títulos Correntes - Internacional - Doação'
     multimeios_nacional_compra:
       '#type': number
-      '#title': 'Nacional - Compra'
+      '#title': 'Multimeios - Nacional - Compra'
     multimeios_internacional_compra:
       '#type': number
-      '#title': 'Internacional - Compra'
+      '#title': 'Multimeios - Internacional - Compra'
     multimeios_nacional_permuta:
       '#type': number
-      '#title': 'Nacional - Permuta'
+      '#title': 'Multimeios - Nacional - Permuta'
     multimeios_internacional_permuta:
       '#type': number
-      '#title': 'Internacional - Permuta'
+      '#title': 'Multimeios - Internacional - Permuta'
     multimeios_nacional_doacao:
       '#type': number
-      '#title': 'Nacional - Doação'
+      '#title': 'Multimeios - Nacional - Doação'
     multimeios_internacional_doacao:
       '#type': number
-      '#title': 'Internacional - Doação'
-  outros_tipos:
-    '#type': fieldset
-    '#title': 'Outros Tipos'
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+      '#title': 'Multimeios - Internacional - Doação'
     outros_nacional_compra:
       '#type': number
-      '#title': 'Nacional - Compra'
+      '#title': 'Outros Tipos - Nacional - Compra'
     outros_internacional_compra:
       '#type': number
-      '#title': 'Internacional - Compra'
+      '#title': 'Outros Tipos - Internacional - Compra'
     outros_nacional_permuta:
       '#type': number
-      '#title': 'Nacional - Permuta'
+      '#title': 'Outros Tipos - Nacional - Permuta'
     outros_internacional_permuta:
       '#type': number
-      '#title': 'Internacional - Permuta'
+      '#title': 'Outros Tipos - Internacional - Permuta'
     outros_nacional_doacao:
       '#type': number
-      '#title': 'Nacional - Doação'
+      '#title': 'Outros Tipos - Nacional - Doação'
     outros_internacional_doacao:
       '#type': number
-      '#title': 'Internacional - Doação'
-  livros_dedalus:
+      '#title': 'Outros Tipos - Internacional - Doação'
+    livros_compra_seg_versao:
+      '#type': number
+      '#title': 'Livros e outros tipos de materiais - Compra'
+    livros_doacao_seg_versao:
+      '#type': number
+      '#title': 'Livros e outros tipos de materiais - Doação'
+    periodicos_compra_seg_versao:
+      '#type': number
+      '#title': 'Periódicos - Títulos Correntes - Compra'
+    periodicos_doacao_seg_versao:
+      '#type': number
+      '#title': 'Periódicos - Títulos Correntes - Doação'
+  acervo:
     '#type': fieldset
-    '#title': Livros
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+    '#title': Acervo
     baixas_efetuadas_livros:
       '#type': number
-      '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#title': 'Livros - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
     materiais_nao_cadastrados_livros:
       '#type': number
-      '#title': 'Materiais não Cadastrados no DEDALUS'
-  teses_dedalus:
-    '#type': fieldset
-    '#title': Teses
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+      '#title': 'Livros - Materiais não Cadastrados no DEDALUS'
     baixas_efetuadas_teses:
       '#type': number
-      '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#title': 'Teses - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
     materiais_nao_cadastrados_teses:
       '#type': number
-      '#title': 'Materiais não Cadastrados no DEDALUS'
-  periodicos:
-    '#type': fieldset
-    '#title': Periódicos
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value: '2016'
+      '#title': 'Teses - Materiais não Cadastrados no DEDALUS'
     periodicos_pergunta_desdobramento:
-      '#type': textfield
-      '#title': 'A biblioteca faz desdobramento retrospectivo de suas coleções periódicas?'
+      '#type': select
+      '#title': 'Periódicos - A biblioteca faz desdobramento retrospectivo de suas coleções periódicas?'
+      '#options':
+        Sim: Sim
+        Não: Não
+      '#empty_option': '- Selecione -'
+      '#empty_value': '- Selecione -'
+      '#states':
+        visible:
+          ':input[name="ano_de_submissao"]':
+            value: '2016'
     periodicos_percentual:
       '#type': textfield
-      '#title': 'Se sim, qual o  percentual já desdobrado?'
-  periodicos_dedalus:
-    '#type': fieldset
-    '#title': 'Periódicos (Fascículos)'
+      '#title': 'Periódicos - Se sim, qual o  percentual já desdobrado?'
+      '#states':
+        visible:
+          ':input[name="ano_de_submissao"]':
+            value: '2016'
     cadastrados_atualmente_periodicos:
       '#type': number
-      '#title': 'Materiais cadastrados no DEDALUS até a presente data'
+      '#title': 'Periódicos (Fascículos) - Materiais cadastrados no DEDALUS até a presente data'
     cadastrados_no_ano:
       '#type': number
-      '#title': 'Materiais cadastrados no DEDALUS no ANO'
+      '#title': 'Periódicos (Fascículos) - Materiais cadastrados no DEDALUS no ANO'
       '#states':
         invisible:
           ':input[name="ano_de_submissao"]':
@@ -523,7 +420,7 @@ aquisicao_acervo:
               greater_equal: '2023'
     baixas_efetuadas_periodicos:
       '#type': number
-      '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#title': 'Periódicos (Fascículos) - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
       '#states':
         invisible:
           ':input[name="ano_de_submissao"]':
@@ -531,43 +428,27 @@ aquisicao_acervo:
               greater_equal: '2023'
     materiais_nao_cadastrados_periodicos:
       '#type': number
-      '#title': 'Materiais não Cadastrados no DEDALUS'
-  backlog_catalogacao:
-    '#type': number
-    '#title': 'Backlog Catalogação - Materiais não Cadastrados no DEDALUS (livros, teses, multimeios e outros tipos)'
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  multimeios_dedalus:
-    '#type': fieldset
-    '#title': Multimeios
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+      '#title': 'Periódicos (Fascículos) - Materiais não Cadastrados no DEDALUS'
     baixas_efetuadas_multimeios:
       '#type': number
-      '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#title': 'Multimeios - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
     materiais_nao_cadastrados_multimeios:
       '#type': number
-      '#title': 'Materiais não Cadastrados no DEDALUS'
-  outros_tipos_dedalus:
-    '#type': fieldset
-    '#title': 'Outros Tipos'
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+      '#title': 'Multimeios - Materiais não Cadastrados no DEDALUS'
     baixas_efetuadas_outros:
       '#type': number
-      '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#title': 'Outros Tipos - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
     materiais_nao_cadastrados_outros:
       '#type': number
-      '#title': 'Materiais não Cadastrados no DEDALUS'
+      '#title': 'Outros Tipos - Materiais não Cadastrados no DEDALUS'
+    backlog_catalogacao:
+      '#type': number
+      '#title': 'Backlog Catalogação - Materiais não Cadastrados no DEDALUS (livros, teses, multimeios e outros tipos)'
+      '#states':
+        visible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
 pagina_5:
   '#type': wizard_page
   '#title': 'Circulação - Decidir nome'
@@ -575,13 +456,13 @@ pagina_5:
   '#next_button_label': 'Próxima página >'
   frequencia_de_usuarios:
     '#type': fieldset
-    '#title': 'Frequência de Usuários'
+    '#title': Frequência
     usp:
       '#type': number
-      '#title': USP
+      '#title': 'Frequência de Usuários - USP'
     locais_bibliotecas:
       '#type': number
-      '#title': 'Locais das Bibliotecas'
+      '#title': 'Frequência de Usuários - Locais das Bibliotecas'
       '#states':
         invisible:
           ':input[name="ano_de_submissao"]':
@@ -589,7 +470,7 @@ pagina_5:
               greater_equal: '2023'
     externos_usp:
       '#type': number
-      '#title': 'Externos à USP'
+      '#title': 'Frequência de Usuários - Externos à USP'
       '#states':
         visible:
           ':input[name="ano_de_submissao"]':
@@ -598,270 +479,237 @@ pagina_5:
   circulacao:
     '#type': fieldset
     '#title': Circulação
-    consulta:
+    consultas_acervo:
       '#type': number
-      '#title': Consulta
+      '#title': 'Consultas ao Acervo'
+    entre_bibliotecas_biblioteca_solicitante:
+      '#type': number
+      '#title': 'Empréstimo entre Bibliotecas - Como Biblioteca Solicitante'
+  comutacao_bibliografica:
+    '#type': fieldset
+    '#title': 'Comutação Bibliográfica'
+    pedidos_atendidos_nacional_sibiusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - SIBiUSP'
       '#states':
         invisible:
           ':input[name="ano_de_submissao"]':
             value:
-              greater: '2014'
-    entre_bibliotecas_biblioteca_solicitante:
+              greater: '2020'
+    pedidos_nao_atendidos_nacional_sibiusp:
       '#type': number
-      '#title': 'Empréstimo entre Bibliotecas - Como Biblioteca Solicitante'
-  consultas_acervo:
-    '#type': number
-    '#title': 'Consultas ao Acervo'
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2015'
-  emprestimos_seg_versao:
-    '#type': number
-    '#title': 'Empréstimo entre Bibliotecas - Como Biblioteca Solicitante'
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  comutacao_bibliografica:
-    '#type': fieldset
-    '#title': 'Comutação Bibliográfica'
-    nacional_como_biblioteca_fornecedora:
-      '#type': fieldset
-      '#title': 'Nacional como Biblioteca Fornecedora'
-      pedidos_atendidos_nacional_sibiusp:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - SIBiUSP'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
-      pedidos_nao_atendidos_nacional_sibiusp:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - SIBiUSP'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
-      copias_nacional_sibiusp:
-        '#type': number
-        '#title': 'Número de Cópias - SIBiUSP'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
-      pedidos_atendidos_nacional_bibliusp:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - Bibliotecas USP'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
-      pedidos_nao_atendidos_nacional_bibliusp:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - Bibliotecas USP'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      copias_bibliusp:
-        '#type': number
-        '#title': 'Número de Cópias - Bibliotecas USP'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      pedidos_atendidos_nacional_comut:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - COMUT'
-      pedidos_nao_atendidos_nacional_comut:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - COMUT'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      copias_nacional_comut:
-        '#type': number
-        '#title': 'Número de Cópias - COMUT'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      pedidos_atendidos_nacional_bireme:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - BIREME'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      pedidos_nao_atendidos_nacional_bireme:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - BIREME'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      copias_nacional_bireme:
-        '#type': number
-        '#title': 'Número de Cópias - BIREME'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      pedidos_atendidos_nacional_outros:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - OUTROS'
-      pedidos_nao_atendidos_nacional_outros:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - OUTROS'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      copias_nacional_outros:
-        '#type': number
-        '#title': 'Número de Cópias - OUTROS'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-    internacional_como_biblioteca_fornecedora:
-      '#type': fieldset
-      '#title': 'Internacional Como Biblioteca Fornecedora'
-      pedidos_atendidos_internacional:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos'
-      pedidos_nao_atendidos_internacional:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      copias_internacional:
-        '#type': number
-        '#title': 'Número de Cópias'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-    nacional_como_biblioteca_solicitante:
-      '#type': fieldset
-      '#title': 'Nacional como Biblioteca Solicitante'
-      solicitante_atendidos_nacional_sibiusp:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - SIBiUSP'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
-      solicitante_nao_atendidos_nacional_sibiusp:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - SIBiUSP'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
-      solicitante_atendidos_nacional_bibliusp:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - Bibliotecas USP'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
-      solicitante_nao_atendidos_nacional_bibliusp:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - Bibliotecas USP'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      solicitante_atendidos_nacional_comut:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - COMUT'
-      solicitante_nao_atendidos_nacional_comut:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - COMUT'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      solicitante_atendidos_nacional_bireme:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - BIREME'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      solicitante_nao_atendidos_nacional_bireme:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - BIREME'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-      solicitante_atendidos_nacional_outros:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos - OUTROS'
-      solicitante_nao_atendidos_nacional_outros:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos - OUTROS'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
-    internacional_como_biblioteca_solicitante:
-      '#type': fieldset
-      '#title': 'Internacional como Biblioteca Solicitante'
-      solicitante_atendidos_internacional:
-        '#type': number
-        '#title': 'Número de Pedidos Atendidos'
-      solicitante_nao_atendidos_internacional:
-        '#type': number
-        '#title': 'Número de Pedidos NÃO Atendidos'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - SIBiUSP'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater: '2020'
+    copias_nacional_sibiusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - SIBiUSP'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater: '2020'
+    pedidos_atendidos_nacional_bibliusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - Bibliotecas USP'
+      '#states':
+        visible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2021'
+    pedidos_nao_atendidos_nacional_bibliusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - Bibliotecas USP'
+      '#states':
+        visible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2021'
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    copias_bibliusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - Bibliotecas USP'
+      '#states':
+        visible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2021'
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    pedidos_atendidos_nacional_comut:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - COMUT'
+    pedidos_nao_atendidos_nacional_comut:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - COMUT'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    copias_nacional_comut:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - COMUT'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    pedidos_atendidos_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - BIREME'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    pedidos_nao_atendidos_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - BIREME'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    copias_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - BIREME'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    pedidos_atendidos_nacional_outros:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - OUTROS'
+    pedidos_nao_atendidos_nacional_outros:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - OUTROS'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    copias_nacional_outros:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - OUTROS'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    pedidos_atendidos_internacional:
+      '#type': number
+      '#title': 'Internacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos'
+    pedidos_nao_atendidos_internacional:
+      '#type': number
+      '#title': 'Internacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    copias_internacional:
+      '#type': number
+      '#title': 'Internacional Como Biblioteca Fornecedora - Número de Cópias'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    solicitante_atendidos_nacional_sibiusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - SIBiUSP'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater: '2020'
+    solicitante_nao_atendidos_nacional_sibiusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - SIBiUSP'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater: '2020'
+    solicitante_atendidos_nacional_bibliusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - Bibliotecas USP'
+      '#states':
+        visible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2021'
+    solicitante_nao_atendidos_nacional_bibliusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - Bibliotecas USP'
+      '#states':
+        visible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2021'
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    solicitante_atendidos_nacional_comut:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - COMUT'
+    solicitante_nao_atendidos_nacional_comut:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - COMUT'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    solicitante_atendidos_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - BIREME'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    solicitante_nao_atendidos_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - BIREME'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    solicitante_atendidos_nacional_outros:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - OUTROS'
+    solicitante_nao_atendidos_nacional_outros:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - OUTROS'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
+    solicitante_atendidos_internacional:
+      '#type': number
+      '#title': 'Internacional Como Biblioteca Solicitante - Número de Pedidos Atendidos'
+    solicitante_nao_atendidos_internacional:
+      '#type': number
+      '#title': 'Internacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos'
+      '#states':
+        invisible:
+          ':input[name="ano_de_submissao"]':
+            value:
+              greater_equal: '2023'
   assistencia_ao_usuario:
     '#type': fieldset
     '#title': 'Assistência ao usuário'
@@ -914,358 +762,438 @@ informacoes_gerais:
   '#title': 'Informações Gerais'
   '#prev_button_label': '< Página anterior'
   '#next_button_label': 'Próxima página >'
-  bases_de_dados_locais:
-    '#type': textfield
-    '#title': 'Bases de dados locais'
-  publicacoes_biblioteca:
-    '#type': textfield
-    '#title': 'Publicações da Biblioteca'
-  publicacoes_oficiais_participacao:
-    '#type': textfield
-    '#title': 'Publicações Oficiais da Unidade com Participação da Biblioteca'
-  projetos:
-    '#type': textfield
-    '#title': Projetos
-  eventos:
-    '#type': textfield
-    '#title': Eventos
-  atividades_graduacao:
-    '#type': textfield
-    '#title': 'Atividades ligadas à Graduação'
-  atividades_cultura_extensao:
-    '#type': textfield
-    '#title': 'Atividades ligadas à Cultura e Extensão'
-  servicos_pela_internet:
-    '#type': select
-    '#title': 'Oferece serviços pela internet?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  rede_sem_fio:
-    '#type': select
-    '#title': 'Possui rede sem fio?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  possui_redes_sociais:
-    '#type': select
-    '#title': 'Participa de redes sociais?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  rede_facebook:
-    '#type': textfield
-    '#title': Facebook
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  rede_twitter:
-    '#type': textfield
-    '#title': Twitter
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  rede_blog:
-    '#type': textfield
-    '#title': Blog
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  rede_flickr:
-    '#type': textfield
-    '#title': Flickr
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  rede_pinterest:
-    '#type': textfield
-    '#title': Pinterest
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  rede_youtube:
-    '#type': textfield
-    '#title': Youtube
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  rede_outro:
-    '#type': textfield
-    '#title': Outro
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
+  outras_informacoes:
+    '#type': fieldset
+    '#title': 'Outras Informações'
+    bases_de_dados_locais:
+      '#type': textarea
+      '#title': 'Bases de dados'
+    publicacoes:
+      '#type': fieldset
+      '#title': Publicações
+      publicacoes_biblioteca:
+        '#type': textarea
+        '#title': 'Publicações da Biblioteca'
+      publicacoes_oficiais_participacao:
+        '#type': textarea
+        '#title': 'Publicações Oficiais da Unidade com Participação da Biblioteca'
+    eventos:
+      '#type': textarea
+      '#title': Eventos
+    projetos:
+      '#type': textarea
+      '#title': Projetos
+    atividades_graduacao:
+      '#type': textarea
+      '#title': 'Atividades ligadas à Graduação'
+    atividades_cultura_extensao:
+      '#type': textarea
+      '#title': 'Atividades ligadas à Cultura e Extensão'
+    internet:
+      '#type': fieldset
+      '#title': Internet
+      servicos_pela_internet:
+        '#type': select
+        '#title': 'Oferece serviços pela internet?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      rede_sem_fio:
+        '#type': select
+        '#title': 'Possui rede sem fio?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      possui_redes_sociais:
+        '#type': select
+        '#title': 'Participa de redes sociais?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          invisible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2023'
+      redes_sociais:
+        '#type': fieldset
+        '#title': 'Redes Sociais'
+        rede_twitter:
+          '#type': textfield
+          '#title': Twitter
+          '#states':
+            invisible:
+              ':input[name="ano_de_submissao"]':
+                value:
+                  greater_equal: '2023'
+        rede_facebook:
+          '#type': textfield
+          '#title': Facebook
+          '#states':
+            invisible:
+              ':input[name="ano_de_submissao"]':
+                value:
+                  greater_equal: '2023'
+        rede_blog:
+          '#type': textfield
+          '#title': Blog
+          '#states':
+            invisible:
+              ':input[name="ano_de_submissao"]':
+                value:
+                  greater_equal: '2023'
+        rede_flickr:
+          '#type': textfield
+          '#title': Flickr
+          '#states':
+            invisible:
+              ':input[name="ano_de_submissao"]':
+                value:
+                  greater_equal: '2023'
+        rede_pinterest:
+          '#type': textfield
+          '#title': Pinterest
+          '#states':
+            invisible:
+              ':input[name="ano_de_submissao"]':
+                value:
+                  greater_equal: '2023'
+        rede_youtube:
+          '#type': textfield
+          '#title': Youtube
+          '#states':
+            invisible:
+              ':input[name="ano_de_submissao"]':
+                value:
+                  greater_equal: '2023'
+        rede_outro:
+          '#type': textfield
+          '#title': Outro
+          '#states':
+            invisible:
+              ':input[name="ano_de_submissao"]':
+                value:
+                  greater_equal: '2023'
 acessibilidade:
   '#type': wizard_page
   '#title': Acessibilidade
   '#prev_button_label': '< Página anterior'
   '#next_button_label': 'Próxima página >'
-  condicoes_de_acessibilidade:
-    '#type': select
-    '#title': 'Oferece condições de acessibilidade?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  funcionario_treinado_em_libras:
-    '#type': select
-    '#title': 'Atendente ou membro da equipe de atendimento treinado na língua brasileira de sinais Libras?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  acessibilidade_arquitetonica_ou_fisica:
+  acessibilidade_fieldset:
     '#type': fieldset
-    '#title': 'Acessibilidade Arquitetônica ou Física'
-    '#title_display': invisible
-    banheiros_adaptados:
+    '#title': Acessibilidade
+    condicoes_de_acessibilidade:
       '#type': select
-      '#title': 'Possui banheiros adaptados?'
+      '#title': 'Oferece condições de acessibilidade?'
       '#options':
         Sim: Sim
         Não: Não
-    bebedouros_lavabos_adaptados:
+      '#empty_option': '- Selecione -'
+      '#empty_value': '- Selecione -'
+    funcionario_treinado_em_libras:
       '#type': select
-      '#title': 'Possui bebedouros e lavabos adaptados?'
+      '#title': 'Atendente ou membro da equipe de atendimento treinado na língua brasileira de sinais Libras?'
       '#options':
         Sim: Sim
         Não: Não
-    dimensionamento_entradas:
-      '#type': select
-      '#title': 'Possui Entrada/Saída com dimensionamento?'
-      '#options':
-        Sim: Sim
-        Não: Não
-    dimensionamento_entradas_seg_versao:
-      '#type': select
-      '#title': 'Possui entrada/saída com vão livre acessível para a circulação de pessoas com deficiência e mobilidade reduzida?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    equipamentos_eletronicos_adaptados:
-      '#type': select
-      '#title': 'Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?'
-      '#options':
-        Sim: Sim
-        Não: Não
-    espaco_atendimento_adaptado:
-      '#type': select
-      '#title': 'Possui espaço para atendimento adaptado?'
-      '#options':
-        Sim: Sim
-        Não: Não
-    espaco_atendimento_adaptado_seg_versao:
-      '#type': select
-      '#title': 'Possui espaço para atendimento acessível?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    mobiliario_adaptado:
-      '#type': select
-      '#title': 'Possui mobiliário adaptado?'
-      '#options':
-        Sim: Sim
-        Não: Não
-    mobiliario_adaptado_seg_versao:
-      '#type': select
-      '#title': 'Possui mobiliário acessível?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    rampa_acesso_adaptada:
-      '#type': select
-      '#title': 'Possui rampa de acesso com corrimão?'
-      '#options':
-        Sim: Sim
-        Não: Não
-    sinalizacao_tatil:
-      '#type': select
-      '#title': 'Possui sinalização tátil?'
-      '#options':
-        Sim: Sim
-        Não: Não
-    sinalizacao_visual:
-      '#type': select
-      '#title': 'Possui sinalização visual?'
-      '#options':
-        Sim: Sim
-        Não: Não
-    sinalizacao_sonora:
-      '#type': select
-      '#title': 'Possui sinalização sonora?'
-      '#options':
-        Sim: Sim
-        Não: Não
-    desobstrucao_ambientes:
-      '#type': select
-      '#title': 'Possui ambiente desobstruídos que facilitem a movimentação de cadeirantes e pessoas com deficiência visual?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
-    desobstrucao_ambientes_seg_versao:
-      '#type': select
-      '#title': 'Possui ambientes acessíveis para a movimentação/deslocamento/circulação de pessoas com deficiência e mobilidade reduzida?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-  acessibilidade_de_conteudo:
-    '#type': fieldset
-    '#title': 'Acessibilidade de Conteúdo'
-    plano_aquisicao_bibliografica_adaptada:
-      '#type': select
-      '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato especial?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
-    plano_aquisicao_bibliografica_adaptada_seg_versao:
-      '#type': select
-      '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato acessível?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    acervo_adaptado:
-      '#type': select
-      '#title': 'Possui acervo em formato especial (Braille/Sonoro)?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
-    acervo_adaptado_seg_versao:
-      '#type': select
-      '#title': 'Possui acervo em formato acessível para pessoas com deficiência visual (cegueira e baixa visão)?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    websites_apps_adaptados:
-      '#type': select
-      '#title': 'Possui websites e aplicações desenvolvidas para que pessoas percebam, compreendam, naveguem e utilizem os  serviços oferecidos?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
-    websites_apps_adaptados_seg_versao:
-      '#type': select
-      '#title': 'Possui sítios, plataformas e programas acessíveis  para que pessoas com deficiência naveguem  e utilizem os serviços oferecidos com autonomia?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    impressoras_braille:
-      '#type': select
-      '#title': 'Disponibiliza impressoras em Braille?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
-    impressoras_braille_seg_versao:
-      '#type': select
-      '#title': 'Disponibiliza serviços de impressão em Braille?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    software_leitura_acessivel:
-      '#type': select
-      '#title': 'Disponibiliza software de leitura para pessoas com baixa visão?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
-    software_leitura_acessivel_seg_versao:
-      '#type': select
-      '#title': 'Disponibiliza leitores de tela para pessoas com deficiência visual (cegueira e baixa visão)?'
-      '#options':
-        Sim: Sim
-        Não: Não
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    teclado_virtual:
-      '#type': select
-      '#title': 'Disponibiliza teclado virtual?'
-      '#options':
-        Sim: Sim
-        Não: Não
+      '#empty_option': '- Selecione -'
+      '#empty_value': '- Selecione -'
+    acessibilidade_arquitetonica_ou_fisica:
+      '#type': fieldset
+      '#title': 'Acessibilidade Arquitetônica ou Física'
+      '#title_display': invisible
+      banheiros_adaptados:
+        '#type': select
+        '#title': 'Possui banheiros adaptados?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      bebedouros_lavabos_adaptados:
+        '#type': select
+        '#title': 'Possui bebedouros e lavabos adaptados?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      dimensionamento_entradas:
+        '#type': select
+        '#title': 'Possui Entrada/Saída com dimensionamento?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      dimensionamento_entradas_seg_versao:
+        '#type': select
+        '#title': 'Possui entrada/saída com vão livre acessível para a circulação de pessoas com deficiência e mobilidade reduzida?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2021'
+      equipamentos_eletronicos_adaptados:
+        '#type': select
+        '#title': 'Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      espaco_atendimento_adaptado:
+        '#type': select
+        '#title': 'Possui espaço para atendimento adaptado?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      espaco_atendimento_adaptado_seg_versao:
+        '#type': select
+        '#title': 'Possui espaço para atendimento acessível?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2021'
+      mobiliario_adaptado:
+        '#type': select
+        '#title': 'Possui mobiliário adaptado?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      mobiliario_adaptado_seg_versao:
+        '#type': select
+        '#title': 'Possui mobiliário acessível?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2021'
+      rampa_acesso_adaptada:
+        '#type': select
+        '#title': 'Possui rampa de acesso com corrimão?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      sinalizacao_tatil:
+        '#type': select
+        '#title': 'Possui sinalização tátil?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      sinalizacao_visual:
+        '#type': select
+        '#title': 'Possui sinalização visual?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      sinalizacao_sonora:
+        '#type': select
+        '#title': 'Possui sinalização sonora?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      desobstrucao_ambientes:
+        '#type': select
+        '#title': 'Possui ambiente desobstruídos que facilitem a movimentação de cadeirantes e pessoas com deficiência visual?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          invisible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater: '2020'
+      desobstrucao_ambientes_seg_versao:
+        '#type': select
+        '#title': 'Possui ambientes acessíveis para a movimentação/deslocamento/circulação de pessoas com deficiência e mobilidade reduzida?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2021'
+    acessibilidade_de_conteudo:
+      '#type': fieldset
+      '#title': 'Acessibilidade de Conteúdo'
+      plano_aquisicao_bibliografica_adaptada:
+        '#type': select
+        '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato especial?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          invisible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater: '2020'
+      plano_aquisicao_bibliografica_adaptada_seg_versao:
+        '#type': select
+        '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato acessível?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2021'
+      acervo_adaptado:
+        '#type': select
+        '#title': 'Possui acervo em formato especial (Braille/Sonoro)?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          invisible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater: '2020'
+      acervo_adaptado_seg_versao:
+        '#type': select
+        '#title': 'Possui acervo em formato acessível para pessoas com deficiência visual (cegueira e baixa visão)?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2021'
+      websites_apps_adaptados:
+        '#type': select
+        '#title': 'Possui websites e aplicações desenvolvidas para que pessoas percebam, compreendam, naveguem e utilizem os  serviços oferecidos?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          invisible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater: '2020'
+      websites_apps_adaptados_seg_versao:
+        '#type': select
+        '#title': 'Possui sítios, plataformas e programas acessíveis  para que pessoas com deficiência naveguem  e utilizem os serviços oferecidos com autonomia?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2021'
+    acessibilidade_tecnologica:
+      '#type': fieldset
+      '#title': 'Acessibilidade Tecnológica'
+      impressoras_braille:
+        '#type': select
+        '#title': 'Disponibiliza impressoras em Braille?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          invisible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater: '2020'
+      impressoras_braille_seg_versao:
+        '#type': select
+        '#title': 'Disponibiliza serviços de impressão em Braille?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2021'
+      software_leitura_acessivel:
+        '#type': select
+        '#title': 'Disponibiliza software de leitura para pessoas com baixa visão?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          invisible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater: '2020'
+      software_leitura_acessivel_seg_versao:
+        '#type': select
+        '#title': 'Disponibiliza leitores de tela para pessoas com deficiência visual (cegueira e baixa visão)?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#states':
+          visible:
+            ':input[name="ano_de_submissao"]':
+              value:
+                greater_equal: '2021'
+      teclado_virtual:
+        '#type': select
+        '#title': 'Disponibiliza teclado virtual?'
+        '#options':
+          1: Sim
+          0: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
