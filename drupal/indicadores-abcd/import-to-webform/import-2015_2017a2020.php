@@ -185,6 +185,11 @@ foreach($csvArchives as $archive){
         $teclado_virtual,
     ) = array_slice($data, 8);
 
+    $total_ano_anterior = (float) $total_ano_anterior;
+      $ampliacao_no_periodo = (float) $ampliacao_no_periodo;
+      $reducao_no_periodo = (float) $reducao_no_periodo;
+    $area_fisica_agrupada = $total_ano_anterior + $ampliacao_no_periodo - $reducao_no_periodo;
+
       $webform_id = 'indicadores_abcd';
       $webform = Webform::load($webform_id);
 
@@ -202,6 +207,7 @@ foreach($csvArchives as $archive){
                   'total_ano_anterior' => $total_ano_anterior,
                   'ampliacao_no_periodo' => $ampliacao_no_periodo,
                   'reducao_no_periodo' => $reducao_no_periodo,
+                  'area_fisica_agrupada' => $area_fisica_agrupada,
                   'funcionarios_superior' => $funcionarios_superior,
                   'funcionarios_superior_especializacao' => $funcionarios_superior_especializacao,
                   'funcionarios_superior_mestrado' => $funcionarios_superior_mestrado,
@@ -360,7 +366,7 @@ foreach($csvArchives as $archive){
                   'teclado_virtual' => $teclado_virtual,
               ],
           ];
-
+          
           $webform_submission = WebformSubmission::create($values);
           $webform_submission->save();
       } else {
