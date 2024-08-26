@@ -2,14 +2,12 @@ ano_de_submissao:
   '#type': number
   '#title': 'Ano de Submissão'
   '#readonly': true
+  '#access': false
 pagina_dados_administrativos:
   '#type': wizard_page
   '#title': 'Dados Administrativos'
   '#prev_button_label': '< Página anterior'
   '#next_button_label': 'Próxima página >'
-  usuario:
-    '#type': textfield
-    '#title': Usuário
   unidade:
     '#type': select
     '#title': Unidade
@@ -80,41 +78,24 @@ pagina_dados_administrativos:
       area_fisica_agrupada:
         '#type': number
         '#title': 'Área Física (em m2)'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
       total_ano_anterior:
         '#type': number
         '#title': 'Total ano anterior'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
+        '#access': false
       ampliacao_no_periodo:
         '#type': number
         '#title': 'Ampliação no período'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
+        '#access': false
       reducao_no_periodo:
         '#type': number
         '#title': 'Redução no período'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
+        '#access': false
     recursos_humanos:
       '#type': fieldset
       '#title': 'Recursos humanos'
       funcionarios_superior:
         '#type': number
-        '#title': 'Funcionários de nível superior'
+        '#title': 'Funcionários de nível Superior'
       funcionarios_superior_especializacao:
         '#type': number
         '#title': 'Funcionários de Nível Superior com Especialização'
@@ -133,27 +114,15 @@ pagina_dados_administrativos:
       funcionarios_tecnico_vagas_nao_preenchidas:
         '#type': number
         '#title': 'Funcionários de Nível Técnico - Vagas não preenchidas'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
+        '#access': false
       funcionarios_basico_vagas_nao_preenchidas:
         '#type': number
         '#title': 'Funcionários de Nível Básico - Vagas não preenchidas'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
+        '#access': false
       funcionarios_superior_vagas_nao_preenchidas:
         '#type': number
         '#title': 'Funcionários de Nível Superior - Vagas não preenchidas'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
+        '#access': false
 pagina_capacitacao_rh:
   '#type': wizard_page
   '#title': 'Capacitação de RH'
@@ -204,54 +173,48 @@ pagina_capacitacao_rh:
       superior_gerencial:
         '#type': number
         '#title': 'Cursos - Gerencial - Superior'
+        '#access': false
       tecnico_gerencial:
         '#type': number
         '#title': 'Cursos - Gerencial - Técnico'
+        '#access': false
       basico_gerencial:
         '#type': number
         '#title': 'Cursos - Gerencial - Básico'
+        '#access': false
       superior_capacitacao_servicos:
         '#type': number
         '#title': 'Cursos - Capacitação para Serviços - Superior'
+        '#access': false
       tecnico_capacitacao_servicos:
         '#type': number
         '#title': 'Cursos - Capacitação para Serviços - Técnico'
+        '#access': false
       basico_capacitacao_servicos:
         '#type': number
         '#title': 'Cursos - Capacitação para Serviços - Básico'
+        '#access': false
       superior_tic:
         '#type': number
         '#title': 'Cursos - Tecnologia de Informação e Comunicação (TIC) - Superior'
+        '#access': false
       tecnico_tic:
         '#type': number
         '#title': 'Cursos - Tecnologia de Informação e Comunicação (TIC) - Técnico'
+        '#access': false
       basico_tic:
         '#type': number
         '#title': 'Cursos - Tecnologia de Informação e Comunicação (TIC) - Básico'
+        '#access': false
       superior_cursos:
         '#type': number
         '#title': 'Cursos - Superior'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
       tecnico_cursos:
         '#type': number
         '#title': 'Cursos - Técnico'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
       basico_cursos:
         '#type': number
         '#title': 'Cursos - Básico'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
     capacitacao_usuarios:
       '#type': fieldset
       '#title': 'Capacitação de Usuários'
@@ -274,93 +237,123 @@ aquisicao_acervo:
     livros_nacional_compra:
       '#type': number
       '#title': 'Livros - Nacional - Compra'
+      '#access': false
     livros_internacional_compra:
       '#type': number
       '#title': 'Livros - Internacional - Compra'
+      '#access': false
     livros_nacional_permuta:
       '#type': number
       '#title': 'Livros - Nacional - Permuta'
+      '#access': false
     livros_internacional_permuta:
       '#type': number
       '#title': 'Livros - Internacional - Permuta'
+      '#access': false
     livros_nacional_doacao:
       '#type': number
       '#title': 'Livros - Nacional - Doação'
+      '#access': false
     livros_internacional_doacao:
       '#type': number
       '#title': 'Livros - Internacional - Doação'
+      '#access': false
     teses_nacional_compra:
       '#type': number
       '#title': 'Teses - Nacional - Compra'
+      '#access': false
     teses_internacional_compra:
       '#type': number
       '#title': 'Teses - Internacional - Compra'
+      '#access': false
     teses_nacional_permuta:
       '#type': number
       '#title': 'Teses - Nacional - Permuta'
+      '#access': false
     teses_internacional_permuta:
       '#type': number
       '#title': 'Teses - Internacional - Permuta'
+      '#access': false
     teses_nacional_doacao:
       '#type': number
       '#title': 'Teses - Nacional - Doação'
+      '#access': false
     teses_internacional_doacao:
       '#type': number
       '#title': 'Teses - Internacional - Doação'
+      '#access': false
     periodicos_nacional_compra:
       '#type': number
       '#title': 'Periódicos - Títulos Correntes - Nacional - Compra'
+      '#access': false
     periodicos_internacional_compra:
       '#type': number
       '#title': 'Periódicos - Títulos Correntes - Internacional - Compra'
+      '#access': false
     periodicos_nacional_permuta:
       '#type': number
       '#title': 'Periódicos - Títulos Correntes - Nacional - Permuta'
+      '#access': false
     periodicos_internacional_permuta:
       '#type': number
       '#title': 'Periódicos - Títulos Correntes - Internacional - Permuta'
+      '#access': false
     periodicos_nacional_doacao:
       '#type': number
       '#title': 'Periódicos - Títulos Correntes - Nacional - Doação'
+      '#access': false
     periodicos_internacional_doacao:
       '#type': number
       '#title': 'Periódicos - Títulos Correntes - Internacional - Doação'
+      '#access': false
     multimeios_nacional_compra:
       '#type': number
       '#title': 'Multimeios - Nacional - Compra'
+      '#access': false
     multimeios_internacional_compra:
       '#type': number
       '#title': 'Multimeios - Internacional - Compra'
+      '#access': false
     multimeios_nacional_permuta:
       '#type': number
       '#title': 'Multimeios - Nacional - Permuta'
+      '#access': false
     multimeios_internacional_permuta:
       '#type': number
       '#title': 'Multimeios - Internacional - Permuta'
+      '#access': false
     multimeios_nacional_doacao:
       '#type': number
       '#title': 'Multimeios - Nacional - Doação'
+      '#access': false
     multimeios_internacional_doacao:
       '#type': number
       '#title': 'Multimeios - Internacional - Doação'
+      '#access': false
     outros_nacional_compra:
       '#type': number
       '#title': 'Outros Tipos - Nacional - Compra'
+      '#access': false
     outros_internacional_compra:
       '#type': number
       '#title': 'Outros Tipos - Internacional - Compra'
+      '#access': false
     outros_nacional_permuta:
       '#type': number
       '#title': 'Outros Tipos - Nacional - Permuta'
+      '#access': false
     outros_internacional_permuta:
       '#type': number
       '#title': 'Outros Tipos - Internacional - Permuta'
+      '#access': false
     outros_nacional_doacao:
       '#type': number
       '#title': 'Outros Tipos - Nacional - Doação'
+      '#access': false
     outros_internacional_doacao:
       '#type': number
       '#title': 'Outros Tipos - Internacional - Doação'
+      '#access': false
     livros_compra_seg_versao:
       '#type': number
       '#title': 'Livros e outros tipos de materiais - Compra'
@@ -379,18 +372,23 @@ aquisicao_acervo:
     baixas_efetuadas_livros:
       '#type': number
       '#title': 'Livros - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#access': false
     materiais_nao_cadastrados_livros:
       '#type': number
       '#title': 'Livros - Materiais não Cadastrados no DEDALUS'
+      '#access': false
     baixas_efetuadas_teses:
       '#type': number
       '#title': 'Teses - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#access': false
     materiais_nao_cadastrados_teses:
       '#type': number
       '#title': 'Teses - Materiais não Cadastrados no DEDALUS'
+      '#access': false
     periodicos_pergunta_desdobramento:
       '#type': select
       '#title': 'Periódicos - A biblioteca faz desdobramento retrospectivo de suas coleções periódicas?'
+      '#access': false
       '#options':
         Sim: Sim
         Não: Não
@@ -403,6 +401,7 @@ aquisicao_acervo:
     periodicos_percentual:
       '#type': textfield
       '#title': 'Periódicos - Se sim, qual o  percentual já desdobrado?'
+      '#access': false
       '#states':
         visible:
           ':input[name="ano_de_submissao"]':
@@ -413,42 +412,33 @@ aquisicao_acervo:
     cadastrados_no_ano:
       '#type': number
       '#title': 'Periódicos (Fascículos) - Materiais cadastrados no DEDALUS no ANO'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     baixas_efetuadas_periodicos:
       '#type': number
       '#title': 'Periódicos (Fascículos) - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     materiais_nao_cadastrados_periodicos:
       '#type': number
       '#title': 'Periódicos (Fascículos) - Materiais não Cadastrados no DEDALUS'
     baixas_efetuadas_multimeios:
       '#type': number
       '#title': 'Multimeios - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#access': false
     materiais_nao_cadastrados_multimeios:
       '#type': number
       '#title': 'Multimeios - Materiais não Cadastrados no DEDALUS'
+      '#access': false
     baixas_efetuadas_outros:
       '#type': number
       '#title': 'Outros Tipos - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#access': false
     materiais_nao_cadastrados_outros:
       '#type': number
       '#title': 'Outros Tipos - Materiais não Cadastrados no DEDALUS'
+      '#access': false
     backlog_catalogacao:
       '#type': number
       '#title': 'Backlog Catalogação - Materiais não Cadastrados no DEDALUS (livros, teses, multimeios e outros tipos)'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
 pagina_5:
   '#type': wizard_page
   '#title': 'Circulação - Decidir nome'
@@ -491,225 +481,115 @@ pagina_5:
     pedidos_atendidos_nacional_sibiusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
+      '#access': false
     pedidos_nao_atendidos_nacional_sibiusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
+      '#access': false
     copias_nacional_sibiusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
+      '#access': false
     pedidos_atendidos_nacional_bibliusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
     pedidos_nao_atendidos_nacional_bibliusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     copias_bibliusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     pedidos_atendidos_nacional_comut:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - COMUT'
     pedidos_nao_atendidos_nacional_comut:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - COMUT'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     copias_nacional_comut:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - COMUT'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     pedidos_atendidos_nacional_bireme:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     pedidos_nao_atendidos_nacional_bireme:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     copias_nacional_bireme:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     pedidos_atendidos_nacional_outros:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - OUTROS'
     pedidos_nao_atendidos_nacional_outros:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - OUTROS'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     copias_nacional_outros:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - OUTROS'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     pedidos_atendidos_internacional:
       '#type': number
       '#title': 'Internacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos'
     pedidos_nao_atendidos_internacional:
       '#type': number
       '#title': 'Internacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     copias_internacional:
       '#type': number
       '#title': 'Internacional Como Biblioteca Fornecedora - Número de Cópias'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     solicitante_atendidos_nacional_sibiusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
+      '#access': false
     solicitante_nao_atendidos_nacional_sibiusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
+      '#access': false
     solicitante_atendidos_nacional_bibliusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
     solicitante_nao_atendidos_nacional_bibliusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     solicitante_atendidos_nacional_comut:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - COMUT'
     solicitante_nao_atendidos_nacional_comut:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - COMUT'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     solicitante_atendidos_nacional_bireme:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     solicitante_nao_atendidos_nacional_bireme:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     solicitante_atendidos_nacional_outros:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - OUTROS'
     solicitante_nao_atendidos_nacional_outros:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - OUTROS'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
     solicitante_atendidos_internacional:
       '#type': number
       '#title': 'Internacional Como Biblioteca Solicitante - Número de Pedidos Atendidos'
     solicitante_nao_atendidos_internacional:
       '#type': number
       '#title': 'Internacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#access': false
   assistencia_ao_usuario:
     '#type': fieldset
     '#title': 'Assistência ao usuário'
@@ -785,7 +665,7 @@ informacoes_gerais:
       '#title': Projetos
     atividades_graduacao:
       '#type': textarea
-      '#title': 'Atividades ligadas à Graduação'
+      '#title': 'Atividades ligadas à Graduação, Pós-Graduação e Pesquisa'
     atividades_cultura_extensao:
       '#type': textarea
       '#title': 'Atividades ligadas à Cultura e Extensão'
@@ -816,70 +696,39 @@ informacoes_gerais:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2023'
+        '#access': false
       redes_sociais:
         '#type': fieldset
         '#title': 'Redes Sociais'
+        '#access': false
         rede_twitter:
           '#type': textfield
           '#title': Twitter
-          '#states':
-            invisible:
-              ':input[name="ano_de_submissao"]':
-                value:
-                  greater_equal: '2023'
+          '#access': false
         rede_facebook:
           '#type': textfield
           '#title': Facebook
-          '#states':
-            invisible:
-              ':input[name="ano_de_submissao"]':
-                value:
-                  greater_equal: '2023'
+          '#access': false
         rede_blog:
           '#type': textfield
           '#title': Blog
-          '#states':
-            invisible:
-              ':input[name="ano_de_submissao"]':
-                value:
-                  greater_equal: '2023'
+          '#access': false
         rede_flickr:
           '#type': textfield
           '#title': Flickr
-          '#states':
-            invisible:
-              ':input[name="ano_de_submissao"]':
-                value:
-                  greater_equal: '2023'
+          '#access': false
         rede_pinterest:
           '#type': textfield
           '#title': Pinterest
-          '#states':
-            invisible:
-              ':input[name="ano_de_submissao"]':
-                value:
-                  greater_equal: '2023'
+          '#access': false
         rede_youtube:
           '#type': textfield
           '#title': Youtube
-          '#states':
-            invisible:
-              ':input[name="ano_de_submissao"]':
-                value:
-                  greater_equal: '2023'
+          '#access': false
         rede_outro:
           '#type': textfield
           '#title': Outro
-          '#states':
-            invisible:
-              ':input[name="ano_de_submissao"]':
-                value:
-                  greater_equal: '2023'
+          '#access': false
 acessibilidade:
   '#type': wizard_page
   '#title': Acessibilidade
@@ -898,7 +747,7 @@ acessibilidade:
       '#empty_value': '- Selecione -'
     funcionario_treinado_em_libras:
       '#type': select
-      '#title': 'Atendente ou membro da equipe de atendimento treinado na língua brasileira de sinais Libras?'
+      '#title': 'Atendente treinado na Língua Brasileira de Sinais (Libras)?'
       '#options':
         Sim: Sim
         Não: Não
@@ -907,10 +756,9 @@ acessibilidade:
     acessibilidade_arquitetonica_ou_fisica:
       '#type': fieldset
       '#title': 'Acessibilidade Arquitetônica ou Física'
-      '#title_display': invisible
       banheiros_adaptados:
         '#type': select
-        '#title': 'Possui banheiros adaptados?'
+        '#title': 'Possui banheiros e lavabos acessíveis?'
         '#options':
           Sim: Sim
           Não: Não
@@ -918,7 +766,7 @@ acessibilidade:
         '#empty_value': '- Selecione -'
       bebedouros_lavabos_adaptados:
         '#type': select
-        '#title': 'Possui bebedouros e lavabos adaptados?'
+        '#title': 'Possui bebedouros acessíveis?'
         '#options':
           Sim: Sim
           Não: Não
@@ -927,6 +775,7 @@ acessibilidade:
       dimensionamento_entradas:
         '#type': select
         '#title': 'Possui Entrada/Saída com dimensionamento?'
+        '#access': false
         '#options':
           Sim: Sim
           Não: Não
@@ -940,11 +789,6 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
       equipamentos_eletronicos_adaptados:
         '#type': select
         '#title': 'Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?'
@@ -956,6 +800,7 @@ acessibilidade:
       espaco_atendimento_adaptado:
         '#type': select
         '#title': 'Possui espaço para atendimento adaptado?'
+        '#access': false
         '#options':
           Sim: Sim
           Não: Não
@@ -969,14 +814,10 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
       mobiliario_adaptado:
         '#type': select
         '#title': 'Possui mobiliário adaptado?'
+        '#access': false
         '#options':
           Sim: Sim
           Não: Não
@@ -990,11 +831,6 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
       rampa_acesso_adaptada:
         '#type': select
         '#title': 'Possui rampa de acesso com corrimão?'
@@ -1030,16 +866,12 @@ acessibilidade:
       desobstrucao_ambientes:
         '#type': select
         '#title': 'Possui ambiente desobstruídos que facilitem a movimentação de cadeirantes e pessoas com deficiência visual?'
+        '#access': false
         '#options':
           Sim: Sim
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
       desobstrucao_ambientes_seg_versao:
         '#type': select
         '#title': 'Possui ambientes acessíveis para a movimentação/deslocamento/circulação de pessoas com deficiência e mobilidade reduzida?'
@@ -1048,27 +880,18 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
     acessibilidade_de_conteudo:
       '#type': fieldset
       '#title': 'Acessibilidade de Conteúdo'
       plano_aquisicao_bibliografica_adaptada:
         '#type': select
         '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato especial?'
+        '#access': false
         '#options':
           Sim: Sim
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
       plano_aquisicao_bibliografica_adaptada_seg_versao:
         '#type': select
         '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato acessível?'
@@ -1077,24 +900,15 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
       acervo_adaptado:
         '#type': select
         '#title': 'Possui acervo em formato especial (Braille/Sonoro)?'
+        '#access': false
         '#options':
           Sim: Sim
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
       acervo_adaptado_seg_versao:
         '#type': select
         '#title': 'Possui acervo em formato acessível para pessoas com deficiência visual (cegueira e baixa visão)?'
@@ -1103,24 +917,15 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
       websites_apps_adaptados:
         '#type': select
         '#title': 'Possui websites e aplicações desenvolvidas para que pessoas percebam, compreendam, naveguem e utilizem os  serviços oferecidos?'
+        '#access': false
         '#options':
           Sim: Sim
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
       websites_apps_adaptados_seg_versao:
         '#type': select
         '#title': 'Possui sítios, plataformas e programas acessíveis  para que pessoas com deficiência naveguem  e utilizem os serviços oferecidos com autonomia?'
@@ -1129,27 +934,18 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
     acessibilidade_tecnologica:
       '#type': fieldset
       '#title': 'Acessibilidade Tecnológica'
       impressoras_braille:
         '#type': select
         '#title': 'Disponibiliza impressoras em Braille?'
+        '#access': false
         '#options':
           Sim: Sim
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
       impressoras_braille_seg_versao:
         '#type': select
         '#title': 'Disponibiliza serviços de impressão em Braille?'
@@ -1158,24 +954,15 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
       software_leitura_acessivel:
         '#type': select
         '#title': 'Disponibiliza software de leitura para pessoas com baixa visão?'
+        '#access': false
         '#options':
           Sim: Sim
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          invisible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater: '2020'
       software_leitura_acessivel_seg_versao:
         '#type': select
         '#title': 'Disponibiliza leitores de tela para pessoas com deficiência visual (cegueira e baixa visão)?'
@@ -1184,11 +971,6 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
-        '#states':
-          visible:
-            ':input[name="ano_de_submissao"]':
-              value:
-                greater_equal: '2021'
       teclado_virtual:
         '#type': select
         '#title': 'Disponibiliza teclado virtual?'
