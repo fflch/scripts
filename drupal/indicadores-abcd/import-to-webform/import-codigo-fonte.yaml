@@ -131,6 +131,8 @@ pagina_capacitacao_rh:
   fieldset_capacitacao_rh:
     '#type': fieldset
     '#title': 'Capacitação de RH'
+    '#description': '<p>Teste de descrição</p>'
+    '#description_display': before
     cursos_eventos_fieldset:
       '#type': fieldset
       '#title': 'Cursos/Eventos e Outros Promovidos pela Biblioteca e/ou Unidade'
@@ -226,6 +228,40 @@ pagina_capacitacao_rh:
       filesize_kb:
         '#type': number
         '#title': 'Filesize (KB)'
+      formulario_coleta_de_dados:
+        '#type': custom_composite
+        '#title': 'Formulário para Coleta de Dados das Atividades de Capacitação de Usuários'
+        '#element':
+          tipo:
+            '#type': select
+            '#options':
+              1: 'Disciplina na Unidade'
+              2: Palestra
+              3: 'Visita Orientada'
+              4: Curso/Treinamento
+              5: 'Aulas a Convite da Unidade'
+              6: Outros
+            '#empty_option': '- Selecione -'
+            '#empty_value': '- Selecione -'
+            '#title': 'Tipo de Capacitação'
+          sigla:
+            '#type': textfield
+            '#title': 'Sigla da Disciplina'
+          carga_horaria:
+            '#type': number
+            '#title': 'Carga Horária'
+          participantes:
+            '#type': number
+            '#title': 'Nº de Participantes/Alunos Matriculados'
+          data_inicio:
+            '#type': date
+            '#title': 'Data de Início'
+          data_termino:
+            '#type': date
+            '#title': 'Data de Término'
+          ministrante:
+            '#type': textfield
+            '#title': Ministrante
 aquisicao_acervo:
   '#type': wizard_page
   '#title': 'Aquisição e Acervo'
