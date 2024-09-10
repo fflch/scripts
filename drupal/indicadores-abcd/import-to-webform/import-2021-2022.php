@@ -5,7 +5,7 @@ use Drupal\webform\Entity\WebformSubmission;
 
 // Criado por Anna Valim - 2024
 // Para rodar, insira o código abaixo, atentando para o seu pwd atual:
-// ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2021-2022.php
+// ./vendor/bin/drush php-script ~/projetos/scripts/drupal/indicadores-abcd/import-to-webform/import-2021-2022.php
 
 // Passo-a-passo:
 // 1. Criar um webform com o nome de máquina: indicadores_abcd
@@ -60,7 +60,7 @@ foreach($csvArchives as $archive){
         $superior_tic,
         $tecnico_tic,
         $basico_tic,                              
-        $coleta_dados_capacitacao, //RESOLVER A QUESTÃO DE IMPORTAÇÃO DOS ARQUIVOS                                
+        $coleta_dados_capacitacao,                                // ESSE AQUI É O CAMPO COM ERRO
         $filesize_kb,
         $livros_nacional_compra,
         $livros_internacional_compra,
@@ -180,12 +180,12 @@ foreach($csvArchives as $archive){
         $impressoras_braille_seg_versao,
         $software_leitura_acessivel_seg_versao,
         $teclado_virtual,
-    ) = array_slice($data, 8);
+      ) = array_slice($data, 8);
 
-    $total_ano_anterior = (float) $total_ano_anterior;
+      $total_ano_anterior   = (float) $total_ano_anterior;
       $ampliacao_no_periodo = (float) $ampliacao_no_periodo;
-      $reducao_no_periodo = (float) $reducao_no_periodo;
-    $area_fisica_agrupada = $total_ano_anterior + $ampliacao_no_periodo - $reducao_no_periodo;
+      $reducao_no_periodo   = (float) $reducao_no_periodo;
+      $area_fisica_agrupada = $total_ano_anterior + $ampliacao_no_periodo - $reducao_no_periodo;
 
       $webform_id = 'indicadores_abcd';
       $webform = Webform::load($webform_id);

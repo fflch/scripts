@@ -5,7 +5,7 @@ use Drupal\webform\Entity\WebformSubmission;
 
 // Criado por Anna Valim - 2024
 // Para rodar, insira o código abaixo, atentando para o seu pwd atual:
-// ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2016.php
+// ./vendor/bin/drush php-script ~/projetos/scripts/drupal/indicadores-abcd/import-to-webform/import-2016.php
 
 // Passo-a-passo:
 // 1. Criar um webform com o nome de máquina: indicadores_abcd
@@ -180,10 +180,10 @@ if ($csvArchive !== FALSE) {
         $teclado_virtual,
     ) = array_slice($data, 8);
     
-    $total_ano_anterior = (float) $total_ano_anterior;
+    $total_ano_anterior   = (float) $total_ano_anterior;
     $ampliacao_no_periodo = (float) $ampliacao_no_periodo;
-    $reducao_no_periodo = (float) $reducao_no_periodo;
-  $area_fisica_agrupada = $total_ano_anterior + $ampliacao_no_periodo - $reducao_no_periodo;
+    $reducao_no_periodo   = (float) $reducao_no_periodo;
+    $area_fisica_agrupada = $total_ano_anterior + $ampliacao_no_periodo - $reducao_no_periodo;
 
       $webform_id = 'indicadores_abcd';
       $webform = Webform::load($webform_id);
