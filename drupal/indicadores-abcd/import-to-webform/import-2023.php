@@ -3,13 +3,19 @@
 use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
-// Criado por Anna Valim - 2024
-// Para rodar, insira o código abaixo, atentando para o seu pwd atual:
-// ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2023.php
-
-// Passo-a-passo:
-// 1. Criar um webform com o nome de máquina: indicadores_abcd
-// 2. Na aba build do webform criado, copiar o conteúdo do arquivo: drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+/* Criado por Anna Valim - 2024
+ *
+ * Passo-a-passo:
+ * 1. Criar um webform com o nome de máquina: indicadores_abcd
+ * 2. Na aba build do webform criado, copiar o conteúdo do arquivo: 
+ *    drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+ * 
+ * 3. Para rodar e importar os resultados de 2023 insira o código abaixo, atentando para o SEU pwd atual:
+ *    ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2023.php
+ * 
+ * PENDÊNCIAS:
+ * Precisa mexer nos campos nome e filezisekb [Questão dos arquivos]
+*/
 
 $csvArchive = fopen('../../scripts/drupal/indicadores-abcd/data/2023.csv', "r");
 

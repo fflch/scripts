@@ -3,13 +3,19 @@
 use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
-// Criado por Anna Valim - 2024
-// Para rodar, insira o código abaixo, atentando para o seu pwd atual:
-// ./vendor/bin/drush php-script ~/projetos/scripts/drupal/indicadores-abcd/import-to-webform/import-2021-2022.php
-
-// Passo-a-passo:
-// 1. Criar um webform com o nome de máquina: indicadores_abcd
-// 2. Na aba build do webform criado, copiar o conteúdo do arquivo: drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+/* Criado por Anna Valim - 2024
+ *
+ * Passo-a-passo:
+ * 1. Criar um webform com o nome de máquina: indicadores_abcd
+ * 2. Na aba build do webform criado, copiar o conteúdo do arquivo: 
+ *    drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+ * 
+ * 3. Para rodar e importar os resultados de 2021 e de 2022 insira o código abaixo, atentando para o seu pwd atual:
+ *    ./vendor/bin/drush php-script ~/projetos/scripts/drupal/indicadores-abcd/import-to-webform/import-2021-2022.php
+ * 
+ * PENDÊNCIAS:
+ * Precisa mexer nos campos nome e filezisekb [Questão dos arquivos]
+*/
 
 $csvArchives = [
   fopen('../../scripts/drupal/indicadores-abcd/data/2021.csv', "r"),
@@ -105,7 +111,7 @@ foreach($csvArchives as $archive){
         $baixas_efetuadas_outros,
         $materiais_nao_cadastrados_outros,
         $usp,
-        $locais_bibliotecas,
+        $externos_usp,
         $consultas_acervo,
         $emprestimos_seg_versao,
         $pedidos_atendidos_nacional_bibliusp,
@@ -277,7 +283,7 @@ foreach($csvArchives as $archive){
                 'baixas_efetuadas_outros' => $baixas_efetuadas_outros,
                 'materiais_nao_cadastrados_outros' => $materiais_nao_cadastrados_outros,
                 'usp' => $usp,
-                'locais_bibliotecas' => $locais_bibliotecas,
+                'externos_usp' => $externos_usp,
                 'consultas_acervo' => $consultas_acervo,
                 'emprestimos_seg_versao' => $emprestimos_seg_versao,
                 'pedidos_atendidos_nacional_bibliusp' => $pedidos_atendidos_nacional_bibliusp,
