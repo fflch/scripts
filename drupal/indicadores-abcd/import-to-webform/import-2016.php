@@ -3,26 +3,27 @@
 use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
-// Criado por Anna Valim - 2024
-// Para rodar, insira o código abaixo, atentando para o seu pwd atual:
-// ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2016.php
-
-// Passo-a-passo:
-// 1. Criar um webform com o nome de máquina: indicadores_abcd
-// 2. Na aba build do webform criado, copiar o conteúdo do arquivo: drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+/* Criado por Anna Valim - 2024
+ *
+ * Passo-a-passo:
+ * 1. Criar um webform com o nome de máquina: indicadores_abcd
+ * 2. Na aba build do webform criado, copiar o conteúdo do arquivo: 
+ *    drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+ * 
+ * 3. Para rodar e importar os resultados de 2016, insira o código abaixo, atentando para o SEU pwd atual:
+ *    ./vendor/bin/drush php-script ~/projetos/scripts/drupal/indicadores-abcd/import-to-webform/import-2016.php
+ * 
+ * PENDÊNCIAS:
+ * Precisa mexer nos campos nome e filezisekb [Questão dos arquivos]
+*/
 
 $csvArchive = fopen('../../scripts/drupal/indicadores-abcd/data/2016.csv', "r");
 
 if ($csvArchive !== FALSE) {
 
     $anoDeSubmissao = fgetcsv($csvArchive, 1000, ",");
-    fgetcsv($csvArchive, 1000, ",");
 
     while (($data = fgetcsv($csvArchive, 1000, ",")) !== FALSE) {
-      if (!$header) {
-          $header = $data;
-          continue;
-      }
 
     list(
         $usuario,
@@ -108,7 +109,7 @@ if ($csvArchive !== FALSE) {
         $baixas_efetuadas_outros,
         $materiais_nao_cadastrados_outros,
         $usp,
-        $locais_bibliotecas,
+        $externos_usp,
         $consultas_acervo,
         $emprestimos_seg_versao,
         $pedidos_atendidos_nacional_sibiusp,
@@ -184,6 +185,11 @@ if ($csvArchive !== FALSE) {
         $software_leitura_acessivel,
         $teclado_virtual,
     ) = array_slice($data, 8);
+    
+    $total_ano_anterior   = (float) $total_ano_anterior;
+    $ampliacao_no_periodo = (float) $ampliacao_no_periodo;
+    $reducao_no_periodo   = (float) $reducao_no_periodo;
+    $area_fisica_agrupada = $total_ano_anterior + $ampliacao_no_periodo - $reducao_no_periodo;
 
       $webform_id = 'indicadores_abcd';
       $webform = Webform::load($webform_id);
@@ -199,6 +205,7 @@ if ($csvArchive !== FALSE) {
                   'total_ano_anterior' => $total_ano_anterior,
                   'ampliacao_no_periodo' => $ampliacao_no_periodo,
                   'reducao_no_periodo' => $reducao_no_periodo,
+                  '$area_fisica_agrupada' => $area_fisica_agrupada,
                   'funcionarios_superior' => $funcionarios_superior,
                   'funcionarios_superior_especializacao' => $funcionarios_superior_especializacao,
                   'funcionarios_superior_mestrado' => $funcionarios_superior_mestrado,
@@ -276,7 +283,7 @@ if ($csvArchive !== FALSE) {
                   'baixas_efetuadas_outros' => $baixas_efetuadas_outros,
                   'materiais_nao_cadastrados_outros' => $materiais_nao_cadastrados_outros,
                   'usp' => $usp,
-                  'locais_bibliotecas' => $locais_bibliotecas,
+                  'externos_usp' => $externos_usp,
                   'consultas_acervo' => $consultas_acervo,
                   'emprestimos_seg_versao' => $emprestimos_seg_versao,
                   'pedidos_atendidos_nacional_sibiusp' => $pedidos_atendidos_nacional_sibiusp,

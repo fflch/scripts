@@ -3,25 +3,26 @@
 use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
-// Criado por Anna Valim - 2024
-// Para rodar, insira o código abaixo, atentando para o seu pwd atual:
-// ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2023.php
-
-// Passo-a-passo:
-// 1. Criar um webform com o nome de máquina: indicadores_abcd
-// 2. Na aba build do webform criado, copiar o conteúdo do arquivo: drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+/* Criado por Anna Valim - 2024
+ *
+ * Passo-a-passo:
+ * 1. Criar um webform com o nome de máquina: indicadores_abcd
+ * 2. Na aba build do webform criado, copiar o conteúdo do arquivo: 
+ *    drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+ * 
+ * 3. Para rodar e importar os resultados de 2023 insira o código abaixo, atentando para o SEU pwd atual:
+ *    ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2023.php
+ * 
+ * PENDÊNCIAS:
+ * Precisa mexer nos campos nome e filezisekb [Questão dos arquivos]
+*/
 
 $csvArchive = fopen('../../scripts/drupal/indicadores-abcd/data/2023.csv', "r");
 
 if ($csvArchive !== FALSE) {
   $anoDeSubmissao = fgetcsv($csvArchive, 1000, ",");
-  fgetcsv($csvArchive, 1000, ",");
 
   while (($data = fgetcsv($csvArchive, 1000, ",")) !== FALSE) {
-    if (!$header) {
-        $header = $data;
-        continue;
-    }
 
     list(
       $usuario,
@@ -61,7 +62,7 @@ if ($csvArchive !== FALSE) {
       $usp,
       $externos_usp,
       $consultas_acervo,
-      $emprestimos_seg_versao,
+      $entre_bibliotecas_biblioteca_solicitante,
       $pedidos_atendidos_nacional_bibliusp,
       $pedidos_atendidos_nacional_comut,
       $pedidos_atendidos_nacional_outros,
@@ -156,7 +157,7 @@ if ($csvArchive !== FALSE) {
           'usp' => $usp,
           'externos_usp' => $externos_usp,
           'consultas_acervo' => $consultas_acervo,
-          'emprestimos_seg_versao' => $emprestimos_seg_versao,
+          'emprestimos_seg_versao' => $entre_bibliotecas_biblioteca_solicitante,
           'pedidos_atendidos_nacional_bibliusp' => $pedidos_atendidos_nacional_bibliusp,
           'pedidos_atendidos_nacional_comut' => $pedidos_atendidos_nacional_comut,
           'pedidos_atendidos_nacional_outros' => $pedidos_atendidos_nacional_outros,

@@ -2,1234 +2,1148 @@ ano_de_submissao:
   '#type': number
   '#title': 'Ano de Submissão'
   '#readonly': true
-usuario:
-  '#type': textfield
-  '#title': Usuário
-unidade:
-  '#type': textfield
-  '#title': Unidade
-numero_de_assentos:
-  '#type': number
-  '#title': 'Número de Assentos para Usuários'
-area_fisica_em_m2:
-  '#type': fieldset
-  '#title': 'Área Física (em m2)'
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  total_ano_anterior:
-    '#type': number
-    '#title': 'Total ano anterior'
-  ampliacao_no_periodo:
-    '#type': number
-    '#title': 'Ampliação no período'
-  reducao_no_periodo:
-    '#type': number
-    '#title': 'Redução no período'
-area_fisica_agrupada:
-  '#type': number
-  '#title': 'Área Física (em m2)'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-recursos_humanos:
-  '#type': fieldset
-  '#title': 'Recursos humanos'
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater: '2014'
-  superior:
-    '#type': number
-    '#title': Superior
-  superior_com_especializacao:
-    '#type': number
-    '#title': 'Superior com Especialização'
-  superior_com_mestrado:
-    '#type': number
-    '#title': 'Superior com Mestrado'
-  superior_com_doutorado:
-    '#type': number
-    '#title': 'Superior com Doutorado'
-  grupo_tecnico:
-    '#type': number
-    '#title': 'Grupo Técnico'
-  grupo_basico:
-    '#type': number
-    '#title': 'Grupo Básico'
-  grupo_superior_vagas_nao_preenchidas:
-    '#type': number
-    '#title': 'Grupo Superior - Vagas Não Preenchidas'
-  grupo_tecnico_vagas_nao_preenchidas:
-    '#type': number
-    '#title': 'Grupo Técnico - Vagas Não Preenchidas'
-  grupo_basico_vagas_nao_preenchidas:
-    '#type': number
-    '#title': 'Grupo Básico - Vagas Não Preenchidas'
-funcionarios_superior:
-  '#type': number
-  '#title': 'Funcionários de nível superior'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2015'
-funcionarios_superior_especializacao:
-  '#type': number
-  '#title': 'Funcionários de Nível Superior com Especialização'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2015'
-funcionarios_superior_mestrado:
-  '#type': number
-  '#title': 'Funcionários de Nível Superior com Mestrado'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2015'
-funcionarios_superior_doutorado:
-  '#type': number
-  '#title': 'Funcionários de Nível Superior com Doutorado'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2015'
-funcionarios_tecnico:
-  '#type': number
-  '#title': 'Funcionários de Nível Técnico'
-funcionarios_basico:
-  '#type': number
-  '#title': 'Funcionários de Nível Básico'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2015'
-funcionarios_superior_vagas_nao_preenchidas:
-  '#type': number
-  '#title': 'Funcionários de Nível Superior - Vagas não preenchidas'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2015'
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-funcionarios_tecnico_vagas_nao_preenchidas:
-  '#type': number
-  '#title': 'Funcionários de Nível Técnico - Vagas não preenchidas'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2015'
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-funcionarios_basico_vagas_nao_preenchidas:
-  '#type': number
-  '#title': 'Funcionários de Nível Básico - Vagas não preenchidas'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2015'
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-eventos_fieldset:
-  '#type': fieldset
-  '#title': Eventos
-  superior_eventos:
-    '#type': number
-    '#title': Superior
-  tecnico_eventos:
-    '#type': number
-    '#title': Técnico
-  basico_eventos:
-    '#type': number
-    '#title': Básico
-pos_graduacao:
-  '#type': fieldset
-  '#title': Pós-Graduação
-  especializacao:
+  '#access': false
+pagina_dados_administrativos:
+  '#type': wizard_page
+  '#title': 'Dados Gerais'
+  '#prev_button_label': '< Página anterior'
+  '#next_button_label': 'Próxima página >'
+  unidade:
+    '#type': select
+    '#title': Unidade
+    '#options':
+      Brasiliana: 'Biblioteca Brasiliana Guita e José Mindlin'
+      CDCC: 'Centro de Divulgação Científica Cultural'
+      CBM: 'Centro de Biologia Marinha'
+      CENA: 'Centro de Energia Nuclear na Agricultura'
+      CQ: 'Conjunto das Químicas'
+      EACH: 'Escola de Artes, Ciências e Humanidades'
+      ECA: 'Escola de Comunicação e Artes'
+      EE: 'Escola de Enfermagem'
+      EEFE: 'Escola de Educação Física e Esporte'
+      EEL: 'Escola de Engenharia de Lorena'
+      EESC: 'Escola de Engenharia de São Carlos'
+      EP: 'Escola Politécnica'
+      ESALQ: 'Escola Superior de Agricultura Luiz de Queiróz'
+      FAU: 'Faculdade de Arquitetura e Urbanismo'
+      FD: 'Faculdade de Direito'
+      FDRP: 'Faculdade de Direito de Ribeirão Preto'
+      FE: 'Faculdade de Educação'
+      FEA: 'Faculdade de Economia, Administração e Contabildade'
+      FFLCH: 'Faculdade de Filosofia, Letras e Ciências Humanas'
+      FM: 'Faculdade de Medicina'
+      FMVZ: 'Faculdade de Medicina Veterinária e Zootecnia'
+      FO: 'Faculdade de Odontologia'
+      FOB: 'Faculdade de Odontologia de Bauru'
+      FSP: 'Faculdade de Saúde Pública'
+      FZEA: 'Faculdade de Zootecnia e Engenharia de Alimentos'
+      HU: 'Hospital Universitário'
+      IAGCA: 'Instituto de Astronomia, Geofísica, e Ciências Atmosféricas'
+      IAU: 'Instituto de Arquitetura e Urbanismo'
+      IB: 'Instituto de Biociências'
+      ICB: 'Instituto de Ciências Biomédicas'
+      ICMC: 'Instituto de Ciências Matemáticas e de Computação'
+      IEB: 'Instituto de Estudos Brasileiros'
+      IEA: 'Instituto de Energia e Ambiente'
+      IF: 'Instituto de Física'
+      IFSC: 'Instituto de Física de São Carlos'
+      IG: 'Instituto de Biociências'
+      IME: 'Instituto de Matemática e Estatística'
+      IMTSP: 'Instituto de Medicina Tropical de São Paulo'
+      IO: 'Instituto Oceonográfico'
+      IP: 'Instituto de Psicologia'
+      IQSC: 'Instituto de Química de São Carlos'
+      IRI: 'Instituto de Relações Internacionais'
+      MAC: 'Museu de Arte Contemporânea'
+      MAE: 'Museu de Arqueologia e Etnologia'
+      MP: 'Museu Paulista'
+      MZ: 'Museu de Zoologia'
+      PCRP: 'Prefeitura do Campus de Ribeirão Preto'
+      PCSC: 'Prefeitura do Campus de São Carlos'
+      ABCD: 'Agência de Biblioteca e Coleções Digitais'
+    '#empty_option': '- Selecione -'
+    '#empty_value': '- Selecione -'
+    '#access_create_roles': {  }
+  dados_administrativos:
     '#type': fieldset
-    '#title': Especialização
-    superior_especializacao:
-      '#type': number
-      '#title': Superior
-    tecnico_especializacao:
-      '#type': number
-      '#title': Técnico
-    basico_especializacao:
-      '#type': number
-      '#title': Básico
-  mestrado:
+    '#title': 'Dados Gerais'
+    estrutura_organizacional:
+      '#type': fieldset
+      '#title': 'Estrutura Organizacional'
+      numero_de_assentos:
+        '#type': number
+        '#title': 'Número de Assentos para Usuários'
+        '#help': '<p>Espaços disponibilizados aos usuários para leitura e estudo, com ou sem mesas ou equipamentos. Incluem assentos em cabines individuais, salas de estudo em grupo e de multimídia. Não devem ser contados os assentos de auditórios e espaços informais sem mobiliário.</p>'
+    area_fisica_em_m2:
+      '#type': fieldset
+      '#title': 'Área Física (em m2)'
+      area_fisica_agrupada:
+        '#type': number
+        '#title': 'Área Física (em m2)'
+        '#help': '<p>Indicar o total de área física da Biblioteca, em metros quadrados.</p>'
+      total_ano_anterior:
+        '#type': number
+        '#title': 'Total ano anterior'
+        '#access': false
+      ampliacao_no_periodo:
+        '#type': number
+        '#title': 'Ampliação no período'
+        '#access': false
+      reducao_no_periodo:
+        '#type': number
+        '#title': 'Redução no período'
+        '#access': false
+    recursos_humanos:
+      '#type': fieldset
+      '#title': 'Recursos humanos'
+      funcionarios_superior:
+        '#type': number
+        '#title': 'Funcionários de nível Superior'
+        '#help': '<p>Número de funcionários do Grupo Superior da Biblioteca, que possuem somente o nível de graduação em Biblioteconomia. Caso o profissional tenha mais de um título, indicar somente o de maior grau.</p>'
+      funcionarios_superior_especializacao:
+        '#type': number
+        '#title': 'Funcionários de Nível Superior com Especialização'
+        '#help': '<p>Número de funcionários do Grupo Superior da Biblioteca, com especialização concluída na área,<br>tendo o nível de graduação em Biblioteconomia. Caso o profissional tenha mais de um título, indicar somente o de maior grau.</p>'
+      funcionarios_superior_mestrado:
+        '#type': number
+        '#title': 'Funcionários de Nível Superior com Mestrado'
+        '#help': '<p>Número de funcionários do Grupo Superior da Biblioteca, com título de mestre (não necessariamente na área), tendo o nível de graduação em Biblioteconomia. Caso o profissional tenha mais de um título, indicar somente o de maior grau.</p>'
+      funcionarios_superior_doutorado:
+        '#type': number
+        '#title': 'Funcionários de Nível Superior com Doutorado'
+        '#help': '<p>Número de funcionários do Grupo Superior da Biblioteca, com título de doutor (não necessariamente na área), tendo o nível de graduação em Biblioteconomia. Caso o profissional tenha mais de um título, indicar somente o de maior grau.</p>'
+      funcionarios_tecnico:
+        '#type': number
+        '#title': 'Funcionários de Nível Técnico'
+        '#help': '<p>Número de funcionários do Grupo Técnico da Biblioteca.</p>'
+      funcionarios_basico:
+        '#type': number
+        '#title': 'Funcionários de Nível Básico'
+        '#help': '<p>Número de funcionários do Grupo Básico da Biblioteca.</p>'
+      funcionarios_tecnico_vagas_nao_preenchidas:
+        '#type': number
+        '#title': 'Funcionários de Nível Técnico - Vagas não preenchidas'
+        '#access': false
+      funcionarios_basico_vagas_nao_preenchidas:
+        '#type': number
+        '#title': 'Funcionários de Nível Básico - Vagas não preenchidas'
+        '#access': false
+      funcionarios_superior_vagas_nao_preenchidas:
+        '#type': number
+        '#title': 'Funcionários de Nível Superior - Vagas não preenchidas'
+        '#access': false
+pagina_capacitacao_rh:
+  '#type': wizard_page
+  '#title': Capacitação
+  '#prev_button_label': '< Página anterior'
+  '#next_button_label': 'Próxima página >'
+  fieldset_capacitacao_rh:
     '#type': fieldset
-    '#title': Mestrado
-    superior_mestrado:
-      '#type': number
-      '#title': Superior
-    tecnico_mestrado:
-      '#type': number
-      '#title': Técnico
-    basico_mestrado:
-      '#type': number
-      '#title': Básico
-  doutorado:
+    '#title': Capacitação
+    '#description': '<p>Indicar o número de participações dos funcionários das categorias Superior, Técnico e Básico da Biblioteca, capacitados por atividades no período. As iniciativas particulares podem ser computadas quando a Chefia da Biblioteca dispensar o funcionário durante o horário do expediente para realização de atividades na área de atuação do profissional ou naquelas que contribuam para o aprimoramento das rotinas desenvolvidas na Biblioteca. Não incluir os cursos/eventos promovidos/coordenados pela Agência de Bibliotecas e Coleções Digitais da USP.</p>'
+    '#description_display': before
+    cursos_eventos_fieldset:
+      '#type': fieldset
+      '#title': 'Participação em cursos e eventos'
+      superior_eventos:
+        '#type': number
+        '#title': 'Eventos - Superior'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Eventos: considerar seminários, simpósios, congressos, palestras etc.</p>'
+      tecnico_eventos:
+        '#type': number
+        '#title': 'Eventos - Técnico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Eventos: considerar seminários, simpósios, congressos, palestras etc.</p>'
+      basico_eventos:
+        '#type': number
+        '#title': 'Eventos - Básico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Eventos: considerar seminários, simpósios, congressos, palestras etc.</p>'
+      superior_especializacao:
+        '#type': number
+        '#title': 'Pós-Graduação - Especialização - Superior'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+      tecnico_especializacao:
+        '#type': number
+        '#title': 'Pós-Graduação - Especialização - Técnico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+      basico_especializacao:
+        '#type': number
+        '#title': 'Pós-Graduação - Especialização - Básico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+      superior_mestrado:
+        '#type': number
+        '#title': 'Pós-Graduação - Mestrado - Superior'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+      tecnico_mestrado:
+        '#type': number
+        '#title': 'Pós-Graduação - Mestrado - Técnico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+      basico_mestrado:
+        '#type': number
+        '#title': 'Pós-Graduação - Mestrado - Básico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+      superior_doutorado:
+        '#type': number
+        '#title': 'Pós-Graduação - Doutorado - Superior'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+      tecnico_doutorado:
+        '#type': number
+        '#title': 'Pós-Graduação - Doutorado - Técnico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+      basico_doutorado:
+        '#type': number
+        '#title': 'Pós-Graduação - Doutorado - Básico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+      superior_cursos:
+        '#type': number
+        '#title': 'Cursos - Superior'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Cursos Extensão/Atualização: cursos com carga horária menor que 360 horas.</p>'
+      tecnico_cursos:
+        '#type': number
+        '#title': 'Cursos - Técnico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Cursos Extensão/Atualização: cursos com carga horária menor que 360 horas.</p>'
+      basico_cursos:
+        '#type': number
+        '#title': 'Cursos - Básico'
+        '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Cursos Extensão/Atualização: cursos com carga horária menor que 360 horas.</p>'
+      superior_gerencial:
+        '#type': number
+        '#title': 'Cursos - Gerencial - Superior'
+        '#access': false
+      tecnico_gerencial:
+        '#type': number
+        '#title': 'Cursos - Gerencial - Técnico'
+        '#access': false
+      basico_gerencial:
+        '#type': number
+        '#title': 'Cursos - Gerencial - Básico'
+        '#access': false
+      superior_capacitacao_servicos:
+        '#type': number
+        '#title': 'Cursos - Capacitação para Serviços - Superior'
+        '#access': false
+      tecnico_capacitacao_servicos:
+        '#type': number
+        '#title': 'Cursos - Capacitação para Serviços - Técnico'
+        '#access': false
+      basico_capacitacao_servicos:
+        '#type': number
+        '#title': 'Cursos - Capacitação para Serviços - Básico'
+        '#access': false
+      superior_tic:
+        '#type': number
+        '#title': 'Cursos - Tecnologia de Informação e Comunicação (TIC) - Superior'
+        '#access': false
+      tecnico_tic:
+        '#type': number
+        '#title': 'Cursos - Tecnologia de Informação e Comunicação (TIC) - Técnico'
+        '#access': false
+      basico_tic:
+        '#type': number
+        '#title': 'Cursos - Tecnologia de Informação e Comunicação (TIC) - Básico'
+        '#access': false
+    capacitacao_usuarios:
+      '#type': fieldset
+      '#title': 'Capacitação de Usuários'
+      formulario_coleta_de_dados:
+        '#type': custom_composite
+        '#title': 'Formulário para Coleta de Dados das Atividades de Capacitação de Usuários'
+        '#help': '<p>Informações sobre capacitação de usuários realizada de forma planejada pela Biblioteca. A orientação e/ou instrução momentânea ao usuário sobre o uso e recursos oferecidos pela Biblioteca devem ser registradas no item “Assistência ao usuário”. Cada capacitação deve ser cadastrada tantas vezes quantas forem as vezes que ela foi oferecida no período.</p>'
+        '#element':
+          tipo:
+            '#type': select
+            '#options':
+              1: 'Disciplina na Unidade'
+              2: Palestra
+              3: 'Visita Orientada'
+              4: Curso/Treinamento
+              5: 'Aulas a Convite da Unidade'
+              6: Outros
+            '#title': 'Tipo de Capacitação'
+            '#help': |-
+              - Disciplina na Unidade: curso ou programa de instrução orientada constando como disciplina cadastrada nos Bancos: Júpiter (Graduação), Fênix (Pós-Graduação) ou Apolo (Extensão), ministrado integralmente por bibliotecário (pertencente ao quadro de funcionários da Biblioteca) responsável pela disciplina ou em parceria com docente da Unidade. Obrigatório indicar a sigla da disciplina nos bancos corporativos. As aulas ministradas em disciplinas de demais docentes da Unidade devem ser cadastradas no tipo “Aulas a convite da Unidade”. 
+
+              - Palestra: conferência ou discussão sobre assunto científico/cultural. 
+
+              - Visita Orientada: apresentação organizada pela Biblioteca para visitantes.  
+
+              - Curso/Treinamento: adota-se como definição de curso uma série de aulas, conferências ou palestras sobre um ou vários temas, conexos ou não. 
+
+              - Aulas a convite da Unidade: aulas/palestras ministradas em disciplinas de demais docentes da Unidade. 
+
+              - Outros: outros tipos de capacitação. 
+            '#empty_option': '- Selecione -'
+            '#empty_value': '- Selecione -'
+          sigla:
+            '#type': textfield
+            '#title': 'Sigla da Disciplina'
+          carga_horaria:
+            '#type': number
+            '#title': 'Carga Horária'
+            '#help': 'Indicar a carga horária total da capacitação.'
+          participantes:
+            '#type': number
+            '#title': 'Nº de Participantes/Alunos Matriculados'
+            '#help': 'Disciplina na Unidade e Aulas a convite da Unidade: indicar o número de alunos matriculados/inscritos. Demais tipos de eventos/cursos: indicar o número de participantes que assinaram  as listas de presença de cursos/eventos.'
+          data_inicio:
+            '#type': date
+            '#title': 'Data de Início'
+          data_termino:
+            '#type': date
+            '#title': 'Data de Término'
+          ministrante:
+            '#type': textfield
+            '#title': Ministrante
+          publico:
+            '#type': select
+            '#options':
+              1: USP
+              2: 'Instituições Externas'
+            '#title': Público
+aquisicao_acervo:
+  '#type': wizard_page
+  '#title': 'Aquisição e Acervo'
+  '#prev_button_label': '< Página anterior'
+  '#next_button_label': 'Próxima página >'
+  aquisicao:
     '#type': fieldset
-    '#title': Doutorado
-    superior_doutorado:
+    '#title': Aquisição
+    livros_compra_seg_versao:
       '#type': number
-      '#title': Superior
-    tecnico_doutorado:
+      '#title': 'Livros e outros tipos de materiais - Compra'
+      '#help': '<p>Indicar o total de itens (unidades físicas) adquiridos por compra no período de livros, teses, multimeios e outros tipos de materiais. Considerar como itens adquiridos aqueles efetivamente incorporados ao acervo.</p>'
+    livros_doacao_seg_versao:
       '#type': number
-      '#title': Técnico
-    basico_doutorado:
+      '#title': 'Livros e outros tipos de materiais - Doação'
+      '#help': '<p>Indicar o total de itens (unidades físicas) adquiridos por doação no período de livros, teses, multimeios e outros tipos de materiais. Considerar como itens adquiridos aqueles efetivamente incorporados ao acervo.</p>'
+    periodicos_compra_seg_versao:
       '#type': number
-      '#title': Básico
-cursos:
-  '#type': fieldset
-  '#title': Cursos
-  gerencial:
+      '#title': 'Periódicos - Títulos Correntes - Compra'
+      '#help': '<p>Indicar o total de itens (unidades físicas) adquiridos por compra no período de títulos de periódicos correntes. Considerar como itens adquiridos aqueles efetivamente incorporados ao acervo. Considerar os títulos novos e as renovações de assinaturas que continuam sendo recebidas pela Biblioteca. No caso de duplicação do título em suportes diferentes, considerar apenas um deles.</p>'
+    periodicos_doacao_seg_versao:
+      '#type': number
+      '#title': 'Periódicos - Títulos Correntes - Doação'
+      '#help': '<p>Indicar o total de itens (unidades físicas) adquiridos por doação no período de títulos de periódicos correntes. Considerar como itens adquiridos aqueles efetivamente incorporados ao acervo. Considerar os títulos novos e as renovações de assinaturas que continuam sendo recebidas pela Biblioteca. No caso de duplicação do título em suportes diferentes, considerar apenas um deles.</p>'
+    livros_nacional_compra:
+      '#type': number
+      '#title': 'Livros - Nacional - Compra'
+      '#access': false
+    livros_internacional_compra:
+      '#type': number
+      '#title': 'Livros - Internacional - Compra'
+      '#access': false
+    livros_nacional_permuta:
+      '#type': number
+      '#title': 'Livros - Nacional - Permuta'
+      '#access': false
+    livros_internacional_permuta:
+      '#type': number
+      '#title': 'Livros - Internacional - Permuta'
+      '#access': false
+    livros_nacional_doacao:
+      '#type': number
+      '#title': 'Livros - Nacional - Doação'
+      '#access': false
+    livros_internacional_doacao:
+      '#type': number
+      '#title': 'Livros - Internacional - Doação'
+      '#access': false
+    teses_nacional_compra:
+      '#type': number
+      '#title': 'Teses - Nacional - Compra'
+      '#access': false
+    teses_internacional_compra:
+      '#type': number
+      '#title': 'Teses - Internacional - Compra'
+      '#access': false
+    teses_nacional_permuta:
+      '#type': number
+      '#title': 'Teses - Nacional - Permuta'
+      '#access': false
+    teses_internacional_permuta:
+      '#type': number
+      '#title': 'Teses - Internacional - Permuta'
+      '#access': false
+    teses_nacional_doacao:
+      '#type': number
+      '#title': 'Teses - Nacional - Doação'
+      '#access': false
+    teses_internacional_doacao:
+      '#type': number
+      '#title': 'Teses - Internacional - Doação'
+      '#access': false
+    periodicos_nacional_compra:
+      '#type': number
+      '#title': 'Periódicos - Títulos Correntes - Nacional - Compra'
+      '#access': false
+    periodicos_internacional_compra:
+      '#type': number
+      '#title': 'Periódicos - Títulos Correntes - Internacional - Compra'
+      '#access': false
+    periodicos_nacional_permuta:
+      '#type': number
+      '#title': 'Periódicos - Títulos Correntes - Nacional - Permuta'
+      '#access': false
+    periodicos_internacional_permuta:
+      '#type': number
+      '#title': 'Periódicos - Títulos Correntes - Internacional - Permuta'
+      '#access': false
+    periodicos_nacional_doacao:
+      '#type': number
+      '#title': 'Periódicos - Títulos Correntes - Nacional - Doação'
+      '#access': false
+    periodicos_internacional_doacao:
+      '#type': number
+      '#title': 'Periódicos - Títulos Correntes - Internacional - Doação'
+      '#access': false
+    multimeios_nacional_compra:
+      '#type': number
+      '#title': 'Multimeios - Nacional - Compra'
+      '#access': false
+    multimeios_internacional_compra:
+      '#type': number
+      '#title': 'Multimeios - Internacional - Compra'
+      '#access': false
+    multimeios_nacional_permuta:
+      '#type': number
+      '#title': 'Multimeios - Nacional - Permuta'
+      '#access': false
+    multimeios_internacional_permuta:
+      '#type': number
+      '#title': 'Multimeios - Internacional - Permuta'
+      '#access': false
+    multimeios_nacional_doacao:
+      '#type': number
+      '#title': 'Multimeios - Nacional - Doação'
+      '#access': false
+    multimeios_internacional_doacao:
+      '#type': number
+      '#title': 'Multimeios - Internacional - Doação'
+      '#access': false
+    outros_nacional_compra:
+      '#type': number
+      '#title': 'Outros Tipos - Nacional - Compra'
+      '#access': false
+    outros_internacional_compra:
+      '#type': number
+      '#title': 'Outros Tipos - Internacional - Compra'
+      '#access': false
+    outros_nacional_permuta:
+      '#type': number
+      '#title': 'Outros Tipos - Nacional - Permuta'
+      '#access': false
+    outros_internacional_permuta:
+      '#type': number
+      '#title': 'Outros Tipos - Internacional - Permuta'
+      '#access': false
+    outros_nacional_doacao:
+      '#type': number
+      '#title': 'Outros Tipos - Nacional - Doação'
+      '#access': false
+    outros_internacional_doacao:
+      '#type': number
+      '#title': 'Outros Tipos - Internacional - Doação'
+      '#access': false
+  acervo:
     '#type': fieldset
-    '#title': Gerencial
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-    superior_gerencial:
+    '#title': Acervo
+    cadastrados_atualmente_periodicos:
       '#type': number
-      '#title': Superior
-    tecnico_gerencial:
+      '#title': 'Periódicos (Fascículos) - Materiais cadastrados no DEDALUS até a presente data'
+      '#help': '<p>Total de itens/exemplares cadastrados no DEDALUS. Indicar o total de fascículos cadastrados no DEDALUS até a presente data. Fascículos acumulados (exemplo: v.1, n.1/4, publicados em um documento impresso), indicar a quantidade de fascículos da unidade física (no caso do exemplo, indicar 4 fascículos). Periódicos em formato não impresso (CD-ROM, microfichas etc.), indicar a unidade física, mesmo que esta contenha mais de um fascículo.</p>'
+    materiais_nao_cadastrados_periodicos:
       '#type': number
-      '#title': Técnico
-    basico_gerencial:
+      '#title': 'Periódicos (Fascículos) - Materiais não Cadastrados no DEDALUS'
+      '#help': '<p>Total de itens já selecionados e que aguardam cadastramento no DEDALUS, separados por tipo de material - Periódicos (Fascículos). Fascículos acumulados (exemplo: v.1, n.1/4, publicados em um documento impresso), indicar a quantidade de fascículos da unidade física (no caso do exemplo, indicar 4 fascículos). Periódicos em formato não impresso (CD-ROM, microfichas etc.), indicar a unidade física, mesmo que esta contenha mais de um fascículo.</p>'
+    backlog_catalogacao:
       '#type': number
-      '#title': Básico
-  capacitacao_servicos:
+      '#title': 'Backlog Catalogação - Materiais não Cadastrados no DEDALUS (livros, teses, multimeios e outros tipos)'
+      '#help': '<p>Total de itens já selecionados e que aguardam cadastramento no DEDALUS.</p>'
+    baixas_efetuadas_livros:
+      '#type': number
+      '#title': 'Livros - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#access': false
+    materiais_nao_cadastrados_livros:
+      '#type': number
+      '#title': 'Livros - Materiais não Cadastrados no DEDALUS'
+      '#access': false
+    baixas_efetuadas_teses:
+      '#type': number
+      '#title': 'Teses - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#access': false
+    materiais_nao_cadastrados_teses:
+      '#type': number
+      '#title': 'Teses - Materiais não Cadastrados no DEDALUS'
+      '#access': false
+    periodicos_pergunta_desdobramento:
+      '#type': select
+      '#title': 'Periódicos - A biblioteca faz desdobramento retrospectivo de suas coleções periódicas?'
+      '#options':
+        Sim: Sim
+        Não: Não
+      '#empty_option': '- Selecione -'
+      '#empty_value': '- Selecione -'
+      '#access': false
+    periodicos_percentual:
+      '#type': textfield
+      '#title': 'Periódicos - Se sim, qual o  percentual já desdobrado?'
+      '#access': false
+    cadastrados_no_ano:
+      '#type': number
+      '#title': 'Periódicos (Fascículos) - Materiais cadastrados no DEDALUS no ANO'
+      '#access': false
+    baixas_efetuadas_periodicos:
+      '#type': number
+      '#title': 'Periódicos (Fascículos) - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#access': false
+    baixas_efetuadas_multimeios:
+      '#type': number
+      '#title': 'Multimeios - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#access': false
+    materiais_nao_cadastrados_multimeios:
+      '#type': number
+      '#title': 'Multimeios - Materiais não Cadastrados no DEDALUS'
+      '#access': false
+    baixas_efetuadas_outros:
+      '#type': number
+      '#title': 'Outros Tipos - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
+      '#access': false
+    materiais_nao_cadastrados_outros:
+      '#type': number
+      '#title': 'Outros Tipos - Materiais não Cadastrados no DEDALUS'
+      '#access': false
+pagina_5:
+  '#type': wizard_page
+  '#title': Atendimento
+  '#prev_button_label': '< Página anterior'
+  '#next_button_label': 'Próxima página >'
+  frequencia_de_usuarios:
     '#type': fieldset
-    '#title': 'Capacitação para Serviços'
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-    superior_capacitacao_servicos:
+    '#title': Frequência
+    usp:
       '#type': number
-      '#title': Superior
-    tecnico_capacitacao_servicos:
+      '#title': 'Frequência de Usuários - USP'
+      '#help': '<p>Número de usuários USP que frequentaram a Biblioteca no período. Para obter a frequência de usuários da USP, proceder da seguinte forma: 1) verificar o total de usuários registrados pela catraca, portão magnético ou outro sistema automatizado no período. Caso estes mecanismos registrem tanto a entrada como a saída de usuários, dividir o total obtido por dois; 2) subtrair a frequência de usuários locais das bibliotecas do total de usuários registrados pela catraca ou portão magnético. Obs.: Lembramos que para a contagem ser real é preciso zerar o contador da catraca ou do portão magnético no início de cada período de coleta, tomando o cuidado para não mais zerá-lo até o fim do período.</p>'
+    externos_usp:
       '#type': number
-      '#title': Técnico
-    basico_capacitacao_servicos:
-      '#type': number
-      '#title': Básico
-  tic:
+      '#title': 'Frequência de Usuários - Externos à USP'
+      '#help': '<p>Número de usuários registrados pela Biblioteca como usuários locais que frequentaram a Biblioteca no período.<br>&nbsp;</p><p>Observação: Caso o portão magnético, a catraca ou outro sistema automatizado de coleta de dados não esteja disponível na Biblioteca, considera-se válida a utilização do método de amostragem por semana típica como solução alternativa para obtenção dos dados.<br>&nbsp;</p><p>Método da Semana Típica: Escolha uma semana em que a Biblioteca esteja aberta em horário normal, evitando semanas com feriados, períodos de férias, semanas com eventos na Biblioteca ou Unidade, semanas de início ou fim de semestre. Coletar os dados durante uma semana de 5 ou 6 dias consecutivos, contabilizando a frequência de usuários USP e externos à USP. Multiplicar os valores obtidos, mediante as pesquisas da semana típica, pelo número de semanas em que a Biblioteca esteve aberta no período.<br>&nbsp;</p><p>O método da semana típica é indicado pela norma: ANSI/NISO Z39.7-2013 Information Services and Use: Metrics &amp; Statistics for Libraries and Information Providers Data Dictionary (item 7.1 – Gate Count).</p>'
+  circulacao:
     '#type': fieldset
-    '#title': 'Tecnologia de Informação e Comunicação'
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-    superior_tic:
+    '#title': Circulação
+    consultas_acervo:
       '#type': number
-      '#title': Superior
-    tecnico_tic:
+      '#title': 'Consultas ao Acervo'
+      '#help': '<p>Consulta: número total de materiais utilizados pelos usuários (consulta/reprodução), e recolocados no acervo, durante o ano a que se refere o presente RIBi, excluindo as devoluções de empréstimos. Indicar o total de unidades físicas para consulta. Exemplo: Para um volume encadernado contendo 10 fascículos, considerar uma unidade física.</p>'
+    entre_bibliotecas_biblioteca_solicitante:
       '#type': number
-      '#title': Técnico
-    basico_tic:
-      '#type': number
-      '#title': Básico
-  superior_cursos:
-    '#type': number
-    '#title': Superior
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  tecnico_cursos:
-    '#type': number
-    '#title': Técnico
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  basico_cursos:
-    '#type': number
-    '#title': Básico
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-coleta_dados_capacitacao:
-  '#type': managed_file
-  '#title': 'Formulário para Coleta de Dados das Atividades de Capacitação de Usuários - Nome'
-  '#uri_scheme': public
-  '#file_extensions': 'pdf xlsx'
-filesize_kb:
-  '#type': number
-  '#title': 'Filesize (KB)'
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          less_equal: '2014'
-livros:
-  '#type': fieldset
-  '#title': Livros
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  livros_nacional_compra:
-    '#type': number
-    '#title': 'Nacional - Compra'
-  livros_internacional_compra:
-    '#type': number
-    '#title': 'Internacional - Compra'
-  livros_nacional_permuta:
-    '#type': number
-    '#title': 'Nacional - Permuta'
-  livros_internacional_permuta:
-    '#type': number
-    '#title': 'Internacional - Permuta'
-  livros_nacional_doacao:
-    '#type': number
-    '#title': 'Nacional - Doação'
-  livros_internacional_doacao:
-    '#type': number
-    '#title': 'Internacional - Doação'
-livros_e_outros_tipos_de_materiais:
-  '#type': fieldset
-  '#title': 'Livros e Outros Tipos de Materiais'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  livros_compra_seg_versao:
-    '#type': number
-    '#title': Compra
-  livros_doacao_seg_versao:
-    '#type': number
-    '#title': Doação
-teses:
-  '#type': fieldset
-  '#title': Teses
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  teses_nacional_compra:
-    '#type': number
-    '#title': 'Nacional - Compra'
-  teses_internacional_compra:
-    '#type': number
-    '#title': 'Internacional - Compra'
-  teses_nacional_permuta:
-    '#type': number
-    '#title': 'Nacional - Permuta'
-  teses_internacional_permuta:
-    '#type': number
-    '#title': 'Internacional - Permuta'
-  teses_nacional_doacao:
-    '#type': number
-    '#title': 'Nacional - Doação'
-  teses_internacional_doacao:
-    '#type': number
-    '#title': 'Internacional - Doação'
-periodicos_titulos_correntes:
-  '#type': fieldset
-  '#title': 'Periódicos - Títulos Correntes'
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  periodicos_nacional_compra:
-    '#type': number
-    '#title': 'Nacional - Compra'
-  periodicos_internacional_compra:
-    '#type': number
-    '#title': 'Internacional - Compra'
-  periodicos_nacional_permuta:
-    '#type': number
-    '#title': 'Nacional - Permuta'
-  periodicos_internacional_permuta:
-    '#type': number
-    '#title': 'Internacional - Permuta'
-  periodicos_nacional_doacao:
-    '#type': number
-    '#title': 'Nacional - Doação'
-  periodicos_internacional_doacao:
-    '#type': number
-    '#title': 'Internacional - Doação'
-periodicos_segunda_versao:
-  '#type': fieldset
-  '#title': 'Periódicos - Títulos Correntes'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  periodicos_compra_seg_versao:
-    '#type': number
-    '#title': Compra
-  periodicos_doacao_seg_versao:
-    '#type': number
-    '#title': Doação
-multimeios:
-  '#type': fieldset
-  '#title': Multimeios
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  multimeios_nacional_compra:
-    '#type': number
-    '#title': 'Nacional - Compra'
-  multimeios_internacional_compra:
-    '#type': number
-    '#title': 'Internacional - Compra'
-  multimeios_nacional_permuta:
-    '#type': number
-    '#title': 'Nacional - Permuta'
-  multimeios_internacional_permuta:
-    '#type': number
-    '#title': 'Internacional - Permuta'
-  multimeios_nacional_doacao:
-    '#type': number
-    '#title': 'Nacional - Doação'
-  multimeios_internacional_doacao:
-    '#type': number
-    '#title': 'Internacional - Doação'
-outros_tipos:
-  '#type': fieldset
-  '#title': 'Outros Tipos'
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  outros_nacional_compra:
-    '#type': number
-    '#title': 'Nacional - Compra'
-  outros_internacional_compra:
-    '#type': number
-    '#title': 'Internacional - Compra'
-  outros_nacional_permuta:
-    '#type': number
-    '#title': 'Nacional - Permuta'
-  outros_internacional_permuta:
-    '#type': number
-    '#title': 'Internacional - Permuta'
-  outros_nacional_doacao:
-    '#type': number
-    '#title': 'Nacional - Doação'
-  outros_internacional_doacao:
-    '#type': number
-    '#title': 'Internacional - Doação'
-livros_dedalus:
-  '#type': fieldset
-  '#title': Livros
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  baixas_efetuadas_livros:
-    '#type': number
-    '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
-  materiais_nao_cadastrados_livros:
-    '#type': number
-    '#title': 'Materiais não Cadastrados no DEDALUS'
-teses_dedalus:
-  '#type': fieldset
-  '#title': Teses
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  baixas_efetuadas_teses:
-    '#type': number
-    '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
-  materiais_nao_cadastrados_teses:
-    '#type': number
-    '#title': 'Materiais não Cadastrados no DEDALUS'
-periodicos:
-  '#type': fieldset
-  '#title': Periódicos
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value: '2016'
-  periodicos_pergunta_desdobramento:
-    '#type': textfield
-    '#title': 'A biblioteca faz desdobramento retrospectivo de suas coleções periódicas?'
-  periodicos_percentual:
-    '#type': textfield
-    '#title': 'Se sim, qual o  percentual já desdobrado?'
-periodicos_dedalus:
-  '#type': fieldset
-  '#title': 'Periódicos (Fascículos)'
-  cadastrados_atualmente_periodicos:
-    '#type': number
-    '#title': 'Materiais cadastrados no DEDALUS até a presente data'
-  cadastrados_no_ano:
-    '#type': number
-    '#title': 'Materiais cadastrados no DEDALUS no ANO'
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  baixas_efetuadas_periodicos:
-    '#type': number
-    '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  materiais_nao_cadastrados_periodicos:
-    '#type': number
-    '#title': 'Materiais não Cadastrados no DEDALUS'
-backlog_catalogacao:
-  '#type': number
-  '#title': 'Backlog Catalogação - Materiais não Cadastrados no DEDALUS (livros, teses, multimeios e outros tipos)'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-multimeios_dedalus:
-  '#type': fieldset
-  '#title': Multimeios
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  baixas_efetuadas_multimeios:
-    '#type': number
-    '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
-  materiais_nao_cadastrados_multimeios:
-    '#type': number
-    '#title': 'Materiais não Cadastrados no DEDALUS'
-outros_tipos_dedalus:
-  '#type': fieldset
-  '#title': 'Outros Tipos'
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-  baixas_efetuadas_outros:
-    '#type': number
-    '#title': 'Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
-  materiais_nao_cadastrados_outros:
-    '#type': number
-    '#title': 'Materiais não Cadastrados no DEDALUS'
-frequencia_de_usuarios:
-  '#type': fieldset
-  '#title': 'Frequência de Usuários'
-  usp:
-    '#type': number
-    '#title': USP
-  locais_bibliotecas:
-    '#type': number
-    '#title': 'Locais das Bibliotecas'
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-  externos_usp:
-    '#type': number
-    '#title': 'Externos à USP'
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2023'
-circulacao:
-  '#type': fieldset
-  '#title': Circulação
-  consulta:
-    '#type': number
-    '#title': Consulta
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater: '2014'
-  entre_bibliotecas_biblioteca_solicitante:
-    '#type': number
-    '#title': 'Empréstimo entre Bibliotecas - Como Biblioteca Solicitante'
-consultas_acervo:
-  '#type': number
-  '#title': 'Consultas ao Acervo'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2015'
-emprestimos_seg_versao:
-  '#type': number
-  '#title': 'Empréstimo entre Bibliotecas - Como Biblioteca Solicitante'
-  '#states':
-    visible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-comutacao_bibliografica:
-  '#type': fieldset
-  '#title': 'Comutação Bibliográfica'
-  nacional_como_biblioteca_fornecedora:
+      '#title': 'Empréstimo entre Bibliotecas - Como Biblioteca Solicitante'
+      '#help': '<p>Número total de empréstimos-entre- Bibliotecas solicitados pela Biblioteca e efetivamente atendidos durante o ano a que se refere o presente RIBi.</p>'
+  comutacao_bibliografica:
     '#type': fieldset
-    '#title': 'Nacional como Biblioteca Fornecedora'
-    pedidos_atendidos_nacional_sibiusp:
-      '#type': number
-      '#title': 'Número de Pedidos Atendidos - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
-    pedidos_nao_atendidos_nacional_sibiusp:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
-    copias_nacional_sibiusp:
-      '#type': number
-      '#title': 'Número de Cópias - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
+    '#title': 'Comutação Bibliográfica'
     pedidos_atendidos_nacional_bibliusp:
       '#type': number
-      '#title': 'Número de Pedidos Atendidos - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    pedidos_nao_atendidos_nacional_bibliusp:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-    copias_bibliusp:
-      '#type': number
-      '#title': 'Número de Cópias - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - Bibliotecas USP'
+      '#help': '<p>Informar número de pedidos efetivamente atendidos pela Biblioteca, realizados por meio do Programa COMUT/Grupos USP, somados aos pedidos atendidos fora do Programa COMUT/Grupos USP (somente entre Bibliotecas da USP).</p>'
     pedidos_atendidos_nacional_comut:
       '#type': number
-      '#title': 'Número de Pedidos Atendidos - COMUT'
-    pedidos_nao_atendidos_nacional_comut:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - COMUT'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-    copias_nacional_comut:
-      '#type': number
-      '#title': 'Número de Cópias - COMUT'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-    pedidos_atendidos_nacional_bireme:
-      '#type': number
-      '#title': 'Número de Pedidos Atendidos - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-    pedidos_nao_atendidos_nacional_bireme:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-    copias_nacional_bireme:
-      '#type': number
-      '#title': 'Número de Cópias - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - COMUT'
+      '#help': '<p>Informar número de pedidos efetivamente atendidos pela Biblioteca, realizados por meio do Programa COMUT, exceto os efetivados como Grupo USP.</p>'
     pedidos_atendidos_nacional_outros:
       '#type': number
-      '#title': 'Número de Pedidos Atendidos - OUTROS'
-    pedidos_nao_atendidos_nacional_outros:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - OUTROS'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-    copias_nacional_outros:
-      '#type': number
-      '#title': 'Número de Cópias - OUTROS'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-  internacional_como_biblioteca_fornecedora:
-    '#type': fieldset
-    '#title': 'Internacional Como Biblioteca Fornecedora'
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - OUTROS'
+      '#help': '<p>Informar número de pedidos efetivamente atendidos pela Biblioteca.</p>'
     pedidos_atendidos_internacional:
       '#type': number
-      '#title': 'Número de Pedidos Atendidos'
-    pedidos_nao_atendidos_internacional:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-    copias_internacional:
-      '#type': number
-      '#title': 'Número de Cópias'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-  nacional_como_biblioteca_solicitante:
-    '#type': fieldset
-    '#title': 'Nacional como Biblioteca Solicitante'
-    solicitante_atendidos_nacional_sibiusp:
-      '#type': number
-      '#title': 'Número de Pedidos Atendidos - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
-    solicitante_nao_atendidos_nacional_sibiusp:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - SIBiUSP'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater: '2020'
+      '#title': 'Internacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos'
+      '#help': '<p>Informar número de pedidos efetivamente atendidos pela Biblioteca.</p>'
     solicitante_atendidos_nacional_bibliusp:
       '#type': number
-      '#title': 'Número de Pedidos Atendidos - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-    solicitante_nao_atendidos_nacional_bibliusp:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - Bibliotecas USP'
-      '#states':
-        visible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2021'
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - Bibliotecas USP'
+      '#help': '<p>Informar número de pedidos solicitados e efetivamente atendidos, realizados por meio do Programa COMUT/Grupos USP, somados aos pedidos atendidos fora do Programa COMUT/Grupos USP (somente entre Bibliotecas da USP).</p>'
     solicitante_atendidos_nacional_comut:
       '#type': number
-      '#title': 'Número de Pedidos Atendidos - COMUT'
-    solicitante_nao_atendidos_nacional_comut:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - COMUT'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-    solicitante_atendidos_nacional_bireme:
-      '#type': number
-      '#title': 'Número de Pedidos Atendidos - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-    solicitante_nao_atendidos_nacional_bireme:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - BIREME'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - COMUT'
+      '#help': '<p>Informar número de pedidos solicitados e efetivamente atendidos para a Biblioteca, solicitados por meio do Programa COMUT, exceto os efetivados como Grupo USP.</p>'
     solicitante_atendidos_nacional_outros:
       '#type': number
-      '#title': 'Número de Pedidos Atendidos - OUTROS'
-    solicitante_nao_atendidos_nacional_outros:
-      '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos - OUTROS'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-  internacional_como_biblioteca_solicitante:
-    '#type': fieldset
-    '#title': 'Internacional como Biblioteca Solicitante'
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - OUTROS'
+      '#help': '<p>Informar número de pedidos solicitado e efetivamente atendidos para a Biblioteca.</p>'
     solicitante_atendidos_internacional:
       '#type': number
-      '#title': 'Número de Pedidos Atendidos'
+      '#title': 'Internacional Como Biblioteca Solicitante - Número de Pedidos Atendidos'
+      '#help': '<p>Informar número de pedidos solicitados e efetivamente atendidos para a Biblioteca.</p>'
+    pedidos_atendidos_nacional_sibiusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - SIBiUSP'
+      '#access': false
+    pedidos_nao_atendidos_nacional_sibiusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - SIBiUSP'
+      '#access': false
+    copias_nacional_sibiusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - SIBiUSP'
+      '#access': false
+    pedidos_nao_atendidos_nacional_bibliusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - Bibliotecas USP'
+      '#access': false
+    copias_bibliusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - Bibliotecas USP'
+      '#access': false
+    pedidos_nao_atendidos_nacional_comut:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - COMUT'
+      '#access': false
+    copias_nacional_comut:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - COMUT'
+      '#access': false
+    pedidos_atendidos_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - BIREME'
+      '#access': false
+    pedidos_nao_atendidos_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - BIREME'
+      '#access': false
+    copias_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - BIREME'
+      '#access': false
+    pedidos_nao_atendidos_nacional_outros:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - OUTROS'
+      '#access': false
+    copias_nacional_outros:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Fornecedora - Número de Cópias - OUTROS'
+      '#access': false
+    pedidos_nao_atendidos_internacional:
+      '#type': number
+      '#title': 'Internacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos'
+      '#access': false
+    copias_internacional:
+      '#type': number
+      '#title': 'Internacional Como Biblioteca Fornecedora - Número de Cópias'
+      '#access': false
+    solicitante_atendidos_nacional_sibiusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - SIBiUSP'
+      '#access': false
+    solicitante_nao_atendidos_nacional_sibiusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - SIBiUSP'
+      '#access': false
+    solicitante_nao_atendidos_nacional_bibliusp:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - Bibliotecas USP'
+      '#access': false
+    solicitante_nao_atendidos_nacional_comut:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - COMUT'
+      '#access': false
+    solicitante_atendidos_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - BIREME'
+      '#access': false
+    solicitante_nao_atendidos_nacional_bireme:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - BIREME'
+      '#access': false
+    solicitante_nao_atendidos_nacional_outros:
+      '#type': number
+      '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - OUTROS'
+      '#access': false
     solicitante_nao_atendidos_internacional:
       '#type': number
-      '#title': 'Número de Pedidos NÃO Atendidos'
-      '#states':
-        invisible:
-          ':input[name="ano_de_submissao"]':
-            value:
-              greater_equal: '2023'
-assistencia_ao_usuario:
-  '#type': fieldset
-  '#title': 'Assistência ao usuário'
-  assistencias_efetuadas:
-    '#type': number
-    '#title': 'Número de Assistências Efetuadas'
-normalizacao_tecnica:
-  '#type': fieldset
-  '#title': 'Normalização Técnica'
-  documento_inteiro:
-    '#type': number
-    '#title': 'Documento como um Todo'
-  referencias_bibliograficas:
-    '#type': number
-    '#title': 'Referências Bibliográficas'
-equipamentos_de_informatica:
-  '#type': fieldset
-  '#title': 'Equipamentos de Informática'
-  equipamentos_usuarios_microcomputador:
-    '#type': number
-    '#title': 'Microcomputador - Número de Equipamentos Usuários'
-  equipamentos_funcionarios_microcomputador:
-    '#type': number
-    '#title': 'Microcomputador - Número de Equipamentos Funcionários'
-  equipamentos_usuarios_impressora:
-    '#type': number
-    '#title': 'Impressora - Número de Equipamentos Usuários'
-  equipamentos_funcionarios_impressora:
-    '#type': number
-    '#title': 'Impressora - Número de Equipamentos Funcionários'
-  equipamentos_usuarios_scanner:
-    '#type': number
-    '#title': 'Scanner - Número de Equipamentos Usuários'
-  equipamentos_funcionarios_scanner:
-    '#type': number
-    '#title': 'Scanner - Número de Equipamentos Funcionários'
-  equipamentos_usuarios_outros:
-    '#type': number
-    '#title': 'Outros - Número de Equipamentos Usuários'
-  equipamentos_funcionarios_outros:
-    '#type': number
-    '#title': 'Outros - Número de Equipamentos Funcionários'
-bases_de_dados_locais:
-  '#type': textfield
-  '#title': 'Bases de dados locais'
-publicacoes_biblioteca:
-  '#type': textfield
-  '#title': 'Publicações da Biblioteca'
-publicacoes_oficiais_participacao:
-  '#type': textfield
-  '#title': 'Publicações Oficiais da Unidade com Participação da Biblioteca'
-projetos:
-  '#type': textfield
-  '#title': Projetos
-eventos:
-  '#type': textfield
-  '#title': Eventos
-atividades_graduacao:
-  '#type': textfield
-  '#title': 'Atividades ligadas à Graduação'
-atividades_cultura_extensao:
-  '#type': textfield
-  '#title': 'Atividades ligadas à Cultura e Extensão'
-servicos_pela_internet:
-  '#type': select
-  '#title': 'Oferece serviços pela internet?'
-  '#options':
-    Sim: Sim
-    Não: Não
-rede_sem_fio:
-  '#type': select
-  '#title': 'Possui rede sem fio?'
-  '#options':
-    Sim: Sim
-    Não: Não
-possui_redes_sociais:
-  '#type': select
-  '#title': 'Participa de redes sociais?'
-  '#options':
-    Sim: Sim
-    Não: Não
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-rede_facebook:
-  '#type': textfield
-  '#title': Facebook
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-rede_twitter:
-  '#type': textfield
-  '#title': Twitter
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-rede_blog:
-  '#type': textfield
-  '#title': Blog
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-rede_flickr:
-  '#type': textfield
-  '#title': Flickr
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-rede_pinterest:
-  '#type': textfield
-  '#title': Pinterest
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-rede_youtube:
-  '#type': textfield
-  '#title': Youtube
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-rede_outro:
-  '#type': textfield
-  '#title': Outro
-  '#states':
-    invisible:
-      ':input[name="ano_de_submissao"]':
-        value:
-          greater_equal: '2023'
-condicoes_de_acessibilidade:
-  '#type': select
-  '#title': 'Oferece condições de acessibilidade?'
-  '#options':
-    Sim: Sim
-    Não: Não
-funcionario_treinado_em_libras:
-  '#type': select
-  '#title': 'Atendente ou membro da equipe de atendimento treinado na língua brasileira de sinais Libras?'
-  '#options':
-    Sim: Sim
-    Não: Não
-acessibilidade_arquitetonica_ou_fisica:
-  '#type': fieldset
-  '#title': 'Acessibilidade Arquitetônica ou Física'
-  '#title_display': invisible
-  banheiros_adaptados:
-    '#type': select
-    '#title': 'Possui banheiros adaptados?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  bebedouros_lavabos_adaptados:
-    '#type': select
-    '#title': 'Possui bebedouros e lavabos adaptados?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  dimensionamento_entradas:
-    '#type': select
-    '#title': 'Possui Entrada/Saída com dimensionamento?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  dimensionamento_entradas_seg_versao:
-    '#type': select
-    '#title': 'Possui entrada/saída com vão livre acessível para a circulação de pessoas com deficiência e mobilidade reduzida?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2021'
-  equipamentos_eletronicos_adaptados:
-    '#type': select
-    '#title': 'Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  espaco_atendimento_adaptado:
-    '#type': select
-    '#title': 'Possui espaço para atendimento adaptado?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  espaco_atendimento_adaptado_seg_versao:
-    '#type': select
-    '#title': 'Possui espaço para atendimento acessível?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2021'
-  mobiliario_adaptado:
-    '#type': select
-    '#title': 'Possui mobiliário adaptado?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  mobiliario_adaptado_seg_versao:
-    '#type': select
-    '#title': 'Possui mobiliário acessível?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2021'
-  rampa_acesso_adaptada:
-    '#type': select
-    '#title': 'Possui rampa de acesso com corrimão?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  sinalizacao_tatil:
-    '#type': select
-    '#title': 'Possui sinalização tátil?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  sinalizacao_visual:
-    '#type': select
-    '#title': 'Possui sinalização visual?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  sinalizacao_sonora:
-    '#type': select
-    '#title': 'Possui sinalização sonora?'
-    '#options':
-      Sim: Sim
-      Não: Não
-  desobstrucao_ambientes:
-    '#type': select
-    '#title': 'Possui ambiente desobstruídos que facilitem a movimentação de cadeirantes e pessoas com deficiência visual?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater: '2020'
-  desobstrucao_ambientes_seg_versao:
-    '#type': select
-    '#title': 'Possui ambientes acessíveis para a movimentação/deslocamento/circulação de pessoas com deficiência e mobilidade reduzida?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2021'
-acessibilidade_de_conteudo:
-  '#type': fieldset
-  '#title': 'Acessibilidade de Conteúdo'
-  plano_aquisicao_bibliografica_adaptada:
-    '#type': select
-    '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato especial?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater: '2020'
-  plano_aquisicao_bibliografica_adaptada_seg_versao:
-    '#type': select
-    '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato acessível?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2021'
-  acervo_adaptado:
-    '#type': select
-    '#title': 'Possui acervo em formato especial (Braille/Sonoro)?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater: '2020'
-  acervo_adaptado_seg_versao:
-    '#type': select
-    '#title': 'Possui acervo em formato acessível para pessoas com deficiência visual (cegueira e baixa visão)?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2021'
-  websites_apps_adaptados:
-    '#type': select
-    '#title': 'Possui websites e aplicações desenvolvidas para que pessoas percebam, compreendam, naveguem e utilizem os  serviços oferecidos?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater: '2020'
-  websites_apps_adaptados_seg_versao:
-    '#type': select
-    '#title': 'Possui sítios, plataformas e programas acessíveis  para que pessoas com deficiência naveguem  e utilizem os serviços oferecidos com autonomia?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2021'
-  impressoras_braille:
-    '#type': select
-    '#title': 'Disponibiliza impressoras em Braille?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater: '2020'
-  impressoras_braille_seg_versao:
-    '#type': select
-    '#title': 'Disponibiliza serviços de impressão em Braille?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2021'
-  software_leitura_acessivel:
-    '#type': select
-    '#title': 'Disponibiliza software de leitura para pessoas com baixa visão?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      invisible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater: '2020'
-  software_leitura_acessivel_seg_versao:
-    '#type': select
-    '#title': 'Disponibiliza leitores de tela para pessoas com deficiência visual (cegueira e baixa visão)?'
-    '#options':
-      Sim: Sim
-      Não: Não
-    '#states':
-      visible:
-        ':input[name="ano_de_submissao"]':
-          value:
-            greater_equal: '2021'
-  teclado_virtual:
-    '#type': select
-    '#title': 'Disponibiliza teclado virtual?'
-    '#options':
-      Sim: Sim
-      Não: Não
+      '#title': 'Internacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos'
+      '#access': false
+  assistencia_ao_usuario:
+    '#type': fieldset
+    '#title': 'Assistência ao usuário'
+    assistencias_efetuadas:
+      '#type': number
+      '#title': 'Número de Assistências Efetuadas'
+      '#help': '<p>Indicar o número de assistências aos usuários realizadas pela equipe da Biblioteca.<br>&nbsp;</p><p>Assistência ao usuário compreende todas as transações de referência, requisitadas por usuários pessoalmente ou de forma virtual (telefone, e-mail, formulário web, mensagens instantâneas etc.), que envolvam conhecimento, uso, recomendações, interpretações ou instruções de uso de quaisquer fontes de informação, efetuadas, local ou remotamente pela equipe da Biblioteca, possibilitando ou garantindo, ao usuário, o acesso à informação.<br>&nbsp;</p><p>Exemplos de transações de referência: orientação sobre o uso e recursos oferecidos pela Biblioteca (catálogos impressos, bases de dados, coleções especiais etc.); elaboração de buscas bibliográficas; suporte ao desenvolvimento de pesquisa; pesquisa em bases de dados; respostas às questões de referência.</p><p>&nbsp;</p><p>Não devem ser consideradas como assistência ao usuário as seguintes transações: informações administrativas sobre o uso da Biblioteca ou seus serviços; informações sobre o regulamento ou políticas da Biblioteca; informações sobre a localização de itens específicos nas estantes ou nos catálogos da Biblioteca; solicitações de empréstimos (compiladas em circulação do acervo); transações realizadas diretamente pelos usuários sem o auxílio da equipe da Biblioteca; informações pessoais recebidas pela equipe da Biblioteca ou sobre a equipe da Biblioteca.<br>&nbsp;</p><p>Nota: O conceito de assistência ao usuário é derivado da regulamentação da norma: ANSI/NISO Z39.7-2013 Information Services and Use: Metrics &amp; Statistics for Libraries and Information Providers Data Dictionary (item 7.3 – Information Requests).</p>'
+  normalizacao_tecnica:
+    '#type': fieldset
+    '#title': 'Normalização Técnica'
+    documento_inteiro:
+      '#type': number
+      '#title': 'Documento como um Todo'
+      '#help': '<p>Número de publicações normalizadas para os usuários da Biblioteca.</p>'
+    referencias_bibliograficas:
+      '#type': number
+      '#title': 'Referências Bibliográficas'
+      '#help': '<p>Número de referências bibliográficas normalizadas para usuários da Biblioteca.</p>'
+informatica:
+  '#type': wizard_page
+  '#title': Equipamentos
+  '#prev_button_label': '< Página anterior'
+  '#next_button_label': 'Próxima página >'
+  equipamentos_de_informatica:
+    '#type': fieldset
+    '#title': Equipamentos
+    equipamentos_usuarios_microcomputador:
+      '#type': number
+      '#title': 'Microcomputador - Número de Equipamentos Usuários'
+      '#help': '<p>Número de computadores disponíveis aos usuários. Não considerar os equipamentos disponíveis nas salas “Pró-alunos”.</p>'
+    equipamentos_funcionarios_microcomputador:
+      '#type': number
+      '#title': 'Microcomputador - Número de Equipamentos Funcionários'
+      '#help': '<p>Número de computadores disponíveis aos funcionários.</p>'
+    equipamentos_usuarios_impressora:
+      '#type': number
+      '#title': 'Impressora - Número de Equipamentos Usuários'
+      '#help': '<p>Número de impressoras disponíveis aos usuários. Não considerar os equipamentos disponíveis nas salas “Pró-alunos”.</p>'
+    equipamentos_funcionarios_impressora:
+      '#type': number
+      '#title': 'Impressora - Número de Equipamentos Funcionários'
+      '#help': '<p>Número de impressoras disponíveis aos funcionários.</p>'
+    equipamentos_usuarios_scanner:
+      '#type': number
+      '#title': 'Scanner - Número de Equipamentos Usuários'
+      '#help': '<p>Número de scanners disponíveis aos usuários. Não considerar os equipamentos disponíveis nas salas “Pró-alunos”.</p>'
+    equipamentos_funcionarios_scanner:
+      '#type': number
+      '#title': 'Scanner - Número de Equipamentos Funcionários'
+      '#help': '<p>Número de scanners disponíveis aos funcionários.</p>'
+    equipamentos_usuarios_outros:
+      '#type': number
+      '#title': 'Outros - Número de Equipamentos Usuários'
+      '#help': '<p>Número de outros equipamentos disponíveis aos usuários. Não considerar os equipamentos disponíveis nas salas “Pró-alunos”.</p>'
+    equipamentos_funcionarios_outros:
+      '#type': number
+      '#title': 'Outros - Número de Equipamentos Funcionários'
+      '#help': '<p>Número de outros equipamentos disponíveis aos funcionários.</p>'
+    internet:
+      '#type': fieldset
+      '#title': Internet
+      servicos_pela_internet:
+        '#type': select
+        '#title': 'Oferece serviços pela internet?'
+        '#help': '<p>Serviços realizados pela biblioteca utilizando a internet, como por exemplo: site, blog, e-mail dedicado ao atendimento, tutoriais, entre outros.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      rede_sem_fio:
+        '#type': select
+        '#title': 'Possui rede sem fio?'
+        '#help': '<p>Rede de acesso à internet que não utiliza cabeamento (wireless).</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      possui_redes_sociais:
+        '#type': select
+        '#title': 'Participa de redes sociais?'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+        '#access': false
+      redes_sociais:
+        '#type': fieldset
+        '#title': 'Redes Sociais'
+        '#access': false
+        rede_twitter:
+          '#type': textfield
+          '#title': Twitter
+          '#access': false
+        rede_facebook:
+          '#type': textfield
+          '#title': Facebook
+          '#access': false
+        rede_blog:
+          '#type': textfield
+          '#title': Blog
+          '#access': false
+        rede_flickr:
+          '#type': textfield
+          '#title': Flickr
+          '#access': false
+        rede_pinterest:
+          '#type': textfield
+          '#title': Pinterest
+          '#access': false
+        rede_youtube:
+          '#type': textfield
+          '#title': Youtube
+          '#access': false
+        rede_outro:
+          '#type': textfield
+          '#title': Outro
+          '#access': false
+informacoes_gerais:
+  '#type': wizard_page
+  '#title': Produtos
+  '#prev_button_label': '< Página anterior'
+  '#next_button_label': 'Próxima página >'
+  outras_informacoes:
+    '#type': fieldset
+    '#title': Produtos
+    bases_de_dados_locais:
+      '#type': textarea
+      '#title': 'Bases de dados'
+      '#help': '<p>Informações sobre bases de dados mantidas pelas Bibliotecas, disponíveis para consulta. Não incluem bancos de dados com fins administrativos gerenciados pela Biblioteca, nem as bases de dados do OCLC, CCN e DEDALUS. Informar: Nome: nome da base de dados; Tipo: indicar o tipo da base de dados, considerando como: Base Local: bases mantidas pela própria Biblioteca; Base Nacional: bases mantidas pela própria Biblioteca com a participação de outras instituições nacionais ou mantidas por outras instituições nacionais com a participação da Biblioteca; Base Internacional: bases mantidas pela própria Biblioteca com a participação de outras instituições internacionais ou mantidas por outras instituições internacionais com a participação da Biblioteca; Registros Cadastrados no Período: indicar apenas os registros cadastrados pela Biblioteca na base de dados, no período a que se refere o presente RIBi. Obs.: Se a biblioteca não cadastrar registros em uma determinada base deve constar o nome da base e o número de registros deve ser 0. Não constando o nome da base subtende-se que a base foi excluída.</p>'
+    bases_de_dados_seg_versao:
+      '#type': custom_composite
+      '#title': 'Bases de dados'
+      '#help': '<p>Informações sobre bases de dados mantidas pelas Bibliotecas, disponíveis para consulta. Não incluem bancos de dados com fins administrativos gerenciados pela Biblioteca, nem as bases de dados do OCLC, CCN e DEDALUS. Informar: Nome: nome da base de dados; Tipo: indicar o tipo da base de dados, considerando como: Base Local: bases mantidas pela própria Biblioteca; Base Nacional: bases mantidas pela própria Biblioteca com a participação de outras instituições nacionais ou mantidas por outras instituições nacionais com a participação da Biblioteca; Base Internacional: bases mantidas pela própria Biblioteca com a participação de outras instituições internacionais ou mantidas por outras instituições internacionais com a participação da Biblioteca; Registros Cadastrados no Período: indicar apenas os registros cadastrados pela Biblioteca na base de dados, no período a que se refere o presente RIBi. Obs.: Se a biblioteca não cadastrar registros em uma determinada base deve constar o nome da base e o número de registros deve ser 0. Não constando o nome da base subtende-se que a base foi excluída.</p>'
+      '#element':
+        teste:
+          '#type': textfield
+          '#title': teste
+    publicacoes:
+      '#type': fieldset
+      '#title': Publicações
+      publicacoes_biblioteca:
+        '#type': textarea
+        '#title': 'Publicações da Biblioteca'
+        '#help': '<p>Informação sobre publicações elaboradas pela Biblioteca, tais como: revistas, boletins, manuais, catálogos, home page, etc. Título: título da publicação elaborada pela Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato: Opções disponíveis: impressa e/ou online. Distribuição: Opções disponíveis: compra, permuta ou doação.</p>'
+      publicacoes_biblioteca_seg_versao:
+        '#type': custom_composite
+        '#title': 'Publicações da Biblioteca'
+        '#help': '<p>Informação sobre publicações elaboradas pela Biblioteca, tais como: revistas, boletins, manuais, catálogos, home page, etc. Título: título da publicação elaborada pela Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato: Opções disponíveis: impressa e/ou online. Distribuição: Opções disponíveis: compra, permuta ou doação.</p>'
+        '#element':
+          teste:
+            '#type': textfield
+            '#title': teste
+      publicacoes_oficiais_participacao:
+        '#type': textarea
+        '#title': 'Publicações Oficiais da Unidade com Participação da Biblioteca'
+        '#help': '<p>Título: título da publicação oficial da Unidade, editada com participação da Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato - Opções disponíveis: impressa e/ou online. Distribuição - Opções disponíveis: compra, permuta ou doação. Nível de Participação da Biblioteca - Opções disponíveis: Comissão responsável pela publicação, Editoração, Normalização Técnica, Infraestrutura Administrativa, Produção Gráfica, Distribuição ou Divulgação.</p>'
+      publicacoes_oficiais_seg_versao:
+        '#type': custom_composite
+        '#title': 'Publicações Oficiais da Unidade com Participação da Biblioteca'
+        '#help': '<p>Título: título da publicação oficial da Unidade, editada com participação da Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato - Opções disponíveis: impressa e/ou online. Distribuição - Opções disponíveis: compra, permuta ou doação. Nível de Participação da Biblioteca - Opções disponíveis: Comissão responsável pela publicação, Editoração, Normalização Técnica, Infraestrutura Administrativa, Produção Gráfica, Distribuição ou Divulgação.</p>'
+        '#element':
+          teste:
+            '#type': textfield
+            '#title': teste
+    eventos:
+      '#type': textarea
+      '#title': Eventos
+      '#help': '<p>Nome do evento: denominação do evento e nome do expositor (se houver). Período: data inicial e final do evento. Patrocinador(es): relacionar o(s) patrocinador(es) do evento (se houver). Tipo de<br>evento: indicar o tipo de evento - Opções disponíveis: Apresentação em Teatro, Comunicação, Concerto, Conferência, Congresso, Convenção, Exposição, Grupo de Estudos, Mesa Redonda, Mostra, Palestra, Seminário, Simpósio, Workshop, Coletiva de autores, Lançamento de livros, Lançamento de Produtos/Serviços, Outros. Nível de participação da Biblioteca - Opções disponíveis: Evento totalmente realizado pela Biblioteca, Participação na Comissão Organizadora ou Divulgação.</p>'
+    eventos_seg_versao:
+      '#type': custom_composite
+      '#title': Eventos
+      '#help': '<p>Nome do evento: denominação do evento e nome do expositor (se houver). Período: data inicial e final do evento. Patrocinador(es): relacionar o(s) patrocinador(es) do evento (se houver). Tipo de<br>evento: indicar o tipo de evento - Opções disponíveis: Apresentação em Teatro, Comunicação, Concerto, Conferência, Congresso, Convenção, Exposição, Grupo de Estudos, Mesa Redonda, Mostra, Palestra, Seminário, Simpósio, Workshop, Coletiva de autores, Lançamento de livros, Lançamento de Produtos/Serviços, Outros. Nível de participação da Biblioteca - Opções disponíveis: Evento totalmente realizado pela Biblioteca, Participação na Comissão Organizadora ou Divulgação.</p>'
+      '#element':
+        teste:
+          '#type': textfield
+          '#title': teste
+    projetos:
+      '#type': textarea
+      '#title': Projetos
+      '#help': '<p>Informações sobre projetos aprovados, em execução ou concluídos no período, gerenciados pela Biblioteca, com ou sem obtenção de recursos financeiros. Não devem ser relacionados os projetos do Planejamento Estratégico da Agência de Bibliotecas e Coleções Digitais da USP.</p><p><br>"Projeto é um empreendimento não repetitivo, caracterizado por uma sequência clara e lógica de eventos, com início, meio e fim, que se destina a atingir um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade” (Extraído de Vargas, Ricardo Viana. Manual Prático do Plano de Projeto. Rio de Janeiro: Brasport, 2003.) Nome do projeto: denominação atribuída ao projeto. Descrição: resumo informando a temática do projeto. Data de início: indicar a data oficial em que o projeto foi aprovado. Data de finalização: indicar a data de término do projeto. Patrocinador(es): relacionar o(s) patrocinador(es) do projeto (agência de fomento, fundações, empresas comerciais, órgãos da USP, etc.). Recursos recebidos do(s) patrocinador(es): indicar os recursos financeiros, materiais e humanos recebidos diretamente do patrocinador e não aqueles que venham a ser adquiridos com a utilização dos recursos financeiros dados pelo patrocinador. Pessoal da Biblioteca envolvido:<br>indicar o número de funcionários da Biblioteca envolvidos no projeto (no período e no total). Resultados obtidos: descrever de forma resumida os resultados obtidos no projeto e quantificar, se for o caso (no período e no total). URL do projeto: caso o projeto tenha um Website, indicar a URL. OBS.: “No período”, significa o período ao qual se refere o presente RIBi; “No total”, significa o período desde o início do projeto até o momento.</p>'
+    projetos_seg_versao:
+      '#type': custom_composite
+      '#title': Projetos
+      '#help': '<p>Informações sobre projetos aprovados, em execução ou concluídos no período, gerenciados pela Biblioteca, com ou sem obtenção de recursos financeiros. Não devem ser relacionados os projetos do Planejamento Estratégico da Agência de Bibliotecas e Coleções Digitais da USP.</p><p><br>"Projeto é um empreendimento não repetitivo, caracterizado por uma sequência clara e lógica de eventos, com início, meio e fim, que se destina a atingir um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade” (Extraído de Vargas, Ricardo Viana. Manual Prático do Plano de Projeto. Rio de Janeiro: Brasport, 2003.) Nome do projeto: denominação atribuída ao projeto. Descrição: resumo informando a temática do projeto. Data de início: indicar a data oficial em que o projeto foi aprovado. Data de finalização: indicar a data de término do projeto. Patrocinador(es): relacionar o(s) patrocinador(es) do projeto (agência de fomento, fundações, empresas comerciais, órgãos da USP, etc.). Recursos recebidos do(s) patrocinador(es): indicar os recursos financeiros, materiais e humanos recebidos diretamente do patrocinador e não aqueles que venham a ser adquiridos com a utilização dos recursos financeiros dados pelo patrocinador. Pessoal da Biblioteca envolvido:<br>indicar o número de funcionários da Biblioteca envolvidos no projeto (no período e no total). Resultados obtidos: descrever de forma resumida os resultados obtidos no projeto e quantificar, se for o caso (no período e no total). URL do projeto: caso o projeto tenha um Website, indicar a URL. OBS.: “No período”, significa o período ao qual se refere o presente RIBi; “No total”, significa o período desde o início do projeto até o momento.</p>'
+      '#element':
+        teste:
+          '#type': textfield
+          '#title': teste
+    atividades_graduacao:
+      '#type': textarea
+      '#title': 'Atividades ligadas à Graduação, Pós-Graduação e Pesquisa'
+      '#help': '<p>Atividades ligadas à graduação (por exemplo, aquisição de material bibliográfico específico, treinamentos, projetos específicos, elaboração de material didático para a graduação, TCC, etc.), bem como atividades ligadas com a pós-graduação e a pesquisa. Descrever as atividades desenvolvidas pela biblioteca dirigidas à graduação, pós-graduação e pesquisa. O formato do texto é livre.</p>'
+    ativ_graduacao_seg_versao:
+      '#type': custom_composite
+      '#title': 'Atividades ligadas à Graduação, Pós-Graduação e Pesquisa'
+      '#help': '<p>Atividades ligadas à graduação (por exemplo, aquisição de material bibliográfico específico, treinamentos, projetos específicos, elaboração de material didático para a graduação, TCC, etc.), bem como atividades ligadas com a pós-graduação e a pesquisa. Descrever as atividades desenvolvidas pela biblioteca dirigidas à graduação, pós-graduação e pesquisa. O formato do texto é livre.</p>'
+      '#element':
+        teste:
+          '#type': textfield
+          '#title': teste
+    atividades_cultura_extensao:
+      '#type': textarea
+      '#title': 'Atividades ligadas à Cultura e Extensão'
+      '#help': '<p>Atividades ligadas à cultura e extensão para a comunidade científica e externa à USP, comunidade de serviços (por exemplo, projetos, atendimento, parcerias, convênios, consultoria, etc.). Descrever as atividades, desenvolvidas pela biblioteca, de cultura e extensão universitárias. O formato do texto é livre.</p>'
+    ativ_cult_extensao_seg_versao:
+      '#type': custom_composite
+      '#title': 'Atividades ligadas à Cultura e Extensão'
+      '#help': '<p>Atividades ligadas à cultura e extensão para a comunidade científica e externa à USP, comunidade de serviços (por exemplo, projetos, atendimento, parcerias, convênios, consultoria, etc.). Descrever as atividades, desenvolvidas pela biblioteca, de cultura e extensão universitárias. O formato do texto é livre.</p>'
+      '#element':
+        teste:
+          '#type': textfield
+          '#title': teste
+acessibilidade:
+  '#type': wizard_page
+  '#title': Acessibilidade
+  '#prev_button_label': '< Página anterior'
+  '#next_button_label': 'Próxima página >'
+  acessibilidade_fieldset:
+    '#type': fieldset
+    '#title': Acessibilidade
+    '#description': '<p>Acessibilidade: assegurar às pessoas com deficiência e mobilidade reduzida o acesso, em igualdade de oportunidades com as demais pessoas, ao meio físico/arquitetônico, ao transporte, à informação e à comunicação, inclusive aos sistemas e tecnologias da informação e comunicação, bem como a outros serviços e instalações abertos ao público ou de uso público, tanto na zona urbana como na rural, com autonomia, independência e segurança. As medidas para a promoção da acessibilidade devem incluir a identificação e a eliminação de obstáculos e barreiras.</p>'
+    '#description_display': before
+    condicoes_de_acessibilidade:
+      '#type': select
+      '#title': 'Oferece condições de acessibilidade?'
+      '#help': '<p>Condição para utilização com segurança e autonomia, total ou assistida, dos espaços mobiliários, equipamentos urbanos, edificações, serviços de transportes, dispositivos, sistemas e de meios de comunicação e informação, por pessoa com deficiência ou com mobilidade reduzida.</p>'
+      '#options':
+        Sim: Sim
+        Não: Não
+      '#empty_option': '- Selecione -'
+      '#empty_value': '- Selecione -'
+    funcionario_treinado_em_libras:
+      '#type': select
+      '#title': 'Atendente treinado na Língua Brasileira de Sinais (Libras)?'
+      '#help': '<p>Atendente ou algum membro da equipe fluente/capacitado para comunicar-se com o usuário na Língua Brasileira de Sinais (Libras).</p>'
+      '#options':
+        Sim: Sim
+        Não: Não
+      '#empty_option': '- Selecione -'
+      '#empty_value': '- Selecione -'
+    acessibilidade_arquitetonica_ou_fisica:
+      '#type': fieldset
+      '#title': 'Acessibilidade Arquitetônica ou Física'
+      banheiros_adaptados:
+        '#type': select
+        '#title': 'Possui banheiros e lavabos acessíveis?'
+        '#help': '<p>Banheiros e lavabos adequados ao uso de pessoas com deficiência e mobilidade reduzida. A concepção dos espaços, artefatos e produtos devem contemplar o desenho universal, com o objetivo de atender simultaneamente a todas as pessoas com diferentes características antropométricas e sensoriais, de forma autônoma, independente, segura e confortável, garantindo elementos e soluções que compõem a acessibilidade. Exemplos: lavatórios, espelhos, barras de apoio, vasos, papeleiras, mictórios e área de transferência, para atender a quem utiliza cadeira de rodas, aparelhos ortopédicos, próteses e também a quem precisa de apoio, como idosos e crianças. O espaço livre no banheiro deve ser suficiente para manobrar a cadeira de rodas. Devem ser facilmente acessados, ficando próximos das circulações principais e sinalizados. O banheiro deve conter as características estabelecidas pela norma técnica NBR 9050, que trata sobre a acessibilidade a edificações, mobiliário, espaços e equipamentos urbanos, elaborada pela Associação Brasileira de Normas Técnicas (ABNT).</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      bebedouros_lavabos_adaptados:
+        '#type': select
+        '#title': 'Possui bebedouros acessíveis?'
+        '#help': '<p>Bebedouros adequados ao uso de pessoas com deficiência e mobilidade reduzida. A concepção dos espaços, artefatos e produtos devem contemplar o desenho universal, com o objetivo de atender simultaneamente a todas as pessoas com diferentes características antropométricas e sensoriais, de forma autônoma, independente, segura e confortável, garantindo elementos e soluções que compõem a acessibilidade. Exemplos: bicas e torneiras para atender a quem utiliza cadeira de rodas, aparelhos ortopédicos, próteses e também a quem precisa de apoio, como idosos e crianças.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      dimensionamento_entradas_seg_versao:
+        '#type': select
+        '#title': 'Possui entrada/saída com vão livre acessível para a circulação de pessoas com deficiência e mobilidade reduzida?'
+        '#help': '<p>Entradas/saídas com vão livre acessível que atenda às necessidades de pessoas com deficiência e mobilidade reduzida, de forma a garantir a acessibilidade aos espaços arquitetônicos, apresentando percursos livres de obstáculos.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      equipamentos_eletronicos_adaptados:
+        '#type': select
+        '#title': 'Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?'
+        '#help': '<p>Equipamentos eletromecânicos, que podem ser elevadores, esteiras rolantes e plataformas elevatórias, projetados para garantir acessibilidade a todas as pessoas, principalmente em casos em que há impossibilidade da existência de rampa, ou em edificações com vários pavimentos.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      espaco_atendimento_adaptado_seg_versao:
+        '#type': select
+        '#title': 'Possui espaço para atendimento acessível?'
+        '#help': '<p>Espaços físicos/arquitetônicos que contemplem o desenho universal, com o objetivo de atender simultaneamente a todas as pessoas com diferentes características antropométricas e sensoriais, de forma autônoma, independente, segura e confortável, garantindo elementos e soluções que compõem a acessibilidade.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      mobiliario_adaptado_seg_versao:
+        '#type': select
+        '#title': 'Possui mobiliário acessível?'
+        '#help': '<p>Mobiliários (telefones, mesas ou superfícies para refeições ou trabalho, balcões, entre outros) que contemplem o desenho universal, com o objetivo de atender simultaneamente a todas as pessoas com diferentes características antropométricas e sensoriais, de forma autônoma, independente, segura e confortável, garantindo elementos e soluções que compõem a acessibilidade.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      rampa_acesso_adaptada:
+        '#type': select
+        '#title': 'Possui rampa de acesso com corrimão?'
+        '#help': '<p>Rampa de acesso que favorece a acessibilidade com segurança e autonomia, total ou assistida, das edificações, por pessoa com deficiência ou com mobilidade reduzida. Rampa com inclinação, largura, corrimão e rodapés adequados, bem como piso antiderrapante. Inclinação da superfície de piso, longitudinal ao sentido de caminhamento, com declividade definida pela NBR9050.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      sinalizacao_tatil:
+        '#type': select
+        '#title': 'Possui sinalização tátil?'
+        '#help': '<p>Qualquer tipo de sinalização que envolva o tato como meio de assimilar a mensagem tanto no espaço interno da IES quanto no externo. Pode ser realizada através de caracteres em relevo, pelo sistema Braille, ou piso tátil, localizados em áreas de circulação e em espaços amplos, indicando o caminho a ser percorrido, sobretudo pelo deficiente visual, e indicando mudanças de direção e alternativas de trajeto, rebaixamentos de calçadas, portas de elevadores e outras entradas e saídas, faixas de travessia, pontos de ônibus, etc.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      sinalizacao_visual:
+        '#type': select
+        '#title': 'Possui sinalização visual?'
+        '#help': '<p>Aquela composta por mensagens de textos, contrastes de cores, símbolos, figuras, entre outras formas de sinalização, que sejam perceptíveis por pessoas de baixa visão. Assim sendo, portas e paredes envidraçadas, localizadas nas áreas de circulação, devem ser claramente identificadas com sinalização visual de forma contínua, para permitir a fácil identificação visual da barreira física. Para isso também devem ser consideradas as diferentes condições de iluminação de ambos os lados das paredes ou portas de vidro. Cabe destacar que as informações em Braille não dispensam a sinalização visual e tátil, com caracteres ou símbolos em relevo.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      sinalizacao_sonora:
+        '#type': select
+        '#title': 'Possui sinalização sonora?'
+        '#help': '<p>Aquela composta por conjuntos de sons que permitem a compreensão pela audição. A sinalização direcional, na forma sonora, utiliza recursos de áudio para explanação de direcionamentos e segurança, como em alarmes e rotas de fuga, por exemplo.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      desobstrucao_ambientes_seg_versao:
+        '#type': select
+        '#title': 'Possui ambientes acessíveis para a movimentação/deslocamento/circulação de pessoas com deficiência e mobilidade reduzida?'
+        '#help': '<p>Ambientes acessíveis, que possibilitem a circulação/locomoção de pessoas com deficiência e mobilidade reduzida, em segurança, com autonomia e independência, total ou assistida.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      dimensionamento_entradas:
+        '#type': select
+        '#title': 'Possui Entrada/Saída com dimensionamento?'
+        '#access': false
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      espaco_atendimento_adaptado:
+        '#type': select
+        '#title': 'Possui espaço para atendimento adaptado?'
+        '#access': false
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      mobiliario_adaptado:
+        '#type': select
+        '#title': 'Possui mobiliário adaptado?'
+        '#access': false
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      desobstrucao_ambientes:
+        '#type': select
+        '#title': 'Possui ambiente desobstruídos que facilitem a movimentação de cadeirantes e pessoas com deficiência visual?'
+        '#access': false
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+    acessibilidade_de_conteudo:
+      '#type': fieldset
+      '#title': 'Acessibilidade de Conteúdo'
+      plano_aquisicao_bibliografica_adaptada_seg_versao:
+        '#type': select
+        '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato acessível?'
+        '#help': '<p>Plano de aquisição de acervo bibliográfico em formato acessível ao estudante com deficiência e utilização de diferentes recursos e ajudas técnicas para que ele tenha acesso à informação e ao conhecimento.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      acervo_adaptado_seg_versao:
+        '#type': select
+        '#title': 'Possui acervo em formato acessível para pessoas com deficiência visual (cegueira e baixa visão)?'
+        '#help': '<p>Acervo acessível em formato impresso e digital, como livros em Braille, letra ampliada, audiolivro, vídeo acessível com audiodescrição, entre outros.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      websites_apps_adaptados_seg_versao:
+        '#type': select
+        '#title': 'Possui sítios, plataformas e programas acessíveis  para que pessoas com deficiência naveguem  e utilizem os serviços oferecidos com autonomia?'
+        '#help': '<p>Sítios e aplicações com navegadores que leiam o texto da página e utilizem sintetizadores de voz, que tenham ampliadores de tela, recurso em libras, entre outros, possibilitando acessibilidade ao conteúdo.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      plano_aquisicao_bibliografica_adaptada:
+        '#type': select
+        '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato especial?'
+        '#access': false
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      acervo_adaptado:
+        '#type': select
+        '#title': 'Possui acervo em formato especial (Braille/Sonoro)?'
+        '#access': false
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      websites_apps_adaptados:
+        '#type': select
+        '#title': 'Possui websites e aplicações desenvolvidas para que pessoas percebam, compreendam, naveguem e utilizem os  serviços oferecidos?'
+        '#access': false
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+    acessibilidade_tecnologica:
+      '#type': fieldset
+      '#title': 'Acessibilidade Tecnológica'
+      impressoras_braille_seg_versao:
+        '#type': select
+        '#title': 'Disponibiliza serviços de impressão em Braille?'
+        '#help': '<p>Impressão feita em impressora matricial, capaz de utilizar um software que transforme um texto comum em Braille, produzindo o relevo próprio dessa linguagem numa folha de papel.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      software_leitura_acessivel_seg_versao:
+        '#type': select
+        '#title': 'Disponibiliza leitores de tela para pessoas com deficiência visual (cegueira e baixa visão)?'
+        '#help': '<p>Softwares que possibilitem a leitura, transcrevam textos em caracteres Braille para caracteres alfanuméricos em português, criem textos em Braille no computador e acoplem a leitura de tela a sintetizador de voz. Ex.: Dosvox, Dolphin, Br Braille, NVDA, Virtual Vision, Windows-Eves, entre outros.</p>'
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      teclado_virtual:
+        '#type': select
+        '#title': 'Disponibiliza teclado virtual?'
+        '#help': '<p>Software de leitor de tela que aparece no monitor e transforma em informação auditiva (por meio de placa de som e sintetizador de voz e informação tátil) e pode haver um display Braille (hardware que exibe dinamicamente em Braille).</p>'
+        '#options':
+          1: Sim
+          0: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      impressoras_braille:
+        '#type': select
+        '#title': 'Disponibiliza impressoras em Braille?'
+        '#access': false
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'
+      software_leitura_acessivel:
+        '#type': select
+        '#title': 'Disponibiliza software de leitura para pessoas com baixa visão?'
+        '#access': false
+        '#options':
+          Sim: Sim
+          Não: Não
+        '#empty_option': '- Selecione -'
+        '#empty_value': '- Selecione -'

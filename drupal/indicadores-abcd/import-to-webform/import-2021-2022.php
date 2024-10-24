@@ -3,13 +3,19 @@
 use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
 
-// Criado por Anna Valim - 2024
-// Para rodar, insira o código abaixo, atentando para o seu pwd atual:
-// ./vendor/bin/drush php-script ~/repos/scripts/drupal/indicadores-abcd/import-to-webform/import-2021-2022.php
-
-// Passo-a-passo:
-// 1. Criar um webform com o nome de máquina: indicadores_abcd
-// 2. Na aba build do webform criado, copiar o conteúdo do arquivo: drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+/* Criado por Anna Valim - 2024
+ *
+ * Passo-a-passo:
+ * 1. Criar um webform com o nome de máquina: indicadores_abcd
+ * 2. Na aba build do webform criado, copiar o conteúdo do arquivo: 
+ *    drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
+ * 
+ * 3. Para rodar e importar os resultados de 2021 e de 2022 insira o código abaixo, atentando para o seu pwd atual:
+ *    ./vendor/bin/drush php-script ~/projetos/scripts/drupal/indicadores-abcd/import-to-webform/import-2021-2022.php
+ * 
+ * PENDÊNCIAS:
+ * Precisa mexer nos campos nome e filezisekb [Questão dos arquivos]
+*/
 
 $csvArchives = [
   fopen('../../scripts/drupal/indicadores-abcd/data/2021.csv', "r"),
@@ -20,13 +26,8 @@ foreach($csvArchives as $archive){
   if ($archive !== FALSE) {
     
     $anoDeSubmissao = fgetcsv($archive, 1000, ",");
-    fgetcsv($archive, 1000, ",");
 
     while (($data = fgetcsv($archive, 1000, ",")) !== FALSE) {
-      if (!$header) {
-          $header = $data;
-          continue;
-      }
 
       list(
         $usuario,
@@ -65,7 +66,7 @@ foreach($csvArchives as $archive){
         $superior_tic,
         $tecnico_tic,
         $basico_tic,                              
-        $coleta_dados_capacitacao, //RESOLVER A QUESTÃO DE IMPORTAÇÃO DOS ARQUIVOS                                
+        $coleta_dados_capacitacao,                                // ESSE AQUI É O CAMPO COM ERRO
         $filesize_kb,
         $livros_nacional_compra,
         $livros_internacional_compra,
@@ -110,7 +111,7 @@ foreach($csvArchives as $archive){
         $baixas_efetuadas_outros,
         $materiais_nao_cadastrados_outros,
         $usp,
-        $locais_bibliotecas,
+        $externos_usp,
         $consultas_acervo,
         $emprestimos_seg_versao,
         $pedidos_atendidos_nacional_bibliusp,
@@ -185,7 +186,12 @@ foreach($csvArchives as $archive){
         $impressoras_braille_seg_versao,
         $software_leitura_acessivel_seg_versao,
         $teclado_virtual,
-    ) = array_slice($data, 8);
+      ) = array_slice($data, 8);
+
+      $total_ano_anterior   = (float) $total_ano_anterior;
+      $ampliacao_no_periodo = (float) $ampliacao_no_periodo;
+      $reducao_no_periodo   = (float) $reducao_no_periodo;
+      $area_fisica_agrupada = $total_ano_anterior + $ampliacao_no_periodo - $reducao_no_periodo;
 
       $webform_id = 'indicadores_abcd';
       $webform = Webform::load($webform_id);
@@ -201,6 +207,7 @@ foreach($csvArchives as $archive){
                 'total_ano_anterior' => $total_ano_anterior,
                 'ampliacao_no_periodo' => $ampliacao_no_periodo,
                 'reducao_no_periodo' => $reducao_no_periodo,
+                'area_fisica_agrupada' => $area_fisica_agrupada,
                 'funcionarios_superior' => $funcionarios_superior,
                 'funcionarios_superior_especializacao' => $funcionarios_superior_especializacao,
                 'funcionarios_superior_mestrado' => $funcionarios_superior_mestrado,
@@ -276,7 +283,7 @@ foreach($csvArchives as $archive){
                 'baixas_efetuadas_outros' => $baixas_efetuadas_outros,
                 'materiais_nao_cadastrados_outros' => $materiais_nao_cadastrados_outros,
                 'usp' => $usp,
-                'locais_bibliotecas' => $locais_bibliotecas,
+                'externos_usp' => $externos_usp,
                 'consultas_acervo' => $consultas_acervo,
                 'emprestimos_seg_versao' => $emprestimos_seg_versao,
                 'pedidos_atendidos_nacional_bibliusp' => $pedidos_atendidos_nacional_bibliusp,

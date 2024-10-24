@@ -1,169 +1,13 @@
 <?php 
 
+use Drupal\node\Entity\Node;
+use Drupal\file\Entity\File;
+
 // Criado por Maria Clara - 2024
 // Para rodar:
 // ./vendor/bin/drush php ~/scripts/drupal/indicadores-abcd/import-to-node/import.php
 
-use Drupal\node\Entity\Node;
-use Drupal\file\Entity\File;
-
 $field_mapping_1 = [
-    'Usuário' => 'field_sigla',
-	  'Unidade' => 'field_unidade',
-	  'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
-	  'Área Física (em m²) - Total ano anterior' => 'field_area_total_ano_anterior',
-	  'Área Física (em m²) - Ampliação no período' => 'field_area_ampliacao_no_periodo',
-	  'Área Física (em m²) - Redução no período' => 'field_area_reducao_no_periodo',
-	  'Recursos Humanos - Superior' => 'field_rh_funcionario_superior',
-	  'Recursos Humanos - Superior com Especialização' => 'field_rh_funcionario_superior_es',
-	  'Recursos Humanos - Superior com Mestrado' => 'field_rh_funcionario_superior_me',
-	      'Recursos Humanos - Superior com Doutorado' => 'field_rh_funcionario_superior_do',
-	      'Recursos Humanos - Grupo Técnico' => 'field_rh_funcionario_tecnico',
-	      'Recursos Humanos - Grupo Básico' => 'field_rh_funcionario_basico',
-	      'Recursos Humanos - Grupo Superior - Vagas não preenchidas' => 'field_rh_vagas_n_preenchidas_sup',
-	      'Recursos Humanos - Grupo Técnico - Vagas não preenchidas' => 'field_rh_vagas_n_preenchidas_tec',
-	      'Recursos Humanos - Grupo Básico - Vagas não preenchidas' => 'field_rh_vagas_n_preenchidas_bas',
-	      'Eventos - Superior' => 'field_eventos_superior',
-	      'Eventos - Técnico' => 'field_eventos_tecnico',
-	      'Eventos - Básico' => 'field_eventos_basico',
-	      'Pós-Graduação - Especialização - Superior' => 'field_pos_especializacao_sup',
-	      'Pós-Graduação - Especialização - Técnico' => 'field_pos_especializacao_tec',
-	      'Pós-Graduação - Especialização - Básico' => 'field_pos_especializacao_bas',
-	      'Pós-Graduação - Mestrado - Superior' => 'field_pos_mestrado_sup',
-	      'Pós-Graduação - Mestrado - Técnico' => 'field_pos_mestrado_tec',
-	      'Pós-Graduação - Mestrado - Básico' => 'field_pos_mestrado_bas',
-	      'Pós-Graduação - Doutorado - Superior' => 'field_pos_doutorado_sup',
-	      'Pós-Graduação - Doutorado - Técnico' => 'field_pos_doutorado_tec',
-	      'Pós-Graduação - Doutorado - Básico' => 'field_pos_doutorado_bas',
-	      'Cursos - Gerencial - Superior' => 'field_cursos_gerencial_sup',
-	      'Cursos - Gerencial - Técnico' => 'field_cursos_gerencial_tec',
-      'Cursos - Gerencial - Básico' => 'field_cursos_gerencial_bas',
-      'Cursos - Capacitação para Serviços - Superior' => 'field_cursos_capa_servicos_sup',
-      'Cursos - Capacitação para Serviços - Técnico' => 'field_cursos_capa_servicos_tec',
-      'Cursos - Capacitação para Serviços - Básico' => 'field_cursos_capa_servicos_bas',
-      'Cursos - Tecnologia de Informação e Comunicação (TIC) - Superior' => 'field_cursos_tic_sup',
-      'Cursos - Tecnologia de Informação e Comunicação (TIC) - Técnico' => 'field_cursos_tic_tec',
-      'Cursos - Tecnologia de Informação e Comunicação (TIC) - Básico' => 'field_cursos_tic_bas',
-      'Livros - Nacional - Compra' => 'field_livro_nacional_compra',
-      'Livros - Internacional - Compra' => 'field_livro_internacional_compra',
-      'Livros - Nacional - Permuta' => 'field_livro_nacional_permuta',
-      'Livros - Internacional - Permuta' => 'field_livro_internacional_permut',
-      'Livros - Nacional - Doação' => 'field_livro_nacional_doacao',
-      'Livros - Internacional - Doação' => 'field_livro_internacional_doacao',
-      'Teses - Nacional - Compra' => 'field_tese_nacional_compra',
-      'Teses - Internacional - Compra' => 'field_tese_internacional_compra',
-      'Teses - Nacional - Permuta' => 'field_tese_nacional_permuta',
-      'Teses - Internacional - Permuta' => 'field_tese_internacional_permuta',
-      'Teses - Nacional - Doação' => 'field_tese_nacional_doacao',
-      'Teses - Internacional - Doação' => 'field_tese_internacional_doacao',
-      'Periódicos - Títulos Correntes - Nacional - Compra' => 'field_periodico_nacional_compra',
-      'Periódicos - Títulos Correntes - Internacional - Compra' => 'field_periodico_internaci_compra',
-      'Periódicos - Títulos Correntes - Nacional - Permuta' => 'field_periodico_nacional_permuta',
-      'Periódicos - Títulos Correntes - Internacional - Permuta' => 'field_periodico_internac_permuta',
-      'Periódicos - Títulos Correntes - Nacional - Doação' => 'field_periodico_nacional_doacao',
-      'Periódicos - Títulos Correntes - Internacional - Doação' => 'field_periodico_internaci_doacao',
-      'Multimeios - Nacional - Compra' => 'field_multimeios_nacional_compra',
-      'Multimeios - Internacional - Compra' => 'field_multimeios_internac_compra',
-      'Multimeios - Nacional - Permuta' => 'field_multimeios_nacional_permut',
-      'Multimeios - Internacional - Permuta' => 'field_multimeios_internac_permut',
-      'Multimeios - Nacional - Doação' => 'field_multimeios_nacional_doacao',
-      'Multimeios - Internacional - Doação' => 'field_multimeios_internac_doacao',
-      'Outros Tipos - Nacional - Compra' => 'field_outros_nacional_compra',
-      'Outros Tipos - Internacional - Compra' => 'field_outros_internac_compra',
-      'Outros Tipos - Nacional - Permuta' => 'field_outros_nacional_permuta',
-      'Outros Tipos - Internacional - Permuta' => 'field_outros_internac_permuta',
-      'Outros Tipos - Nacional - Doação' => 'field_outros_nacional_doacao',
-      'Outros Tipos - Internacional - Doação' => 'field_outros_internac_doacao',
-      'Livros - Baixas Efetuadas de Materiais Cadastrados no DEDALUS' => 'field_livro_baixas_efetu_dedalus',
-      'Livros - Materiais não Cadastrados no DEDALUS' => 'field_livro_nao_cadastro_dedalus',
-      'Teses - Baixas Efetuadas de Materiais Cadastrados no DEDALUS' => 'field_tese_baixas_efetu_dedalus',
-      'Teses - Materiais não Cadastrados no DEDALUS' => 'field_tese_nao_cadastro_dedalus',
-      'Periódicos (Fascículos) - Materiais cadastrados no DEDALUS até a presente data' => 'field_periodicos_efetu_dedalus_p',
-      'Periódicos (Fascículos) - Materiais cadastrados no DEDALUS no ANO' => 'field_periodicos_efetu_dedalus_a',
-      'Periódicos (Fascículos) - Baixas Efetuadas de Materiais Cadastrados no DEDALUS' => 'field_periodicos_baixa_efet_deda',
-      'Periódicos (Fascículos) - Materiais não Cadastrados no DEDALUS' => 'field_periodicos_nao_cadast_deda',
-      'Multimeios - Baixas Efetuadas de Materiais Cadastrados no DEDALUS' => 'field_multimeio_baixa_efetu_deda',
-      'Multimeios - Materiais não Cadastrados no DEDALUS' => 'field_multimeio_nao_cadastr_deda',
-      'Outros Tipos - Baixas Efetuadas de Materiais Cadastrados no DEDALUS' => 'field_outros_baixas_efetu_deda',
-      'Outros Tipos - Materiais não Cadastrados no DEDALUS' => 'field_outros_nao_cadastro_deda',
-      'Frequência de Usuários - USP' => 'field_frequencia_de_usuarios_usp',
-      'Frequência de Usuários - Locais das Bibliotecas' => 'field_frequencia_de_usuarios_loc',
-      'Circulação - Consulta' => 'field_circulacao_consulta',
-      'Circulação - Empréstimo entre Bibliotecas - Como Biblioteca Solicitante' => 'field_circulacao_emprestimo_bibl',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - SIBiUSP' => 'field_cb_naciofornec_at_sibiusp',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - SIBiUSP' => 'field_cb_naciofornec_nt_sibiusp',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Cópias - SIBiUSP' => 'field_cb_naciofornec_nucop_sibiu',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - COMUT' => 'field_cb_naciofornec_at_comut',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - COMUT' => 'field_cb_naciofornec_nt_comut',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Cópias - COMUT' => 'field_cb_naciofornec_nucop_comut',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - BIREME' => 'field_cb_naciofornec_at_bireme',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - BIREME' => 'field_cb_naciofornec_nt_bireme',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Cópias - BIREME' => 'field_cb_naciofornec_nucop_birem',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - OUTROS' => 'field_cb_naciofornec_at_outro',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos - OUTROS' => 'field_cb_naciofornec_nt_outro',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Fornecedora - Número de Cópias - OUTROS' => 'field_cb_naciofornec_nucop_outro',
-      'Comutação Bibliográfica - Internacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos' => 'field_cb_internaciofornec_at',
-      'Comutação Bibliográfica - Internacional Como Biblioteca Fornecedora - Número de Pedidos NÃO Atendidos'  => 'field_cb_internaciofornec_nt',
-      'Comutação Bibliográfica - Internacional Como Biblioteca Fornecedora - Número de Cópias' => 'field_cb_internaciofornec_nucop',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - SIBiUSP' => 'field_cb_naciosolici_at_sibiusp',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - SIBiUSP' => 'field_cb_naciosolici_nt_sibiusp',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - COMUT' => 'field_cb_naciosolici_at_comut',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - COMUT'  => 'field_cb_naciosolici_nt_comut',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - BIREME' => 'field_cb_naciosolici_at_bireme',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - BIREME' => 'field_cb_naciosolici_nt_bireme',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - OUTROS' => 'field_cb_naciosolici_at_outro',
-      'Comutação Bibliográfica - Nacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos - OUTROS' => 'field_cb_naciosolici_nt_outro',
-      'Comutação Bibliográfica - Internacional Como Biblioteca Solicitante - Número de Pedidos Atendidos' => 'field_cb_internaciosolici_at',
-      'Comutação Bibliográfica - Internacional Como Biblioteca Solicitante - Número de Pedidos NÃO Atendidos' => 'field_cb_internaciosolici_nt',
-      'Assistência ao Usuário - Número de Assistências Efetuadas' => 'field_assistencia_usuario_num',
-      'Normalização Técnica - Documento como um Todo' => 'field_normatecnica_docum_todo',
-      'Normalização Técnica - Referências Bibliográficas' => 'field_normatecnica_referencias',
-      'Equipamentos de Informática - Microcomputador - Número de Equipamentos Usuários' => 'field_equipainfo_microcomp_usu',
-      'Equipamentos de Informática - Microcomputador - Número de Equipamentos Funcionários' => 'field_equipainfo_microcomp_funci',
-      'Equipamentos de Informática - Impressora - Número de Equipamentos Usuários' => 'field_equipainfo_impress_usu',
-      'Equipamentos de Informática - Impressora - Número de Equipamentos Funcionários' => 'field_equipainfo_impress_funci',
-      'Equipamentos de Informática - Scanner - Número de Equipamentos Usuários' => 'field_equipainfo_scanner_usu',
-      'Equipamentos de Informática - Scanner - Número de Equipamentos Funcionários' => 'field_equipainfo_scanner_funci',
-      'Equipamentos de Informática - Outros - Número de Equipamentos Usuários' => 'field_equipainfo_outro_usu',
-      'Equipamentos de Informática - Outros - Número de Equipamentos Funcionários' => 'field_equipainfo_outro_funci',
-      'Bases de dados locais' => 'field_bases_de_dados_locais',
-      'Publicações da Biblioteca' => 'field_publicacoes_da_biblioteca',
-      'Publicações Oficiais da Unidade com Participação da Biblioteca' => 'field_publicacoes_com_biblioteca',
-      'Projetos' => 'field_projetos',
-      'Eventos' => 'field_eventos',
-      'Atividades ligadas à Graduação' => 'field_atividades_graduacao',
-      'Atividades ligadas à Cultura e Extensão' => 'field_atividades_culturaextensao',
-      'Oferece serviços pela internet?' => 'field_oferece_servicos_internet',
-      'Possui rede sem fio?' => 'field_possui_rede_sem_fio',
-      'Participa de redes sociais?' => 'field_participa_de_redes_sociais',
-      'Facebook' => 'field_facebook',
-      'Twitter' => 'field_twitter',
-      'Blog' => 'field_blog',
-      'Flickr' => 'field_flickr',
-      'Pinterest' => 'field_pinterest',
-      'Youtube' => 'field_youtube',
-      'Outro' => 'field_outra_rede_social',
-      'Oferece condições de acessibilidade?' => 'field_oferece_condicoes_acesseci',
-      'Atendente ou membro da equipe de atendimento treinado na língua brasileira de sinais Libras?' => 'field_atendente_libras',
-      'Acessibilidade Arquitetônica ou Física - Possui banheiros adaptados?' => 'field_acessibifisica_banheiro',
-      'Acessibilidade Arquitetônica ou Física - Possui bebedouros e lavabos adaptados?' => 'field_acessibifisica_bebedouro',
-      'Acessibilidade Arquitetônica ou Física - Possui Entrada/Saída com dimensionamento?' => 'field_acessibifisica_entrasaida',
-      'Acessibilidade Arquitetônica ou Física - Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?' => 'field_acessibifisica_equipaeletr',
-      'Acessibilidade Arquitetônica ou Física - Possui espaço para atendimento adaptado?' => 'field_acessibifisica_atendimento',
-      'Acessibilidade Arquitetônica ou Física - Possui mobiliário adaptado?' => 'field_acessibifisica_mobiliaadap',
-      'Acessibilidade Arquitetônica ou Física - Possui rampa de acesso com corrimão?' => 'field_acessibifisica_rampa',
-      'Acessibilidade Arquitetônica ou Física - Possui sinalização tátil?' => 'field_acessibifisica_sinaltatil',
-      'Acessibilidade Arquitetônica ou Física - Possui sinalização visual?' => 'field_acessibifisica_sinalvisual',
-      'Acessibilidade Arquitetônica ou Física - Possui sinalização sonora?' => 'field_acessibifisica_sinalsonoro',
-      'Acessibilidade Arquitetônica ou Física - Possui ambiente desobstruídos que facilitem a movimentação de cadeirantes e pessoas com deficiência visual?' => 'field_acessibifisica_espacodesob',
-      'Acessibilidade de conteúdo - Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato especial?' => 'field_acessibicont_plano_aquisi',
-      'Acessibilidade de conteúdo - Possui acervo em formato especial(Braille/Sonoro)' => 'field_acessibicont_acervo_especi',
-      'Acessibilidade de conteúdo - Possui websites e aplicações desenvolvidas para que pessoas percebam, compreendam, naveguem e utilizem os serviços oferecidos?' => 'field_acessibicont_navegaservico',
-      'Acessibilidade Tecnológica - Disponibiliza impressoras em Braille?' => 'field_acessibitec_impres_braille',
-      'Acessibilidade Tecnológica - Disponibiliza software de leitura para pessoas com baixa visão?' => 'field_acessibitec_soft_leitubaix',
-      'Acessibilidade Tecnológica - Disponibiliza teclado virtual?' => 'field_acessibitec_tecladovirtual'    
-];
-$field_mapping_2 = [
       'Usuário' => 'field_sigla',
       'Unidade' => 'field_unidade',
       'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
@@ -321,7 +165,7 @@ $field_mapping_2 = [
       'Disponibiliza teclado virtual?' => 'field_acessibitec_tecladovirtual'    
 ];
 
-$field_mapping_3 = [
+$field_mapping_2 = [
       'Usuário' => 'field_sigla',
       'Unidade' => 'field_unidade',
       'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
@@ -481,7 +325,7 @@ $field_mapping_3 = [
       'Disponibiliza teclado virtual?' => 'field_acessibitec_tecladovirtual'
 ];
 
-$field_mapping_4 = [
+$field_mapping_3 = [
       'Usuário' => 'field_sigla',
       'Unidade' => 'field_unidade',
       'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
@@ -638,7 +482,7 @@ $field_mapping_4 = [
       'Disponibiliza software de leitura para pessoas com baixa visão?' => 'field_acessibitec_soft_leitubaix',
       'Disponibiliza teclado virtual?' => 'field_acessibitec_tecladovirtual'
 ];
-$field_mapping_5 = [
+$field_mapping_4 = [
       'Usuário' => 'field_sigla',
       'Unidade' => 'field_unidade',
       'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
@@ -795,7 +639,7 @@ $field_mapping_5 = [
       'Disponibiliza software de leitura para pessoas com baixa visão?' => 'field_acessibitec_soft_leitubaix',
       'Disponibiliza teclado virtual?' => 'field_acessibitec_tecladovirtual'
 ];
-$field_mapping_6 = [
+$field_mapping_5 = [
       'Usuário' => 'field_sigla',
       'Unidade' => 'field_unidade',
       'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
@@ -952,7 +796,7 @@ $field_mapping_6 = [
       'Disponibiliza software de leitura para pessoas com baixa visão?' => 'field_acessibitec_soft_leitubaix',
       'Disponibiliza teclado virtual?' => 'field_acessibitec_tecladovirtual'
 ];
-$field_mapping_7 = [
+$field_mapping_6 = [
       'Usuário' => 'field_sigla',
       'Unidade' => 'field_unidade',
       'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
@@ -1110,7 +954,7 @@ $field_mapping_7 = [
       'Disponibiliza teclado virtual?' => 'field_acessibitec_tecladovirtual'
 ];
 
-$field_mapping_8 = [
+$field_mapping_7 = [
       'Usuário' => 'field_sigla',
       'Unidade' => 'field_unidade',
       'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
@@ -1268,7 +1112,7 @@ $field_mapping_8 = [
       'Disponibiliza teclado virtual?' => 'field_acessibitec_tecladovirtual'
 ];
 
-$field_mapping_9 = [
+$field_mapping_8 = [
       'Usuário' => 'field_sigla',
       'Unidade' => 'field_unidade',
       'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
@@ -1426,7 +1270,7 @@ $field_mapping_9 = [
       'Disponibiliza teclado virtual?' => 'field_acessibitec_tecladovirtual'
 ];
 
-$field_mapping_10 = [
+$field_mapping_9 = [
      'Usuário' => 'field_sigla',
      'Unidade' => 'field_unidade',
      'Número de assentos para usuários' => 'field_numero_assentos_p_usuarios',
@@ -1514,16 +1358,15 @@ $field_mapping_10 = [
 ];
 
 $files_and_mappings = [
-'../data/2014.csv' => $field_mapping_1,
-'../data/2015.csv' => $field_mapping_2,
-'../data/2016.csv' => $field_mapping_3,
-'../data/2017.csv' => $field_mapping_4,
-'../data/2018.csv' => $field_mapping_5,
-'../data/2019.csv' => $field_mapping_6,
-'../data/2020.csv' => $field_mapping_7,
-'../data/2021.csv' => $field_mapping_8,
-'../data/2022.csv' => $field_mapping_9,
-'../data/2023.csv' => $field_mapping_10,
+'../../scripts/drupal/indicadores-abcd/data/2015.csv' => $field_mapping_1,
+'../../scripts/drupal/indicadores-abcd/data/2016.csv' => $field_mapping_2,
+'../../scripts/drupal/indicadores-abcd/data/2017.csv' => $field_mapping_3,
+'../../scripts/drupal/indicadores-abcd/data/2018.csv' => $field_mapping_4,
+'../../scripts/drupal/indicadores-abcd/data/2019.csv' => $field_mapping_5,
+'../../scripts/drupal/indicadores-abcd/data/2020.csv' => $field_mapping_6,
+'../../scripts/drupal/indicadores-abcd/data/2021.csv' => $field_mapping_7,
+'../../scripts/drupal/indicadores-abcd/data/2022.csv' => $field_mapping_8,
+'../../scripts/drupal/indicadores-abcd/data/2023.csv' => $field_mapping_9,
 ];
 
 function import_csv_to_nodes($file_path, $field_mapping) {
