@@ -188,7 +188,7 @@ foreach($arquivos_array as $coluna) {
     $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado){
         $arquivo_conteudo = file_get_contents($full_path.$arquivo_relacionado);
-        $file = file_save_data($arquivo_conteudo, 'public://'.'JAP/'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
+        $file = file_save_data($arquivo_conteudo, 'public://'.'ACERVO/JAP/'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
         $Arquivos_PDF[] = [
             'target_id' => $file->id(),
             'alt'       => 'Arquivo' . $file->id(),
