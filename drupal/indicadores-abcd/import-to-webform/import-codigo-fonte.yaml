@@ -64,6 +64,7 @@ pagina_dados_administrativos:
     '#empty_option': '- Selecione -'
     '#empty_value': '- Selecione -'
     '#access_create_roles': {  }
+    '#required': true
   dados_administrativos:
     '#type': fieldset
     '#title': 'Dados Gerais'
@@ -74,6 +75,7 @@ pagina_dados_administrativos:
         '#type': number
         '#title': 'Número de Assentos para Usuários'
         '#help': '<p>Espaços disponibilizados aos usuários para leitura e estudo, com ou sem mesas ou equipamentos. Incluem assentos em cabines individuais, salas de estudo em grupo e de multimídia. Não devem ser contados os assentos de auditórios e espaços informais sem mobiliário.</p>'
+        '#required': true
     area_fisica_em_m2:
       '#type': fieldset
       '#title': 'Área Física (em m2)'
@@ -81,6 +83,7 @@ pagina_dados_administrativos:
         '#type': number
         '#title': 'Área Física (em m2)'
         '#help': '<p>Indicar o total de área física da Biblioteca, em metros quadrados.</p>'
+        '#required': true
       total_ano_anterior:
         '#type': number
         '#title': 'Total ano anterior'
@@ -100,26 +103,32 @@ pagina_dados_administrativos:
         '#type': number
         '#title': 'Funcionários de nível Superior'
         '#help': '<p>Número de funcionários do Grupo Superior da Biblioteca, que possuem somente o nível de graduação em Biblioteconomia. Caso o profissional tenha mais de um título, indicar somente o de maior grau.</p>'
+        '#required': true
       funcionarios_superior_especializacao:
         '#type': number
         '#title': 'Funcionários de Nível Superior com Especialização'
         '#help': '<p>Número de funcionários do Grupo Superior da Biblioteca, com especialização concluída na área,<br>tendo o nível de graduação em Biblioteconomia. Caso o profissional tenha mais de um título, indicar somente o de maior grau.</p>'
+        '#required': true
       funcionarios_superior_mestrado:
         '#type': number
         '#title': 'Funcionários de Nível Superior com Mestrado'
         '#help': '<p>Número de funcionários do Grupo Superior da Biblioteca, com título de mestre (não necessariamente na área), tendo o nível de graduação em Biblioteconomia. Caso o profissional tenha mais de um título, indicar somente o de maior grau.</p>'
+        '#required': true
       funcionarios_superior_doutorado:
         '#type': number
         '#title': 'Funcionários de Nível Superior com Doutorado'
         '#help': '<p>Número de funcionários do Grupo Superior da Biblioteca, com título de doutor (não necessariamente na área), tendo o nível de graduação em Biblioteconomia. Caso o profissional tenha mais de um título, indicar somente o de maior grau.</p>'
+        '#required': true
       funcionarios_tecnico:
         '#type': number
         '#title': 'Funcionários de Nível Técnico'
         '#help': '<p>Número de funcionários do Grupo Técnico da Biblioteca.</p>'
+        '#required': true
       funcionarios_basico:
         '#type': number
         '#title': 'Funcionários de Nível Básico'
         '#help': '<p>Número de funcionários do Grupo Básico da Biblioteca.</p>'
+        '#required': true
       funcionarios_tecnico_vagas_nao_preenchidas:
         '#type': number
         '#title': 'Funcionários de Nível Técnico - Vagas não preenchidas'
@@ -149,62 +158,77 @@ pagina_capacitacao_rh:
         '#type': number
         '#title': 'Eventos - Superior'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Eventos: considerar seminários, simpósios, congressos, palestras etc.</p>'
+        '#required': true
       tecnico_eventos:
         '#type': number
         '#title': 'Eventos - Técnico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Eventos: considerar seminários, simpósios, congressos, palestras etc.</p>'
+        '#required': true
       basico_eventos:
         '#type': number
         '#title': 'Eventos - Básico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Eventos: considerar seminários, simpósios, congressos, palestras etc.</p>'
+        '#required': true
       superior_especializacao:
         '#type': number
         '#title': 'Pós-Graduação - Especialização - Superior'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+        '#required': true
       tecnico_especializacao:
         '#type': number
         '#title': 'Pós-Graduação - Especialização - Técnico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+        '#required': true
       basico_especializacao:
         '#type': number
         '#title': 'Pós-Graduação - Especialização - Básico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+        '#required': true
       superior_mestrado:
         '#type': number
         '#title': 'Pós-Graduação - Mestrado - Superior'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+        '#required': true
       tecnico_mestrado:
         '#type': number
         '#title': 'Pós-Graduação - Mestrado - Técnico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+        '#required': true
       basico_mestrado:
         '#type': number
         '#title': 'Pós-Graduação - Mestrado - Básico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+        '#required': true
       superior_doutorado:
         '#type': number
         '#title': 'Pós-Graduação - Doutorado - Superior'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+        '#required': true
       tecnico_doutorado:
         '#type': number
         '#title': 'Pós-Graduação - Doutorado - Técnico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+        '#required': true
       basico_doutorado:
         '#type': number
         '#title': 'Pós-Graduação - Doutorado - Básico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Pós-graduação: considerar os cursos de pós-graduação concluídos no período.</p>'
+        '#required': true
       superior_cursos:
         '#type': number
         '#title': 'Cursos - Superior'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Superior da Biblioteca, capacitados por atividades no período. Cursos Extensão/Atualização: cursos com carga horária menor que 360 horas.</p>'
+        '#required': true
       tecnico_cursos:
         '#type': number
         '#title': 'Cursos - Técnico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Técnico da Biblioteca, capacitados por atividades no período. Cursos Extensão/Atualização: cursos com carga horária menor que 360 horas.</p>'
+        '#required': true
       basico_cursos:
         '#type': number
         '#title': 'Cursos - Básico'
         '#help': '<p>Indicar o número de participações dos funcionários da categoria Básico da Biblioteca, capacitados por atividades no período. Cursos Extensão/Atualização: cursos com carga horária menor que 360 horas.</p>'
+        '#required': true
       superior_gerencial:
         '#type': number
         '#title': 'Cursos - Gerencial - Superior'
@@ -247,7 +271,9 @@ pagina_capacitacao_rh:
       formulario_coleta_de_dados:
         '#type': custom_composite
         '#title': 'Formulário para Coleta de Dados das Atividades de Capacitação de Usuários'
-        '#help': '<p>Informações sobre capacitação de usuários realizada de forma planejada pela Biblioteca. A orientação e/ou instrução momentânea ao usuário sobre o uso e recursos oferecidos pela Biblioteca devem ser registradas no item “Assistência ao usuário”. Cada capacitação deve ser cadastrada tantas vezes quantas forem as vezes que ela foi oferecida no período.</p>'
+        '#help': '<p>Informações sobre capacitação de usuários realizada de forma planejada pela Biblioteca. A orientação e/ou instrução momentânea ao usuário sobre o uso e recursos oferecidos pela Biblioteca devem ser registradas no item “Assistência ao usuário”. Cada capacitação deve ser cadastrada tantas vezes quantas forem as vezes que ela foi oferecida no período.</p><p>Obs.: Caso a ação de capacitação tenha sido oferecida de forma conjunta com a equipe de outra Biblioteca da ABCD, computar os dados apenas em uma Biblioteca, preferencialmente aquela que promoveu a ação, de modo a evitar a duplicação do registro da ação e do número de participantes.</p>'
+        '#description_display': before
+        '#multiple__header': false
         '#element':
           tipo:
             '#type': select
@@ -258,47 +284,48 @@ pagina_capacitacao_rh:
               4: Curso/Treinamento
               5: 'Aulas a Convite da Unidade'
               6: Outros
+            '#required': true
             '#title': 'Tipo de Capacitação'
-            '#help': |-
-              - Disciplina na Unidade: curso ou programa de instrução orientada constando como disciplina cadastrada nos Bancos: Júpiter (Graduação), Fênix (Pós-Graduação) ou Apolo (Extensão), ministrado integralmente por bibliotecário (pertencente ao quadro de funcionários da Biblioteca) responsável pela disciplina ou em parceria com docente da Unidade. Obrigatório indicar a sigla da disciplina nos bancos corporativos. As aulas ministradas em disciplinas de demais docentes da Unidade devem ser cadastradas no tipo “Aulas a convite da Unidade”. 
-
-              - Palestra: conferência ou discussão sobre assunto científico/cultural. 
-
-              - Visita Orientada: apresentação organizada pela Biblioteca para visitantes.  
-
-              - Curso/Treinamento: adota-se como definição de curso uma série de aulas, conferências ou palestras sobre um ou vários temas, conexos ou não. 
-
-              - Aulas a convite da Unidade: aulas/palestras ministradas em disciplinas de demais docentes da Unidade. 
-
-              - Outros: outros tipos de capacitação. 
+            '#help': '<p>Disciplina na Unidade - Curso ou programa de instrução orientada constando como disciplina cadastrada nos Bancos: Júpiter (Graduação), Fênix (Pós-Graduação) ou Apolo (Extensão), ministrado integralmente por bibliotecário (pertencente ao quadro de funcionários da Biblioteca) responsável pela disciplina ou em parceria com docente da Unidade. Obrigatório indicar a sigla da disciplina nos bancos corporativos. As aulas ministradas em disciplinas de demais docentes da Unidade devem ser cadastradas no tipo “Aulas a convite da Unidade”. <br> Palestra - Conferência ou discussão sobre assunto científico/cultural. <br> Visita Orientada - Apresentação organizada pela Biblioteca para visitantes. <br> Cursos/Treinamento - Adota-se como definição de curso uma série de aulas, conferências ou palestras sobre um ou vários temas, conexos ou não. <br> Aulas a convite da Unidade - Aulas/palestras ministradas em disciplinas de demais docentes da Unidade. <br> Outros - Outros tipos de capacitação.</p>'
             '#empty_option': '- Selecione -'
             '#empty_value': '- Selecione -'
-          sigla:
+          nome:
             '#type': textfield
-            '#title': 'Sigla da Disciplina'
+            '#required': true
+            '#title': Nome
+            '#help': 'Indicar o nome da capacitação ou conteúdo principal da mesma.'
+          publico:
+            '#type': select
+            '#options':
+              1: 'Comunidade USP'
+              2: 'Outras Instituições'
+            '#required': true
+            '#title': Público
           carga_horaria:
             '#type': number
+            '#required': true
             '#title': 'Carga Horária'
             '#help': 'Indicar a carga horária total da capacitação.'
           participantes:
             '#type': number
+            '#required': true
             '#title': 'Nº de Participantes/Alunos Matriculados'
             '#help': 'Disciplina na Unidade e Aulas a convite da Unidade: indicar o número de alunos matriculados/inscritos. Demais tipos de eventos/cursos: indicar o número de participantes que assinaram  as listas de presença de cursos/eventos.'
           data_inicio:
             '#type': date
+            '#required': true
             '#title': 'Data de Início'
+            '#help': 'Indicar a data inicial da capacitação.'
           data_termino:
             '#type': date
+            '#required': true
             '#title': 'Data de Término'
+            '#help': 'Indicar a data de término da capacitação.'
           ministrante:
             '#type': textfield
+            '#required': true
             '#title': Ministrante
-          publico:
-            '#type': select
-            '#options':
-              1: USP
-              2: 'Instituições Externas'
-            '#title': Público
+            '#help': 'Indicar o nome do responsável pela capacitação.'
 aquisicao_acervo:
   '#type': wizard_page
   '#title': 'Aquisição e Acervo'
@@ -311,18 +338,22 @@ aquisicao_acervo:
       '#type': number
       '#title': 'Livros e outros tipos de materiais - Compra'
       '#help': '<p>Indicar o total de itens (unidades físicas) adquiridos por compra no período de livros, teses, multimeios e outros tipos de materiais. Considerar como itens adquiridos aqueles efetivamente incorporados ao acervo.</p>'
+      '#required': true
     livros_doacao_seg_versao:
       '#type': number
       '#title': 'Livros e outros tipos de materiais - Doação'
       '#help': '<p>Indicar o total de itens (unidades físicas) adquiridos por doação no período de livros, teses, multimeios e outros tipos de materiais. Considerar como itens adquiridos aqueles efetivamente incorporados ao acervo.</p>'
+      '#required': true
     periodicos_compra_seg_versao:
       '#type': number
       '#title': 'Periódicos - Títulos Correntes - Compra'
       '#help': '<p>Indicar o total de itens (unidades físicas) adquiridos por compra no período de títulos de periódicos correntes. Considerar como itens adquiridos aqueles efetivamente incorporados ao acervo. Considerar os títulos novos e as renovações de assinaturas que continuam sendo recebidas pela Biblioteca. No caso de duplicação do título em suportes diferentes, considerar apenas um deles.</p>'
+      '#required': true
     periodicos_doacao_seg_versao:
       '#type': number
       '#title': 'Periódicos - Títulos Correntes - Doação'
       '#help': '<p>Indicar o total de itens (unidades físicas) adquiridos por doação no período de títulos de periódicos correntes. Considerar como itens adquiridos aqueles efetivamente incorporados ao acervo. Considerar os títulos novos e as renovações de assinaturas que continuam sendo recebidas pela Biblioteca. No caso de duplicação do título em suportes diferentes, considerar apenas um deles.</p>'
+      '#required': true
     livros_nacional_compra:
       '#type': number
       '#title': 'Livros - Nacional - Compra'
@@ -450,14 +481,17 @@ aquisicao_acervo:
       '#type': number
       '#title': 'Periódicos (Fascículos) - Materiais cadastrados no DEDALUS até a presente data'
       '#help': '<p>Total de itens/exemplares cadastrados no DEDALUS. Indicar o total de fascículos cadastrados no DEDALUS até a presente data. Fascículos acumulados (exemplo: v.1, n.1/4, publicados em um documento impresso), indicar a quantidade de fascículos da unidade física (no caso do exemplo, indicar 4 fascículos). Periódicos em formato não impresso (CD-ROM, microfichas etc.), indicar a unidade física, mesmo que esta contenha mais de um fascículo.</p>'
+      '#required': true
     materiais_nao_cadastrados_periodicos:
       '#type': number
       '#title': 'Periódicos (Fascículos) - Materiais não Cadastrados no DEDALUS'
       '#help': '<p>Total de itens já selecionados e que aguardam cadastramento no DEDALUS, separados por tipo de material - Periódicos (Fascículos). Fascículos acumulados (exemplo: v.1, n.1/4, publicados em um documento impresso), indicar a quantidade de fascículos da unidade física (no caso do exemplo, indicar 4 fascículos). Periódicos em formato não impresso (CD-ROM, microfichas etc.), indicar a unidade física, mesmo que esta contenha mais de um fascículo.</p>'
+      '#required': true
     backlog_catalogacao:
       '#type': number
       '#title': 'Backlog Catalogação - Materiais não Cadastrados no DEDALUS (livros, teses, multimeios e outros tipos)'
       '#help': '<p>Total de itens já selecionados e que aguardam cadastramento no DEDALUS.</p>'
+      '#required': true
     baixas_efetuadas_livros:
       '#type': number
       '#title': 'Livros - Baixas Efetuadas de Materiais Cadastrados no DEDALUS'
@@ -523,10 +557,12 @@ pagina_5:
       '#type': number
       '#title': 'Frequência de Usuários - USP'
       '#help': '<p>Número de usuários USP que frequentaram a Biblioteca no período. Para obter a frequência de usuários da USP, proceder da seguinte forma: 1) verificar o total de usuários registrados pela catraca, portão magnético ou outro sistema automatizado no período. Caso estes mecanismos registrem tanto a entrada como a saída de usuários, dividir o total obtido por dois; 2) subtrair a frequência de usuários locais das bibliotecas do total de usuários registrados pela catraca ou portão magnético. Obs.: Lembramos que para a contagem ser real é preciso zerar o contador da catraca ou do portão magnético no início de cada período de coleta, tomando o cuidado para não mais zerá-lo até o fim do período.</p>'
+      '#required': true
     externos_usp:
       '#type': number
       '#title': 'Frequência de Usuários - Externos à USP'
       '#help': '<p>Número de usuários registrados pela Biblioteca como usuários locais que frequentaram a Biblioteca no período.<br>&nbsp;</p><p>Observação: Caso o portão magnético, a catraca ou outro sistema automatizado de coleta de dados não esteja disponível na Biblioteca, considera-se válida a utilização do método de amostragem por semana típica como solução alternativa para obtenção dos dados.<br>&nbsp;</p><p>Método da Semana Típica: Escolha uma semana em que a Biblioteca esteja aberta em horário normal, evitando semanas com feriados, períodos de férias, semanas com eventos na Biblioteca ou Unidade, semanas de início ou fim de semestre. Coletar os dados durante uma semana de 5 ou 6 dias consecutivos, contabilizando a frequência de usuários USP e externos à USP. Multiplicar os valores obtidos, mediante as pesquisas da semana típica, pelo número de semanas em que a Biblioteca esteve aberta no período.<br>&nbsp;</p><p>O método da semana típica é indicado pela norma: ANSI/NISO Z39.7-2013 Information Services and Use: Metrics &amp; Statistics for Libraries and Information Providers Data Dictionary (item 7.1 – Gate Count).</p>'
+      '#required': true
   circulacao:
     '#type': fieldset
     '#title': Circulação
@@ -534,10 +570,12 @@ pagina_5:
       '#type': number
       '#title': 'Consultas ao Acervo'
       '#help': '<p>Consulta: número total de materiais utilizados pelos usuários (consulta/reprodução), e recolocados no acervo, durante o ano a que se refere o presente RIBi, excluindo as devoluções de empréstimos. Indicar o total de unidades físicas para consulta. Exemplo: Para um volume encadernado contendo 10 fascículos, considerar uma unidade física.</p>'
+      '#required': true
     entre_bibliotecas_biblioteca_solicitante:
       '#type': number
       '#title': 'Empréstimo entre Bibliotecas - Como Biblioteca Solicitante'
       '#help': '<p>Número total de empréstimos-entre- Bibliotecas solicitados pela Biblioteca e efetivamente atendidos durante o ano a que se refere o presente RIBi.</p>'
+      '#required': true
   comutacao_bibliografica:
     '#type': fieldset
     '#title': 'Comutação Bibliográfica'
@@ -545,34 +583,42 @@ pagina_5:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - Bibliotecas USP'
       '#help': '<p>Informar número de pedidos efetivamente atendidos pela Biblioteca, realizados por meio do Programa COMUT/Grupos USP, somados aos pedidos atendidos fora do Programa COMUT/Grupos USP (somente entre Bibliotecas da USP).</p>'
+      '#required': true
     pedidos_atendidos_nacional_comut:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - COMUT'
       '#help': '<p>Informar número de pedidos efetivamente atendidos pela Biblioteca, realizados por meio do Programa COMUT, exceto os efetivados como Grupo USP.</p>'
+      '#required': true
     pedidos_atendidos_nacional_outros:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - OUTROS'
       '#help': '<p>Informar número de pedidos efetivamente atendidos pela Biblioteca.</p>'
+      '#required': true
     pedidos_atendidos_internacional:
       '#type': number
       '#title': 'Internacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos'
       '#help': '<p>Informar número de pedidos efetivamente atendidos pela Biblioteca.</p>'
+      '#required': true
     solicitante_atendidos_nacional_bibliusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - Bibliotecas USP'
       '#help': '<p>Informar número de pedidos solicitados e efetivamente atendidos, realizados por meio do Programa COMUT/Grupos USP, somados aos pedidos atendidos fora do Programa COMUT/Grupos USP (somente entre Bibliotecas da USP).</p>'
+      '#required': true
     solicitante_atendidos_nacional_comut:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - COMUT'
       '#help': '<p>Informar número de pedidos solicitados e efetivamente atendidos para a Biblioteca, solicitados por meio do Programa COMUT, exceto os efetivados como Grupo USP.</p>'
+      '#required': true
     solicitante_atendidos_nacional_outros:
       '#type': number
       '#title': 'Nacional Como Biblioteca Solicitante - Número de Pedidos Atendidos - OUTROS'
       '#help': '<p>Informar número de pedidos solicitado e efetivamente atendidos para a Biblioteca.</p>'
+      '#required': true
     solicitante_atendidos_internacional:
       '#type': number
       '#title': 'Internacional Como Biblioteca Solicitante - Número de Pedidos Atendidos'
       '#help': '<p>Informar número de pedidos solicitados e efetivamente atendidos para a Biblioteca.</p>'
+      '#required': true
     pedidos_atendidos_nacional_sibiusp:
       '#type': number
       '#title': 'Nacional Como Biblioteca Fornecedora - Número de Pedidos Atendidos - SIBiUSP'
@@ -668,6 +714,7 @@ pagina_5:
       '#type': number
       '#title': 'Número de Assistências Efetuadas'
       '#help': '<p>Indicar o número de assistências aos usuários realizadas pela equipe da Biblioteca.<br>&nbsp;</p><p>Assistência ao usuário compreende todas as transações de referência, requisitadas por usuários pessoalmente ou de forma virtual (telefone, e-mail, formulário web, mensagens instantâneas etc.), que envolvam conhecimento, uso, recomendações, interpretações ou instruções de uso de quaisquer fontes de informação, efetuadas, local ou remotamente pela equipe da Biblioteca, possibilitando ou garantindo, ao usuário, o acesso à informação.<br>&nbsp;</p><p>Exemplos de transações de referência: orientação sobre o uso e recursos oferecidos pela Biblioteca (catálogos impressos, bases de dados, coleções especiais etc.); elaboração de buscas bibliográficas; suporte ao desenvolvimento de pesquisa; pesquisa em bases de dados; respostas às questões de referência.</p><p>&nbsp;</p><p>Não devem ser consideradas como assistência ao usuário as seguintes transações: informações administrativas sobre o uso da Biblioteca ou seus serviços; informações sobre o regulamento ou políticas da Biblioteca; informações sobre a localização de itens específicos nas estantes ou nos catálogos da Biblioteca; solicitações de empréstimos (compiladas em circulação do acervo); transações realizadas diretamente pelos usuários sem o auxílio da equipe da Biblioteca; informações pessoais recebidas pela equipe da Biblioteca ou sobre a equipe da Biblioteca.<br>&nbsp;</p><p>Nota: O conceito de assistência ao usuário é derivado da regulamentação da norma: ANSI/NISO Z39.7-2013 Information Services and Use: Metrics &amp; Statistics for Libraries and Information Providers Data Dictionary (item 7.3 – Information Requests).</p>'
+      '#required': true
   normalizacao_tecnica:
     '#type': fieldset
     '#title': 'Normalização Técnica'
@@ -675,10 +722,12 @@ pagina_5:
       '#type': number
       '#title': 'Documento como um Todo'
       '#help': '<p>Número de publicações normalizadas para os usuários da Biblioteca.</p>'
+      '#required': true
     referencias_bibliograficas:
       '#type': number
       '#title': 'Referências Bibliográficas'
       '#help': '<p>Número de referências bibliográficas normalizadas para usuários da Biblioteca.</p>'
+      '#required': true
 informatica:
   '#type': wizard_page
   '#title': Equipamentos
@@ -691,34 +740,42 @@ informatica:
       '#type': number
       '#title': 'Microcomputador - Número de Equipamentos Usuários'
       '#help': '<p>Número de computadores disponíveis aos usuários. Não considerar os equipamentos disponíveis nas salas “Pró-alunos”.</p>'
+      '#required': true
     equipamentos_funcionarios_microcomputador:
       '#type': number
       '#title': 'Microcomputador - Número de Equipamentos Funcionários'
       '#help': '<p>Número de computadores disponíveis aos funcionários.</p>'
+      '#required': true
     equipamentos_usuarios_impressora:
       '#type': number
       '#title': 'Impressora - Número de Equipamentos Usuários'
       '#help': '<p>Número de impressoras disponíveis aos usuários. Não considerar os equipamentos disponíveis nas salas “Pró-alunos”.</p>'
+      '#required': true
     equipamentos_funcionarios_impressora:
       '#type': number
       '#title': 'Impressora - Número de Equipamentos Funcionários'
       '#help': '<p>Número de impressoras disponíveis aos funcionários.</p>'
+      '#required': true
     equipamentos_usuarios_scanner:
       '#type': number
       '#title': 'Scanner - Número de Equipamentos Usuários'
       '#help': '<p>Número de scanners disponíveis aos usuários. Não considerar os equipamentos disponíveis nas salas “Pró-alunos”.</p>'
+      '#required': true
     equipamentos_funcionarios_scanner:
       '#type': number
       '#title': 'Scanner - Número de Equipamentos Funcionários'
       '#help': '<p>Número de scanners disponíveis aos funcionários.</p>'
+      '#required': true
     equipamentos_usuarios_outros:
       '#type': number
       '#title': 'Outros - Número de Equipamentos Usuários'
       '#help': '<p>Número de outros equipamentos disponíveis aos usuários. Não considerar os equipamentos disponíveis nas salas “Pró-alunos”.</p>'
+      '#required': true
     equipamentos_funcionarios_outros:
       '#type': number
       '#title': 'Outros - Número de Equipamentos Funcionários'
       '#help': '<p>Número de outros equipamentos disponíveis aos funcionários.</p>'
+      '#required': true
     internet:
       '#type': fieldset
       '#title': Internet
@@ -731,6 +788,7 @@ informatica:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       rede_sem_fio:
         '#type': select
         '#title': 'Possui rede sem fio?'
@@ -740,6 +798,7 @@ informatica:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       possui_redes_sociais:
         '#type': select
         '#title': 'Participa de redes sociais?'
@@ -789,93 +848,229 @@ informacoes_gerais:
   outras_informacoes:
     '#type': fieldset
     '#title': Produtos
+    bases_de_dados_seg_versao:
+      '#type': custom_composite
+      '#title': 'Bases de Dados'
+      '#help': '<p>Informações sobre bases de dados mantidas pelas Bibliotecas, disponíveis para consulta. Não incluem bancos de dados com fins administrativos gerenciados pela Biblioteca, nem as bases de dados do DEDALUS, CCN, Portal de Periódicos da Capes, Scopus e outras bases de dados que não são alimentadas diretamente pela equipe da Biblioteca.&nbsp;</p>'
+      '#multiple__header': false
+      '#element':
+        nome:
+          '#type': textfield
+          '#required': true
+          '#title': Nome
+          '#help': 'Nome da base de dados.'
+        tipo:
+          '#type': select
+          '#options':
+            1: 'Base Local'
+            2: 'Base Nacional'
+            3: 'Base Internacional'
+          '#required': true
+          '#title': 'Tipo da Base de Dados'
+          '#help': 'Base Local - Bases mantidas pela própria Biblioteca. <br> Base Nacional - Bases mantidas pela própria Biblioteca com a participação de outras instituições nacionais ou mantidas por outras instituições nacionais com a participação da Biblioteca. <br> Base Internacional - Bases mantidas pela própria Biblioteca com a participação de outras instituições internacionais ou mantidas por outras instituições internacionais com a participação da Biblioteca.'
+        registros_cadastrados_periodo:
+          '#type': textfield
+          '#required': true
+          '#title': 'Registros Cadastrados no Período'
+          '#help': 'Indicar apenas os registros cadastrados pela Biblioteca na base de dados, no período a que se refere o presente RIBi. '
+    publicacoes:
+      '#type': fieldset
+      '#title': Publicações
+      publicacoes_biblioteca_seg_versao:
+        '#type': custom_composite
+        '#title': 'Publicações da Biblioteca'
+        '#help': '<p>Informação sobre publicações elaboradas pela Biblioteca, tais como: revistas, boletins, manuais, catálogos, home page, etc.&nbsp;</p>'
+        '#multiple__header': false
+        '#element':
+          titulo:
+            '#type': textfield
+            '#required': true
+            '#title': Título
+            '#help': 'Título da publicação elaborada pela Biblioteca, no decorrer do ano a que se refere o presente RIBi. '
+          periodicidade:
+            '#type': textfield
+            '#required': true
+            '#title': Periodicidade
+            '#help': 'Periodicidade da publicação, quando houver. '
+          formato:
+            '#type': select
+            '#options':
+              1: Impresso
+              2: Online
+              3: 'Impresso e Online'
+            '#required': true
+            '#title': Formato
+            '#help': 'Indicar o formato da publicação'
+      publicacoes_oficiais_seg_versao:
+        '#type': custom_composite
+        '#title': 'Publicações Oficiais da Unidade com Participação da Biblioteca'
+        '#multiple__header': false
+        '#element':
+          titulo:
+            '#type': textfield
+            '#required': true
+            '#title': Título
+            '#help': 'Título da publicação oficial da Unidade, editada com participação da Biblioteca, no decorrer do ano a que se refere o presente RIBi. '
+          periodicidade:
+            '#type': textfield
+            '#required': true
+            '#title': Periodicidade
+            '#help': 'Periodicidade da publicação, quando houver. '
+          formato:
+            '#type': select
+            '#options':
+              1: Impresso
+              2: Online
+              3: 'Impressão e Online'
+            '#required': true
+            '#title': Formato
+            '#help': 'Indicar o formato da publicação.'
+          nivel_participacao_biblioteca:
+            '#type': checkboxes
+            '#options':
+              1: 'Comissão Responsável pela Publicação'
+              2: Editoração
+              3: 'Normalização Técnica'
+              4: 'Infraestrutura Administrativa'
+              5: 'Produção Gráfica'
+            '#required': true
+            '#title': 'Nível de Participação da Biblioteca'
+            '#help': 'Indicar o nível de participação da Biblioteca.'
+    eventos_seg_versao:
+      '#type': custom_composite
+      '#title': 'Eventos Promovidos pela Biblioteca e/ou com Participação da Biblioteca'
+      '#multiple__header': false
+      '#element':
+        nome:
+          '#type': textfield
+          '#required': true
+          '#title': 'Nome do Evento'
+          '#help': 'Denominação do evento. '
+        periodo:
+          '#type': textfield
+          '#required': true
+          '#title': Período
+          '#help': 'Data inicial e final do evento.'
+        apoiador:
+          '#type': textfield
+          '#title': Apoiador(es)
+          '#help': 'Informar o(s) apoiador(es) e/ou parceiro(s) do evento (se houver). '
+        tipo:
+          '#type': select
+          '#options':
+            1: 'Apresentação em Teatro'
+            2: Comunicação
+            3: Concerto
+            4: Conferência
+            5: Congresso
+            6: Convenção
+            7: Exposição
+            8: 'Grupo de estudos'
+            9: 'Mesa Redonda'
+            10: Mostra
+            11: Palestra
+            12: Seminário
+            13: Simpósio
+            14: Workshop
+            15: 'Coletiva de Autores'
+            16: 'Lançamento de Livros'
+            17: 'Lançamento de Produtos/Serviços'
+            18: Outros
+          '#required': true
+          '#title': 'Tipo de Evento'
+          '#help': 'Indicar o tipo de evento.'
+        nivel_participacao:
+          '#type': select
+          '#options':
+            1: 'Evento Totalmente realizado pela Biblioteca'
+            2: 'Participação na Comissão Organizadora'
+          '#required': true
+          '#title': 'Nível de Participação da Biblioteca'
+          '#help': 'Indicar o nível de participação da Biblioteca no evento.'
+    projetos_seg_versao:
+      '#type': custom_composite
+      '#title': Projetos
+      '#help': '<p>Informações sobre projetos aprovados, em execução ou concluídos no período, gerenciados pela Biblioteca, com ou sem obtenção de recursos financeiros. Não devem ser relacionados os projetos do Planejamento Estratégico da Agência de Bibliotecas e Coleções Digitais da USP.</p>'
+      '#multiple__header': false
+      '#element':
+        nome:
+          '#type': textfield
+          '#required': true
+          '#title': 'Nome do Projeto'
+          '#help': 'Denominação atribuída ao projeto. '
+        descricao:
+          '#type': textarea
+          '#required': true
+          '#title': Descrição
+          '#help': 'Resumo informando a temática do projeto. '
+        data_inicio:
+          '#type': date
+          '#required': true
+          '#title': 'Data de Início'
+          '#help': 'Indicar a data de início do projeto. '
+        data_finalizacao:
+          '#type': date
+          '#required': true
+          '#title': 'Data de Finalização'
+          '#help': 'Indicar a data de término do projeto ou informar se o projeto continua em execução. '
+        apoiador:
+          '#type': textarea
+          '#title': 'Apoiador(es) do Projeto'
+          '#help': 'Informar o(s) apoiador(es) e/ou parceiro(s) do projeto (agência de fomento, fundações, empresas comerciais, órgãos da USP, etc.). '
+        recursos_recebidos:
+          '#type': textarea
+          '#title': 'Recursos Recebidos do(s) Apoiador(es)'
+          '#help': 'Indicar os recursos financeiros, materiais e humanos recebidos diretamente do(s) apoiador(es) e não aqueles que venham a ser adquiridos com a utilização dos recursos financeiros dados pelo(s) apoiador(es). '
+        equipe_envolvida:
+          '#type': textarea
+          '#required': true
+          '#title': 'Equipe da Biblioteca envolvida'
+          '#help': 'Indicar o número de funcionários, estagiários/monitores da Biblioteca envolvidos no projeto (no período e no total). OBS.: “No período”, significa o período ao qual se refere o presente RIBi; “No total”, significa o período desde o início do projeto até o momento.'
+        resultados:
+          '#type': textarea
+          '#required': true
+          '#title': 'Resultados Obtidos '
+          '#help': 'Descrever de forma resumida os resultados obtidos no projeto e quantificar, se for o caso (no período e no total). OBS.: “No período”, significa o período ao qual se refere o presente RIBi; “No total”, significa o período desde o início do projeto até o momento.'
+        url_projeto:
+          '#type': url
+          '#required': true
+          '#title': 'URL do Projeto'
+          '#help': 'Caso o projeto tenha um Website, indicar a URL.'
     bases_de_dados_locais:
       '#type': textarea
       '#title': 'Bases de dados'
       '#help': '<p>Informações sobre bases de dados mantidas pelas Bibliotecas, disponíveis para consulta. Não incluem bancos de dados com fins administrativos gerenciados pela Biblioteca, nem as bases de dados do OCLC, CCN e DEDALUS. Informar: Nome: nome da base de dados; Tipo: indicar o tipo da base de dados, considerando como: Base Local: bases mantidas pela própria Biblioteca; Base Nacional: bases mantidas pela própria Biblioteca com a participação de outras instituições nacionais ou mantidas por outras instituições nacionais com a participação da Biblioteca; Base Internacional: bases mantidas pela própria Biblioteca com a participação de outras instituições internacionais ou mantidas por outras instituições internacionais com a participação da Biblioteca; Registros Cadastrados no Período: indicar apenas os registros cadastrados pela Biblioteca na base de dados, no período a que se refere o presente RIBi. Obs.: Se a biblioteca não cadastrar registros em uma determinada base deve constar o nome da base e o número de registros deve ser 0. Não constando o nome da base subtende-se que a base foi excluída.</p>'
-    bases_de_dados_seg_versao:
-      '#type': custom_composite
-      '#title': 'Bases de dados'
-      '#help': '<p>Informações sobre bases de dados mantidas pelas Bibliotecas, disponíveis para consulta. Não incluem bancos de dados com fins administrativos gerenciados pela Biblioteca, nem as bases de dados do OCLC, CCN e DEDALUS. Informar: Nome: nome da base de dados; Tipo: indicar o tipo da base de dados, considerando como: Base Local: bases mantidas pela própria Biblioteca; Base Nacional: bases mantidas pela própria Biblioteca com a participação de outras instituições nacionais ou mantidas por outras instituições nacionais com a participação da Biblioteca; Base Internacional: bases mantidas pela própria Biblioteca com a participação de outras instituições internacionais ou mantidas por outras instituições internacionais com a participação da Biblioteca; Registros Cadastrados no Período: indicar apenas os registros cadastrados pela Biblioteca na base de dados, no período a que se refere o presente RIBi. Obs.: Se a biblioteca não cadastrar registros em uma determinada base deve constar o nome da base e o número de registros deve ser 0. Não constando o nome da base subtende-se que a base foi excluída.</p>'
-      '#element':
-        teste:
-          '#type': textfield
-          '#title': teste
-    publicacoes:
-      '#type': fieldset
-      '#title': Publicações
-      publicacoes_biblioteca:
-        '#type': textarea
-        '#title': 'Publicações da Biblioteca'
-        '#help': '<p>Informação sobre publicações elaboradas pela Biblioteca, tais como: revistas, boletins, manuais, catálogos, home page, etc. Título: título da publicação elaborada pela Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato: Opções disponíveis: impressa e/ou online. Distribuição: Opções disponíveis: compra, permuta ou doação.</p>'
-      publicacoes_biblioteca_seg_versao:
-        '#type': custom_composite
-        '#title': 'Publicações da Biblioteca'
-        '#help': '<p>Informação sobre publicações elaboradas pela Biblioteca, tais como: revistas, boletins, manuais, catálogos, home page, etc. Título: título da publicação elaborada pela Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato: Opções disponíveis: impressa e/ou online. Distribuição: Opções disponíveis: compra, permuta ou doação.</p>'
-        '#element':
-          teste:
-            '#type': textfield
-            '#title': teste
-      publicacoes_oficiais_participacao:
-        '#type': textarea
-        '#title': 'Publicações Oficiais da Unidade com Participação da Biblioteca'
-        '#help': '<p>Título: título da publicação oficial da Unidade, editada com participação da Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato - Opções disponíveis: impressa e/ou online. Distribuição - Opções disponíveis: compra, permuta ou doação. Nível de Participação da Biblioteca - Opções disponíveis: Comissão responsável pela publicação, Editoração, Normalização Técnica, Infraestrutura Administrativa, Produção Gráfica, Distribuição ou Divulgação.</p>'
-      publicacoes_oficiais_seg_versao:
-        '#type': custom_composite
-        '#title': 'Publicações Oficiais da Unidade com Participação da Biblioteca'
-        '#help': '<p>Título: título da publicação oficial da Unidade, editada com participação da Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato - Opções disponíveis: impressa e/ou online. Distribuição - Opções disponíveis: compra, permuta ou doação. Nível de Participação da Biblioteca - Opções disponíveis: Comissão responsável pela publicação, Editoração, Normalização Técnica, Infraestrutura Administrativa, Produção Gráfica, Distribuição ou Divulgação.</p>'
-        '#element':
-          teste:
-            '#type': textfield
-            '#title': teste
+      '#access': false
+    publicacoes_biblioteca:
+      '#type': textarea
+      '#title': 'Publicações da Biblioteca'
+      '#help': '<p>Informação sobre publicações elaboradas pela Biblioteca, tais como: revistas, boletins, manuais, catálogos, home page, etc. Título: título da publicação elaborada pela Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato: Opções disponíveis: impressa e/ou online. Distribuição: Opções disponíveis: compra, permuta ou doação.</p>'
+      '#access': false
+    publicacoes_oficiais_participacao:
+      '#type': textarea
+      '#title': 'Publicações Oficiais da Unidade com Participação da Biblioteca'
+      '#help': '<p>Título: título da publicação oficial da Unidade, editada com participação da Biblioteca, no decorrer do ano a que se refere o presente RIBi. Periodicidade: periodicidade da publicação, quando houver. Formato - Opções disponíveis: impressa e/ou online. Distribuição - Opções disponíveis: compra, permuta ou doação. Nível de Participação da Biblioteca - Opções disponíveis: Comissão responsável pela publicação, Editoração, Normalização Técnica, Infraestrutura Administrativa, Produção Gráfica, Distribuição ou Divulgação.</p>'
+      '#access': false
     eventos:
       '#type': textarea
       '#title': Eventos
       '#help': '<p>Nome do evento: denominação do evento e nome do expositor (se houver). Período: data inicial e final do evento. Patrocinador(es): relacionar o(s) patrocinador(es) do evento (se houver). Tipo de<br>evento: indicar o tipo de evento - Opções disponíveis: Apresentação em Teatro, Comunicação, Concerto, Conferência, Congresso, Convenção, Exposição, Grupo de Estudos, Mesa Redonda, Mostra, Palestra, Seminário, Simpósio, Workshop, Coletiva de autores, Lançamento de livros, Lançamento de Produtos/Serviços, Outros. Nível de participação da Biblioteca - Opções disponíveis: Evento totalmente realizado pela Biblioteca, Participação na Comissão Organizadora ou Divulgação.</p>'
-    eventos_seg_versao:
-      '#type': custom_composite
-      '#title': Eventos
-      '#help': '<p>Nome do evento: denominação do evento e nome do expositor (se houver). Período: data inicial e final do evento. Patrocinador(es): relacionar o(s) patrocinador(es) do evento (se houver). Tipo de<br>evento: indicar o tipo de evento - Opções disponíveis: Apresentação em Teatro, Comunicação, Concerto, Conferência, Congresso, Convenção, Exposição, Grupo de Estudos, Mesa Redonda, Mostra, Palestra, Seminário, Simpósio, Workshop, Coletiva de autores, Lançamento de livros, Lançamento de Produtos/Serviços, Outros. Nível de participação da Biblioteca - Opções disponíveis: Evento totalmente realizado pela Biblioteca, Participação na Comissão Organizadora ou Divulgação.</p>'
-      '#element':
-        teste:
-          '#type': textfield
-          '#title': teste
+      '#access': false
     projetos:
       '#type': textarea
       '#title': Projetos
       '#help': '<p>Informações sobre projetos aprovados, em execução ou concluídos no período, gerenciados pela Biblioteca, com ou sem obtenção de recursos financeiros. Não devem ser relacionados os projetos do Planejamento Estratégico da Agência de Bibliotecas e Coleções Digitais da USP.</p><p><br>"Projeto é um empreendimento não repetitivo, caracterizado por uma sequência clara e lógica de eventos, com início, meio e fim, que se destina a atingir um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade” (Extraído de Vargas, Ricardo Viana. Manual Prático do Plano de Projeto. Rio de Janeiro: Brasport, 2003.) Nome do projeto: denominação atribuída ao projeto. Descrição: resumo informando a temática do projeto. Data de início: indicar a data oficial em que o projeto foi aprovado. Data de finalização: indicar a data de término do projeto. Patrocinador(es): relacionar o(s) patrocinador(es) do projeto (agência de fomento, fundações, empresas comerciais, órgãos da USP, etc.). Recursos recebidos do(s) patrocinador(es): indicar os recursos financeiros, materiais e humanos recebidos diretamente do patrocinador e não aqueles que venham a ser adquiridos com a utilização dos recursos financeiros dados pelo patrocinador. Pessoal da Biblioteca envolvido:<br>indicar o número de funcionários da Biblioteca envolvidos no projeto (no período e no total). Resultados obtidos: descrever de forma resumida os resultados obtidos no projeto e quantificar, se for o caso (no período e no total). URL do projeto: caso o projeto tenha um Website, indicar a URL. OBS.: “No período”, significa o período ao qual se refere o presente RIBi; “No total”, significa o período desde o início do projeto até o momento.</p>'
-    projetos_seg_versao:
-      '#type': custom_composite
-      '#title': Projetos
-      '#help': '<p>Informações sobre projetos aprovados, em execução ou concluídos no período, gerenciados pela Biblioteca, com ou sem obtenção de recursos financeiros. Não devem ser relacionados os projetos do Planejamento Estratégico da Agência de Bibliotecas e Coleções Digitais da USP.</p><p><br>"Projeto é um empreendimento não repetitivo, caracterizado por uma sequência clara e lógica de eventos, com início, meio e fim, que se destina a atingir um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade” (Extraído de Vargas, Ricardo Viana. Manual Prático do Plano de Projeto. Rio de Janeiro: Brasport, 2003.) Nome do projeto: denominação atribuída ao projeto. Descrição: resumo informando a temática do projeto. Data de início: indicar a data oficial em que o projeto foi aprovado. Data de finalização: indicar a data de término do projeto. Patrocinador(es): relacionar o(s) patrocinador(es) do projeto (agência de fomento, fundações, empresas comerciais, órgãos da USP, etc.). Recursos recebidos do(s) patrocinador(es): indicar os recursos financeiros, materiais e humanos recebidos diretamente do patrocinador e não aqueles que venham a ser adquiridos com a utilização dos recursos financeiros dados pelo patrocinador. Pessoal da Biblioteca envolvido:<br>indicar o número de funcionários da Biblioteca envolvidos no projeto (no período e no total). Resultados obtidos: descrever de forma resumida os resultados obtidos no projeto e quantificar, se for o caso (no período e no total). URL do projeto: caso o projeto tenha um Website, indicar a URL. OBS.: “No período”, significa o período ao qual se refere o presente RIBi; “No total”, significa o período desde o início do projeto até o momento.</p>'
-      '#element':
-        teste:
-          '#type': textfield
-          '#title': teste
+      '#access': false
     atividades_graduacao:
       '#type': textarea
       '#title': 'Atividades ligadas à Graduação, Pós-Graduação e Pesquisa'
       '#help': '<p>Atividades ligadas à graduação (por exemplo, aquisição de material bibliográfico específico, treinamentos, projetos específicos, elaboração de material didático para a graduação, TCC, etc.), bem como atividades ligadas com a pós-graduação e a pesquisa. Descrever as atividades desenvolvidas pela biblioteca dirigidas à graduação, pós-graduação e pesquisa. O formato do texto é livre.</p>'
-    ativ_graduacao_seg_versao:
-      '#type': custom_composite
-      '#title': 'Atividades ligadas à Graduação, Pós-Graduação e Pesquisa'
-      '#help': '<p>Atividades ligadas à graduação (por exemplo, aquisição de material bibliográfico específico, treinamentos, projetos específicos, elaboração de material didático para a graduação, TCC, etc.), bem como atividades ligadas com a pós-graduação e a pesquisa. Descrever as atividades desenvolvidas pela biblioteca dirigidas à graduação, pós-graduação e pesquisa. O formato do texto é livre.</p>'
-      '#element':
-        teste:
-          '#type': textfield
-          '#title': teste
+      '#access': false
     atividades_cultura_extensao:
       '#type': textarea
       '#title': 'Atividades ligadas à Cultura e Extensão'
       '#help': '<p>Atividades ligadas à cultura e extensão para a comunidade científica e externa à USP, comunidade de serviços (por exemplo, projetos, atendimento, parcerias, convênios, consultoria, etc.). Descrever as atividades, desenvolvidas pela biblioteca, de cultura e extensão universitárias. O formato do texto é livre.</p>'
-    ativ_cult_extensao_seg_versao:
-      '#type': custom_composite
-      '#title': 'Atividades ligadas à Cultura e Extensão'
-      '#help': '<p>Atividades ligadas à cultura e extensão para a comunidade científica e externa à USP, comunidade de serviços (por exemplo, projetos, atendimento, parcerias, convênios, consultoria, etc.). Descrever as atividades, desenvolvidas pela biblioteca, de cultura e extensão universitárias. O formato do texto é livre.</p>'
-      '#element':
-        teste:
-          '#type': textfield
-          '#title': teste
+      '#access': false
 acessibilidade:
   '#type': wizard_page
   '#title': Acessibilidade
@@ -895,6 +1090,7 @@ acessibilidade:
         Não: Não
       '#empty_option': '- Selecione -'
       '#empty_value': '- Selecione -'
+      '#required': true
     funcionario_treinado_em_libras:
       '#type': select
       '#title': 'Atendente treinado na Língua Brasileira de Sinais (Libras)?'
@@ -904,6 +1100,7 @@ acessibilidade:
         Não: Não
       '#empty_option': '- Selecione -'
       '#empty_value': '- Selecione -'
+      '#required': true
     acessibilidade_arquitetonica_ou_fisica:
       '#type': fieldset
       '#title': 'Acessibilidade Arquitetônica ou Física'
@@ -916,6 +1113,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       bebedouros_lavabos_adaptados:
         '#type': select
         '#title': 'Possui bebedouros acessíveis?'
@@ -925,6 +1123,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       dimensionamento_entradas_seg_versao:
         '#type': select
         '#title': 'Possui entrada/saída com vão livre acessível para a circulação de pessoas com deficiência e mobilidade reduzida?'
@@ -934,6 +1133,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       equipamentos_eletronicos_adaptados:
         '#type': select
         '#title': 'Possui equipamento eletromecânico (elevadores, esteiras rolantes, entre outros)?'
@@ -943,6 +1143,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       espaco_atendimento_adaptado_seg_versao:
         '#type': select
         '#title': 'Possui espaço para atendimento acessível?'
@@ -952,6 +1153,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       mobiliario_adaptado_seg_versao:
         '#type': select
         '#title': 'Possui mobiliário acessível?'
@@ -961,6 +1163,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       rampa_acesso_adaptada:
         '#type': select
         '#title': 'Possui rampa de acesso com corrimão?'
@@ -970,6 +1173,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       sinalizacao_tatil:
         '#type': select
         '#title': 'Possui sinalização tátil?'
@@ -979,6 +1183,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       sinalizacao_visual:
         '#type': select
         '#title': 'Possui sinalização visual?'
@@ -988,6 +1193,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       sinalizacao_sonora:
         '#type': select
         '#title': 'Possui sinalização sonora?'
@@ -997,6 +1203,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       desobstrucao_ambientes_seg_versao:
         '#type': select
         '#title': 'Possui ambientes acessíveis para a movimentação/deslocamento/circulação de pessoas com deficiência e mobilidade reduzida?'
@@ -1006,6 +1213,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       dimensionamento_entradas:
         '#type': select
         '#title': 'Possui Entrada/Saída com dimensionamento?'
@@ -1054,6 +1262,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       acervo_adaptado_seg_versao:
         '#type': select
         '#title': 'Possui acervo em formato acessível para pessoas com deficiência visual (cegueira e baixa visão)?'
@@ -1063,6 +1272,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       websites_apps_adaptados_seg_versao:
         '#type': select
         '#title': 'Possui sítios, plataformas e programas acessíveis  para que pessoas com deficiência naveguem  e utilizem os serviços oferecidos com autonomia?'
@@ -1072,6 +1282,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       plano_aquisicao_bibliografica_adaptada:
         '#type': select
         '#title': 'Possui plano de aquisição gradual de acervo bibliográfico dos conteúdos básicos em formato especial?'
@@ -1111,6 +1322,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       software_leitura_acessivel_seg_versao:
         '#type': select
         '#title': 'Disponibiliza leitores de tela para pessoas com deficiência visual (cegueira e baixa visão)?'
@@ -1120,6 +1332,7 @@ acessibilidade:
           Não: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       teclado_virtual:
         '#type': select
         '#title': 'Disponibiliza teclado virtual?'
@@ -1129,6 +1342,7 @@ acessibilidade:
           0: Não
         '#empty_option': '- Selecione -'
         '#empty_value': '- Selecione -'
+        '#required': true
       impressoras_braille:
         '#type': select
         '#title': 'Disponibiliza impressoras em Braille?'
