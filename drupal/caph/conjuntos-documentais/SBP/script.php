@@ -149,8 +149,7 @@ foreach($arquivos_array as $coluna) {
     $Responsaveis[] = ['value' => $coluna[18],];
     $node->set ('field_responsaveis', $Responsaveis);
 
-    $Tipo_Responsabilidade = [];$file = file_save_data($arquivo_conteudo, 'public://'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
-    +        $file = file_save_data($arquivo_conteudo, 'public://'. 'SBP/' .$arquivo_relacionado, FILE_EXISTS_REPLACE);
+    $Tipo_Responsabilidade = [];
     $Tipo_Responsabilidade[] = ['value' => $coluna[15],];
     $Tipo_Responsabilidade[] = ['value' => $coluna[17],];
     $Tipo_Responsabilidade[] = ['value' => $coluna[19],];
@@ -186,7 +185,7 @@ foreach($arquivos_array as $coluna) {
     $Arquivos_PDF = [];
     foreach($arquivos_relacionados as $arquivo_relacionado) {
         $arquivo_conteudo = file_get_contents($full_path.$arquivo_relacionado);
-        $file = file_save_data($arquivo_conteudo, 'public://'.'SBP/'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
+        $file = file_save_data($arquivo_conteudo, 'public://'.'ACERVO/SBP/'.$arquivo_relacionado, FILE_EXISTS_REPLACE);
         $Arquivos_PDF[] = [
             'target_id' => $file->id(),
             'alt'       => 'Arquivo' . $file->id(),
