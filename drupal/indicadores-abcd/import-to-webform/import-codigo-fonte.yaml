@@ -1,8 +1,8 @@
 ano_de_submissao:
   '#type': number
-  '#title': 'Ano de Submissão'
-  '#readonly': true
-  '#access': false
+  '#title': 'Ano de Referência'
+  '#disabled': true
+  '#default_value': '2024'
 pagina_dados_administrativos:
   '#type': wizard_page
   '#title': 'Dados Gerais'
