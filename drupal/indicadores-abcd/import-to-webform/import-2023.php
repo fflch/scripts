@@ -6,7 +6,7 @@ use Drupal\webform\Entity\WebformSubmission;
 /* Criado por Anna Valim - 2024
  *
  * Passo-a-passo:
- * 1. Criar um webform com o nome de máquina: indicadores_abcd
+ * 1. Criar um webform com o nome de máquina: indicadores_abcd_2023
  * 2. Na aba build do webform criado, copiar o conteúdo do arquivo: 
  *    drupal/indicadores-abcd/import-to-webform/import-codigo-fonte.yaml
  * 
@@ -21,6 +21,8 @@ $csvArchive = fopen('../../scripts/drupal/indicadores-abcd/data/2023.csv', "r");
 
 if ($csvArchive !== FALSE) {
   $anoDeSubmissao = fgetcsv($csvArchive, 1000, ",");
+  fgetcsv($csvArchive, 1000, ",");
+  fgetcsv($csvArchive, 1000, ",");
 
   while (($data = fgetcsv($csvArchive, 1000, ",")) !== FALSE) {
 
@@ -49,9 +51,7 @@ if ($csvArchive !== FALSE) {
       $basico_doutorado,
       $superior_cursos,
       $tecnico_cursos,
-      $basico_cursos,                             
-      $coleta_dados_capacitacao, //RESOLVER A QUESTÃO DE IMPORTAÇÃO DOS ARQUIVOS                                
-      $filesize_kb,
+      $basico_cursos,
       $livros_compra_seg_versao,
       $livros_doacao_seg_versao,
       $periodicos_compra_seg_versao,
@@ -112,7 +112,7 @@ if ($csvArchive !== FALSE) {
       $teclado_virtual,
     ) = array_slice($data, 8);
 
-    $webform_id = 'indicadores_abcd';
+    $webform_id = 'indicadores_abcd_2023';
     $webform = Webform::load($webform_id);
 
     if ($webform) {
@@ -145,8 +145,6 @@ if ($csvArchive !== FALSE) {
           'superior_cursos' => $superior_cursos,
           'tecnico_cursos' => $tecnico_cursos,
           'basico_cursos' => $basico_cursos,
-          'coleta_dados_capacitacao' => $coleta_dados_capacitacao,
-          'filesize_kb' => $filesize_kb,
           'livros_compra_seg_versao' => $livros_compra_seg_versao,
           'livros_doacao_seg_versao' => $livros_doacao_seg_versao,
           'periodicos_compra_seg_versao' => $periodicos_compra_seg_versao,
