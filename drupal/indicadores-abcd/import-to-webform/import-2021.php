@@ -19,11 +19,11 @@ $csvArchive = fopen('../../scripts/drupal/indicadores-abcd/data/2021.csv', "r");
 
 if ($csvArchive !== FALSE) {
 
-    $anoDeSubmissao = fgetcsv($csvArchive, 1000, ",");
+    $anoDeSubmissao = fgetcsv($csvArchive, 10000, ",");
     fgetcsv($csvArchive, 1000, ",");
     fgetcsv($csvArchive, 1000, ",");
 
-    while (($data = fgetcsv($csvArchive, 1000, ",")) !== FALSE) {
+    while (($data = fgetcsv($csvArchive, 10000, ",")) !== FALSE) {
 
         list(
         $usuario,
@@ -194,7 +194,7 @@ if ($csvArchive !== FALSE) {
         $values = [
             'webform_id' => $webform->id(),
             'data' => [
-                'ano_de_submissao' => $anoDeSubmissao[0],
+                'ano_de_submissao' => $anoDeSubmissao[1],
                 'usuario' => $usuario,
                 'unidade' => $unidade,
                 'numero_de_assentos' => $numero_de_assentos,
