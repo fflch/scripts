@@ -2,6 +2,8 @@
 
 use Drupal\webform\Entity\Webform;
 use Drupal\webform\Entity\WebformSubmission;
+use Drupal\user\Entity\User;
+use Drupal\Core\Entity\Query\QueryFactory;
 
 /* Criado por Anna Valim - 2024
  *
@@ -358,6 +360,19 @@ if ($csvArchive !== FALSE) {
           ];
 
           $webform_submission = WebformSubmission::create($values);
+
+          // rotina para identificar o usuário que fez a submissão
+          $uids = \Drupal::entityQuery('user')
+                ->condition('name', $usuario)
+                ->range(0, 1) // Limit to one result
+                ->accessCheck(FALSE) // Disable access checking
+                ->execute();
+
+          $uid = reset($uids); // Get the first matching user ID
+          $user = User::load($uid); // Load the user entity
+
+          $webform_submission->setOwnerId($user->id());
+
           $webform_submission->save();
       } else {
           echo 'O webform não está disponível ou está com algum erro';
