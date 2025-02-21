@@ -223,7 +223,6 @@ if ($csvArchive !== FALSE) {
       $webform_submission->setOwnerId($user->id());
 
       $webform_submission->save();
-      
 
     } else {
         echo 'O webform não está disponível ou está com algum erro';
