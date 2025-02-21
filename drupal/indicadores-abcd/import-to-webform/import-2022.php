@@ -19,11 +19,11 @@ $csvArchive = fopen('../../scripts/drupal/indicadores-abcd/data/2022.csv', "r");
 
 if ($csvArchive !== FALSE) {
 
-    $anoDeSubmissao = fgetcsv($csvArchive, 1000, ",");
-    fgetcsv($csvArchive, 1000, ",");
-    fgetcsv($csvArchive, 1000, ",");
+    $anoDeSubmissao = fgetcsv($csvArchive, 10000, ",");
+    fgetcsv($csvArchive, 10000, ",");
+    fgetcsv($csvArchive, 10000, ",");
 
-    while (($data = fgetcsv($csvArchive, 1000, ",")) !== FALSE) {
+    while (($data = fgetcsv($csvArchive, 10000, ",")) !== FALSE) {
 
         list(
         $usuario,
